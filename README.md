@@ -1,6 +1,6 @@
 # Keyboards
 
-All my keymaps, case files, and everything else. Everything in the root folder was completely made by me, the "other" folder contains stuff that I modified to fit my needs.
+All my keymaps, case files, and everything else. Everything in the root folder was completely made by me, the [other](https://github.com/joe-scotto/keyboards/tree/main/Other) folder contains stuff that I modified to fit my needs.
 
 # License
 

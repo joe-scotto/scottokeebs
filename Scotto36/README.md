@@ -12,7 +12,7 @@ A 36 key handwired ortholinear ergo keyboard. Featuring
 - 36x - MX Switches
 
 # Pins
-Top left to right.
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/279ef4b5774a471f732d44aca75e899c2be74ed2/Scotto36/QMK/info.json).
 - **Rows** - 15, 14, 16, 10
 - **Columns** - 4, 5, 6, 7, 8, 9, A3, A2, A1, A0
 

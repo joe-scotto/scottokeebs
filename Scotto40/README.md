@@ -2,22 +2,21 @@
 
 A 37, 38, or 40 key handwired ortholinear keyboard.
 
-![IMG_3553](https://user-images.githubusercontent.com/8194147/191559764-12b65543-1ca8-4dc2-a64d-7f86911f9ffd.jpg)
-![IMG_3550](https://user-images.githubusercontent.com/8194147/191559971-9f1b0120-8619-4255-9f1e-28dc2444472d.jpg)
-![IMG_3551](https://user-images.githubusercontent.com/8194147/191560489-4e630d53-32f9-4454-8af2-f948c1dc0cc4.jpg)
+![Scotto40](https://user-images.githubusercontent.com/8194147/191596031-e187b357-2cb6-4f6a-8439-f3e5725ca7d8.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/191596050-4bdc051a-c138-4c33-9bff-6298cafb7f94.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/191596098-71d00a8b-bf65-418b-b008-3c8d8a9c585f.jpg)
 
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   1x - [0.91" 128x32 OLED](https://amzn.to/3faLsxX)
 -   40x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   14x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   14x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
--   36x - MX Switches
+-   40x - MX Switches
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/279ef4b5774a471f732d44aca75e899c2be74ed2/Scotto36/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 2, 3, 4, 5, 6, 7, 8, 9, A3, A2
@@ -26,8 +25,10 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 The controller is simply hot glued into the bottom of the case.
 
--   [**Plate**](Scotto40/Case/Plate.stl)
--   [**Case**](Scotto40/Case/Case.stl)
+-   [Plate (37 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(37).stl)
+-   [Plate (38 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(38).stl)
+-   [Plate (40 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(40).stl)
+-   [Case](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Case.stl)
 
 # Flashing
 

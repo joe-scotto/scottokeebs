@@ -35,8 +35,8 @@ Simply wire the OLED pins to the I2C pins on the Pro Micro.
 
 The controller is simply hot glued into the bottom of the case.
 
--   [**Plate**](Scotto36/Case/Plate.stl)
--   [**Case**](Scotto36/Case/Case.stl)
+-   [Plate](https://github.com/joe-scotto/keyboards/blob/a4af41d8cda1f79dfae197ee6ae5699474516848/Scotto36/Case/Scotto36%20-%20Plate.stl)
+-   [Case](https://github.com/joe-scotto/keyboards/blob/a4af41d8cda1f79dfae197ee6ae5699474516848/Scotto36/Case/Scotto36%20-%20Case.stl)
 
 # Flashing
 

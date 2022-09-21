@@ -1,55 +1,38 @@
-/*
-Copyright 2022 Joe Scotto
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
 #include QMK_KEYBOARD_H
 
 // Tap Dance declarations
- enum {
-     TD_ESC_SPOTLIGHT_EMOJI,
-     TD_ESC_WINDOWS_EMOJI
- };
+enum {
+    TD_ESC_SPOTLIGHT_EMOJI,
+    TD_ESC_WINDOWS_EMOJI
+};
 
- void td_esc_spotlight_emoji (qk_tap_dance_state_t *state, void *user_data) {
-     if (state->count == 1) {
-         tap_code(KC_ESC);
-     } else if (state->count == 2) {
-         register_code(KC_LGUI);
-         tap_code(KC_SPC);
-         unregister_code(KC_LGUI);
-     } else if (state->count == 3) {
-         register_code(KC_LGUI);
-         register_code(KC_LCTL);
-         tap_code(KC_SPC);
-         unregister_code(KC_LGUI);
-         unregister_code(KC_LCTL);
-     } 
- };
+void td_esc_spotlight_emoji (qk_tap_dance_state_t *state, void *user_data) {
+    if (state->count == 1) {
+        tap_code(KC_ESC);
+    } else if (state->count == 2) {
+        register_code(KC_LGUI);
+        tap_code(KC_SPC);
+        unregister_code(KC_LGUI);
+    } else if (state->count == 3) {
+        register_code(KC_LGUI);
+        register_code(KC_LCTL);
+        tap_code(KC_SPC);
+        unregister_code(KC_LGUI);
+        unregister_code(KC_LCTL);
+    }
+}
 
-  void td_esc_windows_emoji (qk_tap_dance_state_t *state, void *user_data) {
-     if (state->count == 1) {
-         tap_code(KC_ESC);
-     } else if (state->count == 2) {
-         tap_code(KC_LGUI);
-     } else if (state->count == 3) {
-         register_code(KC_LGUI);
-         tap_code(KC_DOT);
-         unregister_code(KC_LGUI);
-     } 
- };
+void td_esc_windows_emoji (qk_tap_dance_state_t *state, void *user_data) {
+    if (state->count == 1) {
+        tap_code(KC_ESC);
+    } else if (state->count == 2) {
+        tap_code(KC_LGUI);
+    } else if (state->count == 3) {
+        register_code(KC_LGUI);
+        tap_code(KC_DOT);
+        unregister_code(KC_LGUI);
+    }
+};
 
  // Tap Dance definitions
  qk_tap_dance_action_t tap_dance_actions[] = {
@@ -58,13 +41,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  };
 
 
- uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-    case TD(TD_ESC_SPOTLIGHT_EMOJI) :
-    case TD(TD_ESC_WINDOWS_EMOJI) :
-    case LGUI_T(KC_SPC) :
-    case LT(1, KC_TAB) :
-    case LT(2, KC_ENT) :
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case TD(TD_ESC_SPOTLIGHT_EMOJI) :
+        case TD(TD_ESC_WINDOWS_EMOJI) :
+        case LGUI_T(KC_SPC) :
+        case LT(1, KC_TAB) :
+        case LT(2, KC_ENT) :
       return 200;
     default:
       return TAPPING_TERM;
@@ -135,4 +118,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #if OLED_ENABLE
 #include <oled.c>
 #endif
-

@@ -24,32 +24,30 @@ enum {
 };
 
 void td_esc_spotlight_emoji (qk_tap_dance_state_t *state, void *user_data) {
-    switch (state->count) {
-        case 1 :
-            tap_code(KC_ESC);
-        case 2 :
-            register_code(KC_LGUI);
-            tap_code(KC_SPC);
-            unregister_code(KC_LGUI);
-        case 3 :
-            register_code(KC_LGUI);
-            register_code(KC_LCTL);
-            tap_code(KC_SPC);
-            unregister_code(KC_LGUI);
-            unregister_code(KC_LCTL);
+    if (state->count == 1) {
+        tap_code(KC_ESC);
+    } else if (state->count == 2) {
+        register_code(KC_LGUI);
+        tap_code(KC_SPC);
+        unregister_code(KC_LGUI);
+    } else if (state->count == 3) {
+        register_code(KC_LGUI);
+        register_code(KC_LCTL);
+        tap_code(KC_SPC);
+        unregister_code(KC_LGUI);
+        unregister_code(KC_LCTL);
     }
 }
 
 void td_esc_windows_emoji (qk_tap_dance_state_t *state, void *user_data) {
-    switch (state->count) {
-        case 1 :
-            tap_code(KC_ESC);
-        case 2 :
-            tap_code(KC_LGUI);
-        case 3 :
-            register_code(KC_LGUI);
-            tap_code(KC_DOT);
-            unregister_code(KC_LGUI);
+    if (state->count == 1) {
+        tap_code(KC_ESC);
+    } else if (state->count == 2) {
+        tap_code(KC_LGUI);
+    } else if (state->count == 3) {
+        register_code(KC_LGUI);
+        tap_code(KC_DOT);
+        unregister_code(KC_LGUI);
     }
 };
 

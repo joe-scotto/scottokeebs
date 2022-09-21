@@ -41,10 +41,9 @@ The controller is simply hot glued into the bottom of the case.
 # Flashing
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)
-2. Copy the contents of [QMK](Scotto36/QMK) to `keyboards/scotto36`.
-3. Make changes to the keymap you see fit.
-4. Run `qmk compile -kb scotto36 -km default -c` or whatever your keymap name was.
-5. Flash the controller.
+2. Make changes to the keymap you see fit.
+3. Run `qmk compile -kb scotto36 -km default -c` or whatever your keymap name was.
+4. Flash the controller.
 
 # License
 

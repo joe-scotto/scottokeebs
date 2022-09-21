@@ -1,3 +1,20 @@
+/*
+Copyright 2022 Joe Scotto
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include QMK_KEYBOARD_H
 
 // Tap Dance declarations
@@ -10,15 +27,9 @@ void td_esc_spotlight_emoji (qk_tap_dance_state_t *state, void *user_data) {
     if (state->count == 1) {
         tap_code(KC_ESC);
     } else if (state->count == 2) {
-        register_code(KC_LGUI);
-        tap_code(KC_SPC);
-        unregister_code(KC_LGUI);
+        tap_code16(G(KC_SPC));
     } else if (state->count == 3) {
-        register_code(KC_LGUI);
-        register_code(KC_LCTL);
-        tap_code(KC_SPC);
-        unregister_code(KC_LGUI);
-        unregister_code(KC_LCTL);
+        tap_code16(C(G(KC_SPC)));
     }
 }
 
@@ -28,18 +39,15 @@ void td_esc_windows_emoji (qk_tap_dance_state_t *state, void *user_data) {
     } else if (state->count == 2) {
         tap_code(KC_LGUI);
     } else if (state->count == 3) {
-        register_code(KC_LGUI);
-        tap_code(KC_DOT);
-        unregister_code(KC_LGUI);
+        tap_code16(G(KC_DOT));
     }
 };
 
  // Tap Dance definitions
- qk_tap_dance_action_t tap_dance_actions[] = {
-     [TD_ESC_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN(td_esc_spotlight_emoji),
-     [TD_ESC_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN(td_esc_windows_emoji)
- };
-
+qk_tap_dance_action_t tap_dance_actions[] = {
+    [TD_ESC_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN(td_esc_spotlight_emoji),
+    [TD_ESC_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN(td_esc_windows_emoji)
+};
 
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
@@ -79,9 +87,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F11, KC_NO, KC_NO,   QK_BOOT, KC_TRNS,        KC_NO, KC_NO,   KC_NO,   KC_NO, KC_F12,
         KC_ESC,        KC_LCTL, KC_LALT, LGUI_T(KC_SPC),        KC_TRNS, KC_TRNS,        TD(TD_ESC_SPOTLIGHT_EMOJI) 
     ),
-
-
-
     [4] = LAYOUT_ortho_3x10_7(
         KC_Q,         KC_W, KC_F,    KC_P,    KC_G,   KC_J, KC_L,          KC_U,          KC_Y,   KC_BSPC,
         KC_A,         KC_R, KC_S,    KC_T,    KC_D,   KC_H, KC_N,          KC_E,          KC_I,   KC_O,

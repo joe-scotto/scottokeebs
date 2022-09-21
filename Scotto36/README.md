@@ -16,6 +16,13 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 - **Rows** - 15, 14, 16, 10
 - **Columns** - 4, 5, 6, 7, 8, 9, A3, A2, A1, A0
 
+# OLED
+Simply wire the OLED pins to the I2C pins on the Pro Micro.
+- SDA -> 2
+- SCK -> 3
+- VCC -> VCC
+- GND -> GND
+
 # Case
 The controller is simply hot glued into the bottom of the case.
 - [**Plate**](Scotto36/Case/Plate.stl)

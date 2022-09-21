@@ -1,5 +1,5 @@
 # Scotto36
-A 36 key handwired ortholinear ergo keyboard. Featuring
+A 36 key handwired ortholinear ergo keyboard. Featuring an OLED display with Bongo Cat.
 
 ![IMG_3553](https://user-images.githubusercontent.com/8194147/191559764-12b65543-1ca8-4dc2-a64d-7f86911f9ffd.jpg)
 ![IMG_3550](https://user-images.githubusercontent.com/8194147/191559971-9f1b0120-8619-4255-9f1e-28dc2444472d.jpg)

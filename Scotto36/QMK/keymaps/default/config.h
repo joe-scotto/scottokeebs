@@ -1,7 +1,6 @@
 #pragma once
 
-// Define default keymap options
-#define USE_SERIAL
+// Define options
 #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_TERM 135
 #define PERMISSIVE_HOLD

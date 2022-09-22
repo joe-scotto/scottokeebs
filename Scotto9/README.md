@@ -2,7 +2,8 @@
 
 A 9 key handwired macropad.
 
-![Scotto9](https://user-images.githubusercontent.com/8194147/191596031-e187b357-2cb6-4f6a-8439-f3e5725ca7d8.jpg)
+![Scotto9](https://user-images.githubusercontent.com/8194147/191654573-d30a7cf3-2570-4f49-9b5f-de466acb5bc8.jpg)  
+
 ![Matrix](https://user-images.githubusercontent.com/8194147/191596050-4bdc051a-c138-4c33-9bff-6298cafb7f94.jpg)
 ![Controller](https://user-images.githubusercontent.com/8194147/191596098-71d00a8b-bf65-418b-b008-3c8d8a9c585f.jpg)
 

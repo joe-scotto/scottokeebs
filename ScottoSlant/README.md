@@ -2,7 +2,7 @@
 
 A 37key 0.25u row staggered keyboard. Supports durock stabilizers for the 2u spacebar.
 
-![ScottoSlant](https://user-images.githubusercontent.com/8194147/191596031-e187b357-2cb6-4f6a-8439-f3e5725ca7d8.jpg)
+![ScottoSlant](https://user-images.githubusercontent.com/8194147/192024779-f156d365-ef38-43e2-b728-00364e239714.jpg)
 
 # Parts
 
@@ -27,6 +27,7 @@ The controller is simply hot glued into the bottom of the case.
 -   [Case](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/ScottoSlant/Case/ScottoSlant%20-%20Case.stl)
 
 # Flashing
+
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)
 2. Make changes to the keymap if required.

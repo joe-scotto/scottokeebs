@@ -23,8 +23,8 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate](<https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/ScottoSlant/Case/ScottoSlant%20-%20Plate%20(37).stl>)
--   [Case](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/ScottoSlant/Case/ScottoSlant%20-%20Case.stl)
+-   [Plate](https://github.com/joe-scotto/keyboards/blob/c9ed6cedefafacc5a5acf20d7e6d08d2b24f23df/ScottoSlant/Case/ScottoSlant%20-%20Plate.stl)
+-   [Case](https://github.com/joe-scotto/keyboards/blob/c9ed6cedefafacc5a5acf20d7e6d08d2b24f23df/ScottoSlant/Case/ScottoSlant%20-%20Case.stl)
 
 # Flashing
 

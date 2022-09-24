@@ -1,6 +1,6 @@
 # ScottoSlant (Work in progress...)
 
-A 37key 0.25u row staggered keyboard. Supports durock stabilizers for the 2u spacebar.
+A 37key ~0.25u row staggered keyboard. Supports durock stabilizers for the 2u spacebar.
 
 ![ScottoSlant](https://user-images.githubusercontent.com/8194147/192024779-f156d365-ef38-43e2-b728-00364e239714.jpg)
 
@@ -14,7 +14,7 @@ A 37key 0.25u row staggered keyboard. Supports durock stabilizers for the 2u spa
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/ScottoSlant/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/160d0abffce1bd1f42f8c4186b670308222b922a/ScottoSlant/QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 2, 3, 4, 5, 6, 7, 8, 9, A3, A2

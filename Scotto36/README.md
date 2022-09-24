@@ -17,7 +17,7 @@ A 36 key handwired ortholinear ergo keyboard. Featuring an OLED display with Bon
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/279ef4b5774a471f732d44aca75e899c2be74ed2/Scotto36/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 4, 5, 6, 7, 8, 9, A3, A2, A1, A0
@@ -35,8 +35,8 @@ Simply wire the OLED pins to the I2C pins on the Pro Micro.
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate](https://github.com/joe-scotto/keyboards/blob/a4af41d8cda1f79dfae197ee6ae5699474516848/Scotto36/Case/Scotto36%20-%20Plate.stl)
--   [Case](https://github.com/joe-scotto/keyboards/blob/a4af41d8cda1f79dfae197ee6ae5699474516848/Scotto36/Case/Scotto36%20-%20Case.stl)
+-   [Plate](Case/Scotto36%20-%20Plate.stl)
+-   [Case](Case/Scotto36%20-%20Case.stl)
 
 # Flashing
 

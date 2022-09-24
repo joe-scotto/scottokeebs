@@ -25,8 +25,8 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate](Case/Scotto9 - Plate.stl)
--   [Case](Case/Scotto9 - Case.stl)
+-   [Plate](Case/Scotto9%20-%20Plate.stl)
+-   [Case](Case/Scotto9%20-%20Case.stl)
 
 # Flashing
 

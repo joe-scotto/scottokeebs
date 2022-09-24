@@ -14,7 +14,7 @@ A 37key ~0.25u row staggered keyboard. Supports durock stabilizers for the 2u sp
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/160d0abffce1bd1f42f8c4186b670308222b922a/ScottoSlant/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](ScottoSlant/QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 2, 3, 4, 5, 6, 7, 8, 9, A3, A2

@@ -16,7 +16,7 @@ A 9 key handwired macropad.
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 2, 3, 4, 5

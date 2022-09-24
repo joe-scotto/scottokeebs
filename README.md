@@ -2,6 +2,10 @@
 
 All my keymaps, case files, and everything else. Everything in the root folder was completely made by me, the [other](https://github.com/joe-scotto/keyboards/tree/main/Other) folder contains stuff that I modified to fit my needs.
 
+# QMK
+
+If a `qmk compile` doesn't work, it means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into the `qmk_firmware/keyboards` and rename it to the respective keyboard.
+
 # License
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>

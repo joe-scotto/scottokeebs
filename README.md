@@ -4,7 +4,7 @@ All my keymaps, case files, and everything else. Everything in the root folder w
 
 # QMK
 
-If a `qmk compile` doesn't work, it means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into the `qmk_firmware/keyboards` and rename it to the respective keyboard.
+If a `qmk compile` doesn't work, it means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards` and rename it to the respective keyboard.
 
 # License
 

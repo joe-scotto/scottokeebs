@@ -1,8 +1,11 @@
-# ScottoSlant (Work in progress...)
+# ScottoSlant
 
 A 37key ~0.25u row staggered keyboard. Supports durock stabilizers for the 2u spacebar.
 
-![ScottoSlant](https://user-images.githubusercontent.com/8194147/192024779-f156d365-ef38-43e2-b728-00364e239714.jpg)
+![ScottoSlant](https://user-images.githubusercontent.com/8194147/192114474-df9b38e6-ece1-4d7f-81fb-bbc910054847.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/192114467-da16590f-a361-483f-a435-2464a90b6f4c.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/192114473-21f31f5d-a12d-4ab3-916b-16cb84bf528c.jpg)
+
 
 # Parts
 

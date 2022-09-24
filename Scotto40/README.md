@@ -16,7 +16,7 @@ A 37, 38, or 40 key handwired ortholinear keyboard.
 
 # Pins
 
-Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/QMK/info.json).
+Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 2, 3, 4, 5, 6, 7, 8, 9, A3, A2
@@ -25,10 +25,10 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate (37 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(37).stl)
--   [Plate (38 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(38).stl)
--   [Plate (40 Key)](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Plate%20(40).stl)
--   [Case](https://github.com/joe-scotto/keyboards/blob/77f19926de73788dc113664cdb20901e4c4fffaf/Scotto40/Case/Scotto40%20-%20Case.stl)
+-   [Plate (37 Key)](Case/Scotto40%20-%20Plate%20(37).stl)
+-   [Plate (38 Key)](Case/Scotto40%20-%20Plate%20(38).stl)
+-   [Plate (40 Key)](Case/Scotto40%20-%20Plate%20(40).stl)
+-   [Case](Case/Scotto40%20-%20Case.stl)
 
 # Flashing
 

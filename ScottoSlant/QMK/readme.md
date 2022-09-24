@@ -1,8 +1,8 @@
-# Scotto40
+# ScottoSlant
 
-![Scotto40](imgur.com image replace me!)
+![ScottoSlant](imgur.com image replace me!)
 
-A 37, 38, or 40 key handwired ortholinear keyboard. Case files available [here](https://github.com/joe-scotto/keyboards.git).
+A 37key ~0.25u row staggered keyboard. Case files available [here](https://github.com/joe-scotto/keyboards.git).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: ATmega32U4
@@ -10,10 +10,10 @@ A 37, 38, or 40 key handwired ortholinear keyboard. Case files available [here](
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/jscotto/scotto40:default
+    make handwired/jscotto/scottoslant:default
 
 Flashing example for this keyboard:
 
-    make handwired/jscotto/scotto40:default
+    make handwired/jscotto/scottoslant:default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).

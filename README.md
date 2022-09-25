@@ -6,6 +6,13 @@ All my keymaps, case files, and everything else. Everything in the root folder w
 
 If a `qmk compile` doesn't work, it means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards` and rename it to the respective keyboard.
 
+# Handwiring Guide
+
+<a href="https://www.youtube.com/watch?v=hjml-K-pV4E" target="_blank">
+ <img src="http://img.youtube.com/vi/hjml-K-pV4E/mqdefault.jpg" alt="Watch the build video." width="1200" />
+</a>
+
+
 # License
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>

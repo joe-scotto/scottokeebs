@@ -2,7 +2,7 @@
 
 All of my custom keyboards, keymaps, and case files are stored here.
 
-# Branches
+# Contents
 
 -   [main](https://github.com/joe-scotto/keyboards) - Case files and firmware for keyboards designed by me.
     -   [Scotto9](https://github.com/joe-scotto/keyboards/tree/main/Scotto9) - A 9 key handwired macropad.

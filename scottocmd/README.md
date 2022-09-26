@@ -39,7 +39,9 @@ Simply wire the OLED pins to the I2C pins on the Pro Micro.
 
 # Case
 
-The controller is simply hot glued into the bottom of the case. Most printers will be able to print the case, however, you will most likely have to turn off any skirt or brims.
+The controller is simply hot glued into the bottom of the case.
+
+**Most printers will be able to print the case, however, you will most likely have to turn off any skirt or brims.**
 
 -   [Plate](Case/ScottoCMD%20-%20Plate.stl)
 -   [Case](Case/ScottoCMD%20-%20Case.stl)

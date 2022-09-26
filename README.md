@@ -10,7 +10,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   [Scotto40](https://github.com/joe-scotto/keyboards/tree/main/Scotto40) - A 37, 38, or 40 key handwired ortholinear keyboard.
     -   [ScottoSlant](https://github.com/joe-scotto/keyboards/tree/main/ScottoSlant) - A 37key ~0.25u row staggered handwired keyboard.
     -   [ScottoCMD](https://github.com/joe-scotto/keyboards/tree/main/ScottoCMD) - A 40 key handwired ortholinear keyboard with non-ortho bottom row.
--   [other](https://github.com/joe-scotto/keyboards/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps for boards I've built.
+-   [other](https://github.com/joe-scotto/keyboards/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps.
     -   [Iris](https://github.com/joe-scotto/keyboards/tree/other/Iris) - Tenting middle layer and keymap.
     -   [CRKBD](https://github.com/joe-scotto/keyboards/tree/other/CRKBD) - Case files along with both [QMK](https://github.com/qmk/qmk_firmware) and [ZMK](https://github.com/zmkfirmware/zmk) keymaps.
     -   [Ortho48](https://github.com/joe-scotto/keyboards/tree/other/Ortho48) - Case and keymap.

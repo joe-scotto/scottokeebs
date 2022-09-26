@@ -1,6 +1,6 @@
 # ScottoSlant
 
-A 37key ~0.25u row staggered keyboard. Supports durock stabilizers for the 2u spacebar.
+A 37key ~0.25u row staggered handwired keyboard. Supports durock stabilizers for the 2u spacebar.
 
 ![ScottoSlant](https://user-images.githubusercontent.com/8194147/192114474-df9b38e6-ece1-4d7f-81fb-bbc910054847.jpg)
 ![Matrix](https://user-images.githubusercontent.com/8194147/192114467-da16590f-a361-483f-a435-2464a90b6f4c.jpg)

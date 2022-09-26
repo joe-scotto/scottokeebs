@@ -12,7 +12,7 @@ A 37key ~0.25u row staggered keyboard. Supports durock stabilizers for the 2u sp
 -   1x - [1u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   37x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   14x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   14x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   28x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   37x - MX Switches
 
 # Pins

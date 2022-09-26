@@ -12,7 +12,7 @@ A 36 key handwired ortholinear ergo keyboard. Featuring an OLED display with Bon
 -   1x - [0.91" 128x32 OLED](https://amzn.to/3faLsxX)
 -   36x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   14x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   14x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   28x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   36x - MX Switches
 
 # Pins

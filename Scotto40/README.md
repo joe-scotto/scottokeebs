@@ -11,7 +11,7 @@ A 37, 38, or 40 key handwired ortholinear keyboard.
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
 -   40x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   14x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   14x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   28x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   40x - MX Switches
 
 # Pins
@@ -25,9 +25,9 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate (37 Key)](Case/Scotto40%20-%20Plate%20(37).stl)
--   [Plate (38 Key)](Case/Scotto40%20-%20Plate%20(38).stl)
--   [Plate (40 Key)](Case/Scotto40%20-%20Plate%20(40).stl)
+-   [Plate (37 Key)](<Case/Scotto40%20-%20Plate%20(37).stl>)
+-   [Plate (38 Key)](<Case/Scotto40%20-%20Plate%20(38).stl>)
+-   [Plate (40 Key)](<Case/Scotto40%20-%20Plate%20(40).stl>)
 -   [Case](Case/Scotto40%20-%20Case.stl)
 
 # Flashing

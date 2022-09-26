@@ -1,6 +1,10 @@
 # Keyboards
 
-All my keymaps, case files, and everything else. Everything in the root folder was completely made by me, the [other](https://github.com/joe-scotto/keyboards/tree/main/Other) folder contains stuff that I modified to fit my needs.
+All of my custom keyboards, keymaps, and case files are stored here.
+
+# Branches
+- [main](https://github.com/joe-scotto/keyboards/main) - Case files and firmware for keyboards designed by me.
+- [other](https://github.com/joe-scotto/keyboards/other) - Case files designed by me for keyboards not designed by me.
 
 # FAQ
 - Can I sell any of these keyboards?

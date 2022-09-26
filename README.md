@@ -2,16 +2,15 @@
 
 All my keymaps, case files, and everything else. Everything in the root folder was completely made by me, the [other](https://github.com/joe-scotto/keyboards/tree/main/Other) folder contains stuff that I modified to fit my needs.
 
-# QMK
-
-If a `qmk compile` doesn't work, it means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards` and rename it to the respective keyboard.
-
-# Handwiring Guide
-
-<a href="https://www.youtube.com/watch?v=hjml-K-pV4E" target="_blank">
- <img src="http://img.youtube.com/vi/hjml-K-pV4E/mqdefault.jpg" alt="Watch the build video." width="1200" />
-</a>
-
+# FAQ
+- Can I sell any of these keyboards?
+  - <ins>**No, absolutely not**</ins>. I release these for free so people can build them, not sell them. Refer to the license below or on each keyboard for specifics.
+- Why do you use so many standoffs and screws in your builds?
+  - Since my boards use 3D printed plates, this gives them much better stability. It also helps improve stabilizer performance for keys that require them.
+- How exactly do I build a handwired keyboard?
+  - I made a [video](https://www.youtube.com/watch?v=hjml-K-pV4E) explaining everything you need to know.
+- Why is `qmk compile` not working?
+  - This most likely means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards/handwired/jscotto` and rename it to the respective keyboard.
 
 # License
 

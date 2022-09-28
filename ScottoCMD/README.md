@@ -2,11 +2,9 @@
 
 A 40 key handwired ortholinear keyboard with non-ortho bottom row. Featuring a 128x64 OLED display along with a 6.25u spacebar.
 
+![ScottoCMD](https://user-images.githubusercontent.com/8194147/192900299-f6227d48-331e-4243-8184-eb7e63fac02b.jpg)
 ![Matrix](https://user-images.githubusercontent.com/8194147/192598876-0521d841-e5e0-4e4a-975f-8156c5917028.jpg)
-
-<!-- ![ScottoCMD](https://user-images.githubusercontent.com/8194147/191559764-12b65543-1ca8-4dc2-a64d-7f86911f9ffd.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/191559971-9f1b0120-8619-4255-9f1e-28dc2444472d.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/191560489-4e630d53-32f9-4454-8af2-f948c1dc0cc4.jpg) -->
+![Controller](https://user-images.githubusercontent.com/8194147/192900307-a9fc8015-165d-48b0-b433-a629eb0b82c7.jpg)
 
 # Parts
 

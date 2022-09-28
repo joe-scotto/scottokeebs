@@ -48,6 +48,10 @@ The controller is simply hot glued into the bottom of the case.
 -   [Plate](Case/ScottoCMD%20-%20Plate.stl)
 -   [Case](Case/ScottoCMD%20-%20Case.stl)
 
+# Spacebar
+
+Getting the spacebar mounted properly can be a massive pain in the ass since 3D printed plates are not as precise as laser cut ones. You should start by using all screws arount the space bar and stabilizers then if you encounter binding, slowly loosen or remove them until it moves properly.
+
 # Flashing
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)

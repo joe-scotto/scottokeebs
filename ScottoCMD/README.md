@@ -1,6 +1,6 @@
 # ScottoCMD
 
-A 40 key handwired ortholinear keyboard with non-ortho bottom row. Featuring a 128x64 OLED display along with a 6.25u spacebar. 
+A 40 key handwired ortholinear keyboard with non-ortho bottom row. Featuring a 128x64 OLED display along with a 6.25u spacebar.
 
 ![Matrix](https://user-images.githubusercontent.com/8194147/192598876-0521d841-e5e0-4e4a-975f-8156c5917028.jpg)
 

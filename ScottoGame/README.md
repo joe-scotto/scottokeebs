@@ -1,10 +1,13 @@
 # ScottoCMD
 
-A 40 key handwired ortholinear keyboard. Featuring a split spacebar and a 128x64 OLED with Bongo Cat.
+A 42 key handwired ortholinear keyboard. Featuring a split spacebar and a 128x64 OLED with Bongo Cat.
 
-![ScottoCMD](https://user-images.githubusercontent.com/8194147/192900299-f6227d48-331e-4243-8184-eb7e63fac02b.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/192598876-0521d841-e5e0-4e4a-975f-8156c5917028.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/192900307-a9fc8015-165d-48b0-b433-a629eb0b82c7.jpg)
+![ScottoGame](https://user-images.githubusercontent.com/8194147/193435831-0216b09f-f500-457c-bb8a-a558330e786e.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/193435827-86c512b3-368f-4385-937a-316ecfe61c94.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/193435829-58c55a69-d7db-4ae8-ad00-207e046fd9d4.jpg)
+
+    
+
 
 # Parts
 

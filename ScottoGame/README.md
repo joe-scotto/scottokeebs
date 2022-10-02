@@ -1,4 +1,4 @@
-# ScottoCMD
+# ScottoGame
 
 A 42 key handwired ortholinear keyboard. Featuring a split spacebar and a 128x64 OLED with Bongo Cat.
 

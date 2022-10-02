@@ -17,6 +17,7 @@ A 42 key handwired ortholinear keyboard. Featuring a split spacebar and a 128x64
 -   42x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   21x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   42x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   2x  - [M2 Heat Set Insert (OLED Housing)](https://amzn.to/3Cr1m05)
 -   42x - MX Switches
 -   42x - Keycaps
     -   39x - 1u

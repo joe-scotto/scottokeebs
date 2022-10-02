@@ -33,7 +33,7 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 # OLED
 
-Simply wire the OLED pins to the I2C pins on the Pro Micro.
+Simply wire the OLED pins to the I2C pins on the Pro Micro. Use the M2 inserts to mount the housing to the plate.
 
 -   SDA -> 2
 -   SCK -> 3

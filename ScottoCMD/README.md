@@ -54,7 +54,7 @@ Getting the spacebar mounted properly can be a massive pain in the ass since 3D 
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)
 2. Make changes to the keymap if required.
-3. Run `qmk flash -kb handwired/jscotto/ScottoCMD -km default -c`.
+3. Run `qmk flash -kb handwired/jscotto/scottocmd -km default -c`.
 
 # License
 

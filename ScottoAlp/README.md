@@ -36,7 +36,7 @@ The controller is simply hot glued into the bottom of the case.
 
 # Stabilizer
 
-The ScottoAlp uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. To make your own, simply take a piece of 14/16g wire and bend it at each stabilizer mounting point, then use it as normal.
+The ScottoAlp uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. To make your own, simply take a piece of 14g wire and bend it at each stabilizer mounting point, then use it as normal.
 
 # Flashing
 

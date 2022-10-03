@@ -18,7 +18,7 @@ A 41 key ortholinear keyboard that supports MX and Alp switches.
 -   1x - MX Switch (Spacebar)
 -   41x - Keycaps
     -   40x - 1u
-    -   1x - 2.75u
+    -   1x - 3u
 
 # Pins
 

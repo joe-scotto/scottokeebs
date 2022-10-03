@@ -10,7 +10,7 @@ A 41 key ortholinear keyboard that supports MX and Alp switches.
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   1x - [2u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
+-   1x - [3u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   42x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   21x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   42x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
@@ -33,6 +33,10 @@ The controller is simply hot glued into the bottom of the case.
 
 -   [Plate](Case/ScottoAlp%20-%20Plate.stl)
 -   [Case](Case/ScottoAlp%20-%20Case.stl)
+
+# Stabilizer
+
+The ScottoAlp uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. Both options are easy to do.
 
 # Flashing
 

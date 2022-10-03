@@ -29,7 +29,7 @@ Top left to right. Pins refer to the number on the Pro Micro, for more info see 
 
 # Case
 
-The controller is simply hot glued into the bottom of the case.
+The controller is simply hot glued into the bottom of the case. You may have to disable skirts and brims depending on the build volume of your printer.
 
 -   [Plate](Case/ScottoStarter%20-%20Plate.stl)
 -   [Case](Case/ScottoStarter%20-%20Case.stl)

@@ -17,7 +17,7 @@ A 52 key ortholinear keyboard that is designed to help transition you into small
 -   52x - MX Switches
 -   52x - Keycaps
     -   44x - 1u
-    -   7x - 1.5u
+    -   7x - 1.5uz
     -   1x - 3u
 
 # Pins
@@ -36,7 +36,7 @@ The controller is simply hot glued into the bottom of the case. You may have to 
 
 # Stabilizer
 
-The ScottoStarter uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. To make your own, simply take a piece of 14g wire and bend it at each stabilizer mounting point, then use it as normal.
+The ScottoStarter uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. To make your own, take a piece of 14g wire and bend it at each stabilizer mounting point. It will take a bit of trial and error to get it perfect but it beats having to wait for one in the mail.
 
 # Flashing
 

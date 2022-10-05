@@ -1,23 +1,22 @@
-# ScottoAlp (WIP)
+# ScottoAlp
 
-A 41 key ortholinear keyboard that supports MX and Alp switches.
+A 35 key ortholinear keyboard that supports MX and Alp switches.
 
-<!--
-![ScottoAlp](https://user-images.githubusercontent.com/8194147/193435831-0216b09f-f500-457c-bb8a-a558330e786e.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/193435827-86c512b3-368f-4385-937a-316ecfe61c94.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/193435829-58c55a69-d7db-4ae8-ad00-207e046fd9d4.jpg) -->
+![ScottoAlp](https://user-images.githubusercontent.com/8194147/193963094-ce0f174d-f67c-4a15-81d4-05b264ef2b11.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/193963081-003cc2b7-6bb5-4e59-991f-2d410162ba4f.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/193963087-8a99eeaa-161a-41f8-baee-2285fc7f5ec0.jpg)
 
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
 -   1x - [3u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
--   41x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   35x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
 -   10x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   20x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
--   40x - MX or Alp Switches
+-   34x - MX or Alp Switches
 -   1x - MX Switch (Spacebar)
--   41x - Keycaps
-    -   40x - 1u
+-   35x - Keycaps
+    -   34x - 1u
     -   1x - 3u
 
 # Pins

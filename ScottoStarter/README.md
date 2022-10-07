@@ -2,6 +2,10 @@
 
 A 52 key ortholinear keyboard that is designed to help transition you into smaller layouts.
 
+![ScottoStarter](https://user-images.githubusercontent.com/8194147/194448130-6270a86a-2794-474c-b43d-1042a35bd41a.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/194448158-ac15d897-9dd6-431e-ab2a-94d3c64ff069.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/194448172-a8f095bc-6731-4647-859a-797a4201f8a1.jpg)
+
 <!--
 ![ScottoStarter](https://user-images.githubusercontent.com/8194147/193435831-0216b09f-f500-457c-bb8a-a558330e786e.jpg)
 ![Matrix](https://user-images.githubusercontent.com/8194147/193435827-86c512b3-368f-4385-937a-316ecfe61c94.jpg)
@@ -24,8 +28,8 @@ A 52 key ortholinear keyboard that is designed to help transition you into small
 
 Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
--   **Rows** - 15, 14, 16, 10
--   **Columns** - 4, 5, 6, 7, 8, 9, A3, A2, A1, A0
+-   **Rows** - A0, 15, 14, 16, 10
+-   **Columns** - RX1, 4, 5, 6, 7, 8, 9, A3, A2, A1, TX0
 
 # Case
 

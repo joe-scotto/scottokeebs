@@ -36,6 +36,9 @@ All of my custom keyboards, keymaps, and case files are stored here.
     
 -   Why is `qmk compile` not working?
     -   This most likely means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards/handwired/jscotto` and rename it to the respective keyboard.
+    
+- Can I have just the `.hex` firmware file?
+    - Yes, in each keyboards root directory there is a file called `default.hex`. You can use this with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) if you don't want to compile the firmware yourself or run into issues.   
 
 # License
 

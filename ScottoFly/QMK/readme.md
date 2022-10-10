@@ -1,8 +1,8 @@
-# ScottoAlp
+# ScottoFly
 
-<!-- ![ScottoAlp](https://i.imgur.com/uXUWY7wh.jpg) -->
+![ScottoFly](https://i.imgur.com/TXuNxt7h.jpg)
 
-A 41 key ortholinear keyboard that supports MX and Alp switches. Case files available [here](https://github.com/joe-scotto/keyboards.git).
+A 36 key column staggered ergonomic keyboard. Case files available [here](https://github.com/joe-scotto/keyboards).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: ATmega32U4
@@ -12,11 +12,11 @@ A 41 key ortholinear keyboard that supports MX and Alp switches. Case files avai
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/jscotto/scottoalp:default
+    make handwired/jscotto/scottofly:default
 
 Flashing example for this keyboard:
 
-    make handwired/jscotto/scottoalp:default
+    make handwired/jscotto/scottofly:default
 
 # Bootloader
 

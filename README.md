@@ -23,6 +23,9 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   [Planck V6](https://github.com/joe-scotto/keyboards/tree/other/Planck%20V6) - Keymap.
     -   [BM43](https://github.com/joe-scotto/keyboards/tree/other/BM43) - Keymap
     -   [BM40](https://github.com/joe-scotto/keyboards/tree/other/BM40) - Keymap.
+    
+- [abandoned](https://github.com/joe-scotto/keyboards/tree/abandoned) - Boards that I gave up on for any reason.
+    - [ScottoCross](https://github.com/joe-scotto/keyboards/tree/abandoned/ScottoCross) - A 4x12 ortholinear board with a 7u spacebar. I got as far as printing it and then deciding that it wouldn't be very usable for me.
 
 # FAQ
 

@@ -1,51 +1,41 @@
-# ScottoAlp
+# ScottoInvader
 
-A 35 key ortholinear keyboard that supports MX and Alp switches.
+A 36 key column staggered ortholinear keyboard.
 
-![ScottoAlp](https://user-images.githubusercontent.com/8194147/193963094-ce0f174d-f67c-4a15-81d4-05b264ef2b11.jpg)
-![Alps](https://user-images.githubusercontent.com/8194147/193963346-4ea0b40f-e1c6-48a5-aed3-ec57282a3b16.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/193963081-003cc2b7-6bb5-4e59-991f-2d410162ba4f.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/193963087-8a99eeaa-161a-41f8-baee-2285fc7f5ec0.jpg)
+![ScottoInvader](https://user-images.githubusercontent.com/8194147/196335152-13ac8c44-c60d-4d09-b559-eb24fc87e797.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/196335140-5004817b-bf95-4fb5-bca4-37bc3c9c9539.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/196335147-22c8b211-fd9b-49ef-a6c0-d7a9d7a960e0.jpg)
 
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   1x - [3u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
--   35x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
--   10x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   20x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
--   34x - MX or Alp Switches
--   1x - MX Switch (Spacebar)
--   35x - Keycaps
-    -   34x - 1u
-    -   1x - 3u
+-   36x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   13x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
+-   26x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   36x - MX Switches
 
 # Pins
 
 Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
 -   **Rows** - 15, 14, 16, 10
--   **Columns** - 4, 5, 6, 7, 8, 9, A3, A2, A1, A0
+-   **Columns** - 3, 4, 5, 6, 7, 8, 9, A3, A2, A1
 
 # Case
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate](Case/ScottoAlp%20-%20Plate.stl)
--   [Case](Case/ScottoAlp%20-%20Case.stl)
-
-# Stabilizer
-
-The ScottoAlp uses a 3u spacebar, this isn't a unique size but you will have to source a 3u stabilizer wire or make one yourself. To make your own, take a piece of 14g wire and bend it at each stabilizer mounting point. It will take a bit of trial and error to get it perfect but it beats having to wait for one in the mail.
+-   [Plate](Case/ScottoInvader%20-%20Plate.stl)
+-   [Case](Case/ScottoInvader%20-%20Case.stl)
 
 # Flashing
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)
 2. Make changes to the keymap if required.
-3. Run `qmk flash -kb handwired/jscotto/scottoalp -km default -c`.
+3. Run `qmk flash -kb handwired/jscotto/scottoinvader -km default -c`.
 
 # License
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/joe-scotto/keyboards/tree/main/ScottoAlp">ScottoAlp</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/joe-scotto">Joe Scotto</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/joe-scotto/keyboards/tree/main/ScottoInvader">ScottoInvader</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/joe-scotto">Joe Scotto</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0

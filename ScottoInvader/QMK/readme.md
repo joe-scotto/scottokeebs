@@ -1,6 +1,6 @@
 # ScottoInvader
 
-<!-- ![ScottoInvader]() -->
+![ScottoInvader](https://i.imgur.com/rXssnx7h.jpeg)
 
 A 36 key column staggered ortholinear keyboard. Case files available [here](https://github.com/joe-scotto/keyboards.git).
 

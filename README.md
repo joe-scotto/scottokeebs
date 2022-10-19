@@ -33,7 +33,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
 -   Can I sell any of these keyboards?
     -   <ins>**No, absolutely not**</ins>. I release these for free so people can build them, not sell them. Refer to the license below or on each keyboard for specifics.
     
--   Do you sell any of these keyboards
+-   Do you sell any of these keyboards?
     - Yes. The project will always remain free but to support it and myself, I do offer cases, builds, and kits over at [scottokeebs.com](http://scottokeebs.com)
     
 -   Why do you use so many standoffs and screws in your builds?

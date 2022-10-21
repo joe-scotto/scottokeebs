@@ -38,9 +38,8 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   I made a [video](https://www.youtube.com/watch?v=hjml-K-pV4E) explaining everything you need to know.
 -   Why is `qmk compile` not working?
     -   This most likely means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards/handwired/jscotto` and rename it to the respective keyboard.
--   Can I have just the `.hex` firmware file?
-    -   Yes, in each keyboards `firmware` directory there is a file called `default.hex`. You can use this with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) if you don't want to compile the firmware yourself or run into issues.
-
+- Can I have just the `.hex` firmware file?
+    - Yes, in each keyboards `Firmware` directory there is a file called `default.hex` with my personal map for that board, typically in Colemak. There also might be variants of that keymap. You can use this with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) if you don't want to compile the firmware yourself or run into issues.   
 # License
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>

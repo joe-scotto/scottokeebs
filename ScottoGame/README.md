@@ -6,18 +6,15 @@ A 42 key handwired ortholinear keyboard. Featuring a split spacebar and a 128x64
 ![Matrix](https://user-images.githubusercontent.com/8194147/193435827-86c512b3-368f-4385-937a-316ecfe61c94.jpg)
 ![Controller](https://user-images.githubusercontent.com/8194147/193435829-58c55a69-d7db-4ae8-ad00-207e046fd9d4.jpg)
 
-    
-
-
 # Parts
 
 -   1x - [USB-C Arduino Pro Micro (Atmega32U4)](https://amzn.to/3UKt0MH)
 -   3x - [2u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   1x - [0.91" 128x64 OLED](https://amzn.to/3dLG2ZU)
--   42x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   42x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   21x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   44x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
--   2x  - [M2 Heat Set Insert](https://amzn.to/3Cr1m05)
+-   2x - [M2 Heat Set Insert](https://amzn.to/3Cr1m05)
 -   42x - MX Switches
 -   42x - Keycaps
     -   39x - 1u

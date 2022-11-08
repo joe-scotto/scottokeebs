@@ -9,7 +9,7 @@ A 36 key column staggered ortholinear keyboard.
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   36x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   36x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   13x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   26x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   36x - MX Switches

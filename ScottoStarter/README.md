@@ -15,7 +15,7 @@ A 52 key ortholinear keyboard that is designed to help transition you into small
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
 -   1x - [3u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
--   41x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   41x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   18x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   36x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   52x - MX Switches

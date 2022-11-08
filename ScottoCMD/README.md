@@ -11,7 +11,7 @@ A 40 key handwired ortholinear keyboard with non-ortho bottom row. Featuring a 1
 -   1x - [USB-C Arduino Pro Micro (Atmega32U4)](https://amzn.to/3UKt0MH)
 -   1x - [6.25u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   1x - [0.91" 128x64 OLED](https://amzn.to/3dLG2ZU)
--   40x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   40x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   21x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   42x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   40x - MX Switches

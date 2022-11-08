@@ -9,7 +9,7 @@ A 37, 38, or 40 key handwired ortholinear keyboard.
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   40x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   40x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   14x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   28x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   40x - MX Switches

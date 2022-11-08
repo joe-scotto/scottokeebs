@@ -11,7 +11,7 @@ A 35 key ortholinear keyboard that supports MX and Alp switches.
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
 -   1x - [3u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
--   35x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   35x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   10x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   20x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   34x - MX or Alp Switches

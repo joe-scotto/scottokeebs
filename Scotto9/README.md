@@ -9,7 +9,7 @@ A 9 key handwired macropad.
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   9x - [IN4148 Diode](https://amzn.to/3DMbQZ5)
+-   9x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   4x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   8x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   9x - MX Switches

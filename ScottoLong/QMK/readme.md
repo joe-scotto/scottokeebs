@@ -1,6 +1,6 @@
 # ScottoLong
 
-<!-- ![ScottoLong](https://i.imgur.com/AEQWXLlh.jpeg) -->
+![ScottoLong](https://i.imgur.com/AEQWXLlh.jpeg)
 
 A 33 ortholinear board with a 7u spacebar. Case files available [here](https://github.com/joe-scotto/keyboards.git).
 

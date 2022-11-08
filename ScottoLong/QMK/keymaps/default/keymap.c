@@ -85,10 +85,10 @@ td_state_t cur_dance(qk_tap_dance_state_t *state) {
     return TD_UNKNOWN;
 }
 
-void td_tab_lgui_lctl_spotlight_emoji_finished(qk_tap_dance_state_t *state, void *user_data) {
+void td_ent_lgui_lctl_spotlight_emoji_finished(qk_tap_dance_state_t *state, void *user_data) {
     xtap_state.state = cur_dance(state);
     switch (xtap_state.state) {
-        case TD_SINGLE_TAP: tap_code(KC_TAB); break;
+        case TD_SINGLE_TAP: tap_code(KC_ENT); break;
         case TD_SINGLE_HOLD: register_code(KC_LGUI); break;
         case TD_DOUBLE_HOLD: register_code(KC_LALT); break;
         case TD_TRIPLE_HOLD: register_code(KC_LCTL); break;
@@ -98,9 +98,9 @@ void td_tab_lgui_lctl_spotlight_emoji_finished(qk_tap_dance_state_t *state, void
     }
 }
 
-void td_tab_lgui_lctl_spotlight_emoji_reset(qk_tap_dance_state_t *state, void *user_data) {
+void td_ent_lgui_lctl_spotlight_emoji_reset(qk_tap_dance_state_t *state, void *user_data) {
     switch (xtap_state.state) {
-        case TD_SINGLE_TAP: unregister_code(KC_TAB); break;
+        case TD_SINGLE_TAP: unregister_code(KC_ENT); break;
         case TD_SINGLE_HOLD: unregister_code(KC_LGUI); break;
         case TD_DOUBLE_HOLD: unregister_code(KC_LALT); break;
         case TD_TRIPLE_HOLD: unregister_code(KC_LCTL); break;
@@ -109,10 +109,10 @@ void td_tab_lgui_lctl_spotlight_emoji_reset(qk_tap_dance_state_t *state, void *u
     xtap_state.state = TD_NONE;
 }
 
-void td_tab_lctl_lalt_windows_emoji_finished(qk_tap_dance_state_t *state, void *user_data) {
+void td_ent_lctl_lalt_windows_emoji_finished(qk_tap_dance_state_t *state, void *user_data) {
     xtap_state.state = cur_dance(state);
     switch (xtap_state.state) {
-        case TD_SINGLE_TAP: tap_code16(KC_TAB); break;
+        case TD_SINGLE_TAP: tap_code16(KC_ENT); break;
         case TD_SINGLE_HOLD: register_code(KC_LCTL); break;
         case TD_DOUBLE_HOLD: register_code(KC_LALT); break;
         case TD_DOUBLE_TAP: tap_code(KC_LGUI); break;
@@ -121,9 +121,9 @@ void td_tab_lctl_lalt_windows_emoji_finished(qk_tap_dance_state_t *state, void *
     }
 }
 
-void td_tab_lctl_lalt_windows_emoji_reset(qk_tap_dance_state_t *state, void *user_data) {
+void td_ent_lctl_lalt_windows_emoji_reset(qk_tap_dance_state_t *state, void *user_data) {
     switch (xtap_state.state) {
-        case TD_SINGLE_TAP: unregister_code(KC_TAB); break;
+        case TD_SINGLE_TAP: unregister_code(KC_ENT); break;
         case TD_SINGLE_HOLD: unregister_code(KC_LCTL); break;
         case TD_DOUBLE_HOLD: unregister_code(KC_LALT); break;
         default: break;
@@ -133,8 +133,8 @@ void td_tab_lctl_lalt_windows_emoji_reset(qk_tap_dance_state_t *state, void *use
 
  // Tap Dance definitions
 qk_tap_dance_action_t tap_dance_actions[] = {
-    [TD_LCTL_ESC_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_tab_lgui_lctl_spotlight_emoji_finished, td_tab_lgui_lctl_spotlight_emoji_reset),
-    [TD_LALT_ESC_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_tab_lctl_lalt_windows_emoji_finished, td_tab_lctl_lalt_windows_emoji_reset)
+    [TD_LCTL_ESC_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_ent_lgui_lctl_spotlight_emoji_finished, td_ent_lgui_lctl_spotlight_emoji_reset),
+    [TD_LALT_ESC_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_ent_lctl_lalt_windows_emoji_finished, td_ent_lctl_lalt_windows_emoji_reset)
 };
 // For the x tap dance. Put it here so it can be used in any keymap
 void x_finished(qk_tap_dance_state_t *state, void *user_data);
@@ -145,7 +145,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Q,                            KC_W, KC_F, KC_P, KC_G,          KC_J, KC_L, KC_U,     KC_Y,   KC_BSPC,
         KC_A,                            KC_R, KC_S, KC_T, KC_D,          KC_H, KC_N, KC_E,     KC_I,   KC_O,
         LSFT_T(KC_Z),                    KC_X, KC_C, KC_V, KC_B,          KC_K, KC_M, KC_COMMA, KC_DOT, RSFT_T(KC_SLSH),
-        TD(TD_LCTL_ESC_SPOTLIGHT_EMOJI),                   LT(1, KC_SPC),                                       LT(2, KC_ENT)
+        TD(TD_LCTL_ESC_SPOTLIGHT_EMOJI),                   LT(1, KC_SPC),                                       LT(2, KC_TAB)
     ),
     [1] = LAYOUT_ortho_3x10_3(
         KC_UNDS,                         KC_MINS, KC_PLUS, KC_EQL,  KC_COLN, KC_GRV,   KC_MRWD, KC_MPLY, KC_MFFD, KC_DEL,
@@ -169,7 +169,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_Q,                          KC_W, KC_F, KC_P, KC_G,          KC_J, KC_L, KC_U,     KC_Y,   KC_BSPC,
         KC_A,                          KC_R, KC_S, KC_T, KC_D,          KC_H, KC_N, KC_E,     KC_I,   KC_O,
         LSFT_T(KC_Z),                  KC_X, KC_C, KC_V, KC_B,          KC_K, KC_M, KC_COMMA, KC_DOT, RSFT_T(KC_SLSH),
-        TD(TD_LALT_ESC_WINDOWS_EMOJI),                   LT(5, KC_SPC),                                       LT(6, KC_ENT)
+        TD(TD_LALT_ESC_WINDOWS_EMOJI),                   LT(5, KC_SPC),                                       LT(6, KC_TAB)
     ),
     [5] = LAYOUT_ortho_3x10_3(
         KC_UNDS,                       KC_MINS, KC_PLUS, KC_EQL,  KC_COLN, KC_GRV,   KC_MRWD, KC_MPLY, KC_MFFD, KC_DEL,

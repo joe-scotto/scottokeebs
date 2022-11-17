@@ -1,6 +1,6 @@
 # ScottoSplit
 
-![ScottoSplit](https://i.imgur.com/TXuNxt7h.jpg)
+![ScottoSplit](https://i.imgur.com/p0gWixL.jpg)
 
 A 36 key column staggered split keyboard that uses VGA interconnects. Case files available [here](https://github.com/joe-scotto/keyboards).
 

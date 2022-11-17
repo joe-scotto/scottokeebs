@@ -12,6 +12,8 @@ A 36 key column staggered split keyboard that uses VGA interconnects.
 -   36x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
 -   18x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   36x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   2x - [VGA Connectors](https://amzn.to/3EgstL6)
+-   1x - [VGA Cable](https://amzn.to/3UNPhZF)
 -   36x - MX Switches
 -   36x - 1u Keycaps
 

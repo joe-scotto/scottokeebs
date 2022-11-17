@@ -2,9 +2,10 @@
 
 A 36 key column staggered split keyboard that uses VGA interconnects.
 
-![ScottoSplit](https://user-images.githubusercontent.com/8194147/194949089-a323674f-a2eb-4fab-a057-6fe8e1e2bb1e.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/194949107-1d2297ff-7f8b-45ae-bd8b-bcda7d5c5bae.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/194949127-ff86b4ef-fc1b-4783-b92c-471934d80e54.jpg)
+![ScottoSplit](https://user-images.githubusercontent.com/8194147/202559202-b4863dfc-d575-4ca1-bcd2-e82c444308ce.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/202559028-be147d3e-a38b-4221-a980-c3d87926314e.JPG)
+![Controller](https://user-images.githubusercontent.com/8194147/202559112-329efb1d-a69c-4c78-b043-2be4555b7ae2.JPG)
+
 
 # Parts
 

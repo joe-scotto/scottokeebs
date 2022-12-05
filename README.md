@@ -16,6 +16,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   [ScottoFly](https://github.com/joe-scotto/keyboards/tree/main/ScottoFly) - A 36 key column staggered ergonomic keyboard.
     -   [ScottoInvader](https://github.com/joe-scotto/keyboards/tree/main/ScottoInvader) - A 36 key column staggered ortholinear keyboard.
     -   [ScottoSplit](https://github.com/joe-scotto/keyboards/tree/main/ScottoSplit) - A 36 key column staggered split keyboard that uses VGA interconnects.
+    -   [Scotto34](https://github.com/joe-scotto/keyboards/tree/main/Scotto34) - A 34 ortholinear board that uses choc switches and mounts the controller on top.
     
 -   [other](https://github.com/joe-scotto/keyboards/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps.
     -   [Iris](https://github.com/joe-scotto/keyboards/tree/other/Iris) - Tenting middle layer and keymap.

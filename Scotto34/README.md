@@ -1,10 +1,9 @@
 # Scotto34
 
-A 34 ortholinear board that uses choc switches and mounts the controller on top.
+A 34 ortholinear board that uses choc switches and mounts the controller on top.      
 
-![Scotto34](https://user-images.githubusercontent.com/8194147/200442213-ce094beb-b315-4e57-ab6c-12bc357095db.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/200442207-bccc39b4-b25a-45db-a4c7-39b5b932fa9c.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/200442211-ed97ef68-0e66-49dd-abb4-cdec28e670ac.jpg)
+![Scotto34](https://user-images.githubusercontent.com/8194147/205760764-cce990f6-0c81-4971-ae52-ec44b2bc3c33.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/205760822-a2ac1d7a-acd1-4d8f-9ba0-10589e7b94e5.jpg)
 
 # Parts
 

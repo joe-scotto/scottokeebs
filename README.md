@@ -8,7 +8,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   [Scotto9](https://github.com/joe-scotto/keyboards/tree/main/Scotto9) - A 9 key handwired macropad.
     -   [Scotto36](https://github.com/joe-scotto/keyboards/tree/main/Scotto36) - A 36 key handwired ortholinear ergo keyboard.
     -   [Scotto40](https://github.com/joe-scotto/keyboards/tree/main/Scotto40) - A 37, 38, or 40 key handwired ortholinear keyboard.
-    -   [ScottoSlant](https://github.com/joe-scotto/keyboards/tree/main/ScottoSlant) - A 37key ~0.25u row staggered handwired keyboard.
+    -   [ScottoSlant](https://github.com/joe-scotto/keyboards/tree/main/ScottoSlant) - A 37 key ~0.25u row staggered handwired keyboard.
     -   [ScottoCMD](https://github.com/joe-scotto/keyboards/tree/main/ScottoCMD) - A 40 key handwired ortholinear keyboard with non-ortho bottom row.
     -   [ScottoGame](https://github.com/joe-scotto/keyboards/tree/main/ScottoGame) - A 42 key handwired ortholinear keyboard with game and action buttons.  
     -   [ScottoAlp](https://github.com/joe-scotto/keyboards/tree/main/ScottoAlp) - A 35 key ortholinear keyboard that supports MX and Alp switches.

@@ -12,7 +12,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
     -   [ScottoCMD](https://github.com/joe-scotto/keyboards/tree/main/ScottoCMD) - A 40 key handwired ortholinear keyboard with non-ortho bottom row.
     -   [ScottoGame](https://github.com/joe-scotto/keyboards/tree/main/ScottoGame) - A 42 key handwired ortholinear keyboard with game and action buttons.  
     -   [ScottoAlp](https://github.com/joe-scotto/keyboards/tree/main/ScottoAlp) - A 35 key ortholinear keyboard that supports MX and Alp switches.
-    -   [ScottoStarter](https://github.com/joe-scotto/keyboards/tree/main/ScottoAlp) - A 52 key ortholinear keyboard.
+    -   [ScottoStarter](https://github.com/joe-scotto/keyboards/tree/main/ScottoStarter) - A 52 key ortholinear keyboard.
     -   [ScottoFly](https://github.com/joe-scotto/keyboards/tree/main/ScottoFly) - A 36 key column staggered ergonomic keyboard.
     -   [ScottoInvader](https://github.com/joe-scotto/keyboards/tree/main/ScottoInvader) - A 36 key column staggered ortholinear keyboard.
     -   [ScottoSplit](https://github.com/joe-scotto/keyboards/tree/main/ScottoSplit) - A 36 key column staggered split keyboard that uses VGA interconnects.

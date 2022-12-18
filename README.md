@@ -29,6 +29,7 @@ All of my custom keyboards, keymaps, and case files are stored here.
     
 - [abandoned](https://github.com/joe-scotto/keyboards/tree/abandoned) - Boards that I gave up on for any reason.
     - [ScottoCross](https://github.com/joe-scotto/keyboards/tree/abandoned/ScottoCross) - A 4x12 ortholinear board with a 7u spacebar. I got as far as printing it and then deciding that it wouldn't be very usable for me.
+-   [community](https://github.com/joe-scotto/keyboards) - Community contributions to boards, code, etc.
 
 # FAQ
 

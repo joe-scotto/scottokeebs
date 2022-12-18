@@ -1,0 +1,6 @@
+if SHIELD_SCOTTONUM
+
+config ZMK_KEYBOARD_NAME
+    default "ScottoNum"
+
+endif

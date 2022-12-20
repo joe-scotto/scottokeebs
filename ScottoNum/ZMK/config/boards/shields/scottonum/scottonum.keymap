@@ -3,20 +3,26 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {  
-    keymap: keymap {
+    keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "default layer";
             bindings = <
-                &kp A
+                &mo 1         &kp KP_SLASH     &kp KP_ASTERISK     &kp KP_MINUS
+                &kp KP_N7     &kp KP_N8        &kp KP_N9           &kp KP_PLUS
+                &kp KP_N4     &kp KP_N5        &kp KP_N6
+                &kp KP_N1     &kp KP_N2        &kp KP_N3           &kp KP_ENTER
+                &kp KP_N0                      &kp KP_DOT
             >;
         }; 
         
-        fn_layer {
-            label = "fn layer";
+        bt_layer {
             bindings = <
-                &trans
+                &trans     &trans     &trans     &bootloader
+                &trans     &trans     &trans     &bt BT_CLR
+                &trans     &trans     &trans
+                &trans     &trans     &trans     &bt BT_SEL 0
+                &trans     &trans
             >;
         };
     };

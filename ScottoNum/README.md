@@ -2,9 +2,9 @@
 
 A simple number pad compatible with QMK or ZMK firmware.
 
-<!-- ![ScottoNum](https://user-images.githubusercontent.com/8194147/200442213-ce094beb-b315-4e57-ab6c-12bc357095db.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/200442207-bccc39b4-b25a-45db-a4c7-39b5b932fa9c.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/200442211-ed97ef68-0e66-49dd-abb4-cdec28e670ac.jpg) -->
+![ScottoNum](https://user-images.githubusercontent.com/8194147/209070479-9287f328-ee8f-4266-8072-b6397fb9a7cd.JPG)
+![Wiring](https://user-images.githubusercontent.com/8194147/209070492-69857953-671d-420b-b718-b03bbec4caa7.jpg)
+
 
 # Parts
 

@@ -12,7 +12,7 @@ A simple number pad compatible with QMK or ZMK firmware.
     -   Can be substituted with ZMK firmware and a Nice Nano for wireless.
 -   3x - [2u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   1x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   7x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   7x - [M2x8mm Screw](https://amzn.to/3jjelKi)
 -   1x - [Pin-Socket Headers](https://amzn.to/3F40AX9)
 -   17x - MX Switches
 -   17x - Keycaps
@@ -21,9 +21,7 @@ A simple number pad compatible with QMK or ZMK firmware.
 
 # Pins
 
-This board is direct wired meaning each key goes directly to a pin and then they all share ground, for more info see [info.json](QMK/info.json).
-
--   Pins -
+This board is direct wired meaning each key goes directly to a pin and then they all share ground, for more info see [scottonum.overlay](ZMK/config/boards/shields/scottonum/scottonum.overlay).
 
 # Case
 

@@ -18,8 +18,8 @@ A 9 key handwired macropad.
 
 Top left to right. Pins refer to the number on the Pro Micro, for more info see [info.json](QMK/info.json).
 
--   **Rows** - 15, 14, 16, 10
--   **Columns** - 2, 3, 4, 5
+-   **Rows** - 15, 14, 16
+-   **Columns** - 4, 5, 6
 
 # Case
 

@@ -9,8 +9,11 @@ An 11 key VIA compatible macro pad.
 # Parts
 
 -   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
--   8x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   1x - [GX16-10 Aviator Connector](https://amzn.to/3kzPGll)
+-   5x - [M2x4mm Screw](https://amzn.to/3XRb5F3)
+-   5x - [M2 Heat Set Insert](https://amzn.to/3Cr1m05)
 -   11x - MX Switches
+-   11x - 1u Keycaps
 
 # Pins
 

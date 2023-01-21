@@ -33,7 +33,7 @@ The controller is simply hot glued into the bottom of the case.
 
 ## VIA
 
-In order to make VIA work with this board you must download `via.json`. Next go into VIA and under the settings tab, enable "Show Design tab". Finally, go to the Design tab and upload `via.json` using the "Load" button next to "Load Draft Definition".
+In order to make VIA work with this board you must download [via.json](via.json). Next go into VIA and under the settings tab, enable "Show Design tab". Finally, go to the Design tab and upload using the "Load" button next to "Load Draft Definition".
 
 # License
 

@@ -1,10 +1,8 @@
 # ScottoMacrodeck
 
 An 11 key VIA compatible macro pad.
-
-<!-- ![ScottoMacrodeck](https://user-images.githubusercontent.com/8194147/191654573-d30a7cf3-2570-4f49-9b5f-de466acb5bc8.jpg)
-![Matrix](https://user-images.githubusercontent.com/8194147/191866156-65d453ec-7105-46d8-a706-a0e755f261ae.jpg)
-![Controller](https://user-images.githubusercontent.com/8194147/191866177-8041dad9-07c6-42c3-b8f1-4770ef4a7b5e.jpg) -->
+![ScottoMacrodeck](https://user-images.githubusercontent.com/8194147/213901543-e875c192-bdfa-46bb-9397-392630f1b53a.jpg)
+![Matrix](https://user-images.githubusercontent.com/8194147/213901557-9f445609-5124-4fd6-97f3-8c42496b0aad.jpg)
 
 # Parts
 

@@ -1,6 +1,6 @@
 # ScottoMacrodeck
 
-![ScottoMacrodeck](https://imgur.com/inbmNSE.jpeg)
+![ScottoMacrodeck](https://imgur.com/KVJuIVNh.jpeg)
 
 An 11 key VIA compatible macro pad. Case files available [here](https://github.com/joe-scotto/keyboards.git).
 

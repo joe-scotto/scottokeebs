@@ -2,6 +2,8 @@
 
 All of my custom keyboards, keymaps, and case files are stored here.
 
+If you like what I do consider supporting me by donating or [buying my cases or keycaps](http://scottokeebs.com).
+
 # Contents
 
 -   [main](https://github.com/joe-scotto/keyboards) - Case files and firmware for keyboards designed by me.

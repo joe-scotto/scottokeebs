@@ -1,9 +1,6 @@
 # ScottoKeebs 
 
-All of my custom keyboards, keymaps, and case files are stored here.
-
-# Support 
-If you like what I do consider supporting me by donating or [buying my cases or keycaps](http://scottokeebs.com).
+All of my custom keyboards, keymaps, and case files are stored here. **If you like what I do consider supporting me by donating or [buying my cases or keycaps](http://scottokeebs.com).**
 
 # Contents
 

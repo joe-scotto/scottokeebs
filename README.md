@@ -2,6 +2,8 @@
 
 All of my custom keyboards, keymaps, and case files are stored here. **If you like what I do consider supporting me by donating or [buying my cases or keycaps](http://scottokeebs.com).**
 
+There is also a [Discord](https://discord.gg/vN6X3z8eyv) server with tons of helpful people if you have any questions or need a bit of help. 
+
 # Contents
 
 -   [main](https://github.com/joe-scotto/keyboards) - Case files and firmware for keyboards designed by me.

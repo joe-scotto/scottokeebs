@@ -2,7 +2,7 @@
 
 A 36 key column staggered ortholinear ergonomic keyboard with exposed controller, aviator connector for USB, 10° of tilt, and 20° of angle.
 
-![ScottoErgo](https://user-images.githubusercontent.com/8194147/232518351-b5ac219d-7e16-4211-bd1e-607e7e461a7e.jpg)
+![ScottoErgo](https://user-images.githubusercontent.com/8194147/232529199-5df04fe8-fe8d-4419-95fb-40bfbbae3152.jpg)
 ![Controller](https://user-images.githubusercontent.com/8194147/232518358-b969c22b-45b7-4116-aa94-af1d87c005e2.jpg)
 ![Switches](https://user-images.githubusercontent.com/8194147/232518365-c7aed67d-2d2a-45d4-a906-33132c036207.jpg)
 

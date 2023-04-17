@@ -13,6 +13,7 @@ A 36 key column staggered ortholinear ergonomic keyboard with exposed controller
 -   9x - [M2x4mm Screw](https://amzn.to/41ghDPs)
 -   9x - [M2x3mm Heat Set Inserts](https://amzn.to/3Km2RPS)
 -   1x - [0.06" Plexiglass](https://amzn.to/3UEyZ6h)
+-   1x - [GX16-4 Aviator Connector](https://amzn.to/3KAytBq)
 -   36x - MX Switches
 -   36x - 1u Keycaps
 

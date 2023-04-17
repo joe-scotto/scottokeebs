@@ -2,16 +2,17 @@
 
 A 36 key column staggered ortholinear ergonomic keyboard with exposed controller, aviator connector for USB, 10° of tilt, and 20° of angle.
 
-![ScottoErgo]()
-![Matrix]()
-![Controller]()
+![ScottoErgo](https://user-images.githubusercontent.com/8194147/232518351-b5ac219d-7e16-4211-bd1e-607e7e461a7e.jpg)
+![Controller](https://user-images.githubusercontent.com/8194147/232518358-b969c22b-45b7-4116-aa94-af1d87c005e2.jpg)
+![Switches](https://user-images.githubusercontent.com/8194147/232518365-c7aed67d-2d2a-45d4-a906-33132c036207.jpg)
 
 # Parts
 
--   1x - [Arduino Pro Micro (Atmega32U4)](https://amzn.to/3LwgAUq)
+-   1x - [Raspberry Pi Pico](https://amzn.to/3UqGaij)
 -   36x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
--   18x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   36x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   9x - [M2x4mm Screw](https://amzn.to/41ghDPs)
+-   9x - [M2x3mm Heat Set Inserts](https://amzn.to/3Km2RPS)
+-   1x - [0.06" Plexiglass](https://amzn.to/3UEyZ6h)
 -   36x - MX Switches
 -   36x - 1u Keycaps
 

@@ -22,6 +22,7 @@ There is also a [Discord](https://discord.gg/vN6X3z8eyv) server with tons of hel
     -   [ScottoLong](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoLong) - A 33 key ortholinear handwired board with a 7u spacebar.
     -   [ScottoNum](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoNum) - A simple number pad compatible with QMK or ZMK firmware.
     -   [ScottoMacrodeck](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMacrodeck) - An 11 key VIA compatible macro pad.
+    -   [ScottoErgo](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoErgo) - A 36 key column staggered ortholinear ergonomic keyboard
     
 -   [other](https://github.com/joe-scotto/keyboards/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps.
     -   [Iris](https://github.com/joe-scotto/keyboards/tree/other/Iris) - Tenting middle layer and keymap.

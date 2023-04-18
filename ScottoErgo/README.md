@@ -28,7 +28,7 @@ Top left to right. Pins refer to the number on the RP2040, for more info see [in
 
 The controller is socketed on top and then covered using the [Template](Case/ScottoErgo%20-%20Plate.stl) to cut a piece of plexiglass.
 
--   [Plate](Case/ScottoErgo%20-%20Plate.stl)
+-   [Bottom](Case/ScottoErgo%20-%20Bottom.stl)
 -   [Case](Case/ScottoErgo%20-%20Case.stl)
 
 # Flashing

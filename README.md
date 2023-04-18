@@ -2,9 +2,11 @@
 
 The ScottoKeebs project is released entirely for free and always will be, however, the development of new boards is completely out of my own pocket. It’s not a particularly expensive project to maintain but does involve quite a bit of time between prototyping and making content related to them.
 
-If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop).
+**_If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop)._**
 
-There is also a [Discord](https://discord.gg/vN6X3z8eyv) server with tons of helpful people if you have any questions or need a bit of help. 
+# Help
+
+The [ScottoKeebs Discord](https://discord.gg/vN6X3z8eyv) is a great spot when you need a bit of help or just want to hangout with similar minded people.
 
 # Contents
 

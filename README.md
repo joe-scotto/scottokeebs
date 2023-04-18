@@ -1,6 +1,8 @@
 # ScottoKeebs 
 
-All of my custom keyboards, keymaps, and case files are stored here. **If you like what I do consider supporting me by donating or [buying my cases or keycaps](http://scottokeebs.com).**
+The ScottoKeebs project is released entirely for free and always will be, however, the development of new boards is completely out of my own pocket. It’s not a particularly expensive project to maintain but does involve quite a bit of time between prototyping and making content related to them.
+
+If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop).
 
 There is also a [Discord](https://discord.gg/vN6X3z8eyv) server with tons of helpful people if you have any questions or need a bit of help. 
 

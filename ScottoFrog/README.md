@@ -21,7 +21,7 @@ A 20 key single handed wireless keyboard based on the [FrogPad](frogpad.com).
 
 # Pins
 
-Top left to right. Pins refer to the number on the Nice Nano, for more info see [info.json](ZMK/info.json).
+Top left to right. Pins refer to the number on the Nice Nano, for more info see [scottofrog.overlay](ZMK/config/boards/shields/scottofrog/scottofrog.overlay).
 
 -   **Rows** - 15, 14, 16, 10
 -   **Columns** - 3, 4, 5, 6, 7, 8, 9

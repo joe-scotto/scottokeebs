@@ -27,6 +27,7 @@ The [ScottoKeebs Discord](https://discord.gg/vN6X3z8eyv) is a great spot when yo
     -   [ScottoNum](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoNum) - A simple number pad compatible with QMK or ZMK firmware.
     -   [ScottoMacrodeck](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMacrodeck) - An 11 key VIA compatible macro pad.
     -   [ScottoErgo](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoErgo) - A 36 key column staggered ortholinear ergonomic keyboard
+    -   [ScottoFrog](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFrog) - A 20 key single handed wireless keyboard based on the FrogPad.
     
 -   [other](https://github.com/joe-scotto/keyboards/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps.
     -   [Iris](https://github.com/joe-scotto/keyboards/tree/other/Iris) - Tenting middle layer and keymap.

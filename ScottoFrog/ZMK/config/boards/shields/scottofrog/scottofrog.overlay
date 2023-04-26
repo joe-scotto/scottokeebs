@@ -25,7 +25,7 @@
                     <&pro_micro 9 (GPIO_ACTIVE_HIGH)>;
     };
 
-    transform: matrix_transformxggqzgggggarwarwarwarw {
+    transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <7>;

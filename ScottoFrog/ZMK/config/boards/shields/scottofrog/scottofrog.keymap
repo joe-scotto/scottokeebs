@@ -474,7 +474,7 @@
         special_left_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <16 5>;
-            bindings = <&kt LEFT_ARROW>;
+            bindings = <&kp LEFT_ARROW>;
             layers = <SYMBOL>;
         }; 
 
@@ -495,7 +495,7 @@
         special_right_arrow_combo {
             timeout-ms = <COMBO_TIMEOUT>;
             key-positions = <16 9>;
-            bindings = <&kt RIGHT_ARROW>;
+            bindings = <&kp RIGHT_ARROW>;
             layers = <SYMBOL>;
         };  
 

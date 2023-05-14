@@ -1,8 +1,8 @@
 # ScottoFly
 
-![TopShot](https://user-images.githubusercontent.com/8194147/192114474-df9b38e6-ece1-4d7f-81fb-bbc910054847.jpg)
+![ScottoFly](https://user-images.githubusercontent.com/8194147/192114474-df9b38e6-ece1-4d7f-81fb-bbc910054847.jpg)
 
-Please see the [ScottoFly](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFly) GitHub page for details on how and what with to build this board.
+Please refer to the [ScottoFly](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFly) GitHub page for more information.
 
 # Microcontroller Support
 

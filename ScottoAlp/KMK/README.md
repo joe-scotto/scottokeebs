@@ -1,8 +1,8 @@
 # ScottoAlp
 
-![TopShot](https://user-images.githubusercontent.com/8194147/193963346-4ea0b40f-e1c6-48a5-aed3-ec57282a3b16.jpg)
+![ScottoAlp](https://user-images.githubusercontent.com/8194147/193963346-4ea0b40f-e1c6-48a5-aed3-ec57282a3b16.jpg)
 
-Please see the [ScottoAlp](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoAlp) GitHub page for details on how and what with to build this board.
+Please refer to the [ScottoAlp](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoAlp) GitHub page for more information.
 
 # Microcontroller Support
 

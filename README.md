@@ -8,37 +8,25 @@ The ScottoKeebs project is released entirely for free and always will be, howeve
 
 The [ScottoKeebs Discord](https://discord.gg/vN6X3z8eyv) is a great spot when you need a bit of help or just want to hangout with similar minded people.
 
-# Contents
+# Keyboards
 
--   [main](https://github.com/joe-scotto/scottokeebs) - Case files and firmware for keyboards designed by me.
-    -   [Scotto9](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto9) - A 9 key handwired macropad.
-    -   [Scotto36](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto36) - A 36 key handwired ortholinear ergo keyboard.
-    -   [Scotto40](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto40) - A 37, 38, or 40 key handwired ortholinear keyboard.
-    -   [ScottoSlant](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoSlant) - A 37 key ~0.25u row staggered handwired keyboard.
-    -   [ScottoCMD](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoCMD) - A 40 key handwired ortholinear keyboard with non-ortho bottom row.
-    -   [ScottoGame](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoGame) - A 42 key handwired ortholinear keyboard with game and action buttons.
-    -   [ScottoAlp](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoAlp) - A 35 key ortholinear keyboard that supports MX and Alp switches.
-    -   [ScottoStarter](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoStarter) - A 52 key ortholinear keyboard.
-    -   [ScottoFly](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFly) - A 36 key column staggered ergonomic keyboard.
-    -   [ScottoInvader](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoInvader) - A 36 key column staggered ortholinear keyboard.
-    -   [ScottoSplit](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoSplit) - A 36 key column staggered split keyboard that uses VGA interconnects.
-    -   [Scotto34](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto34) - A 34 key ortholinear board that uses choc switches and mounts the controller on top.
-    -   [ScottoLong](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoLong) - A 33 key ortholinear handwired board with a 7u spacebar.
-    -   [ScottoNum](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoNum) - A simple number pad compatible with QMK or ZMK firmware.
-    -   [ScottoMacrodeck](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMacrodeck) - An 11 key VIA compatible macro pad.
-    -   [ScottoErgo](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoErgo) - A 36 key column staggered ortholinear ergonomic keyboard
-    -   [ScottoFrog](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFrog) - A 20 key single handed wireless keyboard based on the FrogPad.
--   [other](https://github.com/joe-scotto/scottokeebs/tree/other) - Case files designed by me for keyboards not designed by me. Also includes keymaps.
-    -   [Iris](https://github.com/joe-scotto/scottokeebs/tree/other/Iris) - Tenting middle layer and keymap.
-    -   [CRKBD](https://github.com/joe-scotto/scottokeebs/tree/other/CRKBD) - Case files along with both [QMK](https://github.com/qmk/qmk_firmware) and [ZMK](https://github.com/zmkfirmware/zmk) keymaps.
-    -   [Ortho48](https://github.com/joe-scotto/scottokeebs/tree/other/Ortho48) - Case and keymap.
-    -   [UT47.2](https://github.com/joe-scotto/scottokeebs/tree/other/UT47.2) - Keymap.
-    -   [Planck V6](https://github.com/joe-scotto/scottokeebs/tree/other/Planck%20V6) - Keymap.
-    -   [BM43](https://github.com/joe-scotto/scottokeebs/tree/other/BM43) - Keymap
-    -   [BM40](https://github.com/joe-scotto/scottokeebs/tree/other/BM40) - Keymap.
--   [abandoned](https://github.com/joe-scotto/scottokeebs/tree/abandoned) - Boards that I gave up on for any reason.
-    -   [ScottoCross](https://github.com/joe-scotto/scottokeebs/tree/abandoned/ScottoCross) - A 4x12 ortholinear board with a 7u spacebar. I got as far as printing it and then deciding that it wouldn't be very usable for me.
--   [community](https://github.com/joe-scotto/scottokeebs) - Community contributions to boards, code, etc.
+-   [Scotto9](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto9) - A 9 key handwired macropad.
+-   [Scotto36](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto36) - A 36 key handwired ortholinear ergo keyboard.
+-   [Scotto40](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto40) - A 37, 38, or 40 key handwired ortholinear keyboard.
+-   [ScottoSlant](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoSlant) - A 37 key ~0.25u row staggered handwired keyboard.
+-   [ScottoCMD](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoCMD) - A 40 key handwired ortholinear keyboard with non-ortho bottom row.
+-   [ScottoGame](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoGame) - A 42 key handwired ortholinear keyboard with game and action buttons.
+-   [ScottoAlp](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoAlp) - A 35 key ortholinear keyboard that supports MX and Alp switches.
+-   [ScottoStarter](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoStarter) - A 52 key ortholinear keyboard.
+-   [ScottoFly](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFly) - A 36 key column staggered ergonomic keyboard.
+-   [ScottoInvader](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoInvader) - A 36 key column staggered ortholinear keyboard.
+-   [ScottoSplit](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoSplit) - A 36 key column staggered split keyboard that uses VGA interconnects.
+-   [Scotto34](https://github.com/joe-scotto/scottokeebs/tree/main/Scotto34) - A 34 key ortholinear board that uses choc switches and mounts the controller on top.
+-   [ScottoLong](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoLong) - A 33 key ortholinear handwired board with a 7u spacebar.
+-   [ScottoNum](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoNum) - A simple number pad compatible with QMK or ZMK firmware.
+-   [ScottoMacrodeck](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMacrodeck) - An 11 key VIA compatible macro pad.
+-   [ScottoErgo](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoErgo) - A 36 key column staggered ortholinear ergonomic keyboard
+-   [ScottoFrog](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFrog) - A 20 key single handed wireless keyboard based on the FrogPad.
 
 # FAQ
 

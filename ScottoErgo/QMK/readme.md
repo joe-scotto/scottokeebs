@@ -1,6 +1,6 @@
 # ScottoErgo
 
-![ScottoErgo](https://i.imgur.com/TXuNxt7h.jpg)
+![ScottoErgo](https://i.imgur.com/FtdSJRBh.jpg)
 
 A 36 key column staggered ergonomic keyboard with 10 degrees of tenting and 20 degrees of angle. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 

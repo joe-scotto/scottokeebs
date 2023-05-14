@@ -2,7 +2,7 @@
 
 ![Scotto34](https://i.imgur.com/BkpEBQjh.jpg)
 
-A 33 ortholinear board with a 7u spacebar. Case files available [here](https://github.com/joe-scotto/scottokeebs.git).
+A 33 ortholinear board with a 7u spacebar. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: RP2040

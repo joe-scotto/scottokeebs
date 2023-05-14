@@ -2,7 +2,7 @@
 
 ![ScottoSlant](imgur.com image replace me!)
 
-A 37key ~0.25u row staggered handwired keyboard. Case files available [here](https://github.com/joe-scotto/keyboards.git).
+A 37key ~0.25u row staggered handwired keyboard. Case files available [here](https://github.com/joe-scotto/scottokeebs.git).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: ATmega32U4

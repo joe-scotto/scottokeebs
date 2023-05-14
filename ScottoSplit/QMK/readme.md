@@ -2,7 +2,7 @@
 
 ![ScottoSplit](https://i.imgur.com/u6rSzyHh.jpg)
 
-A 36 key column staggered split keyboard that uses VGA interconnects. Case files available [here](https://github.com/joe-scotto/keyboards).
+A 36 key column staggered split keyboard that uses VGA interconnects. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: ATmega32U4

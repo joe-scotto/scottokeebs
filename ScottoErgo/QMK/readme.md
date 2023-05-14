@@ -2,7 +2,7 @@
 
 ![ScottoErgo](https://i.imgur.com/TXuNxt7h.jpg)
 
-A 36 key column staggered ergonomic keyboard with 10 degrees of tenting and 20 degrees of angle. Case files available [here](https://github.com/joe-scotto/keyboards).
+A 36 key column staggered ergonomic keyboard with 10 degrees of tenting and 20 degrees of angle. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: RP2040

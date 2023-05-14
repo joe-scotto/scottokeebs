@@ -2,7 +2,7 @@
 
 ![ScottoMacrodeck](https://imgur.com/KVJuIVNh.jpeg)
 
-An 11 key VIA compatible macro pad. Case files available [here](https://github.com/joe-scotto/keyboards.git).
+An 11 key VIA compatible macro pad. Case files available [here](https://github.com/joe-scotto/scottokeebs.git).
 
 -   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 -   Hardware Supported: ATmega32U4

@@ -1,6 +1,6 @@
 # ScottoFly
 
-![ScottoFly](https://user-images.githubusercontent.com/8194147/192114474-df9b38e6-ece1-4d7f-81fb-bbc910054847.jpg)
+![ScottoFly](https://user-images.githubusercontent.com/8194147/194949089-a323674f-a2eb-4fab-a057-6fe8e1e2bb1e.jpg)
 
 Please refer to the [ScottoFly](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFly) GitHub page for more information.
 

@@ -1,4 +1,4 @@
-# ScottoStarter (WIP)
+# ScottoStarter
 
 A 52 key ortholinear keyboard that is designed to help transition you into smaller layouts.
 

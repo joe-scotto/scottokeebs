@@ -26,6 +26,7 @@ The ScottoKeebs project is released entirely for free and always will be, howeve
 -   [ScottoMacrodeck](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMacrodeck) - An 11 key VIA compatible macro pad.
 -   [ScottoErgo](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoErgo) - A 36 key column staggered ortholinear ergonomic keyboard
 -   [ScottoFrog](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoFrog) - A 20 key single handed wireless keyboard based on the FrogPad.
+-   [ScottoMouse](https://github.com/joe-scotto/scottokeebs/tree/main/ScottoMouse) - A 6 key mouse using [QMK mouse keys](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md).
 
 # FAQ
 

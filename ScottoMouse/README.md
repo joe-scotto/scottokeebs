@@ -1,9 +1,8 @@
 # ScottoMouse
 
-A simple number pad compatible with QMK or ZMK firmware.
-
-![ScottoMouse](https://user-images.githubusercontent.com/8194147/209070479-9287f328-ee8f-4266-8072-b6397fb9a7cd.JPG)
-![Wiring](https://user-images.githubusercontent.com/8194147/209070492-69857953-671d-420b-b718-b03bbec4caa7.jpg)
+A 6 key mouse using [QMK mouse keys](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md).
+![ScottoMouse](https://github.com/joe-scotto/scottokeebs/assets/8194147/a8356794-118a-4e7a-a6a4-b04ca4b4fc16)
+![Wiring](https://github.com/joe-scotto/scottokeebs/assets/8194147/87ee3222-bd11-44f8-80d0-6359eb8650a3)
 
 # Parts
 

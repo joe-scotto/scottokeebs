@@ -10,9 +10,7 @@ A 6 key mouse using [QMK mouse keys](https://github.com/qmk/qmk_firmware/blob/ma
 -   6x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
 -   6x - [M2x8mm Screw](https://amzn.to/3jjelKi)
 -   6x - MX Switches
--   6x - Keycaps
-    -   14x - 1u
-    -   3x - 2u
+-   6x - 1u Keycaps
 
 # Pins
 

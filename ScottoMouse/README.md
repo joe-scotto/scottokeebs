@@ -1,8 +1,8 @@
 # ScottoMouse
 
 A 6 key mouse using [QMK mouse keys](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md).
-![ScottoMouse](https://github.com/joe-scotto/scottokeebs/assets/8194147/a8356794-118a-4e7a-a6a4-b04ca4b4fc16)
-![Wiring](https://github.com/joe-scotto/scottokeebs/assets/8194147/87ee3222-bd11-44f8-80d0-6359eb8650a3)
+![ScottoMouse](https://github.com/joe-scotto/scottokeebs/assets/8194147/87ee3222-bd11-44f8-80d0-6359eb8650a3)
+![Wiring](https://github.com/joe-scotto/scottokeebs/assets/8194147/a8356794-118a-4e7a-a6a4-b04ca4b4fc16)
 
 # Parts
 

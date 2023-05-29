@@ -19,11 +19,11 @@
             "GP11",
             "GP12",
             "GP13",
-            "GP22",
-            "GP21",
-            "GP20",
+            "GP18",
             "GP19",
-            "GP18"
+            "GP20",
+            "GP21",
+            "GP22"
         ],
         "rows": ["GP0", "GP1", "GP14", "GP15"]
     },
@@ -35,7 +35,7 @@
         "vid": "0x534B"
     },
     "layouts": {
-        "LAYOUT_ortho_3x10_4": {
+        "LAYOUT": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },

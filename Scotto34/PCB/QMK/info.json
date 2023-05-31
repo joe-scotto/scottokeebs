@@ -28,14 +28,14 @@
         "rows": ["GP0", "GP1", "GP14", "GP15"]
     },
     "processor": "RP2040",
-    "url": "https://scottokeebs.com/keyboards/scotto34-pcb-edition",
+    "url": "https://scottokeebs.com",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x3334",
         "vid": "0x534B"
     },
     "layouts": {
-        "LAYOUT": {
+        "LAYOUT_split_3x5_2": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },

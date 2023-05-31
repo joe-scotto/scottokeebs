@@ -11,8 +11,8 @@ A 33 ortholinear board with a 7u spacebar.
 -   1x - [Raspberry Pi Pico (RP2040)](https://amzn.to/3WIrdJ5)
 -   1x - [7u Plate Mount Stabilizer](https://amzn.to/3xUEvHz)
 -   33x - [1N4148 Diode](https://amzn.to/3DMbQZ5)
--   21x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
--   42x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
+-   10x - [8mm M2 Spacer](https://amzn.to/3r1xdxO)
+-   20x - [M2x6mm Screw](https://amzn.to/3r1xdxO)
 -   33x - MX Switches
 -   33x - Keycaps
     -   30x - 1u

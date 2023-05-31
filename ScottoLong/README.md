@@ -30,9 +30,6 @@ Top left to right. Pins refer to the number on the RP2040, for more info see [in
 
 The controller is simply hot glued into the bottom of the case.
 
--   [Plate](Case/ScottoLong%20-%20Plate.stl)
--   [Case](Case/ScottoLong%20-%20Case.stl)
-
 # Flashing
 
 1. [Install QMK locally](https://github.com/qmk/qmk_firmware)

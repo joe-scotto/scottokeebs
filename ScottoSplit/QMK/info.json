@@ -2,7 +2,7 @@
     "manufacturer": "ScottoKeebs",
     "keyboard_name": "ScottoSplit",
     "maintainer": "joe-scotto",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -19,7 +19,6 @@
         // 15, 14, 16, 10
         "rows": ["B1", "B3", "B2", "B6"]
     },
-    "processor": "atmega32u4",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
@@ -27,7 +26,7 @@
         "vid": "0xFEED"
     },
     "layouts": {
-        "LAYOUT_ortho_3x10_6": {
+        "LAYOUT_ortho_3x5_3": {
             "layout": [
                 // Row 1
                 { "matrix": [0, 0], "x": 0, "y": 0 },

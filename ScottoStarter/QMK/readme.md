@@ -1,6 +1,6 @@
 # ScottoStarter
 
-<!-- ![ScottoStarter](https://i.imgur.com/uXUWY7wh.jpg) -->
+![ScottoStarter](https://i.imgur.com/bspbVPah.jpg)
 
 A 52 key ortholinear keyboard that is designed to help transition you into smaller layouts. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
@@ -12,11 +12,11 @@ A 52 key ortholinear keyboard that is designed to help transition you into small
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/jscotto/scottostarter:default
+    make handwired/scottokeebs/scottostarter:default
 
 Flashing example for this keyboard:
 
-    make handwired/jscotto/scottostarter:default
+    make handwired/scottokeebs/scottostarter:default:flash
 
 # Bootloader
 

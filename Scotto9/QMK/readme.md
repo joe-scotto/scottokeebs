@@ -1,6 +1,6 @@
 # Scotto9
 
-![Scotto9](https://imgur.com/inbmNSE.jpeg)
+![Scotto9](https://imgur.com/inbmNSEh.jpeg)
 
 A 9 key handwired macropad. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
@@ -12,11 +12,11 @@ A 9 key handwired macropad. Case files available [here](https://github.com/joe-s
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/jscotto/scotto9:default
+    make handwired/scottokeebs/scotto9:default
 
 Flashing example for this keyboard:
 
-    make handwired/jscotto/scotto9:default
+    make handwired/scottokeebs/scotto9:default:flash
 
 # Bootloader
 

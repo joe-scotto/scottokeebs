@@ -2,7 +2,6 @@
     "manufacturer": "ScottoKeebs",
     "keyboard_name": "ScottoCMD",
     "maintainer": "joe-scotto",
-    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "development_board": "promicro",
     "features": {
@@ -11,7 +10,11 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "oled": true
+    },
+    "build": {
+        "lto": true
     },
     "matrix_pins": {
         // TX0, RX1, 4, 5, 6, 7, 8, 9, A3, A2, A1
@@ -19,11 +22,11 @@
         // A0, 15, 14, 16, 10
         "rows": ["F7", "B1", "B3", "B2", "B6"]
     },
-    "url": "",
+    "url": "https://scottokeebs.com",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0x0005",
+        "vid": "0x534B"
     },
     "bootmagic": {
         "matrix": [1, 0]

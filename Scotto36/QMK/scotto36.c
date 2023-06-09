@@ -1,5 +1,5 @@
 /*
-Copyright 2022 Joe Scotto
+Copyright 2023 Joe Scotto
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -15,9 +15,20 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#pragma once
+#include "quantum.h"
 
-// Define options
-#define TAPPING_TERM 135
-#define PERMISSIVE_HOLD
-#define TAPPING_TERM_PER_KEY
+#ifdef OLED_ENABLE
+
+bool oled_task_kb(void) {
+    if (!oled_task_user()) {
+        return false;
+    }
+
+    // Default OLED code
+    oled_set_cursor(0, 0);
+    oled_write("        Scotto36       ", false);
+
+    return false;
+}
+
+#endif

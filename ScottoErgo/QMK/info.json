@@ -13,28 +13,17 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": [
-            "GP0",
-            "GP1",
-            "GP2",
-            "GP3",
-            "GP4",
-            "GP22",
-            "GP21",
-            "GP20",
-            "GP19",
-            "GP18"
-        ],
-
+        "cols": [ "GP0", "GP1", "GP2", "GP3", "GP4", "GP22", "GP21", "GP20", "GP19", "GP18"],
         "rows": ["GP12", "GP13", "GP14", "GP15"]
     },
     "processor": "RP2040",
-    "url": "",
+    "url": "https://scottokeebs.com",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0002",
-        "vid": "0x534B"
+        "pid": "0x0016",
+        "vid": "0xFEED"
     },
+    "community_layouts": ["split_3x5_3"],
     "layouts": {
         "LAYOUT_split_3x5_3": {
             "layout": [

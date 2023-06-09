@@ -2,7 +2,7 @@
     "manufacturer": "ScottoKeebs",
     "keyboard_name": "ScottoMacrodeck",
     "maintainer": "joe-scotto",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -11,6 +11,9 @@
         "mousekey": true,
         "nkro": true
     },
+    "build" : {
+        "lto": true,
+    },
     "matrix_pins": {
         "direct": [
             ["D3", "D2", "D1", null],
@@ -18,12 +21,11 @@
             ["E6", "B4", "B5", "F4"]
         ]
     },
-    "processor": "atmega32u4",
-    "url": "",
+    "url": "https://scottokeebs.com",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0001",
-        "vid": "0x534B"
+        "pid": "0x0015",
+        "vid": "0xFEED"
     },
     "layouts": {
         "LAYOUT_ortho_3x4": {

@@ -136,6 +136,7 @@ tap_dance_action_t tap_dance_actions[] = {
     [TD_LCTL_ESC_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_ent_lgui_lctl_spotlight_emoji_finished, td_ent_lgui_lctl_spotlight_emoji_reset),
     [TD_LALT_ESC_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_ent_lctl_lalt_windows_emoji_finished, td_ent_lctl_lalt_windows_emoji_reset)
 };
+
 // For the x tap dance. Put it here so it can be used in any keymap
 void x_finished(tap_dance_state_t *state, void *user_data);
 void x_reset(tap_dance_state_t *state, void *user_data);

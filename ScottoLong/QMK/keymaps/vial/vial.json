@@ -1,7 +1,4 @@
 {
-    "name": "ScottoLong",
-    "vendorId": "0x534B",
-    "productId": "0x0002",
     "matrix": {
         "rows": 4,
         "cols": 10

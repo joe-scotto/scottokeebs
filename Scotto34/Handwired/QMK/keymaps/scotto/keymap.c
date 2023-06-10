@@ -1,5 +1,5 @@
 /*
-Copyright 2022 Joe Scotto
+Copyright 2023 Joe Scotto
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -138,6 +138,56 @@ tap_dance_action_t tap_dance_actions[] = {
 void x_finished(tap_dance_state_t *state, void *user_data);
 void x_reset(tap_dance_state_t *state, void *user_data);
 
+// Onboard LED
+#ifdef RGBLIGHT_ENABLE
+    // Configure LED
+    void keyboard_post_init_user(void) {
+        // Initialize RGB to static black
+        rgblight_enable_noeeprom();
+        rgblight_sethsv_noeeprom(HSV_BLACK);
+        rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+    }
+
+    // Change LED
+    void housekeeping_task_user(void) {
+        // Caps lock status
+        if (host_keyboard_led_state().caps_lock) {
+            rgblight_setrgb_at(4, 4, 0, 0);
+        } else {
+            // Layers
+            switch (get_highest_layer(layer_state | default_layer_state)) {
+                case 0:
+                    rgblight_setrgb_at(4, 4, 4, 0);
+                    break;
+                case 1:
+                    rgblight_setrgb_at(4, 4, 4, 0);
+                    break;
+                case 2:
+                    rgblight_setrgb_at(4, 4, 4, 0);
+                    break;
+                case 3:
+                    rgblight_setrgb_at(4, 4, 4, 0);
+                    break;
+                case 4:
+                    rgblight_setrgb_at(0, 0, 4, 0);
+                    break;
+                case 5:
+                    rgblight_setrgb_at(0, 4, 0, 0);
+                    break;
+                case 6:
+                    rgblight_setrgb_at(0, 0, 4, 0);
+                    break;
+                case 7:
+                    rgblight_setrgb_at(0, 0, 4, 0);
+                    break;
+                case 8:
+                    rgblight_setrgb_at(0, 0, 4, 0);
+                    break;
+            }
+        }
+    }
+#endif
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x5_2(
         KC_Q,         KC_W, KC_F, KC_P, KC_G,                           KC_J,           KC_L,          KC_U,         KC_Y,   KC_BSPC,
@@ -158,16 +208,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [3] = LAYOUT_split_3x5_2(
-        KC_NO,  KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO, TO(0), TO(5), TO(4), 
+        KC_NO,  KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, TO(5), TO(4), 
         KC_F1,  KC_F2, KC_F3, KC_F4,   KC_F5,   KC_F6,   KC_F7, KC_F8, KC_F9, KC_F10,
         KC_F11, KC_NO, KC_NO, QK_BOOT, KC_TRNS, KC_NO,   KC_NO, KC_NO, KC_NO, KC_F12,
                               KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [4] = LAYOUT_split_3x5_2(
-        KC_Q,         KC_W, KC_F, KC_P, KC_G,                         KC_J,   KC_L,          KC_U,         KC_Y,   KC_BSPC,
-        KC_A,         KC_R, KC_S, KC_T, KC_D,                         KC_H,   KC_N,          KC_E,         KC_I,   KC_O,
-        LSFT_T(KC_Z), KC_X, KC_C, KC_V, KC_B,                         KC_K,   KC_M,          KC_COMMA,     KC_DOT, RSFT_T(KC_SLSH),
-                                  TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), KC_SPC, LT(6, KC_TAB), LT(7, KC_ENT)
+        KC_Q,         KC_W, KC_F, KC_P, KC_G,                         KC_J,           KC_L,          KC_U,         KC_Y,   KC_BSPC,
+        KC_A,         KC_R, KC_S, KC_T, KC_D,                         KC_H,           KC_N,          KC_E,         KC_I,   KC_O,
+        LSFT_T(KC_Z), KC_X, KC_C, KC_V, KC_B,                         KC_K,           KC_M,          KC_COMMA,     KC_DOT, RSFT_T(KC_SLSH),
+                                  TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), LCTL_T(KC_SPC), LT(6, KC_TAB), LT(7, KC_ENT)
     ),
     [5] = LAYOUT_split_3x5_2(
         KC_Q, KC_W, KC_F, KC_P, KC_G,    KC_J,   KC_L,          KC_U,         KC_Y,   KC_BSPC,
@@ -192,5 +242,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1,  KC_F2, KC_F3, KC_F4,   KC_F5,   KC_F6,   KC_F7, KC_F8, KC_F9, KC_F10,
         KC_F11, KC_NO, KC_NO, QK_BOOT, KC_TRNS, KC_NO,   KC_NO, KC_NO, KC_NO, KC_F12,
                               KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
-    ),
+    )
 };

@@ -9,9 +9,11 @@ The ScottoKeebs project is released entirely for free and always will be, howeve
 **_If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop)._**
 
 # Keyboards
+
 https://scottokeebs.com/blogs/keyboards
 
 # Macropads
+
 https://scottokeebs.com/blogs/macropads
 
 # FAQ
@@ -28,6 +30,8 @@ https://scottokeebs.com/blogs/macropads
     -   This most likely means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards/handwired/jscotto` and rename it to the respective keyboard.
 -   Can I have just the `.hex` firmware file?
     -   Yes, in each keyboards `Firmware` directory there is a file called `default.hex` with my personal map for that board, typically in Colemak. There also might be variants of that keymap. You can use this with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) if you don't want to compile the firmware yourself or run into issues.
+-   What are the V1 case files?
+    -   V1 are the original files that I built the boards with. After learning better techniques, I added shelves to hold the plates better along with minimizing the total amount of screws needed. The new V2 files are compatible with both regular and counter sunk screws along with having cutouts so the switches actually clip into the plate.
 
 # License
 

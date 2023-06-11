@@ -2,7 +2,7 @@
 
 ![Scotto40](https://i.imgur.com/wtW5xOth.jpeg)
 
-An ortholinear keyboard that features either a 37, 38, or 40-key layout. Case files available [here](https://github.com/joe-scotto/scottokeebs).
+A 40-key ortholinear keyboard. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
 *   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 *   Hardware Supported: ATmega32U4

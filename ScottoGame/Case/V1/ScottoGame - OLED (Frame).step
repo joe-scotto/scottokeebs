@@ -5,15 +5,15 @@ HEADER;
 
 FILE_DESCRIPTION(('HOOPS Exchange Step'),'2;1');
 
-FILE_NAME('/var/folders/hd/s3_8dfks4419lbhxn872679c0000gn/T/com.shapr3d.shapr/export/temp_export',
-'2023-06-12T13:56:20-04:00',
-('jscotto'),
+FILE_NAME('/private/var/mobile/Containers/Data/Application/85452385-5814-41BB-912B-8FAEA8090E0D/tmp/export/temp_export',
+'2022-10-01T16:23:38-04:00',
+('mobile'),
 ('Shapr3D Limited'),
-'HOOPS Exchange 2022.2',
+'HOOPS Exchange 2022.1',
 'Shapr3D',
 'Authorized');
 
-FILE_SCHEMA( ('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }') );
+FILE_SCHEMA( ('AP203_CONFIGURATION_CONTROLLED_3D_DESIGN_OF_MECHANICAL_PARTS_AND_ASSEMBLIES_MIM_LF') );
 
 ENDSEC;
 
@@ -937,8 +937,8 @@ DATA;
 #16=SHAPE_REPRESENTATION('OLED (Frame)',(#15),#10);
 #17=ADVANCED_BREP_SHAPE_REPRESENTATION('OLED (Frame)',(#921),#10);
 #936=SHAPE_REPRESENTATION_RELATIONSHIP('','',#16,#17);
-#937=APPLICATION_CONTEXT('data for automotive mechanical design processes');
-#938=APPLICATION_PROTOCOL_DEFINITION('international standard','automotive_design',1994,#937);
+#937=APPLICATION_CONTEXT('configuration controlled 3D design of mechanical parts and assemblies');
+#938=APPLICATION_PROTOCOL_DEFINITION('international standard','configuration_control_3d_design_ed2_mim',2004,#937);
 #939=PRODUCT_CONTEXT('',#937,'mechanical');
 #940=PRODUCT_DEFINITION_CONTEXT('part definition',#937,'design');
 #24=PRODUCT('OLED (Frame)','OLED (Frame)','',(#939));

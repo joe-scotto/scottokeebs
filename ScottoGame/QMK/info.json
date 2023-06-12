@@ -9,7 +9,7 @@
         "command": false,
         "console": false,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
         "oled": true
     },
@@ -17,10 +17,7 @@
         "lto": true
     },
     "matrix_pins": {
-        // RX1, 4, 5, 6, 7, 8, 9, A3, A2, A1
         "cols": ["D2", "D4", "C6", "D7", "E6", "B4", "B5", "F4", "F5", "F6"],
-
-        // A0, 15, 14, 16, 10
         "rows": ["F7", "B1", "B3", "B2", "B6"]
     },
     "url": "https://scottokeebs.com",
@@ -32,15 +29,12 @@
     "layouts": {
         "LAYOUT_ortho_6_3x10_6": {
             "layout": [
-                // Row 1
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },
                 { "matrix": [0, 2], "x": 2, "y": 0 },
                 { "matrix": [0, 3], "x": 3, "y": 0 },
                 { "matrix": [0, 4], "x": 4, "y": 0 },
                 { "matrix": [0, 6], "x": 6, "y": 0 },
-
-                // Row 2
                 { "matrix": [1, 0], "x": 0, "y": 1 },
                 { "matrix": [1, 1], "x": 1, "y": 1 },
                 { "matrix": [1, 2], "x": 2, "y": 1 },
@@ -51,8 +45,6 @@
                 { "matrix": [1, 7], "x": 7, "y": 1 },
                 { "matrix": [1, 8], "x": 8, "y": 1 },
                 { "matrix": [1, 9], "x": 9, "y": 1 },
-
-                // Row 3
                 { "matrix": [2, 0], "x": 0, "y": 2 },
                 { "matrix": [2, 1], "x": 1, "y": 2 },
                 { "matrix": [2, 2], "x": 2, "y": 2 },
@@ -63,8 +55,6 @@
                 { "matrix": [2, 7], "x": 7, "y": 2 },
                 { "matrix": [2, 8], "x": 8, "y": 2 },
                 { "matrix": [2, 9], "x": 9, "y": 2 },
-
-                // Row 3
                 { "matrix": [3, 0], "x": 0, "y": 3 },
                 { "matrix": [3, 1], "x": 1, "y": 3 },
                 { "matrix": [3, 2], "x": 2, "y": 3 },
@@ -75,8 +65,6 @@
                 { "matrix": [3, 7], "x": 7, "y": 3 },
                 { "matrix": [3, 8], "x": 8, "y": 3 },
                 { "matrix": [3, 9], "x": 9, "y": 3 },
-
-                // Row 5
                 { "matrix": [4, 1], "x": 1, "y": 4 },
                 { "matrix": [4, 2], "x": 2, "y": 4 },
                 { "matrix": [4, 3], "x": 3, "y": 4 },

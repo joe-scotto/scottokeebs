@@ -9,7 +9,7 @@
         "command": false,
         "console": false,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
         "oled": true
     },
@@ -17,9 +17,7 @@
         "lto": true
     },
     "matrix_pins": {
-        // TX0, RX1, 4, 5, 6, 7, 8, 9, A3, A2, A1
         "cols": ["D3", "D2", "D4", "C6", "D7", "E6", "B4", "B5", "F4", "F5", "F6"],
-        // A0, 15, 14, 16, 10
         "rows": ["F7", "B1", "B3", "B2", "B6"]
     },
     "url": "https://scottokeebs.com",
@@ -34,13 +32,11 @@
     "layouts": {
         "LAYOUT_ortho_4_3x10_4": {
             "layout": [
-                // Row 1 (Macros)
                 {"matrix": [0, 7], "x": 7, "y": 0},
                 {"matrix": [0, 8], "x": 8, "y": 0},
                 {"matrix": [0, 9], "x": 9, "y": 0},
                 {"matrix": [0, 10], "x": 10, "y": 0},
 
-                // Row 2
                 {"matrix": [1, 0], "x": 0, "y": 1},
                 {"matrix": [1, 1], "x": 1, "y": 1},
                 {"matrix": [1, 2], "x": 2, "y": 1},
@@ -53,7 +49,6 @@
                 {"matrix": [1, 9], "x": 9, "y": 1},
                 {"matrix": [1, 10], "x": 10, "y": 1},
 
-                // Row 3
                 {"matrix": [2, 0], "x": 0, "y": 2},
                 {"matrix": [2, 1], "x": 1, "y": 2},
                 {"matrix": [2, 2], "x": 2, "y": 2},
@@ -66,7 +61,6 @@
                 {"matrix": [2, 9], "x": 9, "y": 2},
                 {"matrix": [2, 10], "x": 10, "y": 2},
 
-                // Row 4
                 {"matrix": [3, 1], "x": 1, "y": 3},
                 {"matrix": [3, 2], "x": 2, "y": 3},
                 {"matrix": [3, 3], "x": 3, "y": 3},
@@ -78,7 +72,6 @@
                 {"matrix": [3, 9], "x": 9, "y": 3},
                 {"matrix": [3, 10], "x": 10, "y": 3},
 
-                // Row 5
                 {"matrix": [4, 1], "x": 1, "y": 4},
                 {"matrix": [4, 5], "x": 5, "y": 4},
                 {"matrix": [4, 9], "x": 9, "y": 4},

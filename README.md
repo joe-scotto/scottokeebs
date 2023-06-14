@@ -1,37 +1,17 @@
 # ScottoKeebs
 
-A collection of freely available handwired keyboard projects, check out the [Discord](https://discord.gg/vN6X3z8eyv) or [YouTube](https://youtube.com/joe_scotto) for more information.
+A collection of freely available handwired keyboard projects, check out the  or  for more information.
+
+- [Keyboards](https://scottokeebs.com/blogs/keyboards)
+- [Macropads](https://scottokeebs.com/blogs/macropads)
+- [Discord](https://discord.gg/vN6X3z8eyv)
+- [YouTube](https://youtube.com/joe_scotto)
 
 # Supporting
 
 The ScottoKeebs project is released entirely for free and always will be, however, the development of new boards is completely out of my own pocket. It’s not a particularly expensive project to maintain but does involve quite a bit of time between prototyping and making content related to them.
 
 **_If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop)._**
-
-# Keyboards
-
-https://scottokeebs.com/blogs/keyboards
-
-# Macropads
-
-https://scottokeebs.com/blogs/macropads
-
-# FAQ
-
--   Can I sell any of these keyboards?
-    -   <ins>**No, absolutely not**</ins>. I release these for free so people can build them, not sell them. Refer to the license below or on each keyboard for specifics.
--   Do you sell any of these keyboards?
-    -   Yes. The project will always remain free but to support it and myself, I do offer cases, builds, and kits over at [scottokeebs.com](http://scottokeebs.com)
--   Why do you use so many standoffs and screws in your builds?
-    -   Since my boards use 3D printed plates, this gives them much better stability. It also helps improve stabilizer performance for keys that require them.
--   How exactly do I build a handwired keyboard?
-    -   I made a [video](https://www.youtube.com/watch?v=hjml-K-pV4E) explaining everything you need to know.
--   Why is `qmk compile` not working?
-    -   This most likely means the board hasn't been merged into the [qmk_firmware](https://github.com/qmk/qmk_firmware) repo yet. If this is the case, you can simply copy the `QMK` folder into `qmk_firmware/keyboards/handwired/jscotto` and rename it to the respective keyboard.
--   Can I have just the `.hex` firmware file?
-    -   Yes, in each keyboards `Firmware` directory there is a file called `default.hex` with my personal map for that board, typically in Colemak. There also might be variants of that keymap. You can use this with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) if you don't want to compile the firmware yourself or run into issues.
--   What are the V1 case files?
-    -   V1 are the original files that I built the boards with. After learning better techniques, I added shelves to hold the plates better along with minimizing the total amount of screws needed. The new V2 files are compatible with both regular and counter sunk screws along with having cutouts so the switches actually clip into the plate.
 
 # License
 

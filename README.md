@@ -13,6 +13,7 @@ ScottoKeebs at its core is an extensive collection of freely available handwired
 - [YouTube](https://youtube.com/joe_scotto)
 - [Recommendations](https://scottokeebs.com/pages/recommendations)
 - [Handwiring](https://www.youtube.com/watch?v=hjml-K-pV4E)
+- [Shop](https://www.youtube.com/watch?v=hjml-K-pV4E)
 
 # Supporting
 

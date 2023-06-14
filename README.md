@@ -19,7 +19,7 @@ ScottoKeebs at its core is an extensive collection of freely available handwired
 
 The ScottoKeebs project is released entirely for free and always will be, however, the development of new boards is completely out of my own pocket. It’s not a particularly expensive project to maintain but does involve quite a bit of time between prototyping and making content related to them.
 
-**_If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop)._**
+**If you happen to really enjoy what I do and want to support me, consider [donating](https://donate.stripe.com/eVa14Yev83SmavmbII) or purchasing something from my [shop](https://www.scottokeebs.com/shop).**
 
 # License
 

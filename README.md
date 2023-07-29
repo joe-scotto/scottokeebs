@@ -9,7 +9,7 @@ ScottoKeebs at its core is an extensive collection of freely available handwired
 -   [Website](https://scottokeebs.com)
 -   [Keyboards](https://scottokeebs.com/blogs/keyboards)
 -   [Macropads](https://scottokeebs.com/blogs/macropads)
--   [Extras](/extras)
+-   [Extras](https://github.com/joe-scotto/scottokeebs/tree/main/Extras)
 -   [Discord](https://discord.gg/vN6X3z8eyv)
 -   [YouTube](https://youtube.com/joe_scotto)
 -   [Recommendations](https://scottokeebs.com/pages/recommendations)

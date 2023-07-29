@@ -1,19 +1,20 @@
 ![ScottoKeebs logo](https://github.com/joe-scotto/scottokeebs/assets/8194147/d13ea430-0d15-4b06-acb6-fe8aa295f84d)
 
-
 ![Joe Scotto with his keyboards](https://github.com/joe-scotto/scottokeebs/assets/8194147/afba37af-4600-497a-99e5-f7feeaef8ee7)
 
 ScottoKeebs at its core is an extensive collection of freely available handwired keyboard and macropad projects. It was started in September of 2022 and since then over 19 projects have been released. Most of them fit on a common 220x220mm 3D printer, require minimal support material, and use either an Arduino Pro Micro or a more powerful Raspberry Pi Pico.
 
 # Navigation
-- [Website](https://scottokeebs.com)
-- [Keyboards](https://scottokeebs.com/blogs/keyboards)
-- [Macropads](https://scottokeebs.com/blogs/macropads)
-- [Discord](https://discord.gg/vN6X3z8eyv)
-- [YouTube](https://youtube.com/joe_scotto)
-- [Recommendations](https://scottokeebs.com/pages/recommendations)
-- [Handwiring](https://www.youtube.com/watch?v=hjml-K-pV4E)
-- [Shop](https://www.youtube.com/watch?v=hjml-K-pV4E)
+
+-   [Website](https://scottokeebs.com)
+-   [Keyboards](https://scottokeebs.com/blogs/keyboards)
+-   [Macropads](https://scottokeebs.com/blogs/macropads)
+-   [Extras](/extras)
+-   [Discord](https://discord.gg/vN6X3z8eyv)
+-   [YouTube](https://youtube.com/joe_scotto)
+-   [Recommendations](https://scottokeebs.com/pages/recommendations)
+-   [Handwiring](https://www.youtube.com/watch?v=hjml-K-pV4E)
+-   [Shop](https://www.youtube.com/watch?v=hjml-K-pV4E)
 
 # Supporting
 

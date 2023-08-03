@@ -1,6 +1,6 @@
 # ScottoOpener
 
-Keycap openers for Cherry MX or Kailh. Compatible with most switches although sometimes Kailh will have poor tolerances leading to a hard to open switch. This is especially true when using Outemu branded Kailh-style switches.
+Keyswitch openers for Cherry MX or Kailh.
 
 These are best printed in resin, not FDM and because they endure a bit of abuse you should use something tough such as [Siraya Tech Blu](https://amzn.to/3q3jf1U).
 

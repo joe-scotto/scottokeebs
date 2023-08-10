@@ -180,10 +180,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,                   KC_TRNS,                                              KC_TRNS
     ),
     [2] = LAYOUT_ortho_3x10_3(
-        KC_UNDS,         KC_MINS,         KC_PLUS,         KC_EQL,          KC_COLN, KC_GRV,   KC_MRWD, KC_MPLY, KC_MFFD, KC_DEL,
-        KC_LCBR,         KC_LPRN,         KC_RPRN,         KC_RCBR,         KC_PIPE, KC_ESC,   KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT,
-        LSFT_T(KC_LBRC), LCTL_T(KC_QUOT), LALT_T(KC_DQUO), LGUI_T(KC_RBRC), KC_SCLN, KC_TILDE, KC_TRNS, KC_TRNS, KC_TRNS, RSFT_T(KC_BSLS),
-        KC_TRNS,                                           KC_TRNS,                                                       KC_TRNS
+        KC_UNDS,         KC_MINS,         KC_PLUS,         KC_EQL,          KC_COLN, KC_GRV,   KC_MRWD,          KC_MPLY,         KC_MFFD,         KC_DEL,
+        KC_LCBR,         KC_LPRN,         KC_RPRN,         KC_RCBR,         KC_PIPE, KC_ESC,   KC_LEFT,          KC_UP,           KC_DOWN,         KC_RGHT,
+        LSFT_T(KC_LBRC), LCTL_T(KC_QUOT), LALT_T(KC_DQUO), LGUI_T(KC_RBRC), KC_SCLN, KC_TILDE, LGUI_T(KC_VOLD), LALT_T(KC_MUTE), LCTL_T(KC_VOLU), RSFT_T(KC_BSLS),
+        KC_TRNS,                                           KC_TRNS,                                                                                KC_TRNS
     ),
     [3] = LAYOUT_ortho_3x10_3(
         KC_F11,  KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_F12, 

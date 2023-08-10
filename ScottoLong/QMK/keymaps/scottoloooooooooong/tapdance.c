@@ -32,9 +32,11 @@ typedef enum {
     TD_SINGLE_HOLD,
     TD_DOUBLE_HOLD,
     TD_TRIPLE_HOLD,
+    TD_QUAD_HOLD,
     TD_SINGLE_TAP,
     TD_DOUBLE_TAP,
-    TD_TRIPLE_TAP
+    TD_TRIPLE_TAP,
+    TD_QUAD_TAP
 } td_state_t;
 
 typedef struct {
@@ -71,6 +73,14 @@ td_state_t cur_dance(tap_dance_state_t *state) {
                 return TD_TRIPLE_TAP;
             } else {
                 return TD_TRIPLE_HOLD;
+            }
+
+            break;
+        case 4 :
+            if (state->interrupted || !state->pressed) {
+                return TD_QUAD_TAP;
+            } else {
+                return TD_QUAD_HOLD;
             }
 
             break;
@@ -181,6 +191,7 @@ void td_mods_comma_finished(tap_dance_state_t *state, void *user_data) {
         case TD_SINGLE_TAP: tap_code(KC_COMMA); break;
         case TD_DOUBLE_TAP: tap_code(KC_ENT); break;
         case TD_TRIPLE_TAP: tap_code(KC_TAB); break;
+        case TD_QUAD_TAP: tap_code(KC_ESC); break;
         default: break;
     }
 }
@@ -190,6 +201,7 @@ void td_mods_comma_restart(tap_dance_state_t *state, void *user_data) {
         case TD_SINGLE_TAP: unregister_code(KC_COMMA); break;
         case TD_DOUBLE_TAP: unregister_code(KC_ENT); break;
         case TD_TRIPLE_TAP: unregister_code(KC_TAB); break;
+        case TD_QUAD_TAP: unregister_code(KC_ESC); break;
         default: break;
     }
     xtap_state.state = TD_NONE;
@@ -201,6 +213,7 @@ void td_mods_vold_finished(tap_dance_state_t *state, void *user_data) {
         case TD_SINGLE_TAP: tap_code(KC_VOLD); break;
         case TD_DOUBLE_TAP: tap_code(KC_ENT); break;
         case TD_TRIPLE_TAP: tap_code(KC_TAB); break;
+        case TD_QUAD_TAP: tap_code(KC_ESC); break;
         default: break;
     }
 }
@@ -210,6 +223,7 @@ void td_mods_vold_restart(tap_dance_state_t *state, void *user_data) {
         case TD_SINGLE_TAP: unregister_code(KC_VOLD); break;
         case TD_DOUBLE_TAP: unregister_code(KC_ENT); break;
         case TD_TRIPLE_TAP: unregister_code(KC_TAB); break;
+        case TD_QUAD_TAP: unregister_code(KC_ESC); break;
         default: break;
     }
     xtap_state.state = TD_NONE;

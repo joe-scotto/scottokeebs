@@ -1,19 +1,23 @@
-# ScottoKeebs - Kicad
+# ScottoKicad
 
 A collection of footprints, symbols, and 3D models for building mechanical keyboards with Kicad.
 
 # Installation
-1. Save the repo somewhere such as your documents folder.
-2. Add a `SCOTTOKEEBS_KICAD` path to match where you saved the repo.
-![CleanShot 2023-08-12 at 14 42 09@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/c3bbd939-125e-4808-a0a3-97be20b5b62d)
-![CleanShot 2023-08-12 at 14 44 42@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/089cd9b1-2e44-4baa-b8c4-86a27982e3cf)
-3. Add the symbol library.
-![CleanShot 2023-08-12 at 14 45 32@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/9caffa15-ba49-411e-a6f5-90aee1baabbe)
-![CleanShot 2023-08-12 at 14 46 13@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/d2dbe7d9-3823-478c-b8e0-63d463761353)
-4. Add the footprint libraries.
-![CleanShot 2023-08-12 at 14 46 55@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/09d51ef5-dc06-4167-8aa1-a6c4fe7c0ea5)
-![CleanShot 2023-08-12 at 14 47 31@2x](https://github.com/joe-scotto/scottokeebs-kicad/assets/8194147/23c35685-fac0-4d82-9891-640473e7c508)
-5. That's it, you should now have everything you need!
+1. Add a `SCOTTOKEEBS_KICAD` path to match where the `ScottoKicad` folder is located.
+![CleanShot 2023-08-12 at 14 56 12@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/5163f9db-0dfa-4ae7-ba4a-295114c5c051)
+![CleanShot 2023-08-12 at 15 03 32@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/28e6b534-e96d-4a14-9fd1-886b87db1c7b)
+
+2. Add the symbol library.
+![CleanShot 2023-08-12 at 14 56 42@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/d76cbe33-e155-46d1-98df-d8cd789688e6)
+![CleanShot 2023-08-12 at 15 04 35@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/e165293a-2aba-4269-a040-300297fd4089)
+
+3. Add the footprint libraries.
+![CleanShot 2023-08-12 at 14 56 56@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/f4105958-389d-4a0a-96d6-8b4eb98136e7)
+![CleanShot 2023-08-12 at 15 05 28@2x](https://github.com/joe-scotto/scottokeebs/assets/8194147/68367a4b-eca6-4440-8bf4-b6bf8ef522fa)
+
+4. That's it, you should now have everything you need!
+
+
 
 # Resources
 

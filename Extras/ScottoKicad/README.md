@@ -3,17 +3,18 @@
 A collection of footprints, symbols, and 3D models for building mechanical keyboards with Kicad.
 
 # Installation
+
 1. Add a `SCOTTOKEEBS_KICAD` path to match where the `ScottoKicad` folder is located.
-![Preferences -> Configure Paths](https://github.com/joe-scotto/scottokeebs/assets/8194147/5163f9db-0dfa-4ae7-ba4a-295114c5c051)
-![Configure Paths](https://github.com/joe-scotto/scottokeebs/assets/8194147/28e6b534-e96d-4a14-9fd1-886b87db1c7b)
+   ![Preferences -> Configure Paths](https://github.com/joe-scotto/scottokeebs/assets/8194147/5163f9db-0dfa-4ae7-ba4a-295114c5c051)
+   ![Configure Paths](https://github.com/joe-scotto/scottokeebs/assets/8194147/28e6b534-e96d-4a14-9fd1-886b87db1c7b)
 
 2. Add the symbol library.
-![Preferences -> Manage Symbol Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/d76cbe33-e155-46d1-98df-d8cd789688e6)
-![Symbol Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/e165293a-2aba-4269-a040-300297fd4089)
+   ![Preferences -> Manage Symbol Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/d76cbe33-e155-46d1-98df-d8cd789688e6)
+   ![Symbol Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/e165293a-2aba-4269-a040-300297fd4089)
 
 3. Add the footprint libraries.
-![Preferences -> Manage Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/f4105958-389d-4a0a-96d6-8b4eb98136e7)
-![Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/68367a4b-eca6-4440-8bf4-b6bf8ef522fa)
+   ![Preferences -> Manage Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/f4105958-389d-4a0a-96d6-8b4eb98136e7)
+   ![Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/68367a4b-eca6-4440-8bf4-b6bf8ef522fa)
 
 4. That's it, you should now have everything you need!
 
@@ -39,7 +40,9 @@ A collection of footprints, symbols, and 3D models for building mechanical keybo
 
 # Resources
 
--   [Keyswitch Library](https://github.com/kiswitch/kiswitch/tree/main)
--   [Raspberry Pi Pico](https://github.com/ncarandini/KiCad-RP-Pico)
--   [Arduino Pro Micro](https://github.com/g200kg/kicad-lib-arduino)
--   [Marbastlib](https://github.com/ebastler/marbastlib)
+Please refer to each library in order to understand the license it uses, most are Creative Commons CC-BY-SA 4.0.
+
+-   [Keyswitch Library](https://github.com/kiswitch/kiswitch/tree/main) - 3D models and footprints for switches, stabilizers, and sockets.
+-   [Raspberry Pi Pico](https://github.com/ncarandini/KiCad-RP-Pico) - 3D model, footprint, and symbol.
+-   [Arduino Pro Micro](https://github.com/g200kg/kicad-lib-arduino) - Footprint and symbol.
+-   [Marbastlib](https://github.com/ebastler/marbastlib) - Symbols

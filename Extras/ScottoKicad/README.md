@@ -46,3 +46,4 @@ Please refer to each library in order to understand the license it uses, most ar
 -   [Raspberry Pi Pico](https://github.com/ncarandini/KiCad-RP-Pico) - 3D model, footprint, and symbol.
 -   [Arduino Pro Micro](https://github.com/g200kg/kicad-lib-arduino) - Footprint and symbol.
 -   [Marbastlib](https://github.com/ebastler/marbastlib) - Symbols
+-   [Kleeb](https://github.com/crides/kleeb) - 3D models and footprints

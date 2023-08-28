@@ -1,7 +1,7 @@
 (module Hotswap_Choc_V2_Plated_2.25u (layer F.Cu) (tedit 0)
   (descr "Choc keyswitch V2 CPG1353 V2 Hotswap Plated Keycap 2.25u")
   (tags "Choc Keyswitch Switch CPG1353 V2 Hotswap Plated Cutout Keycap 2.25u")
-  (attr smd)
+  (attr smd allow_soldermask_bridges)
   (fp_text reference REF** (at 0 -9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

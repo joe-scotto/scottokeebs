@@ -1,7 +1,7 @@
 (module Choc_V1_Plated_2.50u_90deg (layer F.Cu) (tedit 0)
   (descr "Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 2.50u 90deg")
   (tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 2.50u 90deg")
-  (attr smd)
+  (attr smd allow_soldermask_bridges)
   (fp_text reference REF** (at 0 -9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

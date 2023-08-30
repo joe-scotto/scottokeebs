@@ -35,7 +35,7 @@ A collection of footprints, symbols, and 3D models for building mechanical keybo
 -   **Set Origin Point (S)** - Set where everything else will move in relation to.
 -   **Move with Reference (])** - Move a footprint with a reference point.
 -   **Track Tool (X)** - Place traces
--   ** Add Via (V)** - Place a via to run a trace between PCB layers.
+-   **Add Via (V)** - Place a via to run a trace between PCB layers.
 -   **Flip (F)** - Switch footprint between back and front of the PCB.
 
 # Resources

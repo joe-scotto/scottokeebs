@@ -48,3 +48,9 @@ Please refer to each library in order to understand the license it uses, most ar
 -   [Marbastlib](https://github.com/ebastler/marbastlib) - Symbols.
 -   [Kleeb](https://github.com/crides/kleeb) - 3D models, symbols, and footprints.
 -   [Keebio](https://github.com/keebio/Keebio-Parts.pretty) - 3D models, footprints, and symbols.
+
+# Credits
+
+Feel free to reach out to me on Discord if you want to help get a component into the library.
+
+-   nice!nano - Base dimensions and placement by @Knotherface, can be found on GitHub as [Leopere](https://github.com/Leopere).

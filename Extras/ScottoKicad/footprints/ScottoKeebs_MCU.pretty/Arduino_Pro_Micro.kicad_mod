@@ -5,7 +5,7 @@
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     (tstamp 424c16a4-34f7-4430-8bc4-7c0f957bed29)
   )
-  (fp_text value "ProMicro" (at 0 0) (layer "F.SilkS") hide
+  (fp_text value "Arduino_Pro_Micro" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     (tstamp 71df3eaa-4617-4573-8f7c-b46dfaa34385)
   )

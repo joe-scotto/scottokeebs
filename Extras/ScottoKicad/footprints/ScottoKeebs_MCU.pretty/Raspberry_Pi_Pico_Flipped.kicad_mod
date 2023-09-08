@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 96315415-cfed-47d2-b3dd-d782358bd0df)
   )
-  (fp_text value "Raspberry Pi Pico - Flipped" (at 0 -28) (layer "F.Fab") hide
+  (fp_text value "Raspberry_Pi_Pico_Flipped" (at 0 -28) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 46cbe85d-ff47-428e-b187-4ebd50a66e0c)
   )

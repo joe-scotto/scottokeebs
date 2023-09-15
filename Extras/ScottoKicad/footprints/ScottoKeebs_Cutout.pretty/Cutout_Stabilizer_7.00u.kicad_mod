@@ -1,0 +1,135 @@
+(footprint "Cutout_Stabilizer_7.00u" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "MX keyswitch plate cutout 2.00u")
+  (tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -8) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 37113ea2-ab0c-482e-add6-04452ab8f47b)
+  )
+  (fp_text value "CUTOUT_STABILIZER_7.00u" (at 0 8) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a0a80089-17b1-4a44-9cad-2219e67a8959)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cd0aad4b-272e-46e5-8689-23ff51ee4c5c)
+  )
+  (fp_line (start -61.341 -2.286) (end -60.4774 -2.286)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e9e786eb-2120-4e31-b12b-20a49b37c0b1))
+  (fp_line (start -61.341 0.508) (end -61.341 -2.286)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp afff8632-0628-4239-b1b0-5f571aa3a54d))
+  (fp_line (start -60.4774 -5.6896) (end -53.8226 -5.6896)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4124f0b5-71e8-43c7-a09e-1a03795d872a))
+  (fp_line (start -60.4774 -2.286) (end -60.4774 -5.6896)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 6e93fc49-f830-491e-b7d5-e01b38383135))
+  (fp_line (start -60.4774 0.508) (end -61.341 0.508)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 9213c334-fec9-47e5-8eb9-aa7e65cdc95b))
+  (fp_line (start -60.4774 6.604) (end -60.4774 0.508)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 881bb6e3-77bb-4e5d-9b68-e13d4f45ea22))
+  (fp_line (start -58.674 6.604) (end -60.4774 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp cd3c4564-bf31-4364-bd54-770c1ec0ede6))
+  (fp_line (start -58.674 7.7724) (end -58.674 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp bdc0d0d2-9518-4706-8a46-f27e4d10f6da))
+  (fp_line (start -55.626 6.604) (end -55.626 7.7724)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 886a9b69-91ee-4f05-9852-8947ff849665))
+  (fp_line (start -55.626 7.7724) (end -58.674 7.7724)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 35c750cc-3ede-48e2-a530-d95e034d932b))
+  (fp_line (start -53.8226 -5.6896) (end -53.8226 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp d08e75b6-bdb2-4bad-b4eb-6d991a1199f5))
+  (fp_line (start -53.8226 -2.3) (end -7 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 5406cd19-22dc-49ff-b30d-57630231076c))
+  (fp_line (start -53.8226 2.3) (end -53.8226 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 0e96cc55-aad3-4c76-89d8-2c54adb54898))
+  (fp_line (start -53.8226 6.604) (end -55.626 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 3afef4e7-b3f2-479c-af73-b7db8ddc1407))
+  (fp_line (start -7 -7) (end -7 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 865ad21f-71b9-40d1-a716-ed8185dd3f95))
+  (fp_line (start -7 -7) (end 7 -7)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 36109296-5982-4fd8-8075-131a19271e86))
+  (fp_line (start -7 2.3) (end -53.8226 2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp b7ef625e-1732-42c0-bb03-682ec5aeeab4))
+  (fp_line (start -7 2.3) (end -7 7)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 7c5bd2c6-bbc6-4392-82d8-3fba15a8eaed))
+  (fp_line (start -7 7) (end 7 7)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e5aaf2ca-901d-4812-8c90-f884b82b8d21))
+  (fp_line (start 7 -7) (end 7 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e8ce0399-45b8-48be-86fa-e0bb105933a7))
+  (fp_line (start 7 2.3) (end 7 7)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp d721c4c3-c06e-4dac-a7aa-aab1232f6e5f))
+  (fp_line (start 7 2.3) (end 53.8226 2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 7999c447-cc8f-4b50-b588-1c8d470b53bd))
+  (fp_line (start 53.8226 -5.6896) (end 53.8226 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 2787c1dc-64f3-4e20-9e18-aef73f252ebc))
+  (fp_line (start 53.8226 -2.3) (end 7 -2.3)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp effd1ffd-520e-4e01-9331-d1c42787757d))
+  (fp_line (start 53.8226 2.3) (end 53.8226 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp bab54757-751e-4f74-bad2-a061801fc352))
+  (fp_line (start 53.8226 6.604) (end 55.626 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 87e8983f-369d-4858-829d-e21744932612))
+  (fp_line (start 55.626 6.604) (end 55.626 7.7724)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 49e8dd71-b0c5-4b21-8e02-019a25a9b1e7))
+  (fp_line (start 55.626 7.7724) (end 58.674 7.7724)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp b1511e6f-0031-4a8a-8ee9-8d5a1b604e73))
+  (fp_line (start 58.674 6.604) (end 60.4774 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 92ab3f2c-9291-43f8-94f3-56847e117fd6))
+  (fp_line (start 58.674 7.7724) (end 58.674 6.604)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp df27a31e-aa92-4eb2-b85f-d413206b2085))
+  (fp_line (start 60.4774 -5.6896) (end 53.8226 -5.6896)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp a783acc6-e923-475e-a711-87039d5aa0e2))
+  (fp_line (start 60.4774 -2.286) (end 60.4774 -5.6896)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4f991fbf-7f9d-4fb5-898c-9d392d5f61b7))
+  (fp_line (start 60.4774 0.508) (end 61.341 0.508)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp a306d9c0-e9a8-4972-8bb7-3f012f061a2c))
+  (fp_line (start 60.4774 6.604) (end 60.4774 0.508)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 3bbb7325-7395-4fdd-b22b-614103a2fed5))
+  (fp_line (start 61.341 -2.286) (end 60.4774 -2.286)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4612904d-5d67-459c-a161-8dd9f7e0389d))
+  (fp_line (start 61.341 0.508) (end 61.341 -2.286)
+    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 31372c67-de15-456b-b5ae-d0e664bd06a6))
+  (group "" (id 4c4b0411-b4ac-4a20-8d84-50e5b38a8aa0)
+    (members
+      0e96cc55-aad3-4c76-89d8-2c54adb54898
+      2787c1dc-64f3-4e20-9e18-aef73f252ebc
+      31372c67-de15-456b-b5ae-d0e664bd06a6
+      35c750cc-3ede-48e2-a530-d95e034d932b
+      36109296-5982-4fd8-8075-131a19271e86
+      3afef4e7-b3f2-479c-af73-b7db8ddc1407
+      3bbb7325-7395-4fdd-b22b-614103a2fed5
+      4124f0b5-71e8-43c7-a09e-1a03795d872a
+      4612904d-5d67-459c-a161-8dd9f7e0389d
+      49e8dd71-b0c5-4b21-8e02-019a25a9b1e7
+      4f991fbf-7f9d-4fb5-898c-9d392d5f61b7
+      5406cd19-22dc-49ff-b30d-57630231076c
+      6e93fc49-f830-491e-b7d5-e01b38383135
+      7999c447-cc8f-4b50-b588-1c8d470b53bd
+      7c5bd2c6-bbc6-4392-82d8-3fba15a8eaed
+      865ad21f-71b9-40d1-a716-ed8185dd3f95
+      87e8983f-369d-4858-829d-e21744932612
+      881bb6e3-77bb-4e5d-9b68-e13d4f45ea22
+      886a9b69-91ee-4f05-9852-8947ff849665
+      9213c334-fec9-47e5-8eb9-aa7e65cdc95b
+      92ab3f2c-9291-43f8-94f3-56847e117fd6
+      a306d9c0-e9a8-4972-8bb7-3f012f061a2c
+      a783acc6-e923-475e-a711-87039d5aa0e2
+      afff8632-0628-4239-b1b0-5f571aa3a54d
+      b1511e6f-0031-4a8a-8ee9-8d5a1b604e73
+      b7ef625e-1732-42c0-bb03-682ec5aeeab4
+      bab54757-751e-4f74-bad2-a061801fc352
+      bdc0d0d2-9518-4706-8a46-f27e4d10f6da
+      cd3c4564-bf31-4364-bd54-770c1ec0ede6
+      d08e75b6-bdb2-4bad-b4eb-6d991a1199f5
+      d721c4c3-c06e-4dac-a7aa-aab1232f6e5f
+      df27a31e-aa92-4eb2-b85f-d413206b2085
+      e5aaf2ca-901d-4812-8c90-f884b82b8d21
+      e8ce0399-45b8-48be-86fa-e0bb105933a7
+      e9e786eb-2120-4e31-b12b-20a49b37c0b1
+      effd1ffd-520e-4e01-9331-d1c42787757d
+    )
+  )
+  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
+    (offset (xyz 0 0 -5.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

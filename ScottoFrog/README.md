@@ -1,6 +1,6 @@
 # ScottoFrog
 
-A 20-key single handed wireless keyboard based on the [FrogPad](frogpad.com).
+A 20-key single handed wireless keyboard based on the [FrogPad](http://frogpad.com).
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/macropads/scottofrog-handwired-macropad).
 

@@ -10,6 +10,8 @@ One large issue is that most keycaps will be rotated clockwise about 1 degree wh
 
 Stabilized keys don't typically face this issue since they have multiple mounting points to keep them aligned. It's also counterintuitive because to get a counterclockwise rotation, you need to rotate the keycap body clockwise since you're looking at it from the back.
 
+![Rotation](https://github.com/joe-scotto/scottokeebs/assets/8194147/beec036d-2de6-4332-99fc-ee3706a78251)
+
 # Stems
 
 The stems are designed based on a tolerance of 0.15mm, your printer may or may not be capable of handling this. If your keycaps are too tight, you can use some hot water to make the plastic more pliable when installing them. If they are too loose, you can cut [Kapton tape](https://amzn.to/45GeFFr) and use it between the keycap and switch to improve the fit.

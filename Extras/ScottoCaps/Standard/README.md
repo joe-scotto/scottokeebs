@@ -4,4 +4,4 @@ Low-profile flat Cherry MX keycaps designed for FDM 3D printing. I recommend usi
 
 **These are skewed -0.875° to counteract misalignment between keys**
 
-![ScottoCaps Cura](https://github.com/joe-scotto/scottokeebs/assets/8194147/9a27fbba-cf94-45f1-961d-28b70be86ccf)
+![ScottoCaps (Standard) Shapr3D](https://github.com/joe-scotto/scottokeebs/assets/8194147/7e9c1d18-393e-43a5-882d-ae4ba2fd26f7)

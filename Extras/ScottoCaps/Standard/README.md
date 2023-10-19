@@ -6,7 +6,7 @@ Low-profile flat Cherry MX keycaps designed for FDM 3D printing. I recommend usi
 
 # Rotation Issue
 
-One large issue is that most keycaps will be rotated clockwise about 1 degree which makes them look odd on a keyboard. To hopefully counteract this, all single-mount keycaps are rotated counterclockwise **0.75 degrees**. This number is a rough average that I've gotten based on community feedback and my own testing on 5 different printers. It is close but you may have to manually modify the STEP file to get a rotation that works for your machine.
+One large issue is that most keycaps will be rotated clockwise about 1 degree which makes them look odd on a keyboard. To hopefully counteract this, all single-mount keycaps are rotated counterclockwise **0.75 degrees**. This number is a rough average that I've gotten based on community feedback and my own testing on 5 different printers. It is close but you may have to manually modify the STEP file to get a rotation that works for your machine. You can also mirror the keycap in your slicer if you have counterclockwise rotation. 
 
 Stabilized keys don't typically face this issue since they have multiple mounting points to keep them aligned. It's also counterintuitive because to get a counterclockwise rotation, you need to rotate the keycap body clockwise since you're looking at it from the back.
 

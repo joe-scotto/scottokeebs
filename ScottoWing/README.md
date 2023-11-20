@@ -1,6 +1,6 @@
 # ScottoWing
 
-The ScottoWing is a low-profile 34/40-key split monoblock ortholinear ergonomic keyboard that uses 18x17mm spaced Choc switches.
+The ScottoWing is a low-profile 34/40-key split monoblock ergonomic column-staggered ortholinear keyboard that uses 18x17mm spaced Choc switches.
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottowing-handwired-keyboard).
 

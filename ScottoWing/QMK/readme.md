@@ -2,7 +2,7 @@
 
 <!-- ![ScottoWing](https://i.imgur.com/nTxYa7ih.jpg) -->
 
-A low-profile 34/40-key split monoblock ortholinear ergonomic keyboard that uses 18x17mm spaced Choc switches
+A low-profile 34/40-key split monoblock ergonomic column-staggered ortholinear keyboard that uses 18x17mm spaced Choc switches.
 
 *   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 *   Hardware Supported: RP2040 ero

@@ -1,6 +1,6 @@
 # ScottoWing
 
-<!-- ![ScottoWing](https://i.imgur.com/nTxYa7ih.jpg) -->
+![ScottoWing](https://i.imgur.com/VSASAjxh.jpeg)
 
 A low-profile 34/40-key split monoblock ergonomic column-staggered ortholinear keyboard that uses 18x17mm spaced Choc switches.
 

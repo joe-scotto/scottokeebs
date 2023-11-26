@@ -5,11 +5,11 @@ HEADER;
 
 FILE_DESCRIPTION(('HOOPS Exchange Step'),'2;1');
 
-FILE_NAME('/var/folders/hd/s3_8dfks4419lbhxn872679c0000gn/T/com.shapr3d.shapr/export/temp_export',
-'2023-06-14T19:32:38-04:00',
+FILE_NAME('/Users/jscotto/Library/Containers/com.shapr3d.shapr/Data/tmp/export/temp_export',
+'2023-11-26T17:18:02-05:00',
 ('jscotto'),
 ('Shapr3D Limited'),
-'HOOPS Exchange 2022.2',
+'HOOPS Exchange 2023.2',
 'Shapr3D',
 'Authorized');
 

@@ -1,6 +1,6 @@
 ![ScottoKeebs logo](https://github.com/joe-scotto/scottokeebs/assets/8194147/d13ea430-0d15-4b06-acb6-fe8aa295f84d)
 
-![Joe Scotto with his keyboards](https://github.com/joe-scotto/scottokeebs/assets/8194147/afba37af-4600-497a-99e5-f7feeaef8ee7)
+![Joe Scotto with his keyboards](https://github.com/joe-scotto/scottokeebs/assets/8194147/b430ac63-c363-41df-85e6-292d84d034fc)
 
 ScottoKeebs at its core is an extensive collection of freely available handwired keyboard and macropad projects. It was started in September of 2022 and since then over 19 projects have been released. Most of them fit on a common 220x220mm 3D printer, require minimal support material, and use either an Arduino Pro Micro or a more powerful Raspberry Pi Pico.
 

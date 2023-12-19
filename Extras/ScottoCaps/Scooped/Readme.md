@@ -8,6 +8,9 @@ Scooped Cherry MX keycaps designed for FDM 3D printing. The legend variant of th
 
 ![ScottoCaps (Scooped) Bambu Studio](https://github.com/joe-scotto/scottokeebs/assets/8194147/fd91f6c3-f56d-4182-b6f4-5cd02d160acf)
 
+# Spacing
+
+There are two different versions, 0.75mm and 1.05mm. Everything about these is identical except how far each keycap is from one another. If you want closer spacing, go with the 0.75mm... if you want further spacing, go with the 1.05mm.
 
 # Stems
 

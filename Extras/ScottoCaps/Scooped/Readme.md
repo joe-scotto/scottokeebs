@@ -10,7 +10,7 @@ Scooped Cherry MX keycaps designed for FDM 3D printing. The legend variant of th
 
 # Spacing
 
-There are two different versions, 0.75mm and 1.05mm. Everything about these is identical except how far each keycap is from one another. If you want closer spacing, go with the 0.75mm... if you want further spacing, go with the 1.05mm.
+There are two different versions you can choose for spacing, 0.75mm and 1.05mm. Everything about these is identical except how far each keycap is from one another. If you want closer spacing, go with the 0.75mm... if you want further spacing, go with the 1.05mm. I personally recommend the 0.75mm spaced option as the 1.05mm can seem a bit wide although it's technically correct according to Cherry spec.
 
 # Stems
 

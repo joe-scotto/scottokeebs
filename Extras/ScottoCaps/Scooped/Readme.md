@@ -16,3 +16,5 @@ The stems are designed based on a tolerance of ~0.15mm, your printer may or may 
 This same method will apply to the stabilizers and is more likely to be needed as they're not all made equal. I've found some stabilizers are a lot smaller than the Cherry MX stem specifications which in turn requires more than one piece of tape to get them properly attached.
 
 **Don't force them onto your switches as if they're too tight, it will be very hard to get them off.**
+
+![Taped Stem](https://github.com/joe-scotto/scottokeebs/assets/8194147/4f1f5602-bea6-4b5c-ba0c-8db53eb33b19)

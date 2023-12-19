@@ -5,15 +5,14 @@ Scooped Cherry MX keycaps designed for FDM 3D printing. The legend variant of th
 -   **Legends:** SF Pro Rounded
 -   **Legend Height:** ~6mm
 -   **Keycap Dimensions:** 18x18x7.3mm
+-   **Keycap Spacing**: 0.75mm
 
 ![ScottoCaps (Scooped) Bambu Studio](https://github.com/joe-scotto/scottokeebs/assets/8194147/fd91f6c3-f56d-4182-b6f4-5cd02d160acf)
-
-# Spacing
-
-There are two different versions you can choose for spacing, 0.75mm and 1.05mm. Everything about these is identical except how far each keycap is from one another. If you want closer spacing, go with the 0.75mm... if you want further spacing, go with the 1.05mm. I personally recommend the 0.75mm spaced option as the 1.05mm can seem a bit wide although it's technically correct according to Cherry spec.
 
 # Stems
 
 The stems are designed based on a tolerance of ~0.15mm, your printer may or may not be capable of handling this. If your keycaps are too tight, you can use some hot water to make the plastic more pliable when installing them. If they are too loose, you can cut [Kapton tape](https://amzn.to/45GeFFr) and use it between the keycap and switch to improve the fit.
+
+This same method will apply to the stabilizers and is more likely to be needed as they're not all made equal. I've found some stabilizers are a lot smaller than the Cherry MX stem specifications which in turn requires more than one piece of tape to get them properly attached.
 
 **Don't force them onto your switches as if they're too tight, it will be very hard to get them off.**

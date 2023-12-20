@@ -1,6 +1,6 @@
 # Scotto108
 
-![Scotto108](https://i.imgur.com/zGH0GPXh.jpg)
+![Scotto108](https://i.imgur.com/ss4BEujh.jpg)
 
 A 108-key full-sized ortholinear keyboard with a 7u spacebar and 4 macro keys above the numpad.
 

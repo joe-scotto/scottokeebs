@@ -4,10 +4,12 @@ Scooped Cherry MX keycaps designed for FDM 3D printing. The legend variant of th
 
 -   **Legends:** SF Pro Rounded
 -   **Legend Height:** ~6mm
+-   **Legend Depth:** 1.6mm
+-   **Blank Scoop:** 1.0mm
 -   **Keycap Dimensions:** 18x18x7.3mm
--   **Keycap Spacing**: 0.75mm
--   **Corner Fillet**: 1.25mm
--   **Top Fillet**: 0.625mm
+-   **Keycap Spacing:** 0.75mm
+-   **Corner Fillet:** 1.25mm
+-   **Top Fillet:** 0.625mm
 
 ![ScottoCaps (Scooped) Bambu Studio](https://github.com/joe-scotto/scottokeebs/assets/8194147/fd91f6c3-f56d-4182-b6f4-5cd02d160acf)
 

@@ -1,13 +1,13 @@
 # ScottoCaps (Scooped)
 
-Scooped Cherry MX keycaps designed for FDM 3D printing. The legend variant of these are specifically designed for a printer capable of dual extrusion, you cannot print the legends on a single extruder printer. I recommend putting the back of the keycap towards the build plate. By doing this, you'll hide any texture on the back of the cap where it won't be as visible.
+Scooped Cherry MX and Choc keycaps designed for FDM 3D printing. The legend variant of these are specifically designed for a printer capable of dual extrusion, you cannot print the legends on a single extruder printer. I recommend putting the back of the keycap towards the build plate. By doing this, you'll hide any texture on the back of the cap where it won't be as visible.
 
 -   **Legends:** SF Pro Rounded
 -   **Legend Height:** ~6mm
 -   **Legend Depth:** 1.6mm
 -   **Blank Scoop:** 1.0mm
--   **Keycap Dimensions:** 18x18x7.3mm
--   **Keycap Spacing:** 0.75mm
+-   **Keycap Dimensions:** 18.3x18.3x7.4mm (17.5x16.5x4.8mm or 17.5x17.5x4.8mm) 
+-   **Keycap Spacing:** 0.75mm (0.50mm Choc)
 -   **Corner Fillet:** 1.25mm
 -   **Top Fillet:** 0.625mm
 

@@ -2,7 +2,7 @@
 
 Scooped Cherry MX and Choc keycaps designed for FDM 3D printing. The legend variant of these are specifically designed for a printer capable of dual extrusion, you cannot print the legends on a single extruder printer. I recommend putting the back of the keycap towards the build plate. By doing this, you'll hide any texture on the back of the cap where it won't be as visible.
 
--   **Legends:** SF Pro Rounded (Black)
+-   **Legends:** Gotham Rounded (Bold)
 -   **Legend Height:** ~6mm
 -   **Legend Depth:** 1.6mm
 -   **Blank Scoop:** 1.0mm

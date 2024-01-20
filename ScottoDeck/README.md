@@ -1,7 +1,7 @@
-# ScottoCMD
+# ScottoDeck
 
-The ScottoCMD is a 40-key ortholinear keyboard with a 6.25u spacebar, 4 dedicated function keys and 0.96" 128x64 OLED display.
+The ScottoDeck is an 8-key macropad with two EC11 encoders designed for live streaming.
 
-You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottocmd-handwired-keyboard).
+You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottodeck-handwired-macropad).
 
-![ScottoCMD](https://user-images.githubusercontent.com/8194147/192900299-f6227d48-331e-4243-8184-eb7e63fac02b.jpg)
+![ScottoDeck](https://i.imgur.com/xUl70qqh.jpeg)

@@ -1,6 +1,6 @@
 # ScottoDeck
 
-![ScottoDeck](https://i.imgur.com/inbmNSEh.jpeg)
+![ScottoDeck](https://i.imgur.com/xUl70qqh.jpeg)
 
 An 8-key macropad with two EC11 encoders designed for live streaming. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 

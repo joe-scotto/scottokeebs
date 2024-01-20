@@ -15,8 +15,8 @@
     },
     "encoder": {
         "rotary": [
-            { "pin_a": "GP2", "pin_b": "GP3", "resolution": 32 },
-            { "pin_a": "GP27", "pin_b": "GP28", "resolution": 32 }
+            { "pin_a": "GP2", "pin_b": "GP3" },
+            { "pin_a": "GP27", "pin_b": "GP28" }
         ]
     },
     "matrix_pins": {

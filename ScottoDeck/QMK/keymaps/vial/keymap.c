@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] =   { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  }
+    [0] =   { ENCODER_CCW_CW(HYPR(KC_RIGHT), HYPR(KC_LEFT)), ENCODER_CCW_CW(HYPR(KC_UP), HYPR(KC_DOWN))  }
     //                  Encoder 1                                     Encoder 2
 };
 #endif
@@ -27,8 +27,8 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 // Keymap
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        KC_A,             KC_B,
-        KC_1, KC_2, KC_3, KC_4,
-        KC_5, KC_6, KC_7, KC_8
+        HYPR(KC_9),                         HYPR(KC_0),
+        HYPR(KC_5), HYPR(KC_6), HYPR(KC_7), HYPR(KC_8),
+        HYPR(KC_1), HYPR(KC_2), HYPR(KC_3), HYPR(KC_4)
     )
 };

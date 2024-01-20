@@ -1,8 +1,8 @@
-# Scotto9
+# ScottoDeck
 
-![Scotto9](https://i.imgur.com/inbmNSEh.jpeg)
+![ScottoDeck](https://i.imgur.com/inbmNSEh.jpeg)
 
-A 9-key macropad. Case files available [here](https://github.com/joe-scotto/scottokeebs).
+An 8-key macropad with two EC11 encoders designed for live streaming. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 
 *   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 *   Hardware Supported: ATmega32U4
@@ -10,11 +10,11 @@ A 9-key macropad. Case files available [here](https://github.com/joe-scotto/scot
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/scottokeebs/scotto9:default
+    make handwired/scottokeebs/scottodeck:default
 
 Flashing example for this keyboard:
 
-    make handwired/scottokeebs/scotto9:default:flash
+    make handwired/scottokeebs/scottodeck:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

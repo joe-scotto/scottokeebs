@@ -1,6 +1,6 @@
 # ScottoAlp
 
-The ScottoAlp is a 35-key ortholinear keyboard with a 3u spacebar and is compatible with both MX or Alps.
+The ScottoAlp is a 35 or 43-key ortholinear keyboard with a 3u spacebar and is compatible with both MX or Alps.
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottoalp-handwired-keyboard).
 

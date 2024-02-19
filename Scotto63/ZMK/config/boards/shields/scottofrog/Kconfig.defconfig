@@ -1,0 +1,6 @@
+if SHIELD_SCOTTO63
+
+config ZMK_KEYBOARD_NAME
+    default "Scotto63"
+
+endif

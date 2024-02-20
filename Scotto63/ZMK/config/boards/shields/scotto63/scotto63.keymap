@@ -112,11 +112,11 @@
 
         mac_default_layer {
             bindings = <
-                &kp ESC    &kp N1        &kp N2 &kp N3    &kp N4    &kp N5                            &kp N6           &kp N7               &kp N8        &kp N9      &kp N0          &kp BACKSPACE
-                &kp TAB    &kp Q         &kp W  &kp F     &kp P     &kp G                             &kp J            &kp L                &kp U         &kp Y       &kp BACKSPACE   &kp BACKSLASH
-                &kp CAPS   &kp A         &kp R  &kp S     &kp T     &kp D           &none &none &none &kp H            &kp N                &kp E         &kp I       &kp O           &kp ENTER
-                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C     &kp V     &kp B           &none &none &none &kp N            &kp M                &kp COMMA     &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
-                                                &kp LCTRL &kp LALT  &sm LGUI SPACE  &none &none &none &lt MAC_CODE TAB &lt MAC_NUMBER ENTER &td_multi_mac
+                &kp ESC    &kp N1        &kp N2 &kp N3 &kp N4    &kp N5                                          &kp N6               &kp N7              &kp N8        &kp N9      &kp N0          &kp BACKSPACE
+                &kp TAB    &kp Q         &kp W  &kp F  &kp P     &kp G                                           &kp J                &kp L               &kp U         &kp Y       &kp BACKSPACE   &kp BACKSLASH
+                &kp CAPS   &kp A         &kp R  &kp S  &kp T     &kp D     &none          &none &none            &kp H                &kp N               &kp E         &kp I       &kp O           &kp ENTER
+                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C  &kp V     &kp B     &none          &none &none            &kp K                &kp M               &kp COMMA     &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
+                                                &none  &kp LCTRL &kp LALT  &sm LGUI SPACE &none &lt MAC_CODE TAB &lt MAC_NUMBER ENTER &td_multi_mac &none
             >;
         };
 
@@ -152,11 +152,11 @@
 
         windows_default_layer {
             bindings = <
-                &kp ESC    &kp N1        &kp N2 &kp N3   &kp N4    &kp N5                            &kp N6               &kp N7                   &kp N8            &kp N9      &kp N0          &kp BACKSPACE
-                &kp TAB    &kp Q         &kp W  &kp F    &kp P     &kp G                             &kp J                &kp L                    &kp U             &kp Y       &kp BACKSPACE   &kp BACKSLASH
-                &kp CAPS   &kp A         &kp R  &kp S    &kp T     &kp D           &none &none &none &kp H                &kp N                    &kp E             &kp I       &kp O           &kp ENTER
-                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C    &kp V     &kp B           &none &none &none &kp K                &kp M                    &kp COMMA         &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
-                                                &kp LGUI &kp LALT  &sm LCTRL SPACE &none &none &none &lt WINDOWS_CODE TAB &lt WINDOWS_NUMBER ENTER &td_multi_windows
+                &kp ESC    &kp N1        &kp N2 &kp N3   &kp N4   &kp N5                                               &kp N6                   &kp N7            &kp N8            &kp N9      &kp N0          &kp BACKSPACE
+                &kp TAB    &kp Q         &kp W  &kp F    &kp P    &kp G                                                &kp J                    &kp L             &kp U             &kp Y       &kp BACKSPACE   &kp BACKSLASH
+                &kp CAPS   &kp A         &kp R  &kp S    &kp T    &kp D     &none           &none &none                &kp H                    &kp N             &kp E             &kp I       &kp O           &kp ENTER
+                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C    &kp V    &kp B     &none           &none &none                &kp K                    &kp M             &kp COMMA         &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
+                                                &none    &kp LGUI &kp LALT  &sm LCTRL SPACE &none &lt WINDOWS_CODE TAB &lt WINDOWS_NUMBER ENTER &td_multi_windows &none
             >;
         };
 

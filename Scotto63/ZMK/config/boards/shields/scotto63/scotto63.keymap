@@ -113,8 +113,8 @@
         mac_default_layer {
             bindings = <
                 &kp ESC    &kp N1        &kp N2 &kp N3    &kp N4    &kp N5                            &kp N6           &kp N7               &kp N8        &kp N9      &kp N0          &kp BACKSPACE
-                &kp TAB    &kp Q         &kp W  &kp E     &kp R     &kp T                             &kp Y            &kp U                &kp I         &kp O       &kp P           &kp BACKSLASH
-                &kp CAPS   &kp A         &kp S  &kp D     &kp F     &kp G           &none &none &none &kp H            &kp J                &kp K         &kp L       &kp SEMICOLON   &kp ENTER
+                &kp TAB    &kp Q         &kp W  &kp F     &kp P     &kp G                             &kp J            &kp L                &kp U         &kp Y       &kp BACKSPACE   &kp BACKSLASH
+                &kp CAPS   &kp A         &kp R  &kp S     &kp T     &kp D           &none &none &none &kp H            &kp N                &kp E         &kp I       &kp O           &kp ENTER
                 &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C     &kp V     &kp B           &none &none &none &kp N            &kp M                &kp COMMA     &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
                                                 &kp LCTRL &kp LALT  &sm LGUI SPACE  &none &none &none &lt MAC_CODE TAB &lt MAC_NUMBER ENTER &td_multi_mac
             >;

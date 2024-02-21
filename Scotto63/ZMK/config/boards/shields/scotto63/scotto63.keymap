@@ -145,7 +145,7 @@
                 &trans &none        &none        &none        &none        &none                             &none     &none  &none  &none  &to WINDOWS    &trans
                 &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                      &none     &none  &none  &none  &none          &trans
                 &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &trans &trans &trans &kp F6    &kp F7 &kp F8 &kp F9 &kp F10        &trans
-                &trans &kp F11      &none        &none        &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
+                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
                                                  &trans       &trans       &trans       &trans &trans &trans &trans    &trans &trans
             >;
         };
@@ -185,7 +185,7 @@
                 &trans &none        &none        &none        &none        &none                             &none     &none  &none  &none  &to MAC        &trans
                 &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                      &none     &none  &none  &none  &none          &trans
                 &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &trans &trans &trans &kp F6    &kp F7 &kp F8 &kp F9 &kp F10        &trans
-                &trans &kp F11      &none        &none        &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
+                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
                                                  &trans       &trans       &trans       &trans &trans &trans &trans    &trans &trans
             >;
         };

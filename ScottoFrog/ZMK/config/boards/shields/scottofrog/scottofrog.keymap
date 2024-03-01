@@ -535,10 +535,10 @@
 
         number_layer {
             bindings = <
-                            &kp MINUS   &kp KP_N7 &kp KP_N8  &kp KP_N9 &none
-                            &kp SLASH   &kp KP_N4 &kp KP_N5  &kp KP_N6 &kp ASTERISK
-                            &kp KP_N0   &kp KP_N1 &kp KP_N2  &kp KP_N3 &none
-                &kp SPACE   &to DEFAULT           &to SYMBOL           &trans       &trans
+                            &kp MINUS   &kp N7 &kp N8     &kp N9 &none
+                            &kp SLASH   &kp N4 &kp N5     &kp N6 &kp ASTERISK
+                            &kp N0      &kp N1 &kp N2     &kp N3 &none
+                &kp SPACE   &to DEFAULT        &to SYMBOL        &trans       &trans
             >;
         }; 
 

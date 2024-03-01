@@ -511,6 +511,13 @@
             key-positions = <16 11>;
             bindings = <&kt K_APP>;
             layers = <SYMBOL>;
+        };       
+
+        special_shift_lock_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <15 19>;
+            bindings = <&kt RSHIFT>;
+            layers = <DEFAULT>;
         };          
     };
  

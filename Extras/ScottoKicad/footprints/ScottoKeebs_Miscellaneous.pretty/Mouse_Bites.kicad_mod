@@ -1,4 +1,4 @@
-(footprint "Mouse Bites"
+(footprint "Mouse_Bites"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Mouse Bites"
+	(property "Value" "Mouse_Bites"
 		(at 0 -4.75 0)
 		(layer "F.Fab")
 		(hide yes)

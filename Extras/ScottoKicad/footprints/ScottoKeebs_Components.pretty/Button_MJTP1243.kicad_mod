@@ -1,0 +1,337 @@
+(footprint "Button_MJTP1243"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
+	(tags "PHAP3362 6mm tact sw THT")
+	(property "Reference" "REF**"
+		(at 3.42 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "d17f06b3-06cf-4b86-9576-eb75fb3cc3df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button_MJTP1243"
+		(at 4.4 3.7 0)
+		(layer "F.Fab")
+		(uuid "5a601e4b-56c2-40d9-8b05-295fe984fd71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b3dbcda-4d2b-4bcf-a624-b62285c54e52")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a3a1786-c9be-43ef-a5c0-bf24729482be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ee934a-b96e-4f81-904f-feaf53b95a51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.15 -1.85)
+		(end 0.15 -1.39)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cdd1892f-39ee-4cd7-8b21-75e66ede3f0f")
+	)
+	(fp_line
+		(start 0.15 -1.39)
+		(end -0.85 -1.39)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60d17040-417c-4b8c-a072-fbae51ec8f31")
+	)
+	(fp_line
+		(start 0.15 1.39)
+		(end 0.15 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30e30eb1-535e-4643-833a-f92f9f00c93e")
+	)
+	(fp_line
+		(start 0.15 1.85)
+		(end 6.35 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7c1e22f-b3eb-4ce5-b4e3-790a02a5acf0")
+	)
+	(fp_line
+		(start 6.35 -1.85)
+		(end 0.15 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41e8c0e2-ece5-48f0-882a-2113ba801bdb")
+	)
+	(fp_line
+		(start 6.35 -1.85)
+		(end 6.35 -1.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8dc7593-3f24-40e2-b980-2112b194c1b4")
+	)
+	(fp_line
+		(start 6.35 1.39)
+		(end 6.35 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdeec883-59aa-4afa-80cc-548607b905b4")
+	)
+	(fp_rect
+		(start 1.75 -0.55)
+		(end 4.6 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d87ccef9-b594-4117-b4d5-eeaa9624a6c6")
+	)
+	(fp_line
+		(start -1.38 -1.38)
+		(end 0 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbebd60a-d28a-4ba5-98cf-75f6b8cf6d95")
+	)
+	(fp_line
+		(start -1.38 1.38)
+		(end -1.38 -1.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3f6fbeb-311b-4ad7-b8fe-634241c26745")
+	)
+	(fp_line
+		(start -1.38 1.38)
+		(end 0 1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a494faf-b6ba-4f99-a8ce-ebec90dd80fa")
+	)
+	(fp_line
+		(start 0 -2)
+		(end 0 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "086bb84e-930b-4b83-8313-f13b507b562c")
+	)
+	(fp_line
+		(start 0 -2)
+		(end 6.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b31a3f4-0963-4a8f-99dd-2011fefccb9b")
+	)
+	(fp_line
+		(start 0 1.38)
+		(end 0 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cc535a4-8ae0-4cfb-92c5-b0469f2a0136")
+	)
+	(fp_line
+		(start 6.5 -2)
+		(end 6.5 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66df7993-4ca1-47a3-aac6-8cdf775d2795")
+	)
+	(fp_line
+		(start 6.5 1.38)
+		(end 6.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eee39881-0cf6-4f49-8fbd-c96857d78678")
+	)
+	(fp_line
+		(start 6.5 2)
+		(end 0 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a795f61a-4379-438f-a7cb-9daaf3d6a7d1")
+	)
+	(fp_arc
+		(start 6.5 -1.38)
+		(mid 7.88 0)
+		(end 6.5 1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbc135ba-32e7-4134-8d90-b345a826e3ee")
+	)
+	(fp_line
+		(start 0.25 1.75)
+		(end 0.25 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0086db40-18b3-4cba-966b-c82d042e56ab")
+	)
+	(fp_line
+		(start 0.65 -1.75)
+		(end 0.25 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "383a08c6-7602-4616-9fb2-f719edb98cb6")
+	)
+	(fp_line
+		(start 0.65 -1.75)
+		(end 6.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f0d0b56-2335-4860-882c-e032a4e6cc27")
+	)
+	(fp_line
+		(start 6.25 -1.75)
+		(end 6.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc6b54e1-337b-43a9-bebc-e9ba1b0543dd")
+	)
+	(fp_line
+		(start 6.25 1.75)
+		(end 0.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a3fa572-d869-4bc0-89ce-c37ef2911a90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3 0 0)
+		(layer "F.Fab")
+		(uuid "e5706493-de05-4287-8700-e83ddb8dd1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.25 2.25)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc834195-01dc-42ec-83f9-3044efe2074a")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 0 90)
+		(size 2.25 2.25)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bff696e-f4e2-4d30-9078-7d0e4fe03cce")
+	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Button_MJTP1243.step"
+		(offset
+			(xyz 3.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

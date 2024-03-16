@@ -534,18 +534,6 @@
 			(justify left mirror)
 		)
 	)
-	(fp_text user "D0"
-		(at -5.5 -11.22 0)
-		(layer "B.SilkS")
-		(uuid "e3597654-0efe-464e-b95c-348b5959411c")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(fp_text user "20"
 		(at 10.16 -0.99 0)
 		(unlocked yes)
@@ -737,17 +725,6 @@
 				(bold yes)
 			)
 			(justify left)
-		)
-	)
-	(fp_text user "D0"
-		(at -5.461 -11.15 0)
-		(layer "F.SilkS")
-		(uuid "701184cb-f016-47dd-b44a-72aafc9311bd")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
 		)
 	)
 	(fp_text user "B+"

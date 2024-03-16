@@ -1075,7 +1075,7 @@
 			(pin input line
 				(at -15.24 13.97 0)
 				(length 5.08)
-				(name "D1"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1093,7 +1093,7 @@
 			(pin input line
 				(at -15.24 -8.89 0)
 				(length 5.08)
-				(name "D7"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1111,7 +1111,7 @@
 			(pin input line
 				(at -15.24 -11.43 0)
 				(length 5.08)
-				(name "D8"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1129,7 +1129,7 @@
 			(pin input line
 				(at -15.24 -13.97 0)
 				(length 5.08)
-				(name "D9"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1147,7 +1147,7 @@
 			(pin input line
 				(at 15.24 -13.97 180)
 				(length 5.08)
-				(name "D10"
+				(name "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1165,7 +1165,7 @@
 			(pin input line
 				(at 15.24 -11.43 180)
 				(length 5.08)
-				(name "D16"
+				(name "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1183,7 +1183,7 @@
 			(pin input line
 				(at 15.24 -8.89 180)
 				(length 5.08)
-				(name "D14"
+				(name "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 			(pin input line
 				(at 15.24 -6.35 180)
 				(length 5.08)
-				(name "D15"
+				(name "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 			(pin input line
 				(at 15.24 -3.81 180)
 				(length 5.08)
-				(name "D18"
+				(name "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1237,7 +1237,7 @@
 			(pin input line
 				(at 15.24 -1.27 180)
 				(length 5.08)
-				(name "D19"
+				(name "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1255,7 +1255,7 @@
 			(pin input line
 				(at 15.24 1.27 180)
 				(length 5.08)
-				(name "D20"
+				(name "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			(pin input line
 				(at -15.24 11.43 0)
 				(length 5.08)
-				(name "D0"
+				(name "0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1291,7 +1291,7 @@
 			(pin input line
 				(at 15.24 3.81 180)
 				(length 5.08)
-				(name "D21"
+				(name "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1380,8 +1380,8 @@
 			)
 			(pin input line
 				(at -3.81 -8.89 270)
-				(length 5.08)
-				(name "P1.01"
+				(length 2.5)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1398,8 +1398,8 @@
 			)
 			(pin input line
 				(at -1.27 -8.89 270)
-				(length 5.08)
-				(name "P1.02"
+				(length 2.5)
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1416,8 +1416,8 @@
 			)
 			(pin input line
 				(at 1.27 -8.89 270)
-				(length 5.08)
-				(name "P1.07"
+				(length 2.5)
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1471,7 +1471,7 @@
 			(pin input line
 				(at -15.24 3.81 0)
 				(length 5.08)
-				(name "D2"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1489,7 +1489,7 @@
 			(pin input line
 				(at -15.24 1.27 0)
 				(length 5.08)
-				(name "D3"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 			(pin input line
 				(at -15.24 -1.27 0)
 				(length 5.08)
-				(name "D4"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1525,7 +1525,7 @@
 			(pin input line
 				(at -15.24 -3.81 0)
 				(length 5.08)
-				(name "D5"
+				(name "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1543,7 +1543,7 @@
 			(pin input line
 				(at -15.24 -6.35 0)
 				(length 5.08)
-				(name "D6"
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)

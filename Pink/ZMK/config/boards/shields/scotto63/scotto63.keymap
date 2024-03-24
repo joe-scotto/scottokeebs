@@ -1,0 +1,193 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define MAC 0
+#define MAC_CODE 1
+#define MAC_NUMBER 2
+#define MAC_FUNCTION 3
+#define WINDOWS 4
+#define WINDOWS_CODE 5
+#define WINDOWS_NUMBER 6
+#define WINDOWS_FUNCTION 7
+
+    // Behavior Overrides
+    &lt {
+        tapping-term-ms = <200>;
+        flavor = "hold-preferred";
+    };
+
+/ {
+    //combos {
+      //  compatible = "zmk,combos";
+        
+        //combo_tab {
+        //  timeout-ms = <20>;
+        //  key-positions = <1 2>;
+        //  bindings = <&kp TAB>;
+        //};
+
+      //  combo_enter {
+        //    timeout-ms = <20>;
+          //  key-positions = <13 14>;
+            //bindings = <&kp ENTER>;
+        //};
+    //};
+
+    macros {
+        spotlight: spotlight {
+            label = "spotlight";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>; 
+        };
+
+        // Emoji
+        mac_emoji: mac_emoji {
+            label = "mac_emoji";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI>, <&macro_press &kp LCTRL>, <&macro_tap &kp SPACE>, <&macro_release &kp LCTRL>, <&macro_release &kp LGUI>; 
+        };
+
+        win_emoji: win_emoji {
+            label = "win_emoji";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp DOT>, <&macro_release &kp LGUI>; 
+        };
+    };
+
+    behaviors {
+        td_multi_mac: tap_dance_multi_mac {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MULTI_MAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp ESC>, <&spotlight>, <&mac_emoji>;
+        };
+
+        td_multi_windows: tap_dance_multi_windows {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MULTI_WINDOWS";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp ESC>, <&kp LGUI>, <&win_emoji>;
+        };
+
+        bm: bottom_row_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BOTTOM_ROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <135>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+        cm: code_row_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CODE_ROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+            retro-tap;
+        };
+
+        sm: space_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SPACE_MOD";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+    
+    keymap {
+        compatible = "zmk,keymap";
+
+        mac_default_layer {
+            bindings = <
+                &kp ESC    &kp N1        &kp N2 &kp N3 &kp N4    &kp N5                                          &kp N6               &kp N7              &kp N8        &kp N9      &kp N0          &kp BACKSPACE
+                &kp TAB    &kp Q         &kp W  &kp F  &kp P     &kp G                                           &kp J                &kp L               &kp U         &kp Y       &kp BACKSPACE   &kp BACKSLASH
+                &kp CAPS   &kp A         &kp R  &kp S  &kp T     &kp D     &none          &none &none            &kp H                &kp N               &kp E         &kp I       &kp O           &kp ENTER
+                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C  &kp V     &kp B     &none          &none &none            &kp K                &kp M               &kp COMMA     &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
+                                                &none  &kp LCTRL &kp LALT  &sm LGUI SPACE &none &lt MAC_CODE TAB &lt MAC_NUMBER ENTER &td_multi_mac &none
+            >;
+        };
+
+        mac_code_layer {
+            bindings = <
+                &trans &none                   &none                &none                 &none             &none                              &none     &none             &none            &none            &none                &trans
+                &trans &kp UNDER               &kp MINUS            &kp PLUS              &kp EQUAL         &kp COLON                          &kp GRAVE &kp C_PREVIOUS    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
+                &trans &kp LEFT_BRACE          &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp RIGHT_BRACE   &kp PIPE      &trans &trans &trans &kp ESC   &kp LEFT          &kp UP           &kp DOWN         &kp RIGHT            &trans
+                &trans &cm LSHIFT LEFT_BRACKET &kp APOSTROPHE       &kp DOUBLE_QUOTES     &kp RIGHT_BRACKET &kp SEMICOLON &trans &trans &trans &kp TILDE &kp C_VOLUME_DOWN &kp C_MUTE       &kp C_VOLUME_UP  &cm RSHIFT BACKSLASH &trans
+                                                                    &trans                &trans            &trans        &trans &trans &trans &trans    &trans            &trans
+            >;
+        };
+
+        mac_number_layer {
+            bindings = <
+                &trans &none           &none       &none    &none      &none                                 &none     &none         &none        &none      &none         &trans
+                &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT                           &kp CARET &kp AMPERSAND &kp ASTERISK &kp CAPS   &kp BACKSPACE &trans
+                &trans &kp N1          &kp N2      &kp N3   &kp N4     &kp N5           &trans &trans &trans &kp N6    &kp N7        &kp N8       &kp N9     &kp N0        &trans
+                &trans &kp LSHIFT      &none       &none    &none      &mo MAC_FUNCTION &trans &trans &trans &none     &none         &kp COMMA    &kp PERIOD &kp RSHIFT    &trans
+                                                   &trans   &trans     &trans           &trans &trans &trans &trans    &trans        &trans
+            >;
+        };
+
+        mac_function_layer {
+            bindings = <
+                &trans &none        &none        &none        &none        &none                             &none     &none  &none  &none  &to WINDOWS    &trans
+                &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                      &none     &none  &none  &none  &none          &trans
+                &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &trans &trans &trans &kp F6    &kp F7 &kp F8 &kp F9 &kp F10        &trans
+                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
+                                                 &trans       &trans       &trans       &trans &trans &trans &trans    &trans &trans
+            >;
+        };
+
+        windows_default_layer {
+            bindings = <
+                &kp ESC    &kp N1        &kp N2 &kp N3   &kp N4   &kp N5                                               &kp N6                   &kp N7            &kp N8            &kp N9      &kp N0          &kp BACKSPACE
+                &kp TAB    &kp Q         &kp W  &kp F    &kp P    &kp G                                                &kp J                    &kp L             &kp U             &kp Y       &kp BACKSPACE   &kp BACKSLASH
+                &kp CAPS   &kp A         &kp R  &kp S    &kp T    &kp D     &none           &none &none                &kp H                    &kp N             &kp E             &kp I       &kp O           &kp ENTER
+                &kp LSHIFT &bm LSHIFT Z  &kp X  &kp C    &kp V    &kp B     &none           &none &none                &kp K                    &kp M             &kp COMMA         &kp PERIOD  &bm RSHIFT FSLH &kp RSHIFT
+                                                &none    &kp LGUI &kp LALT  &sm LCTRL SPACE &none &lt WINDOWS_CODE TAB &lt WINDOWS_NUMBER ENTER &td_multi_windows &none
+            >;
+        };
+
+        windows_code_layer {
+            bindings = <
+                &trans &none                   &none                &none                 &none             &none                              &none     &none             &none            &none            &none                &trans
+                &trans &kp UNDER               &kp MINUS            &kp PLUS              &kp EQUAL         &kp COLON                          &kp GRAVE &kp C_PREVIOUS    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
+                &trans &kp LEFT_BRACE          &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp RIGHT_BRACE   &kp PIPE      &trans &trans &trans &kp ESC   &kp LEFT          &kp UP           &kp DOWN         &kp RIGHT            &trans
+                &trans &cm LSHIFT LEFT_BRACKET &kp APOSTROPHE       &kp DOUBLE_QUOTES     &kp RIGHT_BRACKET &kp SEMICOLON &trans &trans &trans &kp TILDE &kp C_VOLUME_DOWN &kp C_MUTE       &kp C_VOLUME_UP  &cm RSHIFT BACKSLASH &trans
+                                                                    &trans                &trans            &trans        &trans &trans &trans &trans    &trans            &trans
+            >;
+        };
+
+        windows_number_layer {
+            bindings = <
+                &trans &none           &none       &none    &none      &none                                     &none     &none         &none        &none      &none         &trans
+                &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT                               &kp CARET &kp AMPERSAND &kp ASTERISK &kp CAPS   &kp BACKSPACE &trans
+                &trans &kp N1          &kp N2      &kp N3   &kp N4     &kp N5               &trans &trans &trans &kp N6    &kp N7        &kp N8       &kp N9     &kp N0        &trans
+                &trans &kp LSHIFT      &none       &none    &none      &mo WINDOWS_FUNCTION &trans &trans &trans &none     &none         &kp COMMA    &kp PERIOD &kp RSHIFT    &trans
+                                                   &trans   &trans     &trans               &trans &trans &trans &trans    &trans        &trans
+            >;
+        };
+
+        windows_function_layer {
+            bindings = <
+                &trans &none        &none        &none        &none        &none                             &none     &none  &none  &none  &to MAC        &trans
+                &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                      &none     &none  &none  &none  &none          &trans
+                &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &trans &trans &trans &kp F6    &kp F7 &kp F8 &kp F9 &kp F10        &trans
+                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none        &trans &trans &trans &none     &none  &none  &none  &cm RSHIFT F12 &trans
+                                                 &trans       &trans       &trans       &trans &trans &trans &trans    &trans &trans
+            >;
+        };
+    };
+};

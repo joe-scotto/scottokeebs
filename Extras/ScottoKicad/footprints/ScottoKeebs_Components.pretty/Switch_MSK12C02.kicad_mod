@@ -716,7 +716,7 @@
 	)
 	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Switch_MSK12C02.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -0.05)
 		)
 		(scale
 			(xyz 1 1 1)

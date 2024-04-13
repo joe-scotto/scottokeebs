@@ -6,5 +6,4 @@ You can read more about the components and how to build it [here](https://scotto
 
 _Since I release all my handwired boards for free I do not release any files for my PCB boards other than firmware. Please be aware that the only way to get a 3D printed case is by purchasing one through me, thank you for understanding._
 
-![ScottoWing](https://github.com/joe-scotto/scottokeebs/assets/8194147/5dc4ec52-acaf-4804-8037-94ab414726e2)
-
+![ScottoWing (PCB Edition)](https://github.com/joe-scotto/scottokeebs/assets/8194147/b8789f9d-010c-4c1e-a536-ae3c7541940b)

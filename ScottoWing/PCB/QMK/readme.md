@@ -1,12 +1,12 @@
 # ScottoWing (PCB Edition)
 
-![ScottoWing](https://i.imgur.com/VSASAjxh.jpeg)
+![ScottoWing](https://i.imgur.com/ckaYMAxh.jpeg)
 
 The ScottoWing (PCB Edition) is a 3x5 (34-keys) or 3x6 (40-keys) split monoblock ergonomic column-staggered keyboard.
 
--   Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
--   Hardware Supported: RP2040 Pro Micro, nice!nano
--   Hardware Availability: [ScottoKeebs](https://scottokeebs.com), [Amazon](https://amazon.com), [AliExpress](https://aliexpress.com)
+* Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
+* Hardware Supported: RP2040 Pro Micro, nice!nano
+* Hardware Availability: [ScottoKeebs](https://scottokeebs.com), [Amazon](https://amazon.com), [AliExpress](https://aliexpress.com)
 
 # Compiling
 
@@ -24,6 +24,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
--   **Bootmagic reset**: Hold down the key at (0,1) in the matrix (usually the top left key or Escape) and plug in the keyboard
--   **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
--   **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Bootmagic reset**: Hold down the key at (0,1) in the matrix (usually the top left key or Escape) and plug in the keyboard
+* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available

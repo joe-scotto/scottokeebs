@@ -1,0 +1,2 @@
+config SHIELD_SCOTTOFLY
+    def_bool $(shields_list_contains,scottofly)

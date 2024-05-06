@@ -1,0 +1,3 @@
+build:
+  settings:
+    board_root: .

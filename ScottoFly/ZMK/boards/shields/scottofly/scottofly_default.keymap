@@ -1,0 +1,71 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define DEFAULT 0
+#define SECOND  1
+#define THIRD   2
+#define FOURTH  3
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// |    Q    |    W    |    E    |    R    |    T    |          |    Y    |    U    |    I    |    O    |    P    |
+// |    A    |    S    |    D    |    F    |    G    |          |    H    |    J    |    K    |    L    |   bspc  |
+// | shift(Z)|    X    |    C    |    V    |    B    |          |    N    |    M    |    ,    |    .    | shift(/)|
+//                     |   CTRL  |   AlT   | gui(spc)|          |2nd(TAB) |3rd(ENT) |   ESC   |
+            bindings = <
+            &kp Q           &kp W   &kp E       &kp R       &kp T               &kp Y           &kp U               &kp I     &kp O   &kp P   
+            &kp A           &kp S   &kp D       &kp F       &kp G               &kp H           &kp J               &kp K     &kp L   &kp BSPC
+            &mt LSHFT Z     &kp X   &kp C       &kp V       &kp B               &kp N           &kp M               &kp COMMA &kp DOT &mt RSHFT FSLH
+                                    &kp LCTRL   &kp LALT    &mt LGUI SPACE      &lt SECOND TAB  &lt THIRD ENTER     &kp ESC
+            >;
+
+        };
+        second_layer {
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// |    _    |    -    |    +    |    =    |    :    |          |    `    |Media Rwd|Play/Paus|Media FF |   DEL   |
+// |    {    |    (    |    )    |    }    |    |    |          |    ESC  |    ⬅   |    ⬆    |    ⬇    |    ⮕   |
+// |shift([) |    '    |    "    |    ]    |    ;    |          |    ~    | Vol Down|   Mute  |  Vol Up | shift(\)|
+//                     |  _____  |  _____  |  _____  |          |  _____  |  _____  |  _____  |
+            bindings = <
+            &kp UNDER           &kp MINUS       &kp PLUS        &kp EQUAL   &kp COLON           &kp GRAVE   &kp C_RW        &kp C_PP    &kp C_FF        &kp DEL   
+            &kp LBRC            &kp KP_LPAR     &kp KP_RPAR     &kp RBRC    &kp PIPE            &kp ESC     &kp LEFT        &kp UP      &kp DOWN        &kp RIGHT
+            &mt LSHFT LBKT      &kp SQT         &kp DQT         &kp RBKT    &kp SEMI            &kp TILDE   &kp K_VOL_DN    &kp K_MUTE  &kp K_VOL_UP    &mt RSHFT BSLH
+                                                &none           &none       &none               &none       &none           &none
+            >;
+
+        };
+        third_layer {
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// |    !    |    @    |    #    |    $    |    %    |          |    ^    |    &    |    *    |   CAPS  |   bspc  |
+// |    1    |    2    |    3    |    4    |    5    |          |    6    |    7    |    8    |    9    |    0    |
+// |shift([) |  _____  |  _____  |  _____  |  4th lyr|          |  _____  |  _____  |    ,    |    .    | shift(\)|
+//                     |  _____  |  _____  |  _____  |          |  _____  |  _____  |  _____  |
+            bindings = <
+            &kp EXCL     &kp AT     &kp POUND  &kp DLLR     &kp PRCNT           &kp CARET       &kp AMPS    &kp STAR        &kp CAPS        &kp BSPC   
+            &kp N1       &kp N2     &kp N3     &kp N4       &kp N5              &kp N6          &kp N7      &kp N8          &kp N9          &kp N0
+            &kp LSHFT    &none      &none      &none        &mo FOURTH          &none           &none       &kp KP_COMMA    &kp KP_DOT      &kp RSHFT
+                                    &none      &none        &none               &none           &none       &none
+            >;
+
+        };
+        fourth_layer {
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// |   BT 0  |   BT 1  |   BT 2  |   BT 3  |   BT 4  |          |  BT CLR |    &    |    *    |   CAPS  |   bspc  |
+// |   F1    |   F2    |   F3    |   F4    |   F5    |          |   F6    |   F7    |   F8    |   F9    |   F0    |
+// |   F11   |  _____  |  _____  |  boot   |  _____  |          |  _____  |  _____  |  _____  |  _____  |   F12   |
+//                     |  _____  |  _____  |  _____  |          |  _____  |  _____  |  _____  |
+            bindings = <
+            &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &bt BT_CLR  &none   &none   &none   &none   
+            &kp F1          &kp F2          &kp F3          &kp F4          &kp F5              &kp F6      &kp F7  &kp F8  &kp F9  &kp F10
+            &kp F11         &none           &none           &bootloader     &none               &none       &none   &none   &none   &kp F12
+                                            &none           &none           &none               &none       &none   &none
+            >;
+
+        };
+    };
+};

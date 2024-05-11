@@ -18,22 +18,6 @@
     };
 
 / {
-    //combos {
-      //  compatible = "zmk,combos";
-        
-        //combo_tab {
-        //  timeout-ms = <20>;
-        //  key-positions = <1 2>;
-        //  bindings = <&kp TAB>;
-        //};
-
-      //  combo_enter {
-        //    timeout-ms = <20>;
-          //  key-positions = <13 14>;
-            //bindings = <&kp ENTER>;
-        //};
-    //};
-
     macros {
         spotlight: spotlight {
             label = "spotlight";
@@ -59,6 +43,22 @@
     };
 
     behaviors {
+        td_multi_mac: tap_dance_multi_mac {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MULTI_MAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LALT>, <&spotlight>, <&kp LCTRL>, <&mac_emoji>;
+        };
+
+        td_multi_windows: tap_dance_multi_windows {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MULTI_WINDOWS";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LALT>, <&kp LGUI>, <&windows_emoji>;
+        };
+
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "BOTTOM_ROW_MODS";
@@ -89,22 +89,6 @@
             quick-tap-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
-
-        td_multi_mac: tap_dance_multi_mac {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MULTI_MAC";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sm ESC LALT>, <&spotlight>, <&kp LCTRL>, <&mac_emoji>;
-        };
-
-        td_multi_windows: tap_dance_multi_windows {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MULTI_WINDOWS";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sm ESC LALT>, <&kp LGUI>, <&windows_emoji>;
-        };
     };
     
     keymap {
@@ -115,7 +99,7 @@
                 &kp TAB   &kp Q       &kp W &kp F &kp P         &kp G          &kp J            &kp L             &kp U     &kp Y   &kp BSPC       &kp BSPC
                 &kp CAPS  &kp A       &kp R &kp S &kp T         &kp D          &kp H            &kp N             &kp E     &kp I   &kp O          &kp ENTER
                 &kp LSHFT &bm LSHFT Z &kp X &kp C &kp V         &kp B          &kp K            &kp M             &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
-                                                  &kp G &sm LGUI SPACE &lt MAC_CODE TAB &lt MAC_NUMBER ENTER
+                                                  &td_multi_mac &sm LGUI SPACE &lt MAC_CODE TAB &lt MAC_NUMBER ENTER
             >;
         };
 

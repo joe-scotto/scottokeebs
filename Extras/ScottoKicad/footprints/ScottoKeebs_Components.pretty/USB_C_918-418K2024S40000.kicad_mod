@@ -67,7 +67,7 @@
 	(attr smd)
 	(fp_line
 		(start -4.7 -3.4)
-		(end -4.7 3.1)
+		(end -4.7 2.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,7 +87,7 @@
 	)
 	(fp_line
 		(start 4.7 -3.4)
-		(end 4.7 3.1)
+		(end 4.7 2.6)
 		(stroke
 			(width 0.1)
 			(type default)

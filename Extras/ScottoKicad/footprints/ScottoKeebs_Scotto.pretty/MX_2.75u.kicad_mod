@@ -1,4 +1,4 @@
-(footprint "MX_2.75u_PG151101S11"
+(footprint "MX_2.75u"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -224,44 +224,76 @@
 		(uuid "4791d3cd-832a-42a7-9fde-3c82ba627c98")
 	)
 	(fp_line
-		(start -8.25 -3.195)
-		(end 8.25 -3.195)
+		(start -5.365 0.99)
+		(end -5.365 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8a87a412-811d-4b2a-9105-867c422c3529")
+		(uuid "553f5c9e-f8a5-48b5-91ee-1544bc6093b0")
 	)
 	(fp_line
-		(start -8.25 3.195)
-		(end -8.25 -3.195)
+		(start -1.665 -3.01)
+		(end -5.365 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3b26404b-e348-4783-bd8e-1a33bbdea79d")
+		(uuid "2a009bd5-895b-41e9-9a0a-89b365f88610")
 	)
 	(fp_line
-		(start 8.25 -3.195)
-		(end 8.25 3.195)
+		(start 5.435 -1.01)
+		(end 0.335 -1.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e6684645-7e51-464a-bdea-82fc62c4ef19")
+		(uuid "de9c937b-827e-4a22-94a5-285c37937488")
 	)
 	(fp_line
-		(start 8.25 3.195)
-		(end -8.25 3.195)
+		(start 5.435 -1.01)
+		(end 5.435 2.99)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "991e32e9-ae00-45e9-a7fb-41f74985bc8c")
+		(uuid "6797ef96-7124-4b0f-8feb-4760feb8b851")
+	)
+	(fp_line
+		(start 5.435 2.99)
+		(end -3.365 2.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f27a1cf-9d1b-48be-986a-82f69845f21a")
+	)
+	(fp_arc
+		(start -3.365 2.99)
+		(mid -4.779214 2.404214)
+		(end -5.365 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "192a7f77-bf1b-4c9a-aa8b-ed868624043f")
+	)
+	(fp_arc
+		(start 0.335 -1.01)
+		(mid -1.079214 -1.595786)
+		(end -1.665 -3.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6de01c98-3cf0-4b6c-9357-50fd10a32a90")
 	)
 	(fp_line
 		(start -6.365 -10.81)
@@ -418,6 +450,13 @@
 		(layers "F&B.Cu" "*.Mask")
 		(clearance 0.1)
 		(uuid "7895cfa8-d39e-4656-903b-59b5c84aa833")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.635 -3.81 180)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e72fcc84-2cea-485b-9952-6abc286a4892")
 	)
 	(pad "" np_thru_hole circle
 		(at 0.635 -3.81 180)

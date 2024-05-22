@@ -1,4 +1,4 @@
-(footprint "MX_2.00u_PG151101S11"
+(footprint "MX_2.00u"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -224,44 +224,76 @@
 		(uuid "4791d3cd-832a-42a7-9fde-3c82ba627c98")
 	)
 	(fp_line
-		(start -8.25 -3.195)
-		(end 8.25 -3.195)
+		(start -5.365 0.99)
+		(end -5.365 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8a87a412-811d-4b2a-9105-867c422c3529")
+		(uuid "a7857c61-46a6-4e64-ba26-484a5a4949b1")
 	)
 	(fp_line
-		(start -8.25 3.195)
-		(end -8.25 -3.195)
+		(start -1.665 -3.01)
+		(end -5.365 -3.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3b26404b-e348-4783-bd8e-1a33bbdea79d")
+		(uuid "abb0c457-c17c-49bc-86fe-c6e6121bf677")
 	)
 	(fp_line
-		(start 8.25 -3.195)
-		(end 8.25 3.195)
+		(start 5.435 -1.01)
+		(end 0.335 -1.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e6684645-7e51-464a-bdea-82fc62c4ef19")
+		(uuid "d04554e0-f6b4-4caa-9475-fed8f90c416d")
 	)
 	(fp_line
-		(start 8.25 3.195)
-		(end -8.25 3.195)
+		(start 5.435 -1.01)
+		(end 5.435 2.99)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "991e32e9-ae00-45e9-a7fb-41f74985bc8c")
+		(uuid "b57062dc-e4a5-44fa-8a4f-a3ee71624ef5")
+	)
+	(fp_line
+		(start 5.435 2.99)
+		(end -3.365 2.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ee88688-68c5-4216-9d04-683dce0d5df2")
+	)
+	(fp_arc
+		(start -3.365 2.99)
+		(mid -4.779214 2.404214)
+		(end -5.365 0.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0ad4e18-ff8b-4d20-9758-c41a5568c29c")
+	)
+	(fp_arc
+		(start 0.335 -1.01)
+		(mid -1.079214 -1.595786)
+		(end -1.665 -3.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34973638-e805-4b66-967d-25449abea499")
 	)
 	(fp_line
 		(start -6.365 -10.81)
@@ -424,7 +456,7 @@
 		(size 4 4)
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "fcbe7a31-b5fc-4436-b74b-9c9feee2c8fc")
+		(uuid "6d02a661-0f92-4827-8f56-5304b625f604")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.715 -3.81 180)

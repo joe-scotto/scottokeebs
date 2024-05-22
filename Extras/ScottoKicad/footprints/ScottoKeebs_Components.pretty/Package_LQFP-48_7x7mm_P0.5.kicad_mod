@@ -356,18 +356,6 @@
 		(layer "F.Fab")
 		(uuid "6159a669-fdf0-468a-a360-912265e88748")
 	)
-	(fp_text user "JLCJLCJLCJLC"
-		(at 0 0 135)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "9e796f64-74db-4e58-858d-1dc841ea0324")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -4.1625 -2.75)
 		(size 1.475 0.3)

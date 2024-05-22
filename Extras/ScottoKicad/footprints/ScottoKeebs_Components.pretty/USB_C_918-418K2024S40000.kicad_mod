@@ -61,18 +61,6 @@
 			)
 		)
 	)
-	(property "LCSC" "C168688"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5d7a6ca5-3604-4e27-9dc3-4242914eb030")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
 	(attr through_hole)
 	(fp_line
 		(start -4.525 0)

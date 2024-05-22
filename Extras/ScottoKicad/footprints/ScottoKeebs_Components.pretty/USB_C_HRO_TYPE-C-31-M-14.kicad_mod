@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.6 180)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "b7643b8f-2ae1-4f03-b657-b9b49808a5f8")
 		(effects
 			(font
@@ -60,18 +61,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "LCSC" "C223907"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "477ead83-a79b-4b6b-a387-37866e03ca82")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 		)
 	)

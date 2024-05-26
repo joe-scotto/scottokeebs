@@ -5754,7 +5754,7 @@
 			(uuid "a1263bf9-129e-4c54-9081-a01715a1f4b0")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR06")
 					(unit 1)
@@ -5818,6 +5818,15 @@
 			)
 		)
 		(property "LCSC" "C81720"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JlcRotOffset" "-90"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -5971,7 +5980,7 @@
 			(uuid "e3948930-e9f6-428c-911e-c95722027e96")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "U1")
 					(unit 1)
@@ -6041,6 +6050,15 @@
 				(hide yes)
 			)
 		)
+		(property "JlcRotOffset" "180"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ceca4cd9-de6a-4f65-a6b3-24eacd6eded3")
 		)
@@ -6051,7 +6069,7 @@
 			(uuid "1393b91d-91ca-4fda-a6d0-3e3c1efd0d08")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "U3")
 					(unit 1)
@@ -6117,7 +6135,7 @@
 			(uuid "eba16def-d4aa-4681-b70f-047259958256")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR010")
 					(unit 1)
@@ -6182,7 +6200,7 @@
 			(uuid "10f16a85-f6f1-4649-85c1-3d9b8640fbf6")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR02")
 					(unit 1)
@@ -6261,7 +6279,7 @@
 			(uuid "77957f13-1c28-4784-a983-465c9ebf5d73")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C6")
 					(unit 1)
@@ -6338,7 +6356,7 @@
 			(uuid "656d7a7c-35ec-45a3-b951-47c6aef11e06")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S4")
 					(unit 1)
@@ -6415,7 +6433,7 @@
 			(uuid "4b47bdf9-ceab-49f9-a4de-2a6e6151bfcf")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "R1")
 					(unit 1)
@@ -6481,7 +6499,7 @@
 			(uuid "ed302f55-fd2a-4e79-bef0-530f0699cc14")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR016")
 					(unit 1)
@@ -6556,6 +6574,15 @@
 				(hide yes)
 			)
 		)
+		(property "JlcRotOffset" "-90"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7fd5b2f5-c820-4c63-9fa4-0a4e982b3679")
 		)
@@ -6575,7 +6602,7 @@
 			(uuid "e37e467b-233e-4d23-8d30-781d36517e85")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "U4")
 					(unit 1)
@@ -6640,7 +6667,7 @@
 			(uuid "13364d54-b637-4177-a9a4-12167cb841da")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR04")
 					(unit 1)
@@ -6719,7 +6746,7 @@
 			(uuid "640062d0-0c80-4bc5-9bd7-54a025c0da35")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C8")
 					(unit 1)
@@ -6785,7 +6812,7 @@
 			(uuid "c34a4b39-4c16-4d0d-a8a5-090349917c45")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR08")
 					(unit 1)
@@ -6851,7 +6878,7 @@
 			(uuid "6b4683c9-954e-4fd8-862e-e60ea6339825")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR07")
 					(unit 1)
@@ -6928,7 +6955,7 @@
 			(uuid "7be94b7a-975c-413b-8590-5da77c499b66")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S2")
 					(unit 1)
@@ -7025,7 +7052,7 @@
 			(uuid "d9681009-21aa-4012-b721-4f8950029b5d")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D2")
 					(unit 1)
@@ -7091,7 +7118,7 @@
 			(uuid "c99da5df-2068-4872-8875-1f6e24fac7b0")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR015")
 					(unit 1)
@@ -7188,7 +7215,7 @@
 			(uuid "18c6f4d4-ef66-486d-9d8c-8f6a20e685ee")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D1")
 					(unit 1)
@@ -7267,7 +7294,7 @@
 			(uuid "ca77c073-a584-48b2-b110-657d0e05a97a")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C4")
 					(unit 1)
@@ -7344,7 +7371,7 @@
 			(uuid "8911cf52-7b76-4bfe-a711-19906190861c")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S5")
 					(unit 1)
@@ -7423,7 +7450,7 @@
 			(uuid "cb0d1a7f-0ad4-4e11-8da7-27a085a1bd0b")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C2")
 					(unit 1)
@@ -7488,7 +7515,7 @@
 			(uuid "e00f116c-9a58-455e-a5b0-a6f2745d7f4c")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR03")
 					(unit 1)
@@ -7585,7 +7612,7 @@
 			(uuid "c7a37de3-fd40-49a4-9cea-2cfd4ce97fe2")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D5")
 					(unit 1)
@@ -7682,7 +7709,7 @@
 			(uuid "f0076b97-dcff-4ef1-946f-66afc54ea54c")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D4")
 					(unit 1)
@@ -7748,7 +7775,7 @@
 			(uuid "b12fed39-2d55-4454-a6ea-9191e1bd40ff")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR012")
 					(unit 1)
@@ -7825,7 +7852,7 @@
 			(uuid "fc00e381-f946-4aa7-9ae8-00b36dc78444")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C7")
 					(unit 1)
@@ -7922,7 +7949,7 @@
 			(uuid "c201a2f0-a2a0-4250-823f-e651c0abb5dd")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D3")
 					(unit 1)
@@ -7987,7 +8014,7 @@
 			(uuid "3d881e85-0c4c-4ba8-a07e-4c5ae3e8907e")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR01")
 					(unit 1)
@@ -8063,7 +8090,7 @@
 			(uuid "02af8002-f9a9-47e8-950c-11c8f0fc24a5")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "R3")
 					(unit 1)
@@ -8129,7 +8156,7 @@
 			(uuid "1bcfc632-ecce-458e-bf13-37bd60a9a277")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR014")
 					(unit 1)
@@ -8195,7 +8222,7 @@
 			(uuid "01877e19-b650-4711-ae85-4e48cd78a108")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR013")
 					(unit 1)
@@ -8292,7 +8319,7 @@
 			(uuid "8c207b2c-23e3-4b47-8914-e221cd54804e")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D6")
 					(unit 1)
@@ -8368,7 +8395,7 @@
 			(uuid "36449a7e-eb05-4761-bcd3-77cc826d722d")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "R2")
 					(unit 1)
@@ -8447,7 +8474,7 @@
 			(uuid "104c2f69-6d43-4c0a-a09b-8e883889a120")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C3")
 					(unit 1)
@@ -8524,7 +8551,7 @@
 			(uuid "c3b5ee67-5884-4c3a-adb0-5365f1ad9675")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "F1")
 					(unit 1)
@@ -8601,7 +8628,7 @@
 			(uuid "25e1d7c8-9ffc-4e0a-b8f0-0b50a9c3807d")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S6")
 					(unit 1)
@@ -8678,7 +8705,7 @@
 			(uuid "82693640-9001-4318-8551-c49dec31c873")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S1")
 					(unit 1)
@@ -8744,7 +8771,7 @@
 			(uuid "47e8525e-258a-481b-b9a4-aeaa2c72a925")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR09")
 					(unit 1)
@@ -8821,7 +8848,7 @@
 			(uuid "35222ded-43ea-4d67-8832-8e40c20a1dd8")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S3")
 					(unit 1)
@@ -8937,7 +8964,7 @@
 			(uuid "413fc58b-b355-4573-87bb-9da51cfa7f31")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "J1")
 					(unit 1)
@@ -9016,7 +9043,7 @@
 			(uuid "a4e2acac-bd0b-44fa-8499-63a1e973ac4d")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C1")
 					(unit 1)
@@ -9081,7 +9108,7 @@
 			(uuid "9983562a-4a55-4ce5-a246-b422a6b4e8fd")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR05")
 					(unit 1)
@@ -9157,7 +9184,7 @@
 			(uuid "a0d6dece-1926-4f05-b310-7434ef01d320")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "SW1")
 					(unit 1)
@@ -9236,7 +9263,7 @@
 			(uuid "8a88fffc-74e2-42f4-9c50-d6d8dda3bb0c")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C9")
 					(unit 1)
@@ -9315,7 +9342,7 @@
 			(uuid "10147f28-f400-4fae-b5db-eb4da044111b")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "C5")
 					(unit 1)
@@ -9381,7 +9408,7 @@
 			(uuid "6b10aa70-387f-46c5-ba72-3c536807ddd2")
 		)
 		(instances
-			(project "ScottoController"
+			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "#PWR011")
 					(unit 1)

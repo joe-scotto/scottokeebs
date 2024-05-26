@@ -300,13 +300,13 @@
 	)
 	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/USB_C_HRO_TYPE-C-31-M-12.step"
 		(offset
-			(xyz -4.47 -3.65 0.04)
+			(xyz 0 -1.05 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

@@ -64,6 +64,36 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -4.75 -11.75)
+		(end -4.75 -4.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b842407b-69d2-4e69-a481-08823938cabb")
+	)
+	(fp_line
+		(start -4.75 -4.75)
+		(end 4.75 -4.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ea42f4ce-5785-44ac-8d5e-e745a0852021")
+	)
+	(fp_line
+		(start 4.75 -11.75)
+		(end 4.75 -4.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e1983a15-92ba-467e-88af-08e9fab959f5")
+	)
 	(fp_rect
 		(start -9 -11.75)
 		(end 9 11.75)
@@ -74,56 +104,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "9a7b488b-35e2-4878-a743-0132e05162d0")
-	)
-	(fp_line
-		(start -4.75 -11.75)
-		(end -9 -11.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fd463ca9-06ab-464a-bd80-a8ddeb9bf3e0")
-	)
-	(fp_line
-		(start -4.75 -11.75)
-		(end -4.75 -4.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b842407b-69d2-4e69-a481-08823938cabb")
-	)
-	(fp_line
-		(start -4.75 -4.75)
-		(end 4.75 -4.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ea42f4ce-5785-44ac-8d5e-e745a0852021")
-	)
-	(fp_line
-		(start 4.75 -11.75)
-		(end 4.75 -4.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e1983a15-92ba-467e-88af-08e9fab959f5")
-	)
-	(fp_line
-		(start 9 -11.75)
-		(end 4.75 -11.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fad17986-0375-4648-96ec-30146ef0d400")
 	)
 	(pad "1" thru_hole oval
 		(at -7.62 -10.16 180)
@@ -190,9 +170,11 @@
 		(uuid "01e86c54-54cf-4cd6-83f8-39fa8ade6d66")
 	)
 	(pad "9" thru_hole oval
-		(at -7.634074 10.163756 180)
-		(size 2.5 2)
-		(drill 1.5)
+		(at -7.62 10.16 180)
+		(size 2.25 2)
+		(drill 1.5
+			(offset 0.125 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5393eccb-3a23-4c41-bce0-022bc51d338d")
@@ -239,8 +221,10 @@
 	)
 	(pad "15" thru_hole oval
 		(at 7.62 10.16)
-		(size 2.5 2)
-		(drill 1.5)
+		(size 2.25 2)
+		(drill 1.5
+			(offset 0.125 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7359e111-9463-4737-bd80-3535327f215b")

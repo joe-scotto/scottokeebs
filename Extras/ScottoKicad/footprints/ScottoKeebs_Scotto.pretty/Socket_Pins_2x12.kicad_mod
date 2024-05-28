@@ -1,4 +1,4 @@
-(footprint "Pins_Pro_Micro"
+(footprint "Socket_Pins_2x12"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Pins_Pro_Micro"
+	(property "Value" "Socket_Pins_2x12"
 		(at 0 0 0)
 		(layer "B.SilkS")
 		(hide yes)

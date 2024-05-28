@@ -1,4 +1,4 @@
-(footprint "MX_1.25u"
+(footprint "MX_Hotswap_1.25u"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

@@ -1,4 +1,4 @@
-(footprint "MX_2.00u"
+(footprint "MX_Hotswap_2.50u"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MX_2.00u_PG151101S11"
+	(property "Value" "MX_2.50u_PG151101S11"
 		(at 0.635 -11.755 180)
 		(layer "F.Fab")
 		(uuid "263c10c1-720e-421e-9d86-c47caa2ac7f2")
@@ -64,44 +64,44 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -18.415 -13.335)
-		(end -18.415 5.715)
+		(start -23.1775 -13.335)
+		(end -23.1775 5.715)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "664169ab-3a7d-475e-8f32-de82073caff0")
+		(uuid "ef020175-eded-4769-a648-885640cc1851")
 	)
 	(fp_line
-		(start -18.415 5.715)
-		(end 19.685 5.715)
+		(start -23.1775 5.715)
+		(end 24.4475 5.715)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "a415d5c9-f409-46f4-9b88-5cfd777350d7")
+		(uuid "0a996ae5-5cc0-419e-83a8-976eaa51f639")
 	)
 	(fp_line
-		(start 19.685 -13.335)
-		(end -18.415 -13.335)
+		(start 24.4475 -13.335)
+		(end -23.1775 -13.335)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "9fb69942-6201-4c78-8218-45efa7517bd7")
+		(uuid "9974bb0a-8e47-4b15-9914-99a50eb74eaa")
 	)
 	(fp_line
-		(start 19.685 5.715)
-		(end 19.685 -13.335)
+		(start 24.4475 5.715)
+		(end 24.4475 -13.335)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "438a7836-100b-4cd9-a39c-eb55c7744a0f")
+		(uuid "a92679fa-c6d2-4b4b-bcf7-121ae356119d")
 	)
 	(fp_line
 		(start -14.678 -10.58)
@@ -231,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a7857c61-46a6-4e64-ba26-484a5a4949b1")
+		(uuid "44dd5190-5260-42ba-a96c-fe581e5ff549")
 	)
 	(fp_line
 		(start -1.665 -3.01)
@@ -241,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "abb0c457-c17c-49bc-86fe-c6e6121bf677")
+		(uuid "96ab0bfb-fe1e-4b45-bda8-213d7d4b3e8a")
 	)
 	(fp_line
 		(start 5.435 -1.01)
@@ -251,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d04554e0-f6b4-4caa-9475-fed8f90c416d")
+		(uuid "a056a17d-a673-4aeb-a695-fb52dffe6879")
 	)
 	(fp_line
 		(start 5.435 -1.01)
@@ -261,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b57062dc-e4a5-44fa-8a4f-a3ee71624ef5")
+		(uuid "42dd633a-33a1-4538-a6de-2fc8297230d7")
 	)
 	(fp_line
 		(start 5.435 2.99)
@@ -271,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4ee88688-68c5-4216-9d04-683dce0d5df2")
+		(uuid "ecd8e546-c5ea-4d6e-b8f1-5b19a857bfb5")
 	)
 	(fp_arc
 		(start -3.365 2.99)
@@ -282,7 +282,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f0ad4e18-ff8b-4d20-9758-c41a5568c29c")
+		(uuid "e9bc0f8e-d089-4419-a37b-4b1f279e06c7")
 	)
 	(fp_arc
 		(start 0.335 -1.01)
@@ -293,7 +293,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "34973638-e805-4b66-967d-25449abea499")
+		(uuid "6e198834-9fd0-40e1-91a6-bbea70ad8490")
 	)
 	(fp_line
 		(start -6.365 -10.81)
@@ -456,7 +456,7 @@
 		(size 4 4)
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "6d02a661-0f92-4827-8f56-5304b625f604")
+		(uuid "7078ce90-29da-4744-8814-594e0d519947")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.715 -3.81 180)

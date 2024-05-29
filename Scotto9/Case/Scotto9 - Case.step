@@ -5,11 +5,11 @@ HEADER;
 
 FILE_DESCRIPTION(('HOOPS Exchange Step'),'2;1');
 
-FILE_NAME('/var/folders/hd/s3_8dfks4419lbhxn872679c0000gn/T/com.shapr3d.shapr/export/temp_export',
-'2023-06-10T13:24:15-04:00',
+FILE_NAME('/Users/jscotto/Library/Containers/com.shapr3d.shapr/Data/tmp/export/temp_export',
+'2024-05-29T18:23:48-04:00',
 ('jscotto'),
 ('Shapr3D Limited'),
-'HOOPS Exchange 2022.2',
+'HOOPS Exchange 2024.2',
 'Shapr3D',
 'Authorized');
 
@@ -2132,7 +2132,7 @@ DATA;
 #2126=DIRECTION('',(-1.,0.,0.));
 #2127=AXIS2_PLACEMENT_3D('',#2124,#2125,#2126);
 #2128=CONICAL_SURFACE('',#2127,2.1,45.);
-#2129=CARTESIAN_POINT('',(-11.625,-9.525,0.));
+#2129=CARTESIAN_POINT('',(-11.625,-9.525,-0.));
 #2130=DIRECTION('',(0.707106781,-0.,0.707106781));
 #2131=VECTOR('',#2130,1.414213562);
 #2132=LINE('',#2129,#2131);

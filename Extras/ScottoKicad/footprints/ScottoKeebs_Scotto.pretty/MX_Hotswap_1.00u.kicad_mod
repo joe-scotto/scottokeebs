@@ -349,6 +349,13 @@
 		(layer "F.Fab")
 		(uuid "8b2d1ed7-37ea-482f-93a1-7c4862be1e65")
 	)
+	(pad "" smd roundrect
+		(at -6.45 -1.27 180)
+		(size 2.55 2.5)
+		(layers "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "4ff62f88-cde9-48a7-8e5b-20247a1ef8e2")
+	)
 	(pad "" np_thru_hole circle
 		(at -4.445 -3.81 180)
 		(size 1.75 1.75)
@@ -370,6 +377,13 @@
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
 		(uuid "bf85f1ae-d41d-4f5e-9b64-10b2fa3b3f1f")
+	)
+	(pad "" smd roundrect
+		(at 6.477 1.27 180)
+		(size 2.55 2.5)
+		(layers "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "2239312c-12cc-424d-968f-d562609342e4")
 	)
 	(pad "1" smd roundrect
 		(at -5.95 -1.27 180)

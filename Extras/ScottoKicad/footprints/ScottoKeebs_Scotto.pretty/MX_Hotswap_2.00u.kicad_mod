@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd allow_soldermask_bridges)
 	(fp_line
 		(start -18.415 -13.335)
 		(end -18.415 5.715)

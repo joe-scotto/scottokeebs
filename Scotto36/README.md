@@ -1,4 +1,4 @@
-# Scotto36
+# Scotto36 (SK2)
 
 The Scotto36 is a 36-key split monoblock ergonomic ortholinear keyboard with 15° of angle on each half.
 

@@ -1,4 +1,4 @@
-# ScottoNum
+# ScottoNum (SK14)
 
 The ScottoNum is a 17-key wireless macropad.
 

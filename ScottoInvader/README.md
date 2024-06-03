@@ -1,4 +1,4 @@
-# ScottoInvader
+# ScottoInvader (SK10)
 
 The ScottoInvader is a 36-key column-staggered ortholinear keyboard.
 

@@ -1,4 +1,4 @@
-# ScottoMouse
+# ScottoMouse (SK18)
 
 The ScottoMouse is a 6-key macropad that utilizes [QMK mouse keys](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md) to emulate a mouse.
 

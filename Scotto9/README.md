@@ -1,4 +1,4 @@
-# Scotto9
+# Scotto9 (SK3)
 
 The Scotto9 is a 9-key macropad.
 

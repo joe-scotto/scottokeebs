@@ -1,4 +1,4 @@
-# ScottoWing (PCB Edition)
+# ScottoWing (PCB Edition) (SK26)
 
 The ScottoWing (PCB Edition) is a 3x5 (34-keys) or 3x6 (40-keys) split monoblock ergonomic column-staggered keyboard.
 

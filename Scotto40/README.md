@@ -1,4 +1,4 @@
-# Scotto40
+# Scotto40 (SK1)
 
 The Scotto40 is a 40-key ortholinear keyboard.
 

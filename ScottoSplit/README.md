@@ -1,4 +1,4 @@
-# ScottoSplit
+# ScottoSplit (SK12)
 
 The ScottoSplit is a 36-key split column-staggered ortholinear keyboard that uses a single MCU and VGA cable to connect the halves.
 

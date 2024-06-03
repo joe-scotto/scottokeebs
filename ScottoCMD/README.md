@@ -1,4 +1,4 @@
-# ScottoCMD
+# ScottoCMD (SK5)
 
 The ScottoCMD is a 40-key ortholinear keyboard with a 6.25u spacebar, 4 dedicated function keys and 0.96" 128x64 OLED display.
 

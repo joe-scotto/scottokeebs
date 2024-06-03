@@ -1,4 +1,4 @@
-# ScottoSlant
+# ScottoSlant (SK4)
 
 The ScottoSlant is a 37-key handwired 0.25u row-staggered keyboard with a 2u spacebar.
 

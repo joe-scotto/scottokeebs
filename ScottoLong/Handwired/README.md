@@ -1,4 +1,4 @@
-# ScottoLong
+# ScottoLong (SK11)
 
 The ScottoLong is a 33-key ortholinear keyboard with a 7u spacebar and two 1.5u function keys.
 

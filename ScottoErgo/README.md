@@ -1,4 +1,4 @@
-# ScottoErgo
+# ScottoErgo (SK16)
 
 The ScottoErgo a 36-key column staggered ortholinear ergonomic keyboard with an exposed controller, aviator connector for USB, 10° of tilt, and 20° of angle.
 

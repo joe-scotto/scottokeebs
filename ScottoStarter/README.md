@@ -1,4 +1,4 @@
-# ScottoStarter
+# ScottoStarter (SK8)
 
 The ScottoStarter is a 52-key ortholinear keyboard designed to help ease the transition into smaller layouts.
 

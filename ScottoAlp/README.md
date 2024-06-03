@@ -1,4 +1,4 @@
-# ScottoAlp
+# ScottoAlp (SK7)
 
 The ScottoAlp is a 35 or 43-key ortholinear keyboard with a 3u spacebar and is compatible with both MX or Alps.
 

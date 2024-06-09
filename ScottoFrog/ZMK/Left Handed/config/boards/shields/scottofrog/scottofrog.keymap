@@ -1,0 +1,572 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define DEFAULT 0
+#define NUMBER 1
+#define SYMBOL 2
+#define SETTINGS 3
+#define LOCK 4
+
+#define COMBO_TIMEOUT 50
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        // Meta combos
+        meta_settings_combo {
+            timeout-ms = <50>;
+            key-positions = <16 17 18>;
+            bindings = <&mo SETTINGS>;
+        };
+
+        meta_lock_combo {
+            timeout-ms = <50>;
+            key-positions = <15 17 19>;
+            bindings = <&tog LOCK>;
+        };
+
+        // Letter combos
+        letters_tab_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 4>;
+            bindings = <&kp TAB>;
+            layers = <DEFAULT>;
+        };
+
+        letters_single_quote_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 3>;
+            bindings = <&kp SINGLE_QUOTE>;
+            layers = <DEFAULT>;
+        };
+
+        letters_b_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 2>;
+            bindings = <&kp B>;
+            layers = <DEFAULT>;
+        };
+
+        letters_m_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 1>;
+            bindings = <&kp M>;
+            layers = <DEFAULT>;
+        };
+
+        letters_j_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 0>;
+            bindings = <&kp J>;
+            layers = <DEFAULT>;
+        };
+
+        letters_q_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 9>;
+            bindings = <&kp Q>;
+            layers = <DEFAULT>;
+        };
+
+        letters_z_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 8>;
+            bindings = <&kp Z>;
+            layers = <DEFAULT>;
+        };
+
+        letters_l_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 7>;
+            bindings = <&kp L>;
+            layers = <DEFAULT>;
+        };
+
+        letters_c_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 6>;
+            bindings = <&kp C>;
+            layers = <DEFAULT>;
+        };
+
+        letters_v_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 5>;
+            bindings = <&kp V>;
+            layers = <DEFAULT>;
+        };
+
+        letters_windows_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 14>;
+            bindings = <&sk LGUI>;
+            layers = <DEFAULT>;
+        };
+
+        letters_app_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 13>;
+            bindings = <&kp K_APP>;
+            layers = <DEFAULT>;
+        };
+
+        letters_k_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 12>;
+            bindings = <&kp K>;
+            layers = <DEFAULT>;
+        };
+
+        letters_g_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 11>;
+            bindings = <&kp G>;
+            layers = <DEFAULT>;
+        };
+
+        letters_x_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 10>;
+            bindings = <&kp X>;
+            layers = <DEFAULT>;
+        };
+
+        letters_comma_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 17>;
+            bindings = <&kp COMMA>;
+        };
+
+        letters_period_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 16>;
+            bindings = <&kp PERIOD>;
+        };
+
+        // Symbol combos
+        symbol_plus_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 3>;
+            bindings = <&kp PLUS>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_equal_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 2>;
+            bindings = <&kp EQUAL>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_dollar_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 1>;
+            bindings = <&kp DOLLAR>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_hash_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 0>;
+            bindings = <&kp HASH>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_backslash_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 9>;
+            bindings = <&kp BACKSLASH>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_percent_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 8>;
+            bindings = <&kp PERCENT>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_pipe_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 7>;
+            bindings = <&kp PIPE>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_tilde_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 6>;
+            bindings = <&kp TILDE>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_caret_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 5>;
+            bindings = <&kp CARET>;
+            layers = <SYMBOL>;
+        }; 
+
+        symbol_grave_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 14>;
+            bindings = <&kp GRAVE>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_greater_than_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 13>;
+            bindings = <&kp GREATER_THAN>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_right_parenthesis_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 12>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_right_bracket_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 11>;
+            bindings = <&kp RIGHT_BRACKET>;
+            layers = <SYMBOL>;
+        };
+
+        symbol_right_brace_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 10>;
+            bindings = <&kp RIGHT_BRACE>;
+            layers = <SYMBOL>;
+        }; 
+
+        // Number combos
+        number_f7_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 1>;
+            bindings = <&kp F7>;
+            layers = <NUMBER>;
+        };
+
+        number_f8_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 2>;
+            bindings = <&kp F8>;
+            layers = <NUMBER>;
+        };
+
+        number_f9_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 3>;
+            bindings = <&kp F9>;
+            layers = <NUMBER>;
+        };
+
+        number_minus_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 4>;
+            bindings = <&kp MINUS>;
+            layers = <NUMBER>;
+        };
+
+        number_f11_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 5>;
+            bindings = <&kp F11>;
+            layers = <NUMBER>;
+        };
+
+        number_f4_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 6>;
+            bindings = <&kp F4>;
+            layers = <NUMBER>;
+        };
+
+        number_f5_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 7>;
+            bindings = <&kp F5>;
+            layers = <NUMBER>;
+        };
+
+        number_f6_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 8>;
+            bindings = <&kp F6>;
+            layers = <NUMBER>;
+        };
+
+        number_f12_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 9>;
+            bindings = <&kp F12>;
+            layers = <NUMBER>;
+        };
+
+        number_f1_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 11>;
+            bindings = <&kp F1>;
+            layers = <NUMBER>;
+        };
+
+        number_f2_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 12>;
+            bindings = <&kp F2>;
+            layers = <NUMBER>;
+        };
+
+        number_f3_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 13>;
+            bindings = <&kp F3>;
+            layers = <NUMBER>;
+        };
+
+        number_equal_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <19 14>;
+            bindings = <&kp EQUAL>;
+            layers = <NUMBER>;
+        };
+
+        // Orange combos
+        orange_esc_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 0>;
+            bindings = <&kp ESC>;
+            layers = <DEFAULT>;
+        };
+
+        orange_home_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 1>;
+            bindings = <&kp HOME>;
+            layers = <DEFAULT>;
+        };
+
+        orange_end_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 2>;
+            bindings = <&kp END>;
+            layers = <DEFAULT>;
+        };
+
+        orange_pause_break_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 3>;
+            bindings = <&kp PAUSE_BREAK>;
+            layers = <DEFAULT>;
+        };
+
+        orange_page_up_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 4>;
+            bindings = <&kp PAGE_UP>;
+            layers = <DEFAULT>;
+        };
+
+        orange_insert_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 5>;
+            bindings = <&kp INSERT>;
+            layers = <DEFAULT>;
+        };
+
+        orange_lctrl_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 6>;
+            bindings = <&kt LCTRL>;
+            layers = <DEFAULT>;
+        };
+
+        orange_lalt_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 7>;
+            bindings = <&kt LALT>;
+            layers = <DEFAULT>;
+        };
+
+        orange_up_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 8>;
+            bindings = <&kp UP_ARROW>;
+            layers = <DEFAULT>;
+        };
+
+        orange_page_down_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 9>;
+            bindings = <&kp PAGE_DOWN>;
+            layers = <DEFAULT>;
+        };
+
+        orange_delete_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 10>;
+            bindings = <&kp DELETE>;
+            layers = <DEFAULT>;
+        };
+
+        orange_backspace_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 11>;
+            bindings = <&kp BACKSPACE>;
+            layers = <DEFAULT>;
+        };
+
+        orange_left_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 12>;
+            bindings = <&kp LEFT_ARROW>;
+            layers = <DEFAULT>;
+        };
+
+        orange_down_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 13>;
+            bindings = <&kp DOWN_ARROW>;
+            layers = <DEFAULT>;
+        };
+
+        orange_right_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 14>;
+            bindings = <&kp RIGHT_ARROW>;
+            layers = <DEFAULT>;
+        };
+
+        orange_caps_lock_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 19>;
+            bindings = <&kp CAPSLOCK>;
+            layers = <DEFAULT>;
+        };
+
+        // Special combos
+        special_scroll_lock_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 1>;
+            bindings = <&kp SCROLLLOCK>;
+            layers = <SYMBOL>;
+        };
+
+        special_print_screen_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 2>;
+            bindings = <&kp PRINTSCREEN>;
+            layers = <SYMBOL>;
+        };
+
+        special_num_lock_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 4>;
+            bindings = <&kt LOCKING_NUM>;
+            layers = <SYMBOL>;
+        }; 
+
+        special_left_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 5>;
+            bindings = <&kp LEFT_ARROW>;
+            layers = <SYMBOL>;
+        }; 
+
+        special_left_control_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 6>;
+            bindings = <&kt LCTRL>;
+            layers = <SYMBOL>;
+        };  
+
+        special_left_alt_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 7>;
+            bindings = <&kt LALT>;
+            layers = <SYMBOL>;
+        }; 
+
+        special_right_arrow_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 9>;
+            bindings = <&kp RIGHT_ARROW>;
+            layers = <SYMBOL>;
+        };  
+
+        special_windows_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 10>;
+            bindings = <&kt LGUI>;
+            layers = <SYMBOL>;
+        };  
+
+        special_application_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 11>;
+            bindings = <&kt K_APP>;
+            layers = <SYMBOL>;
+        };       
+
+        special_shift_lock_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <18 19>;
+            bindings = <&kt RSHIFT>;
+            layers = <DEFAULT>;
+        };          
+    };
+ 
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                          &kp P       &kp W &kp R       &kp A &kp F 
+                          &kp D       &kp T &kp H       &kp E &kp O 
+                          &kp Y       &kp S &kp N       &kp I &kp U 
+                &sk RSHIFT &kp ENTER        &to SYMBOL        &to NUMBER &kp SPACE
+            >;
+        };
+
+        number_layer {
+            bindings = <
+                            &kp MINUS   &kp N7 &kp N8     &kp N9 &none
+                            &kp SLASH   &kp N4 &kp N5     &kp N6 &kp ASTERISK
+                            &kp N0      &kp N1 &kp N2     &kp N3 &none
+                &trans      &trans             &to SYMBOL        &to DEFAULT       &kp SPACE
+            >;
+        }; 
+
+        symbol_layer {
+            bindings = <
+                          &kp SEMICOLON     &kp COLON        &kp ASTERISK         &kp AMPERSAND    &kp QUESTION
+                          &kp UNDERSCORE    &kp AT           &kp MINUS            &kp EXCLAMATION  &kp SLASH
+                          &kp LEFT_BRACE    &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN    &kp DOUBLE_QUOTES 
+                &trans    &trans                             &to DEFAULT                           &to NUMBER         &kp SPACE
+            >;
+        }; 
+        
+        settings_layer {
+            bindings = <
+                            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                            &none        &none        &none        &none        &none 
+                            &kp P        &none        &sys_reset   &none        &none 
+                &bootloader &none                     &none                     &none        &bt BT_CLR
+            >;
+        };
+
+        lock_layer {
+            bindings = <
+                      &none &none &none &none &none 
+                      &none &none &none &none &none 
+                      &none &none &none &none &none 
+                &none &none       &none       &none       &none
+            >;
+        };
+    };
+};

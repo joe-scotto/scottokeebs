@@ -1,4 +1,4 @@
-# Scotto61
+# Scotto61 (SK21)
 
 The Scotto61 is a 61-key ortholinear keyboard with a 7u spacebar.
 

@@ -1,4 +1,4 @@
-# ScottoMacrodeck
+# ScottoMacrodeck (SK15)
 
 The ScottoMacrodeck is an 11-key macropad designed specifically for someone who games with a single thumb, however, it can be used as a traditional macropad.
 

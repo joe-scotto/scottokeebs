@@ -1,4 +1,4 @@
-# Scotto63
+# Scotto63 (SK25)
 
 The Scotto63 is a 63-key 60% split-monoblock column-staggered ortholinear ergonomic wireless keyboard with a large 750mah battery.
 

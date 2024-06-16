@@ -1,4 +1,4 @@
-# ScottoFly
+# ScottoFly (SK9)
 
 The ScottoFly is a 36-key split monoblock ergonomic column-staggered ortholinear keyboard with 20° of angle on each half.
 

@@ -1,0 +1,6 @@
+if SHIELD_SCOTTOWING
+
+config ZMK_KEYBOARD_NAME
+    default "ScottoWing"
+
+endif

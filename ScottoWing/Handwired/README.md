@@ -1,4 +1,4 @@
-# ScottoWing
+# ScottoWing (SK20)
 
 The ScottoWing is a low-profile 34/40-key split monoblock ergonomic column-staggered ortholinear keyboard that uses 18x17mm spaced Choc switches.
 

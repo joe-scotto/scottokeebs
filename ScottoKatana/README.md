@@ -1,4 +1,4 @@
-# ScottoKatana
+# ScottoKatana (SK23)
 
 The ScottoKatana is a 33-key katana staggered keyboard with a 6.25u spacebar and two 1.5u function keys.
 

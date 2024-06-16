@@ -1,4 +1,4 @@
-# Scotto34
+# Scotto34 (SK13)
 
 The Scotto34 is a low-profile 34-key split monoblock ortholinear keyboard that uses 18x17mm spaced Choc switches and an exposed controller in the middle.
 

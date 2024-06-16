@@ -1,4 +1,4 @@
-# ScottoDeck
+# ScottoDeck (SK24)
 
 The ScottoDeck is an 8-key macropad with two EC11 encoders designed for live streaming.
 

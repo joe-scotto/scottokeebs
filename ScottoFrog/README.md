@@ -1,4 +1,4 @@
-# ScottoFrog
+# ScottoFrog (SK17)
 
 A 20-key single handed wireless keyboard based on the [FrogPad](http://frogpad.com).
 

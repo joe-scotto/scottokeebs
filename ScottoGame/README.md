@@ -1,4 +1,4 @@
-# ScottoGame
+# ScottoGame (SK6)
 
 The ScottoGame is a 42-key ortholinear keyboard with a dedicated action button, split spacebar, 5 function keys, and a 0.96" 128x64 OLED display.
 

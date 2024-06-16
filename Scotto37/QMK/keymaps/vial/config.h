@@ -20,7 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Define options
 #define TAPPING_TERM 135
 #define PERMISSIVE_HOLD
-#define IGNORE_MOD_TAP_INTERRUPT
 
 // Vial
 #define VIAL_KEYBOARD_UID {0x1F, 0xAF, 0xF4, 0x5A, 0x17, 0x11, 0xDA, 0x7F}

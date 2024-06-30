@@ -20,3 +20,19 @@ Two modules based on the STM32F072CBT6 to make integrated MCU PCBs simpler. They
 | 2        | 1uF Capacitor (0402)        | [C52923](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923)               |
 | 1        | 10uF Capacitor (0603)       | [C19702](https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702)               |
 | 6        | 100nF Capacitor (0402)      | [C307331](https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331)            |
+
+# Usage
+1. The project is setup as a Kicad template, first open Kicad and select "New Project from Template..." from the file menu.
+![New Project from Template...](https://github.com/joe-scotto/scottokeebs/assets/8194147/383bd477-ea00-497e-b474-fcde3cfbbf68)
+
+2. Next click the folder icon and navigate to where you saved the `ScottoModules/STM32F072CBT6` folder and open it.
+![Open folder](https://github.com/joe-scotto/scottokeebs/assets/8194147/5fca81d0-368b-4750-aca6-404c040dafac)
+![Folder location](https://github.com/joe-scotto/scottokeebs/assets/8194147/e66a78c7-6ee5-496f-b147-3ba9a0db56f5)
+
+3. Select `ScottoModules (STM32)` and click `OK`.
+![Create template](https://github.com/joe-scotto/scottokeebs/assets/8194147/33a7cf74-bec3-4a9f-a3d7-1a1abb79739a)
+
+4. Name your project and save it somewhere.
+![Name and Save](https://github.com/joe-scotto/scottokeebs/assets/8194147/72c649a4-fe12-4581-af50-ddb49dd9555b)
+
+5. You're now ready to start using ScottoModules!

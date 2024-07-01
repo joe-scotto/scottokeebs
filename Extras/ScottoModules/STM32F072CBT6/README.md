@@ -22,17 +22,25 @@ Two modules based on the STM32F072CBT6 to make integrated MCU PCBs simpler. They
 | 6        | 100nF Capacitor (0402)      | [C307331](https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331)            |
 
 # Usage
+
 1. The project is setup as a Kicad template, first open Kicad and select "New Project from Template..." from the file menu.
-![New Project from Template...](https://github.com/joe-scotto/scottokeebs/assets/8194147/383bd477-ea00-497e-b474-fcde3cfbbf68)
+   ![New Project from Template...](https://github.com/joe-scotto/scottokeebs/assets/8194147/383bd477-ea00-497e-b474-fcde3cfbbf68)
 
 2. Next click the folder icon and navigate to where you saved the `ScottoModules/STM32F072CBT6` folder and open it.
-![Open folder](https://github.com/joe-scotto/scottokeebs/assets/8194147/5fca81d0-368b-4750-aca6-404c040dafac)
-![Folder location](https://github.com/joe-scotto/scottokeebs/assets/8194147/e66a78c7-6ee5-496f-b147-3ba9a0db56f5)
+   ![Open folder](https://github.com/joe-scotto/scottokeebs/assets/8194147/5fca81d0-368b-4750-aca6-404c040dafac)
+   ![Folder location](https://github.com/joe-scotto/scottokeebs/assets/8194147/e66a78c7-6ee5-496f-b147-3ba9a0db56f5)
 
 3. Select `ScottoModules (STM32)` and click `OK`.
-![Create template](https://github.com/joe-scotto/scottokeebs/assets/8194147/33a7cf74-bec3-4a9f-a3d7-1a1abb79739a)
+   ![Create template](https://github.com/joe-scotto/scottokeebs/assets/8194147/33a7cf74-bec3-4a9f-a3d7-1a1abb79739a)
 
 4. Name your project and save it somewhere.
-![Name and Save](https://github.com/joe-scotto/scottokeebs/assets/8194147/72c649a4-fe12-4581-af50-ddb49dd9555b)
+   ![Name and Save](https://github.com/joe-scotto/scottokeebs/assets/8194147/72c649a4-fe12-4581-af50-ddb49dd9555b)
 
 5. You're now ready to start using ScottoModules!
+
+# Kicad Template Folder
+
+Alternatively, you can save `ScottoModules/STM32F072CBT6` to your Kicad templates folder and not have to manually load it each time.
+
+-   **Mac** - /Users/YOUR_USERNAME/Documents/KiCad/8.0/template/
+-   **Windows** - C:\Users\YOUR_USERNAME\Documents\KiCad\8.0\template\

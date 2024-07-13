@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|129717446|116310029|d59ac8a9-f50b-422e-ae45-5751f3a48f8b|eceab4ee-4cf8-4cf1-9c6b-25661a4dc40e",
+        "hole_clearance|129717446|135360029|dc8edd6b-657a-4877-9166-2403bb868cda|3791c0bd-3131-431e-9f2b-dd12a4dd2c77",
+        "hole_clearance|129717446|97260029|208ffa43-a5be-4343-b8d8-47fa1b1bee6d|aa1faa53-e393-41d1-af98-cd706a92f312",
+        "hole_clearance|148767446|116310029|ea3928b1-ca8c-4955-ac99-922bead07867|76e1d330-378f-4119-a00d-421415808324",
+        "hole_clearance|148767446|135360029|47b0ba39-78c1-4174-affb-50885bc68550|3e993a27-e4cc-4dcd-ba7e-359da3bca62b",
+        "hole_clearance|148767446|97260029|4f664907-0f9a-4787-b2f9-c63a29daf766|dd734510-a767-461f-a93c-409f11200e0a"
+      ],
       "meta": {
         "version": 2
       },
@@ -446,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ScottoController.kicad_pro",
+    "filename": "ScottoModules.kicad_pro",
     "version": 1
   },
   "net_settings": {

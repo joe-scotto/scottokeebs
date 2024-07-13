@@ -2,8 +2,8 @@
 
 Two modules based on the STM32F072CBT6 to make integrated MCU PCBs simpler. They're designed to sit between 2 switches on an ortholinear or row-staggered keyboard, column-staggered will require some manual moving to get them to fit correctly.
 
-![ScottoModules](https://github.com/joe-scotto/scottokeebs/assets/8194147/c64f8413-679c-4154-bca2-81b5d45da52f)
-![Scotto9 Example](https://github.com/joe-scotto/scottokeebs/assets/8194147/ff219794-3ad3-4f89-b94d-071c3be15afd)
+![ScottoModules](https://github.com/user-attachments/assets/0bb5414e-1c85-4956-a7c2-a01110420ea8)
+![Spacing Example](https://github.com/user-attachments/assets/a2a5501b-8f39-423c-aa4b-ebb2dca22174)
 
 # Bill of Materials (BOM)
 

@@ -3254,6 +3254,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers hide)
@@ -3964,6 +4060,18 @@
 		(uuid "fb37fce0-826b-4ebf-9739-887450eca366")
 	)
 	(rectangle
+		(start 267.335 269.875)
+		(end 299.085 283.845)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0627d46d-1cf4-4d9f-9832-01573f06e45d)
+	)
+	(rectangle
 		(start 173.99 237.49)
 		(end 218.44 280.67)
 		(stroke
@@ -4098,6 +4206,18 @@
 		(uuid 9e6a39c1-89b6-4813-9896-be40f87348b5)
 	)
 	(rectangle
+		(start 267.335 266.065)
+		(end 286.385 269.875)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b726901f-cd46-4461-acc0-fb003815014c)
+	)
+	(rectangle
 		(start 16.51 158.75)
 		(end 83.82 252.73)
 		(stroke
@@ -4132,6 +4252,18 @@
 			(type none)
 		)
 		(uuid f95cedc7-5e1b-4b8c-899f-716a7202b54d)
+	)
+	(text "Power Flags"
+		(exclude_from_sim no)
+		(at 276.987 268.351 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0c01888e-9377-403d-b3c9-1d75fdec942e")
 	)
 	(text "STM32F072CBT6"
 		(exclude_from_sim no)
@@ -5627,7 +5759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a424878-76ac-49f3-81cb-a484fc44ebe6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 167.64 236.22 0)
 			(effects
 				(font
@@ -5677,7 +5809,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5692,7 +5824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1acaef7f-434d-4a43-9b80-2d9f9965c1b1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 48.26 251.46 0)
 			(effects
 				(font
@@ -5742,7 +5874,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5758,7 +5890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fba163f-ac79-4f55-b910-4010c0c76d24")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 85.09 267.9635 0)
 			(effects
 				(font
@@ -5830,7 +5962,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5846,7 +5978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "239470a9-ef03-40a4-9ca0-6d3f67f3ec7c")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 107.95 238.76 90)
 			(effects
 				(font
@@ -5916,7 +6048,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5932,7 +6064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31240296-f710-4862-8474-f22eba4aa149")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 227.33 269.24 0)
 			(effects
 				(font
@@ -5982,7 +6114,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5998,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32668536-7cfb-4f20-b3de-f0011f05d7cc")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 197.2311 250.19 0)
 			(effects
 				(font
@@ -6094,7 +6226,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3311fc17-2db2-4f50-a8a9-3530e68c86d3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 25.4 278.13 0)
 			(effects
 				(font
@@ -6159,7 +6291,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6174,7 +6306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f635564-4a3a-4aa1-8070-1db5894bc0e2")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 221.742 266.7 0)
 			(effects
 				(font
@@ -6247,7 +6379,73 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C8")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 277.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "402d59e8-ff42-43f0-bbe0-d339be16ca6d")
+		(property "Reference" "#PWR015"
+			(at 293.37 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 293.37 282.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59120a45-0012-49e2-a226-be38ec9bc494")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e35c04-130c-4d95-a4d8-8d5606142752")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 135.89 276.86 0)
 			(effects
 				(font
@@ -6313,7 +6511,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6386,6 +6584,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 273.05 278.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc03fd1-e228-493f-934e-4f3072f8a57b")
+		(property "Reference" "#FLG02"
+			(at 273.05 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 273.05 282.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01b3a87-7f19-4351-aae2-7f2e584e2f50")
+		)
+		(instances
+			(project ""
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 273.05 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56971122-6b5c-44bc-a525-237472373ded")
+		(property "Reference" "#PWR017"
+			(at 273.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 273.05 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 273.05 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73d3c17f-eae8-4756-b195-2a1788e1a7ae")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 273.05 0)
 		(unit 1)
@@ -6395,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9cf8bf-675a-44c1-9577-78a80a551f76")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 236.22 279.4 0)
 			(effects
 				(font
@@ -6445,7 +6775,73 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR015")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 283.21 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f3307fc-74a2-440b-b7f8-a2c3daea90fe")
+		(property "Reference" "#PWR018"
+			(at 283.21 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 283.21 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557fc3ed-282f-47cd-a125-3d2aabcdd99e")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6461,7 +6857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bcc7110-27cd-4920-abfc-a7f0fcf6df1c")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 62.23 267.9635 0)
 			(effects
 				(font
@@ -6533,7 +6929,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87a65fd8-2edd-41bb-8996-58bf7619b69a")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 39.37 267.9635 0)
 			(effects
 				(font
@@ -6621,7 +7017,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6636,7 +7032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87f9c157-20f0-4628-95ae-67f257262823")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 25.4 270.51 0)
 			(effects
 				(font
@@ -6686,7 +7082,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6702,7 +7098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d7abe6b-4a3b-49a3-8ccc-cbc2d6f07879")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 195.58 256.54 0)
 			(effects
 				(font
@@ -6752,7 +7148,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6768,7 +7164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32f6a21-db79-46dd-80c3-7d87176b4b7d")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 27.9336 165.1 90)
 			(effects
 				(font
@@ -6838,7 +7234,73 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C7")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 293.37 277.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70c8e01-7638-46e0-affc-f1d0f50613a7")
+		(property "Reference" "#FLG01"
+			(at 293.37 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 293.37 273.3619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 293.37 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "215c61a1-299e-4256-8731-6dfcd41c160a")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6918,7 +7380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbe0d2b5-8ae2-458e-a972-c6da837644ae")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 158.75 241.808 90)
 			(effects
 				(font
@@ -6988,7 +7450,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7004,7 +7466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5128824-3a89-4af6-b311-31a31d6223fd")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 245.11 269.24 0)
 			(effects
 				(font
@@ -7054,7 +7516,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7070,7 +7532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64b6ac2-5cdf-4122-801a-6f78c1ba8fb7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 195.58 271.78 0)
 			(effects
 				(font
@@ -7120,7 +7582,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9952cfd-439a-4c13-b182-aab7cc3eed34")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 158.75 235.712 90)
 			(effects
 				(font
@@ -7205,7 +7667,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ff3917-27a5-44a9-a541-92d82be6546f")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 50.8 267.9635 0)
 			(effects
 				(font
@@ -7293,7 +7755,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7395,7 +7857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5f79ffc-7dd2-4521-a7c1-9aa99ccd71d7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 157.48 236.22 0)
 			(effects
 				(font
@@ -7445,7 +7907,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7586,7 +8048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f443dafb-049a-4257-b402-cc648e5ae270")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 27.94 267.9635 0)
 			(effects
 				(font
@@ -7658,7 +8120,73 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C1")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 283.21 278.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f53c4836-46c1-4a81-9682-c869c8fc4272")
+		(property "Reference" "#FLG03"
+			(at 283.21 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 283.21 282.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 283.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eedca3f-c8dc-4ce9-98dc-1961e89d4c75")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7673,7 +8201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6e3da78-ce20-47f4-80d3-bdde9f5e8f1b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -7723,7 +8251,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7824,7 +8352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa399a8f-4c4e-4814-af5c-592c0394485b")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 247.65 266.7062 0)
 			(effects
 				(font
@@ -7896,7 +8424,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7912,7 +8440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd80f0f-359f-4d56-b455-df499b72fdc7")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 73.66 267.9635 0)
 			(effects
 				(font
@@ -7984,7 +8512,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8000,7 +8528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf83902-2b0e-4545-a582-34a1e247504f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR05"
 			(at 163.83 245.11 0)
 			(effects
 				(font
@@ -8050,7 +8578,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR011")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

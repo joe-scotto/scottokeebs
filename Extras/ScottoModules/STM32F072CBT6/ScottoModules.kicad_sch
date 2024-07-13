@@ -4071,7 +4071,7 @@
 	)
 	(rectangle
 		(start 85.09 224.79)
-		(end 99.06 228.6)
+		(end 103.886 228.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -4225,9 +4225,9 @@
 		)
 		(uuid "7ef13aae-e4b1-4a38-9816-3ca21e388634")
 	)
-	(text "Reset Switch"
+	(text "Bootloader Button"
 		(exclude_from_sim no)
-		(at 91.948 227.076 0)
+		(at 94.488 227.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -17,9 +17,10 @@ Two modules based on the STM32F072CBT6 to make integrated MCU PCBs simpler. They
 | 2        | 5.1k Resistor (0402)        | [C25905](https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905)                |
 | 1        | 10k Resistor (0402)         | [C25744](https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744)                |
 | 1        | 500mA Fuse (0603)           | [C210357](https://jlcpcb.com/partdetail/Bourns-MF_FSMF050X2/C210357)               |
-| 2        | 1uF Capacitor (0402)        | [C52923](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923)               |
-| 1        | 10uF Capacitor (0603)       | [C19702](https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702)               |
-| 6        | 100nF Capacitor (0402)      | [C307331](https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331)            |
+| 3        | 1uF Capacitor (0402)        | [C52923](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923)               |
+| 1        | 10nF Capacitor (0402)       | [C15195](https://jlcpcb.com/partdetail/15869-CL05B103KB5NNNC/C15195)               |
+| 2        | 4.7uF Capacitor (0402)      | [C23733](https://jlcpcb.com/partdetail/24469-CL05A475MP5NRNC/C23733)               |
+| 5        | 100nF Capacitor (0402)      | [C307331](https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331)            |
 
 # Usage
 

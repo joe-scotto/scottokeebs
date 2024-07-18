@@ -218,7 +218,7 @@
 	)
 	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Choc_V1.step"
 		(offset
-			(xyz 0 0 -1.7)
+			(xyz 2.5 -4.825 -1.7)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -4,4 +4,4 @@ The ScottoHazard is a 4x5 (40-keys) or 4x6 (48-keys) split ortholinear keyboard 
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottohazard-handwired-keyboard).
 
-![ScottoHazard](https://github.com/joe-scotto/scottokeebs/assets/8194147/5dc4ec52-acaf-4804-8037-94ab414726e2)
+![ScottoHazard](https://github.com/user-attachments/assets/7a784799-a169-4c00-8c1f-236ddddf498d)

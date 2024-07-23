@@ -1,6 +1,6 @@
 # ScottoHazard (SK28)
 
-The ScottoHazard is a 3x5 (40-keys) or 3x6 (48-keys) split ortholinear keyboard that uses a TRRS cable for the interconnect.
+The ScottoHazard is a 4x5 (40-keys) or 4x6 (48-keys) split ortholinear keyboard that uses a TRRS cable for the interconnect.
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scottohazard-handwired-keyboard).
 

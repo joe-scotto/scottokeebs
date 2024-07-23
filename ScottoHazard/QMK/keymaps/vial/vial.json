@@ -1,7 +1,7 @@
 {
     "matrix": {
-        "rows": 4,
-        "cols": 12
+        "rows": 8,
+        "cols": 6
     },
     "layouts": {
         "keymap": [

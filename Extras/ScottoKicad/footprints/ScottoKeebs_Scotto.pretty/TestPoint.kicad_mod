@@ -68,8 +68,8 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.5 1.5)
-		(drill 0.7)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d4c59acd-c0ea-4830-8b44-6dc762ed1a14")

@@ -1,0 +1,201 @@
+(footprint "Choc_Hotswap_1.00u_16x16"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
+	(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
+	(property "Reference" "REF**"
+		(at -2.5 4.15 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "d0433e7e-0378-46ed-84c9-094372a3c7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Choc_V1_Plated_1.00u"
+		(at -2.5 -13.85 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "17ddb9a8-2c16-4755-86d4-73b4df20a856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b3c0d111-2738-45e8-93b9-51a6cb59c67b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "619ee035-beef-431e-ba9e-e45b0c09ca3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "82d54971-bc49-4e25-918f-fe463f49feb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(fp_rect
+		(start -10.5 -12.85)
+		(end 5.5 3.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8c5adb73-6d7f-4bd4-b2a3-8a4d7c6a9efc")
+	)
+	(fp_line
+		(start -10.1 -12.45)
+		(end -10.1 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "de938a53-e4bd-4134-a231-d9566fe6601a")
+	)
+	(fp_line
+		(start -10.1 2.75)
+		(end 5.1 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "3ebdd554-27dc-4a5a-a2a8-2cce81a71e76")
+	)
+	(fp_line
+		(start 5.1 -12.45)
+		(end -10.1 -12.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a722be68-d2a9-4857-86a2-fb408e5b8f73")
+	)
+	(fp_line
+		(start 5.1 2.75)
+		(end 5.1 -12.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "235f7ef2-cb20-4229-a950-9b47468b2a20")
+	)
+	(pad "" np_thru_hole circle
+		(at -8 -4.85 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b18b0a2f-a2c4-4246-99b2-04a48c8bcae6")
+	)
+	(pad "" smd roundrect
+		(at -6 1.15 180)
+		(size 2.55 2.5)
+		(layers "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "1e0623ca-55b8-4eed-8f3a-c68367aa95fd")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.5 -4.85 180)
+		(size 3.45 3.45)
+		(drill 3.45)
+		(layers "*.Cu" "*.Mask")
+		(uuid "867db7b0-075a-40f8-8cbc-565893947914")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 -4.85 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7d29feb2-319e-4797-b3b5-e596e92f65e3")
+	)
+	(pad "" smd roundrect
+		(at 6 -1.05 180)
+		(size 2.55 2.5)
+		(layers "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "402cd8c7-2611-47e8-aafe-22e307c410d9")
+	)
+	(pad "1" smd roundrect
+		(at -5.35 1.15 180)
+		(size 3.85 2.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1)
+		(uuid "e1ce40bf-b159-4cd9-b6b8-17c1df0e547f")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 1.05 180)
+		(size 3.6 3.6)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98cd41c3-a407-4e17-a03f-cfd459b79574")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -1.05 180)
+		(size 3.6 3.6)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89c3fae0-b1ea-46e0-9b14-4d1416e6803c")
+	)
+	(pad "2" smd roundrect
+		(at 5.35 -1.05 180)
+		(size 3.85 2.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1)
+		(uuid "17cb7824-e33b-4993-bb85-b388da637e7d")
+	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Choc_V1.step"
+		(offset
+			(xyz 2.5 -4.825 -1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

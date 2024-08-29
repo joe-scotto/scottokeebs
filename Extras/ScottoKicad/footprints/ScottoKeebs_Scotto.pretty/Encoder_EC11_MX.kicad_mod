@@ -254,7 +254,7 @@
 		(remove_unused_layers no)
 		(uuid "ebe5a691-5dd3-42b8-9083-da0500bc7bb0")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/EC11.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -262,7 +262,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 90)
 		)
 	)
 )

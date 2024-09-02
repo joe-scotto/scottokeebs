@@ -1,8 +1,8 @@
 {
     "manufacturer": "ScottoKeebs",
-    "keyboard_name": "ScottoSlant",
+    "keyboard_name": "ScottoSlant (PCB Edition)",
     "maintainer": "joe-scotto",
-    "development_board": "promicro",
+    "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -12,21 +12,30 @@
         "mousekey": true,
         "nkro": true
     },
-    "buiid": {
-        "lto": true
-    },
     "matrix_pins": {
-        "cols": ["D1", "D0", "D4", "C6", "D7", "E6", "B4", "B5", "F4", "F5"],
-        "rows": ["B1", "B3", "B2", "B6"]
+        "cols": [
+            "GP14",
+            "GP8",
+            "GP7",
+            "GP6",
+            "GP5",
+            "GP4",
+            "GP3",
+            "GP2",
+            "GP1",
+            "GP0"
+        ],
+        "rows": ["GP15", "GP26", "GP27", "GP28"]
     },
+    "processor": "RP2040",
     "url": "https://scottokeebs.com",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0004",
+        "pid": "0x0029",
         "vid": "0x534B"
     },
     "layouts": {
-        "LAYOUT_3x10_7": {
+        "LAYOUT_3x10_8": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },
@@ -58,13 +67,15 @@
                 { "matrix": [2, 7], "x": 7, "y": 2 },
                 { "matrix": [2, 8], "x": 8, "y": 2 },
                 { "matrix": [2, 9], "x": 9, "y": 2 },
+                { "matrix": [3, 0], "x": 0, "y": 3 },
                 { "matrix": [3, 1], "x": 1, "y": 3 },
                 { "matrix": [3, 2], "x": 2, "y": 3 },
                 { "matrix": [3, 3], "x": 3, "y": 3 },
                 { "matrix": [3, 4], "x": 4, "y": 3 },
                 { "matrix": [3, 6], "x": 6, "y": 3 },
                 { "matrix": [3, 7], "x": 7, "y": 3 },
-                { "matrix": [3, 8], "x": 8, "y": 3 }
+                { "matrix": [3, 8], "x": 8, "y": 3 },
+                { "matrix": [3, 9], "x": 9, "y": 3 }
             ]
         }
     }

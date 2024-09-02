@@ -1,5 +1,5 @@
 /*
-Copyright 2023 Joe Scotto
+Copyright 2024 Joe Scotto
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,6 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 
 // Vial
-#define VIAL_KEYBOARD_UID {0xFE, 0x20, 0xAE, 0x73, 0xA5, 0x62, 0xA2, 0x6B}
+#define VIAL_KEYBOARD_UID {0x95, 0x67, 0x97, 0xB4, 0x86, 0x89, 0x71, 0xA4}
 #define VIAL_UNLOCK_COMBO_ROWS { 3, 3 }
-#define VIAL_UNLOCK_COMBO_COLS { 1, 8 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 9 }

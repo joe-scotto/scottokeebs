@@ -94,19 +94,19 @@
 
         mac_default_layer {
             bindings = <
-                &kp TAB       &kp Q         &kp W &kp F     &kp P    &kp G          &kp J            &kp L                &kp U     &kp Y   &kp BSPC       &kp BSPC
-                &kp CAPS      &kp A         &kp R &kp S     &kp T    &kp D          &kp H            &kp N                &kp E     &kp I   &kp O          &kp ENTER
-                &kp LSHFT     &bm LSHFT Z   &kp X &kp C     &kp V    &kp B          &kp K            &kp M                &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
-                &td_multi_mac &td_multi_mac &none &kp LCTRL &kp LALT &sm LGUI SPACE &lt MAC_CODE TAB &lt MAC_NUMBER ENTER &none     &none   &none          &none
+                &kp TAB       &kp Q         &kp W &kp F     &kp P    &kp G          &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
+                &kp CAPS      &kp A         &kp R &kp S     &kp T    &kp D          &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
+                &kp LSHFT     &bm LSHFT Z   &kp X &kp C     &kp V    &kp B          &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
+                &td_multi_mac &td_multi_mac &none &kp LCTRL &kp LALT &sm LGUI SPACE &lt CODE TAB &lt NUMBER ENTER &none     &none   &none          &none
             >;
         };
 
         windows_default_layer {
             bindings = <
-                &kp TAB           &kp Q             &kp W &kp F     &kp P    &kp G           &kp J                &kp L                    &kp U     &kp Y   &kp BSPC       &kp BSPC
-                &kp CAPS          &kp A             &kp R &kp S     &kp T    &kp D           &kp H                &kp N                    &kp E     &kp I   &kp O          &kp ENTER
-                &kp LSHFT         &bm LSHFT Z       &kp X &kp C     &kp V    &kp B           &kp K                &kp M                    &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
-                &td_multi_windows &td_multi_windows &none &kp LCTRL &kp LALT &sm LCTRL SPACE &lt WINDOWS_CODE TAB &lt WINDOWS_NUMBER ENTER &none     &none   &none          &none
+                &kp TAB           &kp Q             &kp W &kp F     &kp P    &kp G           &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
+                &kp CAPS          &kp A             &kp R &kp S     &kp T    &kp D           &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
+                &kp LSHFT         &bm LSHFT Z       &kp X &kp C     &kp V    &kp B           &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
+                &td_multi_windows &td_multi_windows &none &kp LCTRL &kp LALT &sm LCTRL SPACE &lt CODE TAB &lt NUMBER ENTER &none     &none   &none          &none
             >;
         };
 
@@ -114,7 +114,7 @@
             bindings = <
                 &kp TAB   &kp Q   &kp W &kp F  &kp P     &kp G     &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
                 &kp CAPS  &kp A   &kp R &kp S  &kp T     &kp D     &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
-                &kp LSHFT &bm Z   &kp X &kp C  &kp V     &kp B     &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
+                &kp LSHFT &kp Z   &kp X &kp C  &kp V     &kp B     &kp K        &kp M            &kp COMMA &kp DOT &bm RSHFT FSLH &kp RSHFT
                 &kp ESC   &kp ESC &kp K &kp J  &kp LCTRL &kp SPACE &lt CODE TAB &lt NUMBER ENTER &none     &none   &none          &none
             >;
         };

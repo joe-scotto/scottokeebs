@@ -1,4 +1,4 @@
-# Scotto69 (PCB Edition) (SK19)
+# Scotto69 (PCB Edition) (SK30)
 
 The Scotto69 (PCB Edition) is a standard 4x12 ortholinear keyboard with a numpad on the right and 5 macro keys on the left with an optional encoder.
 

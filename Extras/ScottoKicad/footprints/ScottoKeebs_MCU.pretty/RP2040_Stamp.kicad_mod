@@ -7,6 +7,7 @@
 		(at 12 13.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "57b6e409-9848-43ca-ba0b-66ca25a1adec")
 		(effects
 			(font
@@ -926,5 +927,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dab46582-d741-4ceb-a320-b50dd5243d25")
+	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Stamp.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

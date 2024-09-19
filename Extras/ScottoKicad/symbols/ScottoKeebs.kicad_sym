@@ -2682,7 +2682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2040_Stamp:RP2040_Stamp_SMD"
+		(property "Footprint" "ScottoKeebs_MCU:RP2040_Stamp"
 			(at 0 -40.64 0)
 			(effects
 				(font

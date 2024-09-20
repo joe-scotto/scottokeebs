@@ -1,45 +1,241 @@
-(footprint "LED_SK6812MINI" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 2.1 unlocked) (layer "B.SilkS")
-      (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
-    (tstamp 30d2ff6f-b21b-4fab-a964-0deb928054fe)
-  )
-  (fp_text value "LED_SK6812MINI" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 38e03dd6-2fca-4560-bc57-39271fd07201)
-  )
-  (fp_poly
-    (pts
-      (xy -2.8 -1.4)
-      (xy -2.2 -1.4)
-      (xy -2.2 -2)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.SilkS") (tstamp cdb04454-8c36-4812-be1f-3b04f10f0567))
-  (fp_line (start -1.6 -1.4) (end -1.6 1.4)
-    (stroke (width 0.12) (type solid)) (layer "Cmts.User") (tstamp e0e4510b-d323-4f69-8f09-fe41e6203289))
-  (fp_line (start -1.6 1.4) (end 1.6 1.4)
-    (stroke (width 0.12) (type solid)) (layer "Cmts.User") (tstamp 94ecc889-5f4f-4303-89e7-5af84cb0e512))
-  (fp_line (start 1.6 -1.4) (end -1.6 -1.4)
-    (stroke (width 0.12) (type solid)) (layer "Cmts.User") (tstamp 3a8607af-fe75-43a7-ae74-df239a381115))
-  (fp_line (start 1.6 1.4) (end 1.6 -1.4)
-    (stroke (width 0.12) (type solid)) (layer "Cmts.User") (tstamp 840cf2a7-9a93-4bff-81e4-9d10f754b4c0))
-  (fp_line (start -1.7 -1.5) (end -1.7 1.5)
-    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp e8a11234-7dc8-400d-8a8e-67da93d6faba))
-  (fp_line (start -1.7 1.5) (end 1.7 1.5)
-    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp a75b63fc-863c-4410-b565-2d899882f950))
-  (fp_line (start 1.7 -1.5) (end -1.7 -1.5)
-    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp f868f779-5632-4089-a190-1ada87a1968f))
-  (fp_line (start 1.7 1.5) (end 1.7 -1.5)
-    (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp 6068bdb7-7f43-403c-ba3d-703e0990538b))
-  (pad "1" smd rect (at 2.55 0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 7cfefd66-38cd-4511-9a9b-677d50996663))
-  (pad "2" smd rect (at 2.55 -0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp eceb35f4-e4bc-45a6-a37c-4f2fbc5547ff))
-  (pad "3" smd roundrect (at -2.55 -0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 1c615da8-f37d-4b14-b656-bb8b50f53000))
-  (pad "4" smd rect (at -2.55 0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e2e59e9b-3152-410d-922a-937a73336b71))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
-    (offset (xyz 0 0 -1.65))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 0))
-  )
+(footprint "LED_SK6812MINI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "30d2ff6f-b21b-4fab-a964-0deb928054fe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "LED_SK6812MINI"
+		(at -0.25 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38e03dd6-2fca-4560-bc57-39271fd07201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6086dca4-20eb-4505-ad60-600a406ff9cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8cef57a-2072-4f07-8efd-ee2aa2c49cdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f68c6849-9083-4089-8ccc-f4b020ef46f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.8 -0.85)
+		(end -2.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "249a26ec-7b3c-4b02-a549-7e5c66eca001")
+	)
+	(fp_line
+		(start -2.8 0.65)
+		(end -2.6 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7aa5c9c5-a15a-4313-8ee6-34c50c123010")
+	)
+	(fp_line
+		(start -2.6 -0.85)
+		(end -2.8 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f976f7c-5b80-44c6-8c5f-6704a8d5e0c8")
+	)
+	(fp_line
+		(start -2.6 0.65)
+		(end -2.8 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fcd468a0-6449-42b6-9e63-2b459f880b69")
+	)
+	(fp_line
+		(start 2.6 -0.85)
+		(end 2.8 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "09f4b7eb-15f9-4358-8f33-c795e002405b")
+	)
+	(fp_line
+		(start 2.6 0.65)
+		(end 2.8 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8d59dd90-f79d-4766-a4cc-0170933b442c")
+	)
+	(fp_line
+		(start 2.8 -0.85)
+		(end 2.6 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c7c06bae-3048-4b1d-92c4-0218730ae8d8")
+	)
+	(fp_line
+		(start 2.8 0.65)
+		(end 2.6 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f38ce30b-52aa-4506-b19e-95321f687405")
+	)
+	(fp_poly
+		(pts
+			(xy 1.1 1.5) (xy 1.7 1.5) (xy 1.7 0.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "cdb04454-8c36-4812-be1f-3b04f10f0567")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e8a11234-7dc8-400d-8a8e-67da93d6faba")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a75b63fc-863c-4410-b565-2d899882f950")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f868f779-5632-4089-a190-1ada87a1968f")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6068bdb7-7f43-403c-ba3d-703e0990538b")
+	)
+	(pad "1" smd roundrect
+		(at -2.7 -0.75)
+		(size 1.4 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1c615da8-f37d-4b14-b656-bb8b50f53000")
+	)
+	(pad "2" smd roundrect
+		(at -2.7 0.75)
+		(size 1.4 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e2e59e9b-3152-410d-922a-937a73336b71")
+	)
+	(pad "3" smd roundrect
+		(at 2.7 0.75)
+		(size 1.4 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7cfefd66-38cd-4511-9a9b-677d50996663")
+	)
+	(pad "4" smd roundrect
+		(at 2.7 -0.75)
+		(size 1.4 0.82)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "eceb35f4-e4bc-45a6-a37c-4f2fbc5547ff")
+	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset
+			(xyz 0 0 -1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
 )

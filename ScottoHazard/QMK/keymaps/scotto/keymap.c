@@ -220,10 +220,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), KC_NO, KC_LCTL, KC_LALT, LCTL_T(KC_SPC), LT(6, KC_TAB), LT(7, KC_ENT), KC_ESC,   KC_NO,  KC_NO,           KC_NO
     ),
     [5] = LAYOUT_ortho_4x12(
-        KC_TAB,                             KC_Q,                               KC_W,  KC_F,    KC_P,    KC_G,   KC_J,          KC_L,          KC_U,     KC_Y,   KC_BSPC, KC_BSPC,
-        KC_ENT,                             KC_A,                               KC_R,  KC_S,    KC_T,    KC_D,   KC_H,          KC_N,          KC_E,     KC_I,   KC_O,    KC_QUOT,
-        KC_LSFT,                            KC_Z,                               KC_X,  KC_C,    KC_V,    KC_B,   KC_K,          KC_M,          KC_COMMA, KC_DOT, KC_SLSH, KC_RSFT,
-        TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), KC_NO, KC_LCTL, KC_LALT, KC_SPC, LT(6, KC_TAB), LT(7, KC_ENT), KC_ESC,   KC_NO,  KC_NO,   KC_NO
+        KC_TAB,                             KC_Q,                               KC_W, KC_F, KC_P,    KC_G,   KC_J,          KC_L,          KC_U,     KC_Y,    KC_BSPC, KC_BSPC,
+        KC_ENT,                             KC_A,                               KC_R, KC_S, KC_T,    KC_D,   KC_H,          KC_N,          KC_E,     KC_I,    KC_O,    KC_QUOT,
+        KC_LSFT,                            KC_Z,                               KC_X, KC_C, KC_V,    KC_B,   KC_K,          KC_M,          KC_COMMA, KC_DOT,  KC_SLSH, KC_RSFT,
+        TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), TD(TD_ESC_LCTL_LALT_WINDOWS_EMOJI), KC_K, KC_J, KC_LCTL, KC_SPC, LT(6, KC_TAB), LT(7, KC_ENT), KC_ESC,   KC_NO,   KC_NO,   KC_NO
     ),
     [6] = LAYOUT_ortho_4x12(
         KC_TRNS, KC_UNDS,         KC_MINS, KC_PLUS, KC_EQL,  KC_COLN, KC_GRV,   KC_MRWD, KC_MPLY, KC_MFFD, KC_DEL,          KC_TRNS,
@@ -244,3 +244,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     )
 };
+             

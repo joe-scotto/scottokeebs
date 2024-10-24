@@ -353,4 +353,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "51c04b30-c528-4a30-bcac-c036719016c9")
 	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Miscellaneous.3dshapes/Hub_2_Port.step"
+		(offset
+			(xyz -10.16 -11.44 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -48,6 +48,7 @@ Please refer to each library in order to understand the license it uses, most ar
 -   [Marbastlib](https://github.com/ebastler/marbastlib) - Symbols.
 -   [Kleeb](https://github.com/crides/kleeb) - 3D models, symbols, and footprints.
 -   [Keebio](https://github.com/keebio/Keebio-Parts.pretty) - 3D models, footprints, and symbols.
+-   [Adafruit](https://github.com/adafruit/Adafruit_CAD_Parts/tree/main?tab=MIT-1-ov-file#readme) - 3D models
 
 # Credits
 

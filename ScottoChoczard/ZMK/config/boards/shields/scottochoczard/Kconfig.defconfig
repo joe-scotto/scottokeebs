@@ -1,0 +1,16 @@
+if SHIELD_SCOTTOCHOCZARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "ScottoChoczard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SCOTTOCHOCZARD_LEFT || SHIELD_SCOTTOCHOCZARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

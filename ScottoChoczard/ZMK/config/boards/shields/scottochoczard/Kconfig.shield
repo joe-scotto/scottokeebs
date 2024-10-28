@@ -1,0 +1,6 @@
+config SHIELD_SCOTTOCHOCZARD_LEFT
+    def_bool $(shields_list_contains,scottochoczard_left)
+
+config SHIELD_SCOTTOCHOCZARD_RIGHT
+    def_bool $(shields_list_contains,scottochoczard_right)
+    

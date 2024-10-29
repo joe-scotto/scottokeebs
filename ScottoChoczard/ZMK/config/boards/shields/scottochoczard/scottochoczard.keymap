@@ -18,7 +18,6 @@
 / {
     macros {
         spotlight: spotlight {
-            label = "spotlight";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LGUI>, <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>; 
@@ -26,14 +25,12 @@
 
         // Emoji
         mac_emoji: mac_emoji {
-            label = "mac_emoji";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LGUI>, <&macro_press &kp LCTRL>, <&macro_tap &kp SPACE>, <&macro_release &kp LCTRL>, <&macro_release &kp LGUI>; 
         };
 
         windows_emoji: windows_emoji {
-            label = "windows_emoji";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LGUI>, <&macro_tap &kp DOT>, <&macro_release &kp LGUI>; 
@@ -43,7 +40,6 @@
     behaviors {
         bm: bottom_row_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "BOTTOM_ROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <135>;
             quick-tap-ms = <0>;
@@ -53,7 +49,6 @@
 
         cm: code_row_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "CODE_ROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
@@ -64,7 +59,6 @@
 
         sm: space_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "SPACE_MOD";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
@@ -74,7 +68,6 @@
 
         td_multi_mac: tap_dance_multi_mac {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MULTI_MAC";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&sm ESC LALT>, <&spotlight>, <&kp LCTRL>, <&mac_emoji>;
@@ -82,7 +75,6 @@
 
         td_multi_windows: tap_dance_multi_windows {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MULTI_WINDOWS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&sm ESC LALT>, <&kp LGUI>, <&windows_emoji>;
@@ -93,6 +85,7 @@
         compatible = "zmk,keymap";
 
         mac_default_layer {
+            display-name = "Mac";
             bindings = <
                 &kp TAB       &kp Q         &kp W &kp F     &kp P    &kp G          &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
                 &kp CAPS      &kp A         &kp R &kp S     &kp T    &kp D          &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
@@ -102,6 +95,7 @@
         };
 
         windows_default_layer {
+            display-name = "Windows";
             bindings = <
                 &kp TAB           &kp Q             &kp W &kp F     &kp P    &kp G           &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
                 &kp CAPS          &kp A             &kp R &kp S     &kp T    &kp D           &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
@@ -111,6 +105,7 @@
         };
 
         gaming_layer {
+            display-name = "Gaming";
             bindings = <
                 &kp TAB   &kp Q   &kp W &kp F  &kp P     &kp G     &kp J        &kp L            &kp U     &kp Y   &kp BSPC       &kp BSPC
                 &kp CAPS  &kp A   &kp R &kp S  &kp T     &kp D     &kp H        &kp N            &kp E     &kp I   &kp O          &kp ENTER
@@ -120,6 +115,7 @@
         };
 
         code_layer {
+            display-name = "Code";
             bindings = <
                 &trans &kp UNDER      &kp MINUS &kp PLUS &kp EQUAL &kp COLON &kp GRAVE &kp C_PREV   &kp C_PP   &kp C_NEXT   &kp DEL        &trans
                 &trans &kp LBRC       &kp LPAR  &kp RPAR &kp RBRC  &kp PIPE  &kp ESC   &kp LEFT     &kp UP     &kp DOWN     &kp RIGHT      &trans
@@ -129,6 +125,7 @@
         };
 
         number_layer {
+            display-name = "Number";
             bindings = < 
                 &trans &kp EXCL  &kp AT &kp HASH &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp ASTERISK &kp CAPS &kp BSPC  &trans
                 &trans &kp N1    &kp N2 &kp N3   &kp N4   &kp N5       &kp N6    &kp N7   &kp N8       &kp N9   &kp N0    &trans
@@ -138,11 +135,12 @@
         };
 
         function_layer {
+            display-name = "Function";
             bindings =<
-                &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none  &none  &to GAME  &to MAC  &to WINDOWS &trans
-                &trans &kp F1       &kp F2       &kp F3       &kp F4       &kp F5        &kp 6  &kp F7 &kp F8 &kp F9        &kp F10     &trans
-                &trans &kp F11      &none        &bt BT_CLR   &bootloader  &none         &none  &none  &none  &none         &kp F12     &trans
-                &trans &trans       &trans       &trans       &trans       &trans        &trans &trans &trans &trans        &trans      &trans
+                &trans &bt BT_SEL 0 &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none  &none  &to GAME  &to MAC  &to WINDOWS &trans
+                &trans &kp F1       &kp F2         &kp F3       &kp F4       &kp F5        &kp 6  &kp F7 &kp F8 &kp F9        &kp F10     &trans
+                &trans &kp F11      &studio_unlock &bt BT_CLR   &bootloader  &none         &none  &none  &none  &none         &kp F12     &trans
+                &trans &trans       &trans         &trans       &trans       &trans        &trans &trans &trans &trans        &trans      &trans
             >;
         };
     };

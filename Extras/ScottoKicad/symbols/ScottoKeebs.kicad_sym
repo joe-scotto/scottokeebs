@@ -102,7 +102,7 @@
 			(pin input line
 				(at 1.27 -2.54 90)
 				(length 2.54)
-				(name "SCLL"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)

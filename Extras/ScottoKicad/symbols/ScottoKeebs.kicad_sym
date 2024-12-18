@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Encoder_Ano"
 			(at 6.35 0 90)
 			(effects
 				(font

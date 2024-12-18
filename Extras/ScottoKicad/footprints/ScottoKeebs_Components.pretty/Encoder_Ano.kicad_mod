@@ -262,7 +262,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "4b48e040-4a70-47dd-a8e5-6d8f246f0538")
 	)
 	(fp_line
@@ -272,7 +272,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "accb40e5-4e98-403c-ac9c-e626eb68c274")
 	)
 	(fp_line
@@ -282,7 +282,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "8cdbe29e-4934-4764-a622-fd954fc2ebbc")
 	)
 	(fp_line
@@ -292,7 +292,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "fabc91a4-dc12-47ed-846e-6a9fa11f441b")
 	)
 	(fp_arc
@@ -303,7 +303,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "2d85a0f1-c702-4736-a907-dd9f1df8bbf1")
 	)
 	(fp_arc
@@ -314,7 +314,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "1a5bd429-7394-4b0f-9f02-ace34c4c2f12")
 	)
 	(fp_arc
@@ -325,7 +325,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "feec9a59-a404-451e-a81c-ce183d3427b4")
 	)
 	(fp_arc
@@ -336,7 +336,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "fa7ef99f-1476-41a7-b921-832284a31fa6")
 	)
 	(fp_poly

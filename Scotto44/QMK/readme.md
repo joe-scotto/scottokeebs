@@ -2,7 +2,7 @@
 
 ![Scotto44](https://i.imgur.com/y2j7DOxh.jpg)
 
-A 3x5 (40-keys) or 3x6 (48-keys) split ortholinear keyboard that uses a TRRS cable for the interconnect.
+A 3x5 (38-keys) or 3x6 (44-keys) split column-staggered keyboard that uses a USB-C cable for the interconnect.
 
 * Keyboard Maintainer: [Joe Scotto](https://github.com/joe-scotto)
 *   Hardware Supported: Raspberry Pi Pico
@@ -10,11 +10,11 @@ A 3x5 (40-keys) or 3x6 (48-keys) split ortholinear keyboard that uses a TRRS cab
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/scottokeebs/scottohazard:default
+    make handwired/scottokeebs/scotto44:default
 
 Flashing example for this keyboard:
 
-    make handwired/scottokeebs/scottohazard:default:flash
+    make handwired/scottokeebs/scotto44:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

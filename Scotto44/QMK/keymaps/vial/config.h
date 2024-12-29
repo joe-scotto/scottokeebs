@@ -22,6 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 
 // Vial
-#define VIAL_KEYBOARD_UID {0xF1, 0xE9, 0x98, 0x13, 0x64, 0x38, 0xAF, 0x65}
-#define VIAL_UNLOCK_COMBO_ROWS { 3, 3 }
-#define VIAL_UNLOCK_COMBO_COLS { 3, 5 }
+#define VIAL_KEYBOARD_UID {0xD7, 0x92, 0xDB, 0xBB, 0xED, 0x3F, 0x0B, 0x7C}
+#define VIAL_UNLOCK_COMBO_ROWS {3, 3}
+#define VIAL_UNLOCK_COMBO_COLS {3, 5}

@@ -1,6 +1,6 @@
 # Scotto44
 
-![Scotto44](https://i.imgur.com/y2j7DOxh.jpg)
+![Scotto44](https://i.imgur.com/j91rkRIh.jpg)
 
 A 3x5 (38-keys) or 3x6 (44-keys) split column-staggered keyboard that uses a USB-C cable for the interconnect.
 
@@ -22,6 +22,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,1) in the matrix (usually the top left key or Escape) and plug in the keyboard
+* **Bootmagic reset**: Hold down the key at (1,6) in the matrix (usually the top left key or Escape) and plug in the keyboard
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available

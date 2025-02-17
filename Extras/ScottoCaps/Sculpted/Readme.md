@@ -1,6 +1,6 @@
 # ScottoCaps (Sculpted)
 
-Sculpted Cherry MX and Choc keycaps designed for FDM 3D printing. I recommend putting the back of the keycap towards the build plate. By doing this, you'll hide any texture on the back of the cap where it won't be as visible.
+Sculpted Cherry MX keycaps designed for FDM 3D printing. I recommend putting the back of the keycap towards the build plate. By doing this, you'll hide any texture on the back of the cap where it won't be as visible.
 
 - **Blank Scoop:** 1.0mm
 - **Keycap Dimensions:** 18.3x18.3x11.4mm (R3)

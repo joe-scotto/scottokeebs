@@ -7,8 +7,7 @@ Sculpted Cherry MX and Choc keycaps designed for FDM 3D printing. I recommend pu
 - **Keycap Spacing:** 0.75mm (0.50mm Choc)
 - **Corner Fillet:** 1.25mm
 - **Top Fillet:** 0.625mm
-
-![ScottoCaps (Scooped) Bambu Studio](https://github.com/joe-scotto/scottokeebs/assets/8194147/fd91f6c3-f56d-4182-b6f4-5cd02d160acf)
+![ScottoCaps (Sculpted)](https://github.com/user-attachments/assets/92c0331c-eeff-415e-b5e9-bd6f4c5dbf80)
 
 # Stems
 

@@ -324,7 +324,7 @@
 		(remove_unused_layers no)
 		(uuid "cb4fc98d-7565-48f1-8292-625b339235cc")
 	)
-	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SW-TH_K3-1204D-L.wrl"
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Switch_K3-1204D-L.step"
 		(offset
 			(xyz 0 -3.3 0)
 		)

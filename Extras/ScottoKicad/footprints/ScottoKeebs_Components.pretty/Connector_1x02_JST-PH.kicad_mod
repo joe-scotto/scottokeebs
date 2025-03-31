@@ -117,6 +117,26 @@
 		(uuid "028e3507-86b4-4ac3-97c7-8cc69de81e9a")
 	)
 	(fp_line
+		(start -0.25 -3.47)
+		(end 0.25 -2.97)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "08b2ec76-a940-402e-87ba-42261a4b9048")
+	)
+	(fp_line
+		(start 0.25 -3.47)
+		(end -0.25 -2.97)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ebf1cd6-e413-4d54-9643-78b07f4d84cb")
+	)
+	(fp_line
 		(start 0.27 -1.65)
 		(end -0.27 -1.65)
 		(stroke

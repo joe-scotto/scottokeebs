@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C0, C1, C2, C3, C4, C5, R0, R1, R2",TestPoint,9,TestPoint,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D2, D3, D4, D5, D6, D7, D8, D9",Diode_SOD-123,18,Diode,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S2, S3, S4, S5, S6, S7, S8, S9",MX_Solder_1.00u,18,Keyswitch,

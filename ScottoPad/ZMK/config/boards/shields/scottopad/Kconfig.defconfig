@@ -1,0 +1,6 @@
+if SHIELD_SCOTTOPAD
+
+config ZMK_KEYBOARD_NAME
+    default "ScottoPad"
+
+endif

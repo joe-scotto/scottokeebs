@@ -1,0 +1,38 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <135>;
+            bindings = <&kp M>, <&tog 1>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            display-name = "Default";
+
+            bindings = <
+                &kp A &kp B &kp C &kp D &kp E &kp F
+                &kp G &kp H &kp I &kp J &kp K &kp L
+                &td0  &kp N &kp O &kp P &kp Q &kp R
+            >;
+        };
+
+        function_layer {
+            display-name = "Function";
+
+            bindings =<
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
+                &none        &none        &none        &none        &none        &none
+                &tog 1       &none        &none        &none        &none        &none
+            >;
+        };
+    };
+};

@@ -1,6 +1,6 @@
 # Scotto16
 
-![Scotto16](https://i.imgur.com/inbmNSEh.jpeg)
+![Scotto16](https://i.imgur.com/kJeIEhAh.jpeg)
 
 A 16-key macropad. Case files available [here](https://github.com/joe-scotto/scottokeebs).
 

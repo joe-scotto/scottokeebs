@@ -70,6 +70,20 @@
 			(justify mirror)
 		)
 	)
+	(property "LCSC" "C84256"
+		(at -11.57 24.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "214ea895-be90-4462-adfc-2cbb2874e2b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(attr smd allow_soldermask_bridges)
 	(fp_line
 		(start -11.5 -13.35)
@@ -90,6 +104,66 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "32ee4e32-28b1-4dcc-abcd-335e2f908b8b")
+	)
+	(fp_line
+		(start -5.8875 -5.6)
+		(end -5.3875 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "36b78d72-a577-4724-8483-ea6969596bc2")
+	)
+	(fp_line
+		(start -5.3875 -5.6)
+		(end -5.8875 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "965f3595-84a7-4514-8d84-23b7c3660ee1")
+	)
+	(fp_line
+		(start -2.75 -9.8)
+		(end -2.25 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "67d312b4-83ea-4cf0-86a9-a231230e20c3")
+	)
+	(fp_line
+		(start -2.25 -9.8)
+		(end -2.75 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b1f4d38-5a0b-431c-8860-12ce2f6ab3ad")
+	)
+	(fp_line
+		(start 0.3625 -5.6)
+		(end 0.8625 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1a2848c0-2512-4e5c-853a-3dfbc1af5500")
+	)
+	(fp_line
+		(start 0.8625 -5.6)
+		(end 0.3625 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d49046dd-b21f-4d39-a1e8-17ca9037cf87")
 	)
 	(fp_line
 		(start 6.5 -13.35)
@@ -170,7 +244,7 @@
 		(size 3.45 3.45)
 		(drill 3.45)
 		(layers "*.Cu" "*.Mask")
-		(uuid "867db7b0-075a-40f8-8cbc-565893947914")
+		(uuid "51ace52c-0c92-41ff-a0cf-1bf2c889bb47")
 	)
 	(pad "" np_thru_hole circle
 		(at 3 -4.85 180)

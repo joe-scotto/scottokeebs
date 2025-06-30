@@ -2,6 +2,10 @@
 
 A collection of footprints, symbols, and 3D models for building mechanical keyboards with Kicad.
 
+```diff
+- This is confirmed working in Kicad 8, other versions you may encounter issues!
+```
+
 # Installation
 
 1. Add a `SCOTTOKEEBS_KICAD` path to match where the `ScottoKicad` folder is located.

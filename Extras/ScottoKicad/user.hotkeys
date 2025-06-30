@@ -1,0 +1,764 @@
+3DViewer.Control		
+3DViewer.Control.attribute_dnp	D	
+3DViewer.Control.attribute_not_in_posfile	P	
+3DViewer.Control.attributesOther	V	
+3DViewer.Control.attributesSMD	S	
+3DViewer.Control.attributesTHT	T	
+3DViewer.Control.flipView	F	
+3DViewer.Control.homeView	Home	
+3DViewer.Control.materialCAD		
+3DViewer.Control.materialDiffuse		
+3DViewer.Control.materialNormal		
+3DViewer.Control.moveDown	Down	
+3DViewer.Control.moveLeft	Left	
+3DViewer.Control.moveRight	Right	
+3DViewer.Control.moveUp	Up	
+3DViewer.Control.noGrid		
+3DViewer.Control.pivotCenter	Space	
+3DViewer.Control.resetView	R	
+3DViewer.Control.rotateXclockwise		
+3DViewer.Control.rotateXcounterclockwise		
+3DViewer.Control.rotateYclockwise		
+3DViewer.Control.rotateYcounterclockwise		
+3DViewer.Control.rotateZclockwise		
+3DViewer.Control.rotateZcounterclockwise		
+3DViewer.Control.show10mmGrid		
+3DViewer.Control.show1mmGrid		
+3DViewer.Control.show2_5mmGrid		
+3DViewer.Control.show5mmGrid		
+3DViewer.Control.showAxis		
+3DViewer.Control.showBoundingBoxes		
+3DViewer.Control.showLayersManager		
+3DViewer.Control.toggleAdhesive		
+3DViewer.Control.toggleBoardBody		
+3DViewer.Control.toggleComments		
+3DViewer.Control.toggleECO		
+3DViewer.Control.toggleOrtho		
+3DViewer.Control.toggleRealisticMode		
+3DViewer.Control.toggleSilk		
+3DViewer.Control.toggleSolderMask		
+3DViewer.Control.toggleSolderPaste		
+3DViewer.Control.toggleZones		
+3DViewer.Control.viewBack	Shift+Y	
+3DViewer.Control.viewBottom	Shift+Z	
+3DViewer.Control.viewFront	Y	
+3DViewer.Control.viewLeft	Shift+X	
+3DViewer.Control.viewRight	X	
+3DViewer.Control.viewTop	Z	
+common.Checker.excludeMarker		
+common.Checker.nextMarker		
+common.Checker.prevMarker		
+common.Control.activatePointEditor		
+common.Control.addLibrary		
+common.Control.centerContents		
+common.Control.cursorClick	Return	
+common.Control.cursorDblClick	End	
+common.Control.cursorDown	Down	
+common.Control.cursorDownFast	Cmd+Down	
+common.Control.cursorLeft	Left	
+common.Control.cursorLeftFast	Cmd+Left	
+common.Control.cursorRight	Right	
+common.Control.cursorRightFast	Cmd+Right	
+common.Control.cursorUp	Up	
+common.Control.cursorUpFast	Cmd+Up	
+common.Control.ddaddLibrary		
+common.Control.editGridOrigin		
+common.Control.editGrids		
+common.Control.gridFast1	Option+1	
+common.Control.gridFast2	Option+2	
+common.Control.gridFastCycle	Option+4	
+common.Control.gridNext	N	
+common.Control.gridPreset		
+common.Control.gridPrev	Shift+N	
+common.Control.gridProperties		
+common.Control.gridResetOrigin	Z	
+common.Control.gridSetOrigin	S	
+common.Control.highContrastMode		
+common.Control.highContrastModeCycle	H	
+common.Control.imperialUnits		
+common.Control.magneticSnapActiveLayer		
+common.Control.magneticSnapAllLayers		
+common.Control.magneticSnapToggle	Shift+S	
+common.Control.metricUnits		
+common.Control.mils		
+common.Control.new	Cmd+N	
+common.Control.newLibrary		
+common.Control.open	Cmd+O	
+common.Control.pageSettings		
+common.Control.panDown	Shift+Down	
+common.Control.panLeft	Shift+Left	
+common.Control.panRight	Shift+Right	
+common.Control.panUp	Shift+Up	
+common.Control.pinLibrary		
+common.Control.plot		
+common.Control.print	Cmd+P	
+common.Control.quit		
+common.Control.redoZoom		
+common.Control.refreshPreview		
+common.Control.resetLocalCoords	Space	
+common.Control.revert		
+common.Control.save	Cmd+S	
+common.Control.saveAll		
+common.Control.saveAs	Cmd+Shift+S	
+common.Control.saveCopy		
+common.Control.selectColumns		
+common.Control.show3DViewer	Option+3	
+common.Control.showContextMenu		
+common.Control.showFootprintBrowser		
+common.Control.showFootprintEditor		
+common.Control.showProjectManager		
+common.Control.showProperties		
+common.Control.showSymbolBrowser		
+common.Control.showSymbolEditor		
+common.Control.toggleBoundingBoxes		
+common.Control.toggleCursor	Cmd+Shift+X	
+common.Control.toggleCursorStyle		
+common.Control.toggleGrid		
+common.Control.toggleGridOverrides	Cmd+Shift+G	
+common.Control.togglePolarCoords		
+common.Control.toggleUnits	Cmd+U	
+common.Control.undoZoom		
+common.Control.unpinLibrary		
+common.Control.updateFind		
+common.Control.updatePcbFromSchematic	F8	
+common.Control.updatePreferences		
+common.Control.updateSchematicFromPCB		
+common.Control.updateUnits		
+common.Control.zoomCenter	F4	
+common.Control.zoomFitObjects	Cmd+Home	
+common.Control.zoomFitScreen	Cmd+0	
+common.Control.zoomIn	Cmd++	
+common.Control.zoomInCenter		
+common.Control.zoomOut	Cmd+-	
+common.Control.zoomOutCenter		
+common.Control.zoomPreset		
+common.Control.zoomRedraw	Cmd+R	
+common.Control.zoomTool	Cmd+F5	
+common.Interactive.cancel		
+common.Interactive.copy	Cmd+C	
+common.Interactive.cut	Cmd+X	
+common.Interactive.cycleArcEditMode	Cmd+Space	
+common.Interactive.delete	Back	
+common.Interactive.deleteTool		
+common.Interactive.duplicate	Cmd+D	
+common.Interactive.find	Cmd+F	
+common.Interactive.findAndReplace	Cmd+Option+F	
+common.Interactive.findNext	F3	
+common.Interactive.findNextMarker	Shift+F3	
+common.Interactive.findPrevious	Shift+F3	
+common.Interactive.finish	End	
+common.Interactive.measureTool	Cmd+Shift+M	
+common.Interactive.paste	Cmd+V	
+common.Interactive.pasteSpecial		
+common.Interactive.redo	Cmd+Shift+Z	
+common.Interactive.replaceAll		
+common.Interactive.replaceAndFindNext		
+common.Interactive.search	Cmd+G	
+common.Interactive.selectAll	Cmd+A	
+common.Interactive.undo	Cmd+Z	
+common.Interactive.unselectAll	Cmd+Shift+A	
+common.Interactive.updateMenu		
+common.InteractiveEdit.measureTool	Cmd+Shift+M	
+common.InteractivePicker.pickerSubTool		
+common.InteractivePicker.pickerTool		
+common.InteractiveSelection.selectionTool		
+common.SuiteControl.about		
+common.SuiteControl.configurePaths		
+common.SuiteControl.donate		
+common.SuiteControl.getInvolved		
+common.SuiteControl.gettingStarted		
+common.SuiteControl.help		
+common.SuiteControl.listHotKeys	Cmd+F1	
+common.SuiteControl.openPreferences	Cmd+,	
+common.SuiteControl.reportBug		
+common.SuiteControl.showFootprintLibTable		
+common.SuiteControl.showSymbolLibTable		
+eeschema.AlignToGrid		
+eeschema.EditorControl.annotate		
+eeschema.EditorControl.annotateAutomatically		
+eeschema.EditorControl.assignFootprints		
+eeschema.EditorControl.clearHighlight	~	
+eeschema.EditorControl.ddAppendFile		
+eeschema.EditorControl.drawSheetOnClipboard		
+eeschema.EditorControl.editLibSymbolWithSymbolEditor	Cmd+Shift+E	
+eeschema.EditorControl.editPageNumber		
+eeschema.EditorControl.editSymbolFields		
+eeschema.EditorControl.editSymbolLibraryLinks		
+eeschema.EditorControl.editWithSymbolEditor	Cmd+E	
+eeschema.EditorControl.exportNetlist		
+eeschema.EditorControl.exportSymbolsToLibrary		
+eeschema.EditorControl.exportSymbolsToNewLibrary		
+eeschema.EditorControl.generateBOM		
+eeschema.EditorControl.generateBOMExternal		
+eeschema.EditorControl.generateBOMLegacy		
+eeschema.EditorControl.highlightNet	`	
+eeschema.EditorControl.highlightNetTool		
+eeschema.EditorControl.importFPAssignments		
+eeschema.EditorControl.importGraphics	Cmd+Shift+F	
+eeschema.EditorControl.lineMode45		
+eeschema.EditorControl.lineModeFree		
+eeschema.EditorControl.lineModeNext	Shift+Space	
+eeschema.EditorControl.lineModeOrthonal		
+eeschema.EditorControl.remapSymbols		
+eeschema.EditorControl.repairSchematic		
+eeschema.EditorControl.rescueSymbols		
+eeschema.EditorControl.restartMove		
+eeschema.EditorControl.runSimulation		
+eeschema.EditorControl.saveCurrSheetCopyAs		
+eeschema.EditorControl.schematicSetup		
+eeschema.EditorControl.selectOnPCB		
+eeschema.EditorControl.setDNP		
+eeschema.EditorControl.setExcludeFromBOM		
+eeschema.EditorControl.setExcludeFromBoard		
+eeschema.EditorControl.setExcludeFromSimulation		
+eeschema.EditorControl.showDirectiveLabels		
+eeschema.EditorControl.showERCErrors		
+eeschema.EditorControl.showERCExclusions		
+eeschema.EditorControl.showERCWarnings		
+eeschema.EditorControl.showHiddenFields		
+eeschema.EditorControl.showHiddenPins		
+eeschema.EditorControl.showNetNavigator		
+eeschema.EditorControl.showOperatingPointCurrents		
+eeschema.EditorControl.showOperatingPointVoltages		
+eeschema.EditorControl.showPcbNew		
+eeschema.EditorControl.showPythonConsole		
+eeschema.EditorControl.showSimulator		
+eeschema.EditorControl.toggleDNP	Cmd+Option+X	
+eeschema.EditorControl.toggleExcludeFromBOM		
+eeschema.EditorControl.toggleExcludeFromBoard		
+eeschema.EditorControl.toggleExcludeFromSimulation		
+eeschema.EditorControl.unsetDNP		
+eeschema.EditorControl.unsetExcludeFromBOM		
+eeschema.EditorControl.unsetExcludeFromBoard		
+eeschema.EditorControl.unsetExcludeFromSimulation		
+eeschema.EditorControl.updateNetHighlighting		
+eeschema.EditorTool.showHierarchy	Cmd+H	
+eeschema.InspectionTool.checkSymbol		
+eeschema.InspectionTool.diffSymbol		
+eeschema.InspectionTool.runERC		
+eeschema.InspectionTool.showDatasheet	D	
+eeschema.InteractiveDrawing.drawArc		
+eeschema.InteractiveDrawing.drawCircle		
+eeschema.InteractiveDrawing.drawRectangle		
+eeschema.InteractiveDrawing.drawSheet	S	
+eeschema.InteractiveDrawing.drawTextBox		
+eeschema.InteractiveDrawing.finishSheet		
+eeschema.InteractiveDrawing.importSheetPin		
+eeschema.InteractiveDrawing.placeBusWireEntry	Z	
+eeschema.InteractiveDrawing.placeClassLabel		
+eeschema.InteractiveDrawing.placeGlobalLabel	]	
+eeschema.InteractiveDrawing.placeHierarchicalLabel	H	
+eeschema.InteractiveDrawing.placeImage		
+eeschema.InteractiveDrawing.placeJunction	J	
+eeschema.InteractiveDrawing.placeLabel	L	
+eeschema.InteractiveDrawing.placeNoConnect	Q	
+eeschema.InteractiveDrawing.placePowerSymbol	P	
+eeschema.InteractiveDrawing.placeSchematicText	T	
+eeschema.InteractiveDrawing.placeSymbol	A	
+eeschema.InteractiveDrawingLineWireBus.drawBuses	B	
+eeschema.InteractiveDrawingLineWireBus.drawLines	I	
+eeschema.InteractiveDrawingLineWireBus.drawWires	X	
+eeschema.InteractiveDrawingLineWireBus.finish	K	
+eeschema.InteractiveDrawingLineWireBus.finishBus		
+eeschema.InteractiveDrawingLineWireBus.finishLine		
+eeschema.InteractiveDrawingLineWireBus.finishWire		
+eeschema.InteractiveDrawingLineWireBus.switchPosture	/	
+eeschema.InteractiveDrawingLineWireBus.undoLastSegment	Back	
+eeschema.InteractiveDrawingLineWireBus.unfoldBus	C	
+eeschema.InteractiveEdit.assignNetclass		
+eeschema.InteractiveEdit.autoplaceFields	O	
+eeschema.InteractiveEdit.breakWire		
+eeschema.InteractiveEdit.changeSymbol		
+eeschema.InteractiveEdit.changeSymbols		
+eeschema.InteractiveEdit.cleanupSheetPins		
+eeschema.InteractiveEdit.editFootprint	F	
+eeschema.InteractiveEdit.editReference	U	
+eeschema.InteractiveEdit.editTextAndGraphics		
+eeschema.InteractiveEdit.editValue	V	
+eeschema.InteractiveEdit.mirrorH		
+eeschema.InteractiveEdit.mirrorV	Y	
+eeschema.InteractiveEdit.pinTable		
+eeschema.InteractiveEdit.properties	E	
+eeschema.InteractiveEdit.repeatDrawItem	F1	
+eeschema.InteractiveEdit.rotateCCW	R	
+eeschema.InteractiveEdit.rotateCW		
+eeschema.InteractiveEdit.showDeMorganAlternate		
+eeschema.InteractiveEdit.showDeMorganStandard		
+eeschema.InteractiveEdit.slice		
+eeschema.InteractiveEdit.swap	Shift+S	
+eeschema.InteractiveEdit.symbolProperties		
+eeschema.InteractiveEdit.toCLabel		
+eeschema.InteractiveEdit.toGLabel		
+eeschema.InteractiveEdit.toHLabel		
+eeschema.InteractiveEdit.toLabel		
+eeschema.InteractiveEdit.toText		
+eeschema.InteractiveEdit.toTextBox		
+eeschema.InteractiveEdit.toggleDeMorgan		
+eeschema.InteractiveEdit.updateSymbol		
+eeschema.InteractiveEdit.updateSymbols		
+eeschema.InteractiveMove		
+eeschema.InteractiveMove.drag	G	
+eeschema.InteractiveMove.move	M	
+eeschema.InteractiveSelection		
+eeschema.InteractiveSelection.AddItemToSel		
+eeschema.InteractiveSelection.AddItemsToSel		
+eeschema.InteractiveSelection.ClearSelection		
+eeschema.InteractiveSelection.RemoveItemFromSel		
+eeschema.InteractiveSelection.RemoveItemsFromSel		
+eeschema.InteractiveSelection.SelectConnection	Option+4	
+eeschema.InteractiveSelection.SelectNode	Option+3	
+eeschema.InteractiveSelection.SelectionMenu		
+eeschema.InteractiveSelection.SyncSelection		
+eeschema.NavigateTool.back	Option+Left	
+eeschema.NavigateTool.changeSheet		
+eeschema.NavigateTool.enterSheet		
+eeschema.NavigateTool.forward	Option+Right	
+eeschema.NavigateTool.leaveSheet	Option+Back	
+eeschema.NavigateTool.next	PgDn	
+eeschema.NavigateTool.previous	PgUp	
+eeschema.NavigateTool.up	Option+Up	
+eeschema.PinEditing.pushPinLength		
+eeschema.PinEditing.pushPinNameSize		
+eeschema.PinEditing.pushPinNumSize		
+eeschema.PointEditor.addCorner		
+eeschema.PointEditor.removeCorner		
+eeschema.Simulation.editUserDefinedSignals		
+eeschema.Simulation.newAnalysisTab	Cmd+N	
+eeschema.Simulation.openWorkbook	Cmd+O	
+eeschema.Simulation.probe		
+eeschema.Simulation.runSimulation	R	
+eeschema.Simulation.saveWorkbook	Cmd+S	
+eeschema.Simulation.saveWorkbookAs	Cmd+Shift+S	
+eeschema.Simulation.showNetlist		
+eeschema.Simulation.simAnalysisProperties		
+eeschema.Simulation.stopSimulation		
+eeschema.Simulation.tune		
+eeschema.Simulator.exportCSV		
+eeschema.Simulator.exportPNG		
+eeschema.Simulator.toggleDarkModePlots		
+eeschema.Simulator.toggleDottedSecondary		
+eeschema.Simulator.toggleLegend		
+eeschema.SymbolDrawing.drawSymbolLines		
+eeschema.SymbolDrawing.drawSymbolPolygon		
+eeschema.SymbolDrawing.drawSymbolTextBox		
+eeschema.SymbolDrawing.finishDrawing		
+eeschema.SymbolDrawing.placeSymbolAnchor		
+eeschema.SymbolDrawing.placeSymbolPin	P	
+eeschema.SymbolDrawing.placeSymbolText		
+eeschema.SymbolLibraryControl.addSymbolToSchematic		
+eeschema.SymbolLibraryControl.copySymbol		
+eeschema.SymbolLibraryControl.cutSymbol		
+eeschema.SymbolLibraryControl.deleteSymbol		
+eeschema.SymbolLibraryControl.deriveFromExistingSymbol		
+eeschema.SymbolLibraryControl.duplicateSymbol		
+eeschema.SymbolLibraryControl.editSymbol		
+eeschema.SymbolLibraryControl.exportSymbol		
+eeschema.SymbolLibraryControl.exportSymbolAsSVG		
+eeschema.SymbolLibraryControl.exportSymbolView		
+eeschema.SymbolLibraryControl.hideSymbolTree		
+eeschema.SymbolLibraryControl.importSymbol		
+eeschema.SymbolLibraryControl.newSymbol	N	
+eeschema.SymbolLibraryControl.pasteSymbol		
+eeschema.SymbolLibraryControl.renameFootprint		
+eeschema.SymbolLibraryControl.saveLibraryAs	Cmd+Shift+S	
+eeschema.SymbolLibraryControl.saveSymbolAs		
+eeschema.SymbolLibraryControl.saveSymbolCopyAs		
+eeschema.SymbolLibraryControl.setUnitDisplayName		
+eeschema.SymbolLibraryControl.showElectricalTypes		
+eeschema.SymbolLibraryControl.showHiddenLibFields		
+eeschema.SymbolLibraryControl.showHiddenLibPins		
+eeschema.SymbolLibraryControl.showPinNumbers		
+eeschema.SymbolLibraryControl.showSymbolTree		
+eeschema.SymbolLibraryControl.toggleSyncedPinsMode		
+eeschema.SymbolLibraryControl.updateSymbolFields		
+eeschema.SymbolMoveTool		
+gerbview.Control.clearAllLayers		
+gerbview.Control.clearLayer		
+gerbview.Control.dcodeDisplay	D	
+gerbview.Control.exportToPcbnew		
+gerbview.Control.flashedDisplayOutlines	F	
+gerbview.Control.flipGerberView		
+gerbview.Control.highlightAttribute		
+gerbview.Control.highlightClear		
+gerbview.Control.highlightComponent		
+gerbview.Control.highlightDCode		
+gerbview.Control.highlightNet		
+gerbview.Control.layerChanged		
+gerbview.Control.layerNext	Cmd+]	
+gerbview.Control.layerPrev	Cmd+[	
+gerbview.Control.linesDisplayOutlines	L	
+gerbview.Control.loadGerbFiles		
+gerbview.Control.loadZipFile		
+gerbview.Control.moveLayerDown	-	
+gerbview.Control.moveLayerUp	+	
+gerbview.Control.negativeObjectDisplay	N	
+gerbview.Control.openAutodetected		
+gerbview.Control.openDrillFile		
+gerbview.Control.openGerber		
+gerbview.Control.openJobFile		
+gerbview.Control.openZipFile		
+gerbview.Control.polygonsDisplayOutlines	P	
+gerbview.Control.reloadAllLayers		
+gerbview.Control.toggleDiffMode		
+gerbview.Control.toggleLayerManager		
+gerbview.Control.toggleXORMode		
+gerbview.Inspection.showDCodes		
+gerbview.Inspection.showSource		
+gerbview.InteractiveSelection		
+gerbview.InteractiveSelection.Clear		
+gerbview.InteractiveSelection.SelectItem		
+gerbview.InteractiveSelection.UnselectItem		
+kicad.Control.closeProject		
+kicad.Control.convertImage	Cmd+B	
+kicad.Control.editDrawingSheet	Cmd+Y	
+kicad.Control.editFootprints	Cmd+F	
+kicad.Control.editOtherPCB		
+kicad.Control.editOtherSch		
+kicad.Control.editPCB	Cmd+P	
+kicad.Control.editSchematic	Cmd+E	
+kicad.Control.editSymbols	Cmd+L	
+kicad.Control.importNonKicadProj		
+kicad.Control.loadProject		
+kicad.Control.newFromRepository		
+kicad.Control.newFromTemplate	Cmd+T	
+kicad.Control.newProject	Cmd+N	
+kicad.Control.openDemoProject		
+kicad.Control.openProject	Cmd+O	
+kicad.Control.openTextEditor		
+kicad.Control.pluginContentManager	Cmd+M	
+kicad.Control.showCalculator		
+kicad.Control.viewDroppedGerbers		
+kicad.Control.viewGerbers	Cmd+G	
+pcbnew.AlignAndDistribute.alignBottom		
+pcbnew.AlignAndDistribute.alignCenterX		
+pcbnew.AlignAndDistribute.alignCenterY		
+pcbnew.AlignAndDistribute.alignLeft		
+pcbnew.AlignAndDistribute.alignRight		
+pcbnew.AlignAndDistribute.alignTop		
+pcbnew.AlignAndDistribute.distributeHorizontally		
+pcbnew.AlignAndDistribute.distributeVertically		
+pcbnew.Autoplacer.autoplaceOffboard		
+pcbnew.Autoplacer.autoplaceSelected		
+pcbnew.Control.DdAppendBoard		
+pcbnew.Control.ddImportFootprint		
+pcbnew.Control.flipBoard		
+pcbnew.Control.graphicOutlines		
+pcbnew.Control.hideDynamicRatsnest		
+pcbnew.Control.layerAlphaDec	{	
+pcbnew.Control.layerAlphaInc	}	
+pcbnew.Control.layerBottom	PgDn	
+pcbnew.Control.layerChanged		
+pcbnew.Control.layerInner1		
+pcbnew.Control.layerInner10		
+pcbnew.Control.layerInner11		
+pcbnew.Control.layerInner12		
+pcbnew.Control.layerInner13		
+pcbnew.Control.layerInner14		
+pcbnew.Control.layerInner15		
+pcbnew.Control.layerInner16		
+pcbnew.Control.layerInner17		
+pcbnew.Control.layerInner18		
+pcbnew.Control.layerInner19		
+pcbnew.Control.layerInner2		
+pcbnew.Control.layerInner20		
+pcbnew.Control.layerInner21		
+pcbnew.Control.layerInner22		
+pcbnew.Control.layerInner23		
+pcbnew.Control.layerInner24		
+pcbnew.Control.layerInner25		
+pcbnew.Control.layerInner26		
+pcbnew.Control.layerInner27		
+pcbnew.Control.layerInner28		
+pcbnew.Control.layerInner29		
+pcbnew.Control.layerInner3		
+pcbnew.Control.layerInner30		
+pcbnew.Control.layerInner4		
+pcbnew.Control.layerInner5		
+pcbnew.Control.layerInner6		
+pcbnew.Control.layerInner7		
+pcbnew.Control.layerInner8		
+pcbnew.Control.layerInner9		
+pcbnew.Control.layerNext	+	
+pcbnew.Control.layerPrev	-	
+pcbnew.Control.layerToggle	V	
+pcbnew.Control.layerTop	PgUp	
+pcbnew.Control.listNets		
+pcbnew.Control.localRatsnestTool		
+pcbnew.Control.netColorMode		
+pcbnew.Control.padDisplayMode		
+pcbnew.Control.ratsnestLineMode		
+pcbnew.Control.ratsnestModeCycle		
+pcbnew.Control.repairBoard		
+pcbnew.Control.showLayersManager		
+pcbnew.Control.showPadNumbers		
+pcbnew.Control.showProperties		
+pcbnew.Control.showPythonConsole		
+pcbnew.Control.showRatsnest		
+pcbnew.Control.textOutlines		
+pcbnew.Control.trackDisplayMode	K	
+pcbnew.Control.updateLocalRatsnest		
+pcbnew.Control.viaDisplayMode		
+pcbnew.Control.zoneDisplayDisable		
+pcbnew.Control.zoneDisplayEnable		
+pcbnew.Control.zoneDisplayOutlines		
+pcbnew.Control.zoneDisplayTesselation		
+pcbnew.Control.zoneDisplayToggle		
+pcbnew.Convert.convertToArc		
+pcbnew.Convert.convertToKeepout		
+pcbnew.Convert.convertToLines		
+pcbnew.Convert.convertToPoly		
+pcbnew.Convert.convertToTracks		
+pcbnew.Convert.convertToZone		
+pcbnew.DRCTool.runDRC		
+pcbnew.EditorControl.EditFpInFpEditor	Cmd+E	
+pcbnew.EditorControl.EditLibFpInFpEditor	Cmd+Shift+E	
+pcbnew.EditorControl.appendBoard		
+pcbnew.EditorControl.assignNetclass		
+pcbnew.EditorControl.boardSetup		
+pcbnew.EditorControl.clearHighlight	~	
+pcbnew.EditorControl.drillOrigin		
+pcbnew.EditorControl.drillResetOrigin		
+pcbnew.EditorControl.exportSpecctraDSN		
+pcbnew.EditorControl.generateBOM		
+pcbnew.EditorControl.generateD356File		
+pcbnew.EditorControl.generateDrillFiles		
+pcbnew.EditorControl.generateGerbers		
+pcbnew.EditorControl.generateIPC2581File		
+pcbnew.EditorControl.generatePosFile		
+pcbnew.EditorControl.generateReportFile		
+pcbnew.EditorControl.group		
+pcbnew.EditorControl.groupEnter		
+pcbnew.EditorControl.groupLeave		
+pcbnew.EditorControl.hideNet		
+pcbnew.EditorControl.highlightItem		
+pcbnew.EditorControl.highlightNet	`	
+pcbnew.EditorControl.highlightNetSelection		
+pcbnew.EditorControl.importNetlist		
+pcbnew.EditorControl.importSpecctraSession		
+pcbnew.EditorControl.lock		
+pcbnew.EditorControl.placeFootprint	A	
+pcbnew.EditorControl.removeFromGroup		
+pcbnew.EditorControl.showEeschema		
+pcbnew.EditorControl.showNet		
+pcbnew.EditorControl.toggle45	Shift+Space	
+pcbnew.EditorControl.toggleLastNetHighlight		
+pcbnew.EditorControl.toggleLock	L	
+pcbnew.EditorControl.toggleNetHighlight	Option+`	
+pcbnew.EditorControl.trackViaSizeChanged		
+pcbnew.EditorControl.trackWidthDec	Shift+W	
+pcbnew.EditorControl.trackWidthInc	W	
+pcbnew.EditorControl.ungroup		
+pcbnew.EditorControl.unlock		
+pcbnew.EditorControl.viaSizeDec	\	
+pcbnew.EditorControl.viaSizeInc	'	
+pcbnew.EditorControl.zoneDuplicate		
+pcbnew.EditorControl.zoneMerge		
+pcbnew.Generator.genPushEdit		
+pcbnew.Generator.genRemove		
+pcbnew.Generator.genRevertEdit		
+pcbnew.Generator.genStartEdit		
+pcbnew.Generator.genUpdateEdit		
+pcbnew.Generator.regenerateAll		
+pcbnew.Generator.regenerateAllTuning		
+pcbnew.Generator.regenerateSelected		
+pcbnew.Generator.showManager		
+pcbnew.GlobalEdit.changeFootprint		
+pcbnew.GlobalEdit.changeFootprints		
+pcbnew.GlobalEdit.cleanupGraphics		
+pcbnew.GlobalEdit.cleanupTracksAndVias		
+pcbnew.GlobalEdit.editTeardrops		
+pcbnew.GlobalEdit.editTextAndGraphics		
+pcbnew.GlobalEdit.editTracksAndVias		
+pcbnew.GlobalEdit.globalDeletions		
+pcbnew.GlobalEdit.removeUnusedPads		
+pcbnew.GlobalEdit.swapLayers		
+pcbnew.GlobalEdit.updateFootprint		
+pcbnew.GlobalEdit.updateFootprints		
+pcbnew.Groups.groupProperties		
+pcbnew.Groups.selectNewGroupMember		
+pcbnew.InspectionTool.DiffFootprint		
+pcbnew.InspectionTool.InspectClearance		
+pcbnew.InspectionTool.InspectConstraints		
+pcbnew.InspectionTool.ShowBoardStatistics		
+pcbnew.InspectionTool.ShowFootprintAssociations		
+pcbnew.InteractiveDrawing.alignedDimension	Cmd+Shift+H	
+pcbnew.InteractiveDrawing.arc	Cmd+Shift+A	
+pcbnew.InteractiveDrawing.arcPosture	/	
+pcbnew.InteractiveDrawing.centerDimension		
+pcbnew.InteractiveDrawing.circle	Cmd+Shift+C	
+pcbnew.InteractiveDrawing.closeOutline		
+pcbnew.InteractiveDrawing.decWidth	Cmd+-	
+pcbnew.InteractiveDrawing.deleteLastPoint	Back	
+pcbnew.InteractiveDrawing.graphicPolygon	Cmd+Shift+P	
+pcbnew.InteractiveDrawing.incWidth	Cmd++	
+pcbnew.InteractiveDrawing.leader		
+pcbnew.InteractiveDrawing.line	Cmd+Shift+L	
+pcbnew.InteractiveDrawing.orthogonalDimension		
+pcbnew.InteractiveDrawing.placeCharacteristics		
+pcbnew.InteractiveDrawing.placeImage		
+pcbnew.InteractiveDrawing.placeImportedGraphics	Cmd+Shift+F	
+pcbnew.InteractiveDrawing.placeReferenceImage		
+pcbnew.InteractiveDrawing.placeStackup		
+pcbnew.InteractiveDrawing.radialDimension		
+pcbnew.InteractiveDrawing.rectangle		
+pcbnew.InteractiveDrawing.ruleArea	Cmd+Shift+K	
+pcbnew.InteractiveDrawing.setAnchor	Cmd+Shift+N	
+pcbnew.InteractiveDrawing.similarZone	Cmd+Shift+.	
+pcbnew.InteractiveDrawing.text	Cmd+Shift+T	
+pcbnew.InteractiveDrawing.textbox		
+pcbnew.InteractiveDrawing.via	Cmd+Shift+V	
+pcbnew.InteractiveDrawing.zone	Option+Z	
+pcbnew.InteractiveDrawing.zoneCutout	Shift+C	
+pcbnew.InteractiveEdit.FindMove	T	
+pcbnew.InteractiveEdit.chamferLines		
+pcbnew.InteractiveEdit.changeTrackWidth		
+pcbnew.InteractiveEdit.createArray	Cmd+T	
+pcbnew.InteractiveEdit.deleteFull	Shift+Del	
+pcbnew.InteractiveEdit.duplicateIncrementPads	Cmd+Shift+D	
+pcbnew.InteractiveEdit.extendLines		
+pcbnew.InteractiveEdit.filletLines		
+pcbnew.InteractiveEdit.filletTracks		
+pcbnew.InteractiveEdit.flip	F	
+pcbnew.InteractiveEdit.healShapes		
+pcbnew.InteractiveEdit.intersectPolygons		
+pcbnew.InteractiveEdit.mergePolygons		
+pcbnew.InteractiveEdit.mirrorHoriontally		
+pcbnew.InteractiveEdit.mirrorVertically		
+pcbnew.InteractiveEdit.moveCorner		
+pcbnew.InteractiveEdit.moveExact	Shift+M	
+pcbnew.InteractiveEdit.moveMidpoint		
+pcbnew.InteractiveEdit.packAndMoveFootprints	P	
+pcbnew.InteractiveEdit.properties	E	
+pcbnew.InteractiveEdit.rotateCcw	R	
+pcbnew.InteractiveEdit.rotateCw	Shift+R	
+pcbnew.InteractiveEdit.skip	Tab	
+pcbnew.InteractiveEdit.subtractPolygons		
+pcbnew.InteractiveEdit.swap	Shift+S	
+pcbnew.InteractiveMove.copyWithReference	[	
+pcbnew.InteractiveMove.move	M	
+pcbnew.InteractiveMove.moveIndividually	Cmd+M	
+pcbnew.InteractiveMove.moveWithReference	]	
+pcbnew.InteractiveRouter.AttemptFinish	F	
+pcbnew.InteractiveRouter.Autoroute	Shift+F	
+pcbnew.InteractiveRouter.BreakTrack		
+pcbnew.InteractiveRouter.ContinueFromEnd	E	
+pcbnew.InteractiveRouter.CustomTrackViaSize	Q	
+pcbnew.InteractiveRouter.CycleRouterMode		
+pcbnew.InteractiveRouter.DiffPair	6	
+pcbnew.InteractiveRouter.DiffPairDialog		
+pcbnew.InteractiveRouter.Drag45Degree	D	
+pcbnew.InteractiveRouter.DragFreeAngle	G	
+pcbnew.InteractiveRouter.EndTrack	End	
+pcbnew.InteractiveRouter.HighlightMode		
+pcbnew.InteractiveRouter.InlineDrag		
+pcbnew.InteractiveRouter.PlaceBlindVia	Option+Shift+V	
+pcbnew.InteractiveRouter.PlaceMicroVia	Cmd+V	
+pcbnew.InteractiveRouter.PlaceVia	V	
+pcbnew.InteractiveRouter.RouteSelected	Shift+X	
+pcbnew.InteractiveRouter.RouteSelectedFromEnd	Shift+E	
+pcbnew.InteractiveRouter.SelLayerAndPlaceBlindVia	Option+<	
+pcbnew.InteractiveRouter.SelLayerAndPlaceMicroVia		
+pcbnew.InteractiveRouter.SelLayerAndPlaceVia	<	
+pcbnew.InteractiveRouter.SelectLayerPair		
+pcbnew.InteractiveRouter.SettingsDialog	Cmd+<	
+pcbnew.InteractiveRouter.ShoveMode		
+pcbnew.InteractiveRouter.SingleTrack	X	
+pcbnew.InteractiveRouter.SwitchPosture	/	
+pcbnew.InteractiveRouter.SwitchRounding	Cmd+/	
+pcbnew.InteractiveRouter.UndoLastSegment	Back	
+pcbnew.InteractiveRouter.WalkaroundMode		
+pcbnew.InteractiveSelection		
+pcbnew.InteractiveSelection.Clear		
+pcbnew.InteractiveSelection.Cursor		
+pcbnew.InteractiveSelection.DeselectNet		
+pcbnew.InteractiveSelection.FilterSelection		
+pcbnew.InteractiveSelection.GrabUnconnected	Shift+O	
+pcbnew.InteractiveSelection.ReselectItem		
+pcbnew.InteractiveSelection.SelectConnection	U	
+pcbnew.InteractiveSelection.SelectItem		
+pcbnew.InteractiveSelection.SelectItems		
+pcbnew.InteractiveSelection.SelectNet		
+pcbnew.InteractiveSelection.SelectOnSchematic		
+pcbnew.InteractiveSelection.SelectOnSheet		
+pcbnew.InteractiveSelection.SelectSameSheet		
+pcbnew.InteractiveSelection.SelectUnconnected	O	
+pcbnew.InteractiveSelection.SelectionMenu		
+pcbnew.InteractiveSelection.SyncSelection		
+pcbnew.InteractiveSelection.SyncSelectionWithNets		
+pcbnew.InteractiveSelection.UnselectItem		
+pcbnew.InteractiveSelection.UnselectItems		
+pcbnew.InteractiveSelection.unrouteSelected		
+pcbnew.LengthTuner.AmplDecrease	4	
+pcbnew.LengthTuner.AmplIncrease	3	
+pcbnew.LengthTuner.EndTuning	End	
+pcbnew.LengthTuner.Settings	Cmd+L	
+pcbnew.LengthTuner.SpacingDecrease	2	
+pcbnew.LengthTuner.SpacingIncrease	1	
+pcbnew.LengthTuner.StartTuning	X	
+pcbnew.LengthTuner.TuneDiffPair	8	
+pcbnew.LengthTuner.TuneDiffPairSkew	9	
+pcbnew.LengthTuner.TuneSingleTrack	7	
+pcbnew.MicrowaveTool.createFunctionShape		
+pcbnew.MicrowaveTool.createGap		
+pcbnew.MicrowaveTool.createLine		
+pcbnew.MicrowaveTool.createStub		
+pcbnew.MicrowaveTool.createStubArc		
+pcbnew.ModuleEditor.checkFootprint		
+pcbnew.ModuleEditor.copyFootprint		
+pcbnew.ModuleEditor.createFootprint		
+pcbnew.ModuleEditor.cutFootprint		
+pcbnew.ModuleEditor.deleteFootprint		
+pcbnew.ModuleEditor.duplicateFootprint		
+pcbnew.ModuleEditor.editFootprint		
+pcbnew.ModuleEditor.exportFootprint		
+pcbnew.ModuleEditor.footprintProperties		
+pcbnew.ModuleEditor.hideFootprintTree		
+pcbnew.ModuleEditor.importFootprint		
+pcbnew.ModuleEditor.newFootprint	Cmd+N	
+pcbnew.ModuleEditor.pasteFootprint		
+pcbnew.ModuleEditor.renameFootprint		
+pcbnew.ModuleEditor.repairFootprint		
+pcbnew.ModuleEditor.showFootprintTree		
+pcbnew.PadTool.ApplyPadSettings		
+pcbnew.PadTool.CopyPadSettings		
+pcbnew.PadTool.PushPadSettings		
+pcbnew.PadTool.defaultPadProperties		
+pcbnew.PadTool.enumeratePads		
+pcbnew.PadTool.explodePad	Cmd+E	
+pcbnew.PadTool.placePad		
+pcbnew.PadTool.recombinePad	Cmd+E	
+pcbnew.PointEditor.addCorner	F1	
+pcbnew.PointEditor.arcKeepCenter		
+pcbnew.PointEditor.arcKeepEndpoint		
+pcbnew.PointEditor.removeCorner		
+pcbnew.PositionRelative.positionRelative	Shift+P	
+pcbnew.PositionRelative.selectpositionRelativeItem		
+pcbnew.ReannotateTool.ShowReannotateDialog		
+pcbnew.ScriptingTool.pluginsReload		
+pcbnew.ScriptingTool.pluginsShowFolder		
+pcbnew.ZoneFiller.zoneFill		
+pcbnew.ZoneFiller.zoneFillAll	B	
+pcbnew.ZoneFiller.zoneFillDirty		
+pcbnew.ZoneFiller.zoneUnfill		
+pcbnew.ZoneFiller.zoneUnfillAll	Cmd+B	
+pcbnew.lengthTuner.AmplDecrease	4	
+pcbnew.lengthTuner.AmplIncrease	3	
+pcbnew.lengthTuner.SpacingDecrease	2	
+pcbnew.lengthTuner.SpacingIncrease	1	
+plEditor.EditorControl.LayoutEditMode		
+plEditor.EditorControl.LayoutNormalMode		
+plEditor.EditorControl.PreviewSettings		
+plEditor.EditorControl.ShowInspector		
+plEditor.InteractiveDrawing.drawLine		
+plEditor.InteractiveDrawing.drawRectangle		
+plEditor.InteractiveDrawing.placeImage		
+plEditor.InteractiveDrawing.placeText		
+plEditor.InteractiveEdit.appendWorksheet		
+plEditor.InteractiveMove.move	M	
+plEditor.InteractiveSelection		
+plEditor.InteractiveSelection.AddItemToSel		
+plEditor.InteractiveSelection.AddItemsToSel		
+plEditor.InteractiveSelection.ClearSelection		
+plEditor.InteractiveSelection.RemoveItemFromSel		
+plEditor.InteractiveSelection.RemoveItemsFromSel		
+plEditor.InteractiveSelection.SelectionMenu		

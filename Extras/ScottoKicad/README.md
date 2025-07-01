@@ -1,6 +1,7 @@
 # ScottoKicad
 
 A collection of footprints, symbols, and 3D models for building mechanical keyboards with Kicad.
+To download just this directory, you can use [DownGit](https://downgit.evecalm.com/#/home?url=https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad).
 
 ```diff
 - This is confirmed working in Kicad 8, other versions you may encounter issues! 

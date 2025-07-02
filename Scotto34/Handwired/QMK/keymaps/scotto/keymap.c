@@ -91,6 +91,7 @@ void td_esc_lalt_lctl_spotlight_emoji_finished(tap_dance_state_t *state, void *u
         case TD_SINGLE_TAP: tap_code(KC_ESC); break;
         case TD_SINGLE_HOLD: register_code(KC_LALT); break;
         case TD_DOUBLE_HOLD: register_code(KC_LCTL); break;
+        case TD_TRIPLE_HOLD: register_code(KC_RGUI); break;
         case TD_DOUBLE_TAP: tap_code16(G(KC_SPC)); break;
         case TD_TRIPLE_TAP: tap_code16(C(G(KC_SPC))); break;
         default: break;
@@ -102,6 +103,7 @@ void td_esc_lalt_lctl_spotlight_emoji_reset(tap_dance_state_t *state, void *user
         case TD_SINGLE_TAP: unregister_code(KC_ESC); break;
         case TD_SINGLE_HOLD: unregister_code(KC_LALT); break;
         case TD_DOUBLE_HOLD: unregister_code(KC_LCTL); break;
+        case TD_TRIPLE_HOLD: unregister_code(KC_RGUI); break;
         default: break;
     }
     xtap_state.state = TD_NONE;

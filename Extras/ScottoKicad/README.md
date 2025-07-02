@@ -20,10 +20,16 @@ A collection of footprints, symbols, and 3D models for building mechanical keybo
    ![Preferences -> Manage Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/f4105958-389d-4a0a-96d6-8b4eb98136e7)
    ![Footprint Libraries](https://github.com/joe-scotto/scottokeebs/assets/8194147/68367a4b-eca6-4440-8bf4-b6bf8ef522fa)      
 
-4. Update hotkeys.
+4. Ensure hotkeys match tutorial.
    ![Settings](https://github.com/user-attachments/assets/f1a60960-1f94-4a19-bebf-56c879f6c1ca)
    ![Import hotkeys](https://github.com/user-attachments/assets/28e20294-f04c-4c9c-839b-9fe0041b37df)
    ![CleanShot 2025-06-30 at 11 00 42@2x](https://github.com/user-attachments/assets/6a8d607f-21dd-4ee1-996e-339324213b35)
+   
+5. Match Scotto Configuration (Optional).
+   ![Settings](https://github.com/user-attachments/assets/f1a60960-1f94-4a19-bebf-56c879f6c1ca)
+   ![Reveal](https://github.com/user-attachments/assets/87338725-3b15-4937-a50c-82d00e35da3f)
+   ![Preferences](https://github.com/user-attachments/assets/d9eadf5c-ece8-41c3-9d04-bc2e3a77d2b4)
+   ![Theme](https://github.com/user-attachments/assets/e94a621d-5d37-4712-b99f-b7f880ecb142)
 
 6. That's it, you should now have everything you need!
 

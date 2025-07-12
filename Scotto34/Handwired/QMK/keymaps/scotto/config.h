@@ -21,3 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 135
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM_PER_KEY
+#define SOLENOID_PIN GP28
+#define SOLENOID_DEFAULT_DWELL 1
+#define SOLENOID_MIN_DWELL 1
+#define SOLENOID_MAX_DWELL 10
+#define NO_HAPTIC_MOD

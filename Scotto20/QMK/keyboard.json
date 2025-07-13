@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP7", "GP8", "GP9", "GP10", "GP11"],
-        "rows": ["GP20", "GP19", "GP18", "GP17"]
+        "cols": ["GP5", "GP6", "GP7", "GP8", "GP9"],
+        "rows": ["GP22", "GP20", "GP23", "GP21"]
     },
     "processor": "RP2040",
     "url": "https://scottokeebs.com",

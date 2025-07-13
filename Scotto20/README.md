@@ -1,4 +1,4 @@
-# Scotto20 (SK35)
+# Scotto20 (SK36)
 
 The Scotto20 is a 20-key macropad.
 

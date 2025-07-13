@@ -209,10 +209,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [3] = LAYOUT_split_3x5_2(
-        KC_NO,  KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO, TO(5), TO(4), 
-        KC_F1,  KC_F2, KC_F3, KC_F4,   KC_F5,   KC_F6,   KC_F7, KC_F8, KC_F9, KC_F10,
-        KC_F11, KC_NO, KC_NO, QK_BOOT, KC_TRNS, KC_NO,   KC_NO, KC_NO, KC_NO, KC_F12,
-                              KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_NO,  KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,            KC_NO,                 KC_NO,                     TO(5), TO(4), 
+        KC_F1,  KC_F2, KC_F3, KC_F4,   KC_F5,   KC_F6,            KC_F7,                 KC_F8,                     KC_F9, KC_F10,
+        KC_F11, KC_NO, KC_NO, QK_BOOT, KC_TRNS, QK_HAPTIC_TOGGLE, QK_HAPTIC_BUZZ_TOGGLE, QK_HAPTIC_FEEDBACK_TOGGLE, KC_NO, KC_F12,
+                              KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS
     ),
     [4] = LAYOUT_split_3x5_2(
         KC_Q,         KC_W, KC_F, KC_P, KC_G,                         KC_J,           KC_L,          KC_U,         KC_Y,   KC_BSPC,

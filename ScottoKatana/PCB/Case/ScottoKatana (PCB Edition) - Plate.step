@@ -6,7 +6,7 @@ HEADER;
 FILE_DESCRIPTION(('HOOPS Exchange Step'),'2;1');
 
 FILE_NAME('/Users/jscotto/Library/Containers/com.shapr3d.shapr/Data/tmp/export/temp_export',
-'2025-07-15T10:11:04-04:00',
+'2025-07-15T12:14:24-04:00',
 ('jscotto'),
 ('Shapr3D Limited'),
 'HOOPS Exchange 2024.8',
@@ -7496,7 +7496,7 @@ DATA;
 #23=PRODUCT_DEFINITION_SHAPE('','',#25);
 #7480=SHAPE_DEFINITION_REPRESENTATION(#23,#16);
 #11=DRAUGHTING_MODEL('',(#7473),#10);
-#7481=DESCRIPTIVE_REPRESENTATION_ITEM('KEY','/Users/jscotto/Library/Containers/com.shapr3d.shapr/Data/tmp/A8AB329D-FFAA-4E83-B46B-FD7E566BF649.tmp');
+#7481=DESCRIPTIVE_REPRESENTATION_ITEM('KEY','/Users/jscotto/Library/Containers/com.shapr3d.shapr/Data/tmp/AECC46CC-3957-495E-B459-D57F13F72F88.tmp');
 #7482=PROPERTY_DEFINITION('KEY','',#25);
 #7483=REPRESENTATION('',(#7481),#10);
 #7484=PROPERTY_DEFINITION_REPRESENTATION(#7482,#7483);

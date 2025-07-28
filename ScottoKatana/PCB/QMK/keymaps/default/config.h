@@ -17,9 +17,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// Define options
+#define TAPPING_TERM 135
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM_PER_KEY
+
 // OLED
 #define OLED_DISPLAY_128X64
 
-#define I2C_DRIVER I2CD0
+#define I2C_DRIVER  I2CD0 
 #define I2C1_SCL_PIN GP1
 #define I2C1_SDA_PIN GP0

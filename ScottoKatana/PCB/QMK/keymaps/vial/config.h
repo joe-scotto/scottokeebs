@@ -17,11 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// Define options
-#define TAPPING_TERM 135
-#define PERMISSIVE_HOLD
-
 // Vial
 #define VIAL_KEYBOARD_UID {0x7A, 0x60, 0x84, 0x17, 0x10, 0x1C, 0x36, 0xCE}
-#define VIAL_UNLOCK_COMBO_ROWS { 3, 3 }
-#define VIAL_UNLOCK_COMBO_COLS { 1, 8 }
+#define VIAL_UNLOCK_COMBO_ROWS {3, 3}
+#define VIAL_UNLOCK_COMBO_COLS {0, 9}

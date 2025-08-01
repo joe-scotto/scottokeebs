@@ -1,0 +1,25 @@
+BasedOnStyle: Google
+
+# Alignments
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignOperands: true
+
+# Line breaking preferences
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+
+# Preprocessor formatting
+IndentPPDirectives: AfterHash
+
+# Include sorting
+SortIncludes: false
+
+# Spacing
+SpaceBeforeAssignmentOperators: true
+SpacesBeforeTrailingComments: 1

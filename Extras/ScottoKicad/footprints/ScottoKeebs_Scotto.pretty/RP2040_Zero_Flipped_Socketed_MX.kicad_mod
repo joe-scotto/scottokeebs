@@ -1,4 +1,4 @@
-(footprint "RP2040_Zero_Flipped_Socketed"
+(footprint "RP2040_Zero_Flipped_Socketed_MX"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RP2040_Zero_Flipped_Socketed"
+	(property "Value" "RP2040_Zero_Flipped_Socketed_MX"
 		(at -16.8434 -5.54718 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -226,71 +226,6 @@
 		)
 		(remove_unused_layers no)
 		(uuid "5393eccb-3a23-4c41-bce0-022bc51d338d")
-	)
-	(pad "10" thru_hole oval
-		(at -5.08 10.16 270)
-		(size 2.5 2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "b7ff6e78-2508-48f1-af04-81c4afd4c276")
-	)
-	(pad "11" thru_hole oval
-		(at -2.54 10.16 270)
-		(size 2.5 2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "db279e60-5c27-45e1-8b19-e4cc172f4ce0")
-	)
-	(pad "12" thru_hole oval
-		(at 0 10.16 270)
-		(size 2.5 2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "6f0e0444-fd27-46c8-b2c3-cb1c31339d4b")
-	)
-	(pad "13" thru_hole oval
-		(at 2.54 10.16 270)
-		(size 2.5 2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "e3b77f7f-7b71-4987-8575-6de829ea534d")
-	)
-	(pad "14" thru_hole oval
-		(at 5.08 10.16 270)
-		(size 2.5 2)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "9c0c26e2-3bad-4123-94a4-5d76f6a223f9")
 	)
 	(pad "15" thru_hole oval
 		(at 7.62 10.16)

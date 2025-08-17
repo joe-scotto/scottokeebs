@@ -16,6 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
+#include "shift_lock.c"
 
 enum combos {
   GREEN_TAB,
@@ -118,6 +119,7 @@ combo_t key_combos[] = {
     [NUMBER_EQUAL] = COMBO(number_equal, KC_EQUAL),
     [SYMBOL_COMMA] = COMBO(symbol_comma, KC_COMMA),
 };
+
 // Keymap
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -127,14 +129,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //          │   o   │ e │ h │ t │  d  │
 //          ├───────┼───┼───┼───┼─────┤
 //          │   u   │ i │ n │ s │  y  │
-//    ┌─────┼───────┼───┴───┴───┼─────┼──────┐
-//    │ spc │ TO(1) │   TO(2)   │ ent │ rsft │
-//    └─────┴───────┴───────────┴─────┴──────┘
+//    ┌─────┼───────┼───┴───┴───┼─────┼──────────────┐
+//    │ spc │ TO(1) │   TO(2)   │ ent │ TD(SFT_LOCK) │
+//    └─────┴───────┴───────────┴─────┴──────────────┘
 [0] = LAYOUT_ortho_4x5(
-           KC_F  , KC_A , KC_R , KC_W , KC_P              ,
-           KC_O  , KC_E , KC_H , KC_T , KC_D              ,
-           KC_U  , KC_I , KC_N , KC_S , KC_Y              ,
-  KC_SPC , TO(1) ,       TO(2)        , KC_ENTER , KC_RSFT
+           KC_F  , KC_A , KC_R , KC_W , KC_P                   ,
+           KC_O  , KC_E , KC_H , KC_T , KC_D                   ,
+           KC_U  , KC_I , KC_N , KC_S , KC_Y                   ,
+  KC_SPC , TO(1) ,       TO(2)        , KC_ENTER , TD(SFT_LOCK)
 ),
 
 //          ┌───────┬───┬───┬───┬─────┐

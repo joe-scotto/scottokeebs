@@ -19,6 +19,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "combos.c"
 #include "shift_lock.c"
 
+enum layer {
+  BASE,
+  NUMBER,
+  SYMBOL
+};
+
 // Keymap
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -31,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ┌─────┼───────┼───┴───┴───┼─────┼──────────────┐
 //    │ spc │ TO(1) │   TO(2)   │ ent │ TD(SFT_LOCK) │
 //    └─────┴───────┴───────────┴─────┴──────────────┘
-[0] = LAYOUT_ortho_4x5(
+[BASE] = LAYOUT_ortho_4x5(
            KC_F  , KC_A , KC_R , KC_W , KC_P                   ,
            KC_O  , KC_E , KC_H , KC_T , KC_D                   ,
            KC_U  , KC_I , KC_N , KC_S , KC_Y                   ,
@@ -47,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ┌─────┼───────┼───┴───┴───┼─────┼─────┐
 //    │ spc │ TO(0) │   TO(2)   │     │     │
 //    └─────┴───────┴───────────┴─────┴─────┘
-[1] = LAYOUT_ortho_4x5(
+[NUMBER] = LAYOUT_ortho_4x5(
            KC_MINUS , KC_7 , KC_8 , KC_9 , KC_NO             ,
            KC_SLASH , KC_4 , KC_5 , KC_6 , KC_PLUS           ,
            KC_0     , KC_1 , KC_2 , KC_3 , KC_EQUAL          ,
@@ -63,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ┌─────┼───────┼───┴───┴───┼───────────┼─────┐
 //    │ spc │ TO(1) │   TO(0)   │           │     │
 //    └─────┴───────┴───────────┴───────────┴─────┘
-[2] = LAYOUT_ortho_4x5(
+[SYMBOL] = LAYOUT_ortho_4x5(
            KC_QUESTION     , KC_AMPERSAND          , KC_ASTERISK   , KC_COLON        , KC_SEMICOLON                 ,
            KC_SLASH        , KC_EXCLAIM            , KC_MINUS      , KC_AT           , KC_UNDERSCORE                ,
            KC_DOUBLE_QUOTE , KC_LEFT_ANGLE_BRACKET , KC_LEFT_PAREN , KC_LEFT_BRACKET , KC_LEFT_CURLY_BRACE          ,

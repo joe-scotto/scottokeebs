@@ -1,5 +1,37 @@
-#include "combos.h"
 #include QMK_KEYBOARD_H
+
+enum combos {
+  GREEN_TAB,
+  GREEN_APOSTROPHE,
+  GREEN_B,
+  GREEN_M,
+  GREEN_J,
+  GREEN_Q,
+  GREEN_Z,
+  GREEN_L,
+  GREEN_C,
+  GREEN_V,
+  GREEN_CMD,
+  GREEN_APP,
+  GREEN_K,
+  GREEN_G,
+  GREEN_X,
+  GREEN_COMMA,
+  GREEN_PERIOD,
+  NUMBER_F7,
+  NUMBER_F8,
+  NUMBER_F9,
+  NUMBER_F11,
+  NUMBER_F4,
+  NUMBER_F5,
+  NUMBER_F6,
+  NUMBER_F12,
+  NUMBER_F1,
+  NUMBER_F2,
+  NUMBER_F3,
+  NUMBER_EQUAL,
+  SYMBOL_COMMA
+};
 
 // Green
 const uint16_t PROGMEM green_tab[] = {KC_SPC, KC_F, COMBO_END};

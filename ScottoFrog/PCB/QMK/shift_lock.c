@@ -1,11 +1,25 @@
-#include "shift_lock.h"
 #include QMK_KEYBOARD_H // include your keyboard’s QMK header if needed
 
-// static state variables
+enum tap_dance {
+  SFT_LOCK
+};
+
+typedef enum {
+  TD_NONE,
+  TD_UNKNOWN,
+  TD_SINGLE_HOLD,
+  TD_SINGLE_TAP,
+} td_state_t;
+
+typedef struct {
+  bool is_press_action;
+  td_state_t state;
+} td_tap_t;
+
 static td_tap_t xtap_state = {.is_press_action = true, .state = TD_NONE};
 static bool shift_locked = false;
 
-// determine tap dance state
+// Determine state of tap dance
 td_state_t cur_dance(tap_dance_state_t *state) {
   if (state->count == 1) {
     if (state->interrupted || !state->pressed) {
@@ -17,7 +31,7 @@ td_state_t cur_dance(tap_dance_state_t *state) {
   return TD_UNKNOWN;
 }
 
-// finished callback
+// Tap dance start
 void sft_lock_finished(tap_dance_state_t *state, void *user_data) {
   xtap_state.state = cur_dance(state);
   switch (xtap_state.state) {
@@ -38,7 +52,7 @@ void sft_lock_finished(tap_dance_state_t *state, void *user_data) {
   }
 }
 
-// reset callback
+// Tap dance end
 void sft_lock_reset(tap_dance_state_t *state, void *user_data) {
   switch (xtap_state.state) {
     case TD_SINGLE_HOLD:
@@ -50,7 +64,7 @@ void sft_lock_reset(tap_dance_state_t *state, void *user_data) {
   xtap_state.state = TD_NONE;
 }
 
-// expose tap dance action
+// Define tap dance
 tap_dance_action_t tap_dance_actions[] = {
     [SFT_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, sft_lock_finished, sft_lock_reset),
 };

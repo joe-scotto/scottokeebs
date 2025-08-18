@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "combos.c"
 #include "shift_lock.c"
 
-enum layer {
+enum layers {
   BASE,
   NUMBER,
   SYMBOL

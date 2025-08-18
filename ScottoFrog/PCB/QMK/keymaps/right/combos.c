@@ -1,4 +1,6 @@
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
+#include "shift_lock.c"
 
 enum combos {
   GREEN_TAB,
@@ -30,7 +32,39 @@ enum combos {
   NUMBER_F2,
   NUMBER_F3,
   NUMBER_EQUAL,
-  SYMBOL_COMMA
+  SYMBOL_COMMA,
+  ORANGE_BASE_ESC,
+  ORANGE_NUMBER_ESC,
+  ORANGE_BASE_HOME,
+  ORANGE_NUMBER_HOME,
+  ORANGE_BASE_END,
+  ORANGE_NUMBER_END,
+  ORANGE_BASE_PAUSE,
+  ORANGE_NUMBER_PAUSE,
+  ORANGE_BASE_PAGE_UP,
+  ORANGE_NUMBER_PAGE_UP,
+  ORANGE_BASE_INSERT,
+  ORANGE_NUMBER_INSERT,
+  ORANGE_BASE_CTRL,
+  ORANGE_NUMBER_CTRL,
+  ORANGE_BASE_ALT,
+  ORANGE_NUMBER_ALT,
+  ORANGE_BASE_UP,
+  ORANGE_NUMBER_UP,
+  ORANGE_BASE_PAGE_DOWN,
+  ORANGE_NUMBER_PAGE_DOWN,
+  ORANGE_BASE_DELETE,
+  ORANGE_NUMBER_DELETE,
+  ORANGE_BASE_BACKSPACE,
+  ORANGE_NUMBER_BACKSPACE,
+  ORANGE_BASE_LEFT,
+  ORANGE_NUMBER_LEFT,
+  ORANGE_BASE_DOWN,
+  ORANGE_NUMBER_DOWN,
+  ORANGE_BASE_RIGHT,
+  ORANGE_NUMBER_RIGHT,
+  ORANGE_BASE_CAPS,
+  ORANGE_NUMBER_CAPS
 };
 
 // Green
@@ -69,6 +103,40 @@ const uint16_t PROGMEM number_equal[] = {KC_SPC, KC_EQUAL, COMBO_END};
 // Symbol
 const uint16_t PROGMEM symbol_comma[] = {KC_SPC, TO(0), COMBO_END};
 
+// Orange (Base)
+const uint16_t PROGMEM orange_base_esc[] = {TO(1), KC_F, COMBO_END};
+const uint16_t PROGMEM orange_number_esc[] = {TO(0), KC_MINUS, COMBO_END};
+const uint16_t PROGMEM orange_base_home[] = {TO(1), KC_A, COMBO_END};
+const uint16_t PROGMEM orange_number_home[] = {TO(0), KC_7, COMBO_END};
+const uint16_t PROGMEM orange_base_end[] = {TO(1), KC_R, COMBO_END};
+const uint16_t PROGMEM orange_number_end[] = {TO(0), KC_8, COMBO_END};
+const uint16_t PROGMEM orange_base_pause[] = {TO(1), KC_W, COMBO_END};
+const uint16_t PROGMEM orange_number_pause[] = {TO(0), KC_9, COMBO_END};
+const uint16_t PROGMEM orange_base_page_up[] = {TO(1), KC_P, COMBO_END};
+const uint16_t PROGMEM orange_number_page_up[] = {TO(0), KC_KP_MINUS, COMBO_END};
+const uint16_t PROGMEM orange_base_insert[] = {TO(1), KC_O, COMBO_END};
+const uint16_t PROGMEM orange_number_insert[] = {TO(0), KC_SLASH, COMBO_END};
+const uint16_t PROGMEM orange_base_ctrl[] = {TO(1), KC_E, COMBO_END};
+const uint16_t PROGMEM orange_number_ctrl[] = {TO(0), KC_4, COMBO_END};
+const uint16_t PROGMEM orange_base_alt[] = {TO(1), KC_H, COMBO_END};
+const uint16_t PROGMEM orange_number_alt[] = {TO(0), KC_5, COMBO_END};
+const uint16_t PROGMEM orange_base_up[] = {TO(1), KC_T, COMBO_END};
+const uint16_t PROGMEM orange_number_up[] = {TO(0), KC_6, COMBO_END};
+const uint16_t PROGMEM orange_base_page_down[] = {TO(1), KC_D, COMBO_END};
+const uint16_t PROGMEM orange_number_page_down[] = {TO(0), KC_PLUS, COMBO_END};
+const uint16_t PROGMEM orange_base_delete[] = {TO(1), KC_U, COMBO_END};
+const uint16_t PROGMEM orange_number_delete[] = {TO(0), KC_0, COMBO_END};
+const uint16_t PROGMEM orange_base_backspace[] = {TO(1), KC_I, COMBO_END};
+const uint16_t PROGMEM orange_number_backspace[] = {TO(0), KC_1, COMBO_END};
+const uint16_t PROGMEM orange_base_left[] = {TO(1), KC_N, COMBO_END};
+const uint16_t PROGMEM orange_number_left[] = {TO(0), KC_2, COMBO_END};
+const uint16_t PROGMEM orange_base_down[] = {TO(1), KC_S, COMBO_END};
+const uint16_t PROGMEM orange_number_down[] = {TO(0), KC_3, COMBO_END};
+const uint16_t PROGMEM orange_base_right[] = {TO(1), KC_Y, COMBO_END};
+const uint16_t PROGMEM orange_number_right[] = {TO(0), KC_EQUAL, COMBO_END};
+const uint16_t PROGMEM orange_base_caps[] = {TO(1), TD(SFT_LOCK), COMBO_END};
+const uint16_t PROGMEM orange_number_caps[] = {TO(0), TD(SFT_LOCK), COMBO_END};
+
 combo_t key_combos[] = {
     [GREEN_TAB] = COMBO(green_tab, KC_TAB),
     [GREEN_APOSTROPHE] = COMBO(green_apostrophe, KC_QUOTE),
@@ -100,4 +168,40 @@ combo_t key_combos[] = {
     [NUMBER_F3] = COMBO(number_f3, KC_F3),
     [NUMBER_EQUAL] = COMBO(number_equal, KC_EQUAL),
     [SYMBOL_COMMA] = COMBO(symbol_comma, KC_COMMA),
+    [ORANGE_BASE_ESC] = COMBO(orange_base_esc, KC_ESC),
+    [ORANGE_NUMBER_ESC] = COMBO(orange_number_esc, KC_ESC),
+    [ORANGE_BASE_HOME] = COMBO(orange_base_home, KC_HOME),
+    [ORANGE_NUMBER_HOME] = COMBO(orange_number_home, KC_HOME),
+    [ORANGE_BASE_END] = COMBO(orange_base_end, KC_END),
+    [ORANGE_NUMBER_END] = COMBO(orange_number_end, KC_END),
+    [ORANGE_BASE_PAUSE] = COMBO(orange_base_pause, KC_PAUSE),
+    [ORANGE_NUMBER_PAUSE] = COMBO(orange_number_pause, KC_PAUSE),
+    [ORANGE_BASE_PAGE_UP] = COMBO(orange_base_page_up, KC_PAGE_UP),
+    [ORANGE_NUMBER_PAGE_UP] = COMBO(orange_number_page_up, KC_PAGE_UP),
+    [ORANGE_BASE_INSERT] = COMBO(orange_base_insert, KC_INSERT),
+    [ORANGE_NUMBER_INSERT] = COMBO(orange_number_insert, KC_INSERT),
+
+    // Shift hold start
+    [ORANGE_BASE_CTRL] = COMBO(orange_base_ctrl, KC_LCTL),
+    [ORANGE_NUMBER_CTRL] = COMBO(orange_number_ctrl, KC_LCTL),
+    [ORANGE_BASE_ALT] = COMBO(orange_base_alt, KC_LALT),
+    [ORANGE_NUMBER_ALT] = COMBO(orange_number_alt, KC_LALT),
+    // Shift hold end
+
+    [ORANGE_BASE_UP] = COMBO(orange_base_up, KC_UP),
+    [ORANGE_NUMBER_UP] = COMBO(orange_number_up, KC_UP),
+    [ORANGE_BASE_PAGE_DOWN] = COMBO(orange_base_page_down, KC_PAGE_DOWN),
+    [ORANGE_NUMBER_PAGE_DOWN] = COMBO(orange_number_page_down, KC_PAGE_DOWN),
+    [ORANGE_BASE_DELETE] = COMBO(orange_base_delete, KC_DELETE),
+    [ORANGE_NUMBER_DELETE] = COMBO(orange_number_delete, KC_DELETE),
+    [ORANGE_BASE_BACKSPACE] = COMBO(orange_base_backspace, KC_BSPC),
+    [ORANGE_NUMBER_BACKSPACE] = COMBO(orange_number_backspace, KC_BSPC),
+    [ORANGE_BASE_LEFT] = COMBO(orange_base_left, KC_LEFT),
+    [ORANGE_NUMBER_LEFT] = COMBO(orange_number_left, KC_LEFT),
+    [ORANGE_BASE_DOWN] = COMBO(orange_base_down, KC_DOWN),
+    [ORANGE_NUMBER_DOWN] = COMBO(orange_number_down, KC_DOWN),
+    [ORANGE_BASE_RIGHT] = COMBO(orange_base_right, KC_RIGHT),
+    [ORANGE_NUMBER_RIGHT] = COMBO(orange_number_right, KC_RIGHT),
+    [ORANGE_BASE_CAPS] = COMBO(orange_base_caps, KC_CAPS),
+    [ORANGE_NUMBER_CAPS] = COMBO(orange_number_caps, KC_CAPS),
 };

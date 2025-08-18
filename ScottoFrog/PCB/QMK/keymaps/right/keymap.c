@@ -17,7 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 #include "combos.c"
-#include "shift_lock.c"
 
 enum layers {
   BASE,
@@ -44,20 +43,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_SPC , TO(1) ,       TO(2)        , KC_ENTER , TD(SFT_LOCK)
 ),
 
-//          ┌───────┬───┬───┬───┬─────┐
-//          │   -   │ 7 │ 8 │ 9 │ no  │
-//          ├───────┼───┼───┼───┼─────┤
-//          │   /   │ 4 │ 5 │ 6 │  +  │
-//          ├───────┼───┼───┼───┼─────┤
-//          │   0   │ 1 │ 2 │ 3 │  =  │
-//    ┌─────┼───────┼───┴───┴───┼─────┼─────┐
-//    │ spc │ TO(0) │   TO(2)   │     │     │
-//    └─────┴───────┴───────────┴─────┴─────┘
+//          ┌───────┬───┬───┬───┬──────┐
+//          │   -   │ 7 │ 8 │ 9 │ kp_- │
+//          ├───────┼───┼───┼───┼──────┤
+//          │   /   │ 4 │ 5 │ 6 │  +   │
+//          ├───────┼───┼───┼───┼──────┤
+//          │   0   │ 1 │ 2 │ 3 │  =   │
+//    ┌─────┼───────┼───┴───┴───┼──────┼─────┐
+//    │ spc │ TO(0) │   TO(2)   │      │     │
+//    └─────┴───────┴───────────┴──────┴─────┘
 [NUMBER] = LAYOUT_ortho_4x5(
-           KC_MINUS , KC_7 , KC_8 , KC_9 , KC_NO             ,
-           KC_SLASH , KC_4 , KC_5 , KC_6 , KC_PLUS           ,
-           KC_0     , KC_1 , KC_2 , KC_3 , KC_EQUAL          ,
-  KC_SPC , TO(0)    ,       TO(2)        , KC_TRNS  , KC_TRNS
+           KC_MINUS , KC_7 , KC_8 , KC_9 , KC_KP_MINUS          ,
+           KC_SLASH , KC_4 , KC_5 , KC_6 , KC_PLUS              ,
+           KC_0     , KC_1 , KC_2 , KC_3 , KC_EQUAL             ,
+  KC_SPC , TO(0)    ,       TO(2)        , KC_TRNS     , KC_TRNS
 ),
 
 //          ┌───────┬───┬───┬───┬───────────┐

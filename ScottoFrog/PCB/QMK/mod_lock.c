@@ -1,7 +1,11 @@
+#include "keycodes.h"
+#include "process_tap_dance.h"
 #include QMK_KEYBOARD_H // include your keyboard’s QMK header if needed
 
 enum tap_dance {
-  SFT_LOCK
+  SFT_LOCK,
+  CTRL_LOCK,
+  ALT_LOCK
 };
 
 typedef enum {
@@ -18,6 +22,8 @@ typedef struct {
 
 static td_tap_t xtap_state = {.is_press_action = true, .state = TD_NONE};
 static bool shift_locked = false;
+static bool ctrl_locked = false;
+static bool alt_locked = false;
 
 // Determine state of tap dance
 td_state_t cur_dance(tap_dance_state_t *state) {
@@ -31,7 +37,7 @@ td_state_t cur_dance(tap_dance_state_t *state) {
   return TD_UNKNOWN;
 }
 
-// Tap dance start
+// Shift lock
 void sft_lock_finished(tap_dance_state_t *state, void *user_data) {
   xtap_state.state = cur_dance(state);
   switch (xtap_state.state) {
@@ -52,6 +58,42 @@ void sft_lock_finished(tap_dance_state_t *state, void *user_data) {
   }
 }
 
+// CTRL lock
+void ctrl_lock_finished(tap_dance_state_t *state, void *user_data) {
+  xtap_state.state = cur_dance(state);
+  switch (xtap_state.state) {
+    case TD_SINGLE_TAP:
+      if (ctrl_locked) {
+        unregister_code(KC_LCTL);
+        ctrl_locked = false;
+      } else {
+        register_code(KC_LCTL);
+        ctrl_locked = true;
+      }
+      break;
+    default:
+      break;
+  }
+}
+
+// ALT lock
+void alt_lock_finished(tap_dance_state_t *state, void *user_data) {
+  xtap_state.state = cur_dance(state);
+  switch (xtap_state.state) {
+    case TD_SINGLE_TAP:
+      if (alt_locked) {
+        unregister_code(KC_LALT);
+        alt_locked = false;
+      } else {
+        register_code(KC_LALT);
+        alt_locked = true;
+      }
+      break;
+    default:
+      break;
+  }
+}
+
 // Tap dance end
 void sft_lock_reset(tap_dance_state_t *state, void *user_data) {
   switch (xtap_state.state) {
@@ -64,7 +106,11 @@ void sft_lock_reset(tap_dance_state_t *state, void *user_data) {
   xtap_state.state = TD_NONE;
 }
 
-// Define tap dance
+void generic_reset(tap_dance_state_t *state, void *user_data) { xtap_state.state = TD_NONE; }
+
+// Define tap dance actions
 tap_dance_action_t tap_dance_actions[] = {
     [SFT_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, sft_lock_finished, sft_lock_reset),
+    [CTRL_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, ctrl_lock_finished, generic_reset),
+    [ALT_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, alt_lock_finished, generic_reset),
 };

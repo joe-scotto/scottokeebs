@@ -16,12 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
-
-enum custom_keycodes {
-  TO_CODE = SAFE_RANGE,
-  TO_NUMBER,
-  TO_DEFAULT
-};
+#include "keycodes.c"
 
 // Combos
 const uint16_t PROGMEM tab_combo[] = {KC_Y, KC_BSPC, COMBO_END};

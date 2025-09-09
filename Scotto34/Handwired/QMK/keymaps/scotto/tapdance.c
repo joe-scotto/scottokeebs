@@ -1,30 +1,12 @@
-/*
-Copyright 2025 Joe Scotto
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
 #include QMK_KEYBOARD_H
 
 // Tap dance declarations
-enum {
+enum tap_dance {
   TD_MODS_X,
   TD_MODS_DOT,
   TD_MODS_QUOT,
   TD_MODS_VOLU,
   TD_ESC_LALT_LCTL_SPOTLIGHT_EMOJI,
-  TD_ESC_LCTL_LALT_WINDOWS_EMOJI,
 };
 
 // Begin quad TD
@@ -128,46 +110,6 @@ void td_esc_lalt_lctl_spotlight_emoji_reset(tap_dance_state_t *state, void *user
   td_state = TD_NONE;
 }
 
-void td_esc_lctl_lalt_windows_emoji_finished(tap_dance_state_t *state, void *user_data) {
-  td_state = cur_dance(state);
-  switch (td_state) {
-    case TD_SINGLE_TAP:
-      tap_code16(KC_ESC);
-      break;
-    case TD_SINGLE_HOLD:
-      register_code(KC_LCTL);
-      break;
-    case TD_DOUBLE_HOLD:
-      register_code(KC_LALT);
-      break;
-    case TD_DOUBLE_TAP:
-      tap_code(KC_LGUI);
-      break;
-    case TD_TRIPLE_TAP:
-      tap_code16(G(KC_DOT));
-      break;
-    default:
-      break;
-  }
-}
-
-void td_esc_lctl_lalt_windows_emoji_reset(tap_dance_state_t *state, void *user_data) {
-  switch (td_state) {
-    case TD_SINGLE_TAP:
-      unregister_code(KC_ESC);
-      break;
-    case TD_SINGLE_HOLD:
-      unregister_code(KC_LCTL);
-      break;
-    case TD_DOUBLE_HOLD:
-      unregister_code(KC_LALT);
-      break;
-    default:
-      break;
-  }
-  td_state = TD_NONE;
-}
-
 void modfin(tap_dance_state_t *state, uint8_t keycode) {
   td_state = cur_dance(state);
   switch (td_state) {
@@ -234,8 +176,6 @@ TD_MODS(volu, KC_VOLU)
 tap_dance_action_t tap_dance_actions[] = {
     [TD_ESC_LALT_LCTL_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(
         NULL, td_esc_lalt_lctl_spotlight_emoji_finished, td_esc_lalt_lctl_spotlight_emoji_reset),
-    [TD_ESC_LCTL_LALT_WINDOWS_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(
-        NULL, td_esc_lctl_lalt_windows_emoji_finished, td_esc_lctl_lalt_windows_emoji_reset),
     [TD_MODS_X] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_x_finished, td_mods_x_restart),
     [TD_MODS_DOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_dot_finished, td_mods_dot_restart),
     [TD_MODS_QUOT] =

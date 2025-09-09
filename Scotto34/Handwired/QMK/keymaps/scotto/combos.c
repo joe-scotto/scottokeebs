@@ -1,11 +1,5 @@
 #include QMK_KEYBOARD_H
-
-enum custom_keycodes {
-  OS_TOGGLE = SAFE_RANGE,
-  TO_CODE,
-  TO_NUMBER,
-  TO_DEFAULT
-};
+#include "keycodess.h"
 
 // Combos
 const uint16_t PROGMEM tab_combo[] = {KC_Y, KC_BSPC, COMBO_END};
@@ -23,28 +17,3 @@ combo_t key_combos[] = {COMBO(tab_combo, KC_TAB),          COMBO(tab_number_comb
                         COMBO(enter_number_combo, KC_ENT), COMBO(enter_code_combo, KC_ENT),
                         COMBO(number_combo, TO_NUMBER),    COMBO(number_number_combo, TO_DEFAULT),
                         COMBO(code_combo, TO_CODE),        COMBO(code_code_combo, TO_DEFAULT)};
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-    case TO_DEFAULT:
-      if (record->event.pressed) {
-        layer_move(0);
-      }
-      return false;
-      break;
-    case TO_CODE:
-      if (record->event.pressed) {
-        layer_move(1);
-      }
-      return false;
-      break;
-    case TO_NUMBER:
-      if (record->event.pressed) {
-        layer_move(2);
-      }
-      return false;
-      break;
-    default:
-      return true;
-  }
-}

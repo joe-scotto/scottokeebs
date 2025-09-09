@@ -1,4 +1,6 @@
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
+#include "keycodess.h"
 
 // Tap dance declarations
 enum tap_dance {
@@ -6,7 +8,7 @@ enum tap_dance {
   TD_MODS_DOT,
   TD_MODS_QUOT,
   TD_MODS_VOLU,
-  TD_ESC_LALT_LCTL_SPOTLIGHT_EMOJI,
+  TD_MODS_LALT,
 };
 
 // Begin quad TD
@@ -64,7 +66,7 @@ td_state_t cur_dance(tap_dance_state_t *state) {
   }
 }
 
-void td_esc_lalt_lctl_spotlight_emoji_finished(tap_dance_state_t *state, void *user_data) {
+void td_mods_lalt_finished(tap_dance_state_t *state, void *user_data) {
   td_state = cur_dance(state);
   switch (td_state) {
     case TD_SINGLE_TAP:
@@ -90,7 +92,7 @@ void td_esc_lalt_lctl_spotlight_emoji_finished(tap_dance_state_t *state, void *u
   }
 }
 
-void td_esc_lalt_lctl_spotlight_emoji_reset(tap_dance_state_t *state, void *user_data) {
+void td_mods_lalt_reset(tap_dance_state_t *state, void *user_data) {
   switch (td_state) {
     case TD_SINGLE_TAP:
       unregister_code(KC_ESC);
@@ -109,6 +111,9 @@ void td_esc_lalt_lctl_spotlight_emoji_reset(tap_dance_state_t *state, void *user
   }
   td_state = TD_NONE;
 }
+
+// Modify above tap dances to work on both windows and mac, copy from old code.
+// Also remove the unneeded unregister_code because that's not actually needed for taps.
 
 void modfin(tap_dance_state_t *state, uint8_t keycode) {
   td_state = cur_dance(state);
@@ -174,8 +179,7 @@ TD_MODS(volu, KC_VOLU)
 
 // Tap Dance definitions
 tap_dance_action_t tap_dance_actions[] = {
-    [TD_ESC_LALT_LCTL_SPOTLIGHT_EMOJI] = ACTION_TAP_DANCE_FN_ADVANCED(
-        NULL, td_esc_lalt_lctl_spotlight_emoji_finished, td_esc_lalt_lctl_spotlight_emoji_reset),
+    [TD_MODS_LALT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_lalt_finished, td_mods_lalt_reset),
     [TD_MODS_X] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_x_finished, td_mods_x_restart),
     [TD_MODS_DOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_dot_finished, td_mods_dot_restart),
     [TD_MODS_QUOT] =

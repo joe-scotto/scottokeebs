@@ -14,10 +14,8 @@ const uint16_t PROGMEM tab_code_combo[] = {KC_MFFD, KC_DEL, COMBO_END};
 const uint16_t PROGMEM enter_combo[] = {KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM enter_number_combo[] = {KC_EXLM, KC_AT, COMBO_END};
 const uint16_t PROGMEM enter_code_combo[] = {KC_UNDS, KC_MINS, COMBO_END};
-
 const uint16_t PROGMEM number_combo[] = {KC_W, KC_Y, COMBO_END};
 const uint16_t PROGMEM number_number_combo[] = {KC_AT, KC_CAPS, COMBO_END};
-
 const uint16_t PROGMEM code_combo[] = {KC_Q, KC_BSPC, COMBO_END};
 const uint16_t PROGMEM code_code_combo[] = {KC_UNDS, KC_DEL, COMBO_END};
 combo_t key_combos[] = {COMBO(tab_combo, KC_TAB),          COMBO(tab_number_combo, KC_TAB),

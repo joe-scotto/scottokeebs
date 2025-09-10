@@ -1,6 +1,6 @@
 #include QMK_KEYBOARD_H
 #include "combos.c"
-#include "keycodess.c"
+#include "keys.c"
 #include "tapdance.c"
 
 // Custom tapping term for multi function keys
@@ -12,6 +12,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     case TD(TD_MODS_QUOT):
     case TD(TD_MODS_VOLU):
     case LGUI_T(KC_SPC):
+    case LCTL_T(KC_SPC):
     case LT(1, KC_TAB):
     case LT(2, KC_ENT):
       return 200;

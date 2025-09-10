@@ -1,4 +1,5 @@
 IndentWidth: 2
 IndentCaseLabels: true
 AllowShortEnumsOnASingleLine: false
-ColumnLimit: 100
+ColumnLimit: 120
+BinPackArguments: false

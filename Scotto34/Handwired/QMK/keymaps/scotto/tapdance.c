@@ -1,3 +1,5 @@
+#include "keycodes.h"
+#include <stdint.h>
 #include QMK_KEYBOARD_H
 #include "keys.h"
 
@@ -65,50 +67,21 @@ td_state_t cur_dance(tap_dance_state_t *state) {
   }
 }
 
-void td_mods_lalt_finished(tap_dance_state_t *state, void *user_data) {
-  td_state = cur_dance(state);
-  switch (td_state) {
-    case TD_SINGLE_TAP:
-      tap_code(KC_ESC);
-      break;
-    case TD_SINGLE_HOLD:
-      register_code(KC_LALT);
-      break;
-    case TD_DOUBLE_HOLD:
-      register_code(KC_LCTL);
-      break;
-    case TD_TRIPLE_HOLD:
-      register_code(KC_RGUI);
-      break;
-    case TD_DOUBLE_TAP:
-      tap_code16(RCMD(KC_SPC));
-      break;
-    case TD_TRIPLE_TAP:
-      tap_code16(C(RCMD(KC_SPC)));
-      break;
-    default:
-      break;
+void td_esc(uint8_t keycode, uint8_t mac_esc, uint8_t win_esc, uint8_t mac, uint8_t win) {
+  if (keycode == KC_ESC) {
+    register_code(is_mac ? mac_esc : win_esc);
+  } else {
+    register_code(is_mac ? mac : win);
   }
 }
 
-void td_mods_lalt_reset(tap_dance_state_t *state, void *user_data) {
-  switch (td_state) {
-    case TD_SINGLE_HOLD:
-      unregister_code(KC_LALT);
-      break;
-    case TD_DOUBLE_HOLD:
-      unregister_code(KC_LCTL);
-      break;
-    case TD_TRIPLE_HOLD:
-      unregister_code(KC_RGUI);
-      break;
-    default:
-      break;
+void td_esc_unreg(uint8_t keycode, uint8_t mac_esc, uint8_t win_esc, uint8_t mac, uint8_t win) {
+  if (keycode == KC_ESC) {
+    unregister_code(is_mac ? mac_esc : win_esc);
+  } else {
+    unregister_code(is_mac ? mac : win);
   }
-  td_state = TD_NONE;
 }
-
-// Modify above tap dances to work on both windows and mac, copy from old code.
 
 void modfin(tap_dance_state_t *state, uint8_t keycode) {
   td_state = cur_dance(state);
@@ -117,19 +90,20 @@ void modfin(tap_dance_state_t *state, uint8_t keycode) {
       tap_code(keycode);
       break;
     case TD_SINGLE_HOLD:
-      register_code(KC_RGUI);
+      td_esc(keycode, KC_RALT, KC_LCTL, KC_RGUI, KC_RCTL);
       break;
     case TD_DOUBLE_HOLD:
-      register_code(KC_RALT);
+      td_esc(keycode, KC_RCTL, KC_RALT, KC_RALT, KC_RALT);
       break;
     case TD_TRIPLE_HOLD:
+      td_esc(keycode, KC_RGUI, KC_RGUI, KC_RCTL, KC_RCTL);
       register_code(KC_RCTL);
       break;
     case TD_DOUBLE_TAP:
-      tap_code16(G(KC_SPC));
+      is_mac ? tap_code16(G(KC_SPC)) : tap_code(KC_RGUI);
       break;
     case TD_TRIPLE_TAP:
-      tap_code16(C(G(KC_SPC)));
+      is_mac ? tap_code16(C(G(KC_SPC))) : tap_code16(G(KC_DOT));
       break;
     default:
       break;
@@ -139,13 +113,13 @@ void modfin(tap_dance_state_t *state, uint8_t keycode) {
 void modres(tap_dance_state_t *state, uint8_t keycode) {
   switch (td_state) {
     case TD_SINGLE_HOLD:
-      unregister_code(KC_RGUI);
+      td_esc_unreg(keycode, KC_RALT, KC_LCTL, KC_RGUI, KC_RCTL);
       break;
     case TD_DOUBLE_HOLD:
-      unregister_code(KC_RALT);
+      td_esc_unreg(keycode, KC_RCTL, KC_RALT, KC_RALT, KC_RALT);
       break;
     case TD_TRIPLE_HOLD:
-      unregister_code(KC_RCTL);
+      td_esc(keycode, KC_RGUI, KC_RGUI, KC_RCTL, KC_RCTL);
       break;
     default:
       break;
@@ -156,7 +130,7 @@ void modres(tap_dance_state_t *state, uint8_t keycode) {
 // Macro for functions
 #define TD_MODS(name, keycode)                                                                                         \
   void td_mods_##name##_finished(tap_dance_state_t *state, void *user_data) { modfin(state, keycode); }                \
-  void td_mods_##name##_restart(tap_dance_state_t *state, void *user_data) { modres(state, keycode); }
+  void td_mods_##name##_reset(tap_dance_state_t *state, void *user_data) { modres(state, keycode); }
 
 // Create custom double and triple tap for dot and x to send xx xxx and .. ...
 
@@ -164,12 +138,13 @@ TD_MODS(x, KC_X)
 TD_MODS(dot, KC_DOT)
 TD_MODS(quot, KC_QUOT)
 TD_MODS(volu, KC_VOLU)
+TD_MODS(lalt, KC_ESC)
 
 // Tap Dance definitions
 tap_dance_action_t tap_dance_actions[] = {
     [TD_MODS_LALT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_lalt_finished, td_mods_lalt_reset),
-    [TD_MODS_X] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_x_finished, td_mods_x_restart),
-    [TD_MODS_DOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_dot_finished, td_mods_dot_restart),
-    [TD_MODS_QUOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_quot_finished, td_mods_quot_restart),
-    [TD_MODS_VOLU] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_volu_finished, td_mods_volu_restart),
+    [TD_MODS_X] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_x_finished, td_mods_x_reset),
+    [TD_MODS_DOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_dot_finished, td_mods_dot_reset),
+    [TD_MODS_QUOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_quot_finished, td_mods_quot_reset),
+    [TD_MODS_VOLU] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_volu_finished, td_mods_volu_reset),
 };

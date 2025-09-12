@@ -93,9 +93,6 @@ void td_mods_lalt_finished(tap_dance_state_t *state, void *user_data) {
 
 void td_mods_lalt_reset(tap_dance_state_t *state, void *user_data) {
   switch (td_state) {
-    case TD_SINGLE_TAP:
-      unregister_code(KC_ESC);
-      break;
     case TD_SINGLE_HOLD:
       unregister_code(KC_LALT);
       break;
@@ -112,7 +109,6 @@ void td_mods_lalt_reset(tap_dance_state_t *state, void *user_data) {
 }
 
 // Modify above tap dances to work on both windows and mac, copy from old code.
-// Also remove the unneeded unregister_code because that's not actually needed for taps.
 
 void modfin(tap_dance_state_t *state, uint8_t keycode) {
   td_state = cur_dance(state);
@@ -142,9 +138,6 @@ void modfin(tap_dance_state_t *state, uint8_t keycode) {
 
 void modres(tap_dance_state_t *state, uint8_t keycode) {
   switch (td_state) {
-    case TD_SINGLE_TAP:
-      unregister_code(keycode);
-      break;
     case TD_SINGLE_HOLD:
       unregister_code(KC_RGUI);
       break;

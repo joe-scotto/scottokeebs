@@ -1,34 +1,36 @@
+#include "keys.h"
+#include <stdint.h>
 #include QMK_KEYBOARD_H
-#include "keycodes.h"
 
 bool is_mac = true;
+bool is_game_mode = false;
+
+uint8_t get_base_layer(void) { return is_game_mode ? 2 : (is_mac ? 0 : 1); }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  if (!record->event.pressed)
+    return true;
+
   switch (keycode) {
     case TO_DEFAULT:
-      uint8_t layer = get_highest_layer(layer_state);
-      if (record->event.pressed) {
-        layer_move(is_mac ? 0 : 1);
-      }
+      layer_move(get_base_layer());
       return false;
       break;
     case TO_CODE:
-      if (record->event.pressed) {
-        layer_move(3);
-      }
+      layer_move(3);
       return false;
       break;
     case TO_NUMBER:
-      if (record->event.pressed) {
-        layer_move(4);
-      }
+      layer_move(4);
       return false;
       break;
     case OS_TOGGLE:
-      if (record->event.pressed) {
-        is_mac = !is_mac;
-        layer_move(is_mac ? 0 : 1);
-      }
+      is_mac = !is_mac;
+      layer_move(get_base_layer());
+      return false;
+    case GAME_TOGGLE:
+      is_game_mode = !is_game_mode;
+      layer_move(get_base_layer());
       return false;
     default:
       return true;

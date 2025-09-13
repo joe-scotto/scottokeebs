@@ -1,3 +1,4 @@
+#include "keys.h"
 #include QMK_KEYBOARD_H
 #include "combos.c"
 #include "keys.c"
@@ -70,20 +71,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 KC_TRNS , KC_TRNS ,     KC_TRNS , KC_TRNS
 ),
 
-//    ┌─────┬────┬────┬─────────┬─────┐   ┌──────────────────┬───────────────────────┬───────────────────────────┬─────────────┬───────────┐
-//    │ no  │ no │ no │   no    │ no  │   │        no        │          no           │            no             │ GAME_TOGGLE │ OS_TOGGLE │
-//    ├─────┼────┼────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┼─────────────┼───────────┤
-//    │ f1  │ f2 │ f3 │   f4    │ f5  │   │        f6        │          f7           │            f8             │     f9      │    f10    │
-//    ├─────┼────┼────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┼─────────────┼───────────┤
-//    │ f11 │ no │ no │ QK_BOOT │     │   │ QK_HAPTIC_TOGGLE │ QK_HAPTIC_BUZZ_TOGGLE │ QK_HAPTIC_FEEDBACK_TOGGLE │     no      │    f12    │
-//    └─────┴────┴────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┴─────────────┴───────────┘
-//                    │         │     │   │                  │                       │
-//                    └─────────┴─────┘   └──────────────────┴───────────────────────┘
+//    ┌────────────┬────┬────┬─────────┬─────┐   ┌──────────────────┬───────────────────────┬───────────────────────────┬─────────────┬───────────┐
+//    │ MODE_CHECK │ no │ no │   no    │ no  │   │        no        │          no           │            no             │ GAME_TOGGLE │ OS_TOGGLE │
+//    ├────────────┼────┼────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┼─────────────┼───────────┤
+//    │     f1     │ f2 │ f3 │   f4    │ f5  │   │        f6        │          f7           │            f8             │     f9      │    f10    │
+//    ├────────────┼────┼────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┼─────────────┼───────────┤
+//    │    f11     │ no │ no │ QK_BOOT │     │   │ QK_HAPTIC_TOGGLE │ QK_HAPTIC_BUZZ_TOGGLE │ QK_HAPTIC_FEEDBACK_TOGGLE │     no      │    f12    │
+//    └────────────┴────┴────┼─────────┼─────┤   ├──────────────────┼───────────────────────┼───────────────────────────┴─────────────┴───────────┘
+//                           │         │     │   │                  │                       │
+//                           └─────────┴─────┘   └──────────────────┴───────────────────────┘
 [3] = LAYOUT_split_3x5_2(
-  KC_NO  , KC_NO , KC_NO , KC_NO   , KC_NO   ,     KC_NO            , KC_NO                 , KC_NO                     , GAME_TOGGLE , OS_TOGGLE,
-  KC_F1  , KC_F2 , KC_F3 , KC_F4   , KC_F5   ,     KC_F6            , KC_F7                 , KC_F8                     , KC_F9       , KC_F10   ,
-  KC_F11 , KC_NO , KC_NO , QK_BOOT , KC_TRNS ,     QK_HAPTIC_TOGGLE , QK_HAPTIC_BUZZ_TOGGLE , QK_HAPTIC_FEEDBACK_TOGGLE , KC_NO       , KC_F12   ,
-                           KC_TRNS , KC_TRNS ,     KC_TRNS          , KC_TRNS
+  MODE_CHECK , KC_NO , KC_NO , KC_NO   , KC_NO   ,     KC_NO            , KC_NO                 , KC_NO                     , GAME_TOGGLE , OS_TOGGLE,
+  KC_F1      , KC_F2 , KC_F3 , KC_F4   , KC_F5   ,     KC_F6            , KC_F7                 , KC_F8                     , KC_F9       , KC_F10   ,
+  KC_F11     , KC_NO , KC_NO , QK_BOOT , KC_TRNS ,     QK_HAPTIC_TOGGLE , QK_HAPTIC_BUZZ_TOGGLE , QK_HAPTIC_FEEDBACK_TOGGLE , KC_NO       , KC_F12   ,
+                               KC_TRNS , KC_TRNS ,     KC_TRNS          , KC_TRNS
 )
 };
 // clang-format on

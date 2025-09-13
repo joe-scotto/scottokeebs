@@ -7,6 +7,7 @@ extern bool is_game_mode;
 enum custom_keycodes {
   OS_TOGGLE = SAFE_RANGE,
   GAME_TOGGLE,
+  MODE_CHECK,
   TO_CODE,
   TO_NUMBER,
   TO_DEFAULT

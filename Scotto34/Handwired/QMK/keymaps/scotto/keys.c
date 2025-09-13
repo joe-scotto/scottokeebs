@@ -1,8 +1,14 @@
 #include "keys.h"
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
 
 bool is_mac = true;
 bool is_game_mode = false;
+
+// Mode check
+char mode_string[50];
+char *os;
+char *mode;
 
 // Always ensure keyboard is in Mac mode first
 void keyboard_post_init_user(void) { keymap_config.swap_lctl_lgui = false; }
@@ -57,11 +63,20 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case OS_TOGGLE:
       is_mac = !is_mac;
       keymap_config.swap_lctl_lgui = is_mac ? false : true;
+      break;
       return false;
     case GAME_TOGGLE:
       is_game_mode = !is_game_mode;
+      break;
       return false;
-    default:
-      return true;
+    case MODE_CHECK:
+      os = is_mac ? "Mac" : "Windows";
+      mode = is_game_mode ? " (Game)" : "";
+      sprintf(mode_string, "Mode: %s%s", os, mode);
+      send_string(mode_string);
+      break;
+      return false;
   }
+
+  return true;
 }

@@ -1,7 +1,6 @@
 #include QMK_KEYBOARD_H
 #include "keys.h"
 
-// Begin quad TD
 typedef enum {
   TD_NONE,
   TD_UNKNOWN,

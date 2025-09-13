@@ -1,5 +1,4 @@
 #include "keys.h"
-#include "action.h"
 #include QMK_KEYBOARD_H
 
 bool is_mac = true;

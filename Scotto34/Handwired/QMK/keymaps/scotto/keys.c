@@ -1,11 +1,10 @@
 #include "keys.h"
-#include <stdint.h>
 #include QMK_KEYBOARD_H
 
 bool is_mac = true;
 bool is_game_mode = false;
 
-uint8_t get_base_layer(void) { return is_game_mode ? 2 : (is_mac ? 0 : 1); }
+void keyboard_post_init_user(void) { keymap_config.swap_lctl_lgui = false; }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (!record->event.pressed)
@@ -13,24 +12,23 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
   switch (keycode) {
     case TO_DEFAULT:
-      layer_move(get_base_layer());
+      layer_move(0);
       return false;
       break;
     case TO_CODE:
-      layer_move(3);
+      layer_move(1);
       return false;
       break;
     case TO_NUMBER:
-      layer_move(4);
+      layer_move(2);
       return false;
       break;
     case OS_TOGGLE:
       is_mac = !is_mac;
-      layer_move(get_base_layer());
+      keymap_config.swap_lctl_lgui = is_mac ? false : true;
       return false;
     case GAME_TOGGLE:
       is_game_mode = !is_game_mode;
-      layer_move(get_base_layer());
       return false;
     default:
       return true;

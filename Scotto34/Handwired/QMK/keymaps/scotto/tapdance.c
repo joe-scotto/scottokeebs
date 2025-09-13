@@ -1,15 +1,6 @@
 #include QMK_KEYBOARD_H
 #include "keys.h"
 
-// Tap dance declarations
-enum tap_dance {
-  TD_MODS_X,
-  TD_MODS_DOT,
-  TD_MODS_QUOT,
-  TD_MODS_VOLU,
-  TD_MULTI,
-};
-
 // Begin quad TD
 typedef enum {
   TD_NONE,

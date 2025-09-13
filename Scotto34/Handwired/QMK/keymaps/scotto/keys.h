@@ -11,3 +11,11 @@ enum custom_keycodes {
   TO_NUMBER,
   TO_DEFAULT
 };
+
+enum tap_dance_keycodes {
+  TD_MODS_X,
+  TD_MODS_DOT,
+  TD_MODS_QUOT,
+  TD_MODS_VOLU,
+  TD_MULTI,
+};

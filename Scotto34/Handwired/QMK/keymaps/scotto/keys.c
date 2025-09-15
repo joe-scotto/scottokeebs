@@ -1,5 +1,6 @@
 #include "keys.h"
 #include "keycodes.h"
+#include "quantum.h"
 #include QMK_KEYBOARD_H
 
 bool is_mac = true;
@@ -9,6 +10,17 @@ bool is_game_mode = false;
 char mode_string[50];
 char *os;
 char *mode;
+
+void keyboard_post_init_user(void) {
+  keymap_config.raw = eeconfig_read_user();
+
+  // If swapped, layout should too
+  if (keymap_config.swap_lctl_lgui) {
+    is_mac = false;
+  } else {
+    is_mac = true;
+  }
+}
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (is_game_mode) {
@@ -60,6 +72,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case OS_TOGGLE:
       is_mac = !is_mac;
       keymap_config.swap_lctl_lgui = is_mac ? false : true;
+      eeconfig_update_user(keymap_config.raw);
       break;
       return false;
     case GAME_TOGGLE:
@@ -71,6 +84,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       mode = is_game_mode ? " (Game)" : "";
       sprintf(mode_string, "Mode: %s%s", os, mode);
       send_string(mode_string);
+
+      // Wait and delete
+      wait_ms(500);
+      for (size_t i = 0; i < strlen(mode_string); i++) {
+        tap_code16(KC_BSPC);
+      }
       break;
       return false;
   }

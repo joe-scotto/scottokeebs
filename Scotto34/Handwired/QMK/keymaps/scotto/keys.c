@@ -10,9 +10,6 @@ char mode_string[50];
 char *os;
 char *mode;
 
-// Always ensure keyboard is in Mac mode first
-void keyboard_post_init_user(void) { keymap_config.swap_lctl_lgui = false; }
-
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   if (is_game_mode) {
     uint16_t game_mode_keycode = KC_NO;

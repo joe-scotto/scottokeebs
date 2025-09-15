@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include QMK_KEYBOARD_H
 
-bool is_mac = true;
+bool is_windows = false;
 bool is_game_mode = false;
 bool is_qwerty = false;
 
@@ -19,9 +19,9 @@ void keyboard_post_init_user(void) {
 
   // If swapped, layout should too
   if (keymap_config.swap_lctl_lgui) {
-    is_mac = false;
+    is_windows = true;
   } else {
-    is_mac = true;
+    is_windows = false;
   }
 }
 
@@ -114,7 +114,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
   if (keycode == MODE_CHECK) {
-    os = is_mac ? "Mac" : "Windows";
+    os = is_windows ? "Windows" : "Mac";
     mode = is_game_mode ? " (Game)" : "";
     layout = is_qwerty ? " (QWERTY)" : " (Colemak)";
     sprintf(mode_string, "Mode: %s%s%s", os, mode, layout);
@@ -137,8 +137,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         layer_move(1);
         return false;
       case OS_TOGGLE:
-        is_mac = !is_mac;
-        keymap_config.swap_lctl_lgui = is_mac ? false : true;
+        is_windows = !is_windows;
+        keymap_config.swap_lctl_lgui = is_windows ? true : false;
         eeconfig_update_user(keymap_config.raw);
         return false;
       case GAME_TOGGLE:

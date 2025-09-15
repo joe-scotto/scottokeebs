@@ -1,7 +1,7 @@
 #pragma once
 #include QMK_KEYBOARD_H
 
-extern bool is_mac;
+extern bool is_windows;
 extern bool is_game_mode;
 extern bool is_qwerty;
 

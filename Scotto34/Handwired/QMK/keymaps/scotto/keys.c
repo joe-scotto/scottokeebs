@@ -1,7 +1,4 @@
 #include "keys.h"
-#include "keycodes.h"
-#include "quantum.h"
-#include <stdint.h>
 #include QMK_KEYBOARD_H
 
 bool is_windows = false;

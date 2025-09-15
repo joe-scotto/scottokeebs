@@ -1,8 +1,8 @@
-#include "keys.h"
-#include QMK_KEYBOARD_H
 #include "combos.c"
 #include "keys.c"
+#include "keys.h"
 #include "tapdance.c"
+#include QMK_KEYBOARD_H
 
 // Custom tapping term for multi function keys
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {

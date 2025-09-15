@@ -1,5 +1,5 @@
-#include QMK_KEYBOARD_H
 #include "keys.h"
+#include QMK_KEYBOARD_H
 
 // Define combos
 const uint16_t PROGMEM tab_combo[] = {KC_Y, KC_BSPC, COMBO_END};

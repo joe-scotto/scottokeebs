@@ -3,11 +3,13 @@
 
 extern bool is_mac;
 extern bool is_game_mode;
+extern bool is_qwerty;
 
 enum custom_keycodes {
   OS_TOGGLE = SAFE_RANGE,
   GAME_TOGGLE,
   MODE_CHECK,
+  LAYOUT_SWAP,
   TO_CODE,
   TO_NUMBER,
   TO_DEFAULT

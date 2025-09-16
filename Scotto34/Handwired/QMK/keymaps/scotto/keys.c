@@ -1,31 +1,26 @@
 #include "keys.h"
 #include QMK_KEYBOARD_H
 
-bool is_windows = false;
-bool is_game_mode = false;
-bool is_qwerty = false;
-
 // Mode check
 char mode_string[32];
 char *os;
 char *mode;
 char *layout;
 
-void keyboard_post_init_user(void) {
-  keymap_config.raw = eeconfig_read_user();
+void eeconfig_init_user(void) {
+  user_config.raw = 0;
+  eeconfig_update_user(user_config.raw);
+}
 
-  // If swapped, layout should too
-  if (keymap_config.swap_lctl_lgui) {
-    is_windows = true;
-  } else {
-    is_windows = false;
-  }
+void keyboard_post_init_user(void) {
+  user_config.raw = eeconfig_read_user();
+  keymap_config.swap_lctl_lgui = user_config.is_windows;
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   uint16_t remapped_keycode = KC_NO;
 
-  if (is_qwerty) {
+  if (user_config.is_qwerty) {
     switch (keycode) {
       // Top row
       case KC_F:
@@ -82,7 +77,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
   }
 
-  if (is_game_mode) {
+  if (user_config.is_game_mode) {
     switch (keycode) {
       case LSFT_T(KC_Z):
         remapped_keycode = KC_Z;
@@ -111,9 +106,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
   if (keycode == MODE_CHECK) {
-    os = is_windows ? "Windows" : "Mac";
-    mode = is_game_mode ? " (Game)" : "";
-    layout = is_qwerty ? " (QWERTY)" : " (Colemak)";
+    os = user_config.is_windows ? "Windows" : "Mac";
+    mode = user_config.is_game_mode ? " (Game)" : "";
+    layout = user_config.is_qwerty ? " (QWERTY)" : " (Colemak)";
     sprintf(mode_string, "Mode: %s%s%s", os, mode, layout);
 
     if (record->event.pressed) {
@@ -134,15 +129,21 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         layer_move(1);
         return false;
       case OS_TOGGLE:
-        is_windows = !is_windows;
-        keymap_config.swap_lctl_lgui = is_windows ? true : false;
-        eeconfig_update_user(keymap_config.raw);
+        user_config.is_windows = !user_config.is_windows;
+        keymap_config.swap_lctl_lgui = user_config.is_windows ? true : false;
+        eeconfig_update_user(user_config.raw);
         return false;
       case GAME_TOGGLE:
-        is_game_mode = !is_game_mode;
+        user_config.is_game_mode = !user_config.is_game_mode;
+        eeconfig_update_user(user_config.raw);
         return false;
       case LAYOUT_SWAP:
-        is_qwerty = !is_qwerty;
+        user_config.is_qwerty = !user_config.is_qwerty;
+        eeconfig_update_user(user_config.raw);
+        return false;
+      case HARD_BOOT:
+        eeconfig_init_user();
+        reset_keyboard();
         return false;
     }
   }

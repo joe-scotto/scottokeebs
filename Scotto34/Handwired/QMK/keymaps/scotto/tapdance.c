@@ -56,11 +56,11 @@ td_state_t cur_dance(tap_dance_state_t *state) {
 }
 
 void td_hold(bool press, uint8_t keycode, uint8_t mac_esc, uint8_t win_esc, uint8_t mac, uint8_t win) {
-  uint8_t code = is_windows ? win : mac;
+  uint8_t code = user_config.is_windows ? win : mac;
 
   // If not modifier key
   if (keycode == KC_ESC) {
-    code = is_windows ? win_esc : mac_esc;
+    code = user_config.is_windows ? win_esc : mac_esc;
   }
 
   press ? register_code(code) : unregister_code(code);
@@ -82,10 +82,10 @@ void modfin(tap_dance_state_t *state, uint8_t keycode) {
       td_hold(true, keycode, KC_RGUI, KC_RGUI, KC_RCTL, KC_RCTL);
       break;
     case TD_DOUBLE_TAP:
-      is_windows ? tap_code(KC_RGUI) : tap_code16(RCMD(KC_SPC));
+      user_config.is_windows ? tap_code(KC_RGUI) : tap_code16(RCMD(KC_SPC));
       break;
     case TD_TRIPLE_TAP:
-      is_windows ? tap_code16(RGUI(KC_DOT)) : tap_code16(RCTL(RCMD(KC_SPC)));
+      user_config.is_windows ? tap_code16(RGUI(KC_DOT)) : tap_code16(RCTL(RCMD(KC_SPC)));
       break;
     default:
       break;

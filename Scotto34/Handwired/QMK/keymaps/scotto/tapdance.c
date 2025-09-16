@@ -114,19 +114,13 @@ void modres(tap_dance_state_t *state, uint8_t keycode) {
   void td_mods_##name##_finished(tap_dance_state_t *state, void *user_data) { modfin(state, keycode); }                \
   void td_mods_##name##_reset(tap_dance_state_t *state, void *user_data) { modres(state, keycode); }
 
-// Create custom double and triple tap for dot and x to send xx xxx and .. ...
-
 TD_MODS(x, KC_X)
-TD_MODS(dot, KC_DOT)
 TD_MODS(quot, KC_QUOT)
-TD_MODS(volu, KC_VOLU)
 TD_MODS(lalt, KC_ESC)
 
 // Tap Dance definitions
 tap_dance_action_t tap_dance_actions[] = {
     [TD_MULTI] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_lalt_finished, td_mods_lalt_reset),
     [TD_MODS_X] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_x_finished, td_mods_x_reset),
-    [TD_MODS_DOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_dot_finished, td_mods_dot_reset),
     [TD_MODS_QUOT] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_quot_finished, td_mods_quot_reset),
-    [TD_MODS_VOLU] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, td_mods_volu_finished, td_mods_volu_reset),
 };

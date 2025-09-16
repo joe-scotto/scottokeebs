@@ -9,9 +9,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case TD(TD_MULTI):
     case TD(TD_MODS_X):
-    case TD(TD_MODS_DOT):
     case TD(TD_MODS_QUOT):
-    case TD(TD_MODS_VOLU):
     case LGUI_T(KC_SPC):
     case LT(1, KC_TAB):
     case LT(2, KC_ENT):
@@ -23,35 +21,35 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-//    ┌───────────┬───────────────┬───┬──────────────┬─────────────┐   ┌────────────┬────────────┬───┬─────────────────┬───────────┐
-//    │     q     │       w       │ f │      p       │      g      │   │     j      │     l      │ u │        y        │   bspc    │
-//    ├───────────┼───────────────┼───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┼─────────────────┼───────────┤
-//    │     a     │       r       │ s │      t       │      d      │   │     h      │     n      │ e │        i        │     o     │
-//    ├───────────┼───────────────┼───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┼─────────────────┼───────────┤
-//    │ LSFT_T(z) │ TD(TD_MODS_X) │ c │      v       │      b      │   │     k      │     m      │ , │ TD(TD_MODS_DOT) │ RSFT_T(/) │
-//    └───────────┴───────────────┴───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┴─────────────────┴───────────┘
+//    ┌───────────┬───────────────┬───┬──────────────┬─────────────┐   ┌────────────┬────────────┬───┬───────────┬───────────┐
+//    │     q     │       w       │ f │      p       │      g      │   │     j      │     l      │ u │     y     │   bspc    │
+//    ├───────────┼───────────────┼───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┼───────────┼───────────┤
+//    │     a     │       r       │ s │      t       │      d      │   │     h      │     n      │ e │     i     │     o     │
+//    ├───────────┼───────────────┼───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┼───────────┼───────────┤
+//    │ LSFT_T(z) │ TD(TD_MODS_X) │ c │      v       │      b      │   │     k      │     m      │ , │ RGUI_T(.) │ RSFT_T(/) │
+//    └───────────┴───────────────┴───┼──────────────┼─────────────┤   ├────────────┼────────────┼───┴───────────┴───────────┘
 //                                    │ TD(TD_MULTI) │ LGUI_T(spc) │   │ LT(1, tab) │ LT(2, ent) │
 //                                    └──────────────┴─────────────┘   └────────────┴────────────┘
 [0] = LAYOUT_split_3x5_2(
-  KC_Q         , KC_W          , KC_F , KC_P         , KC_G           ,     KC_J          , KC_L          , KC_U     , KC_Y            , KC_BSPC        ,
-  KC_A         , KC_R          , KC_S , KC_T         , KC_D           ,     KC_H          , KC_N          , KC_E     , KC_I            , KC_O           ,
-  LSFT_T(KC_Z) , TD(TD_MODS_X) , KC_C , KC_V         , KC_B           ,     KC_K          , KC_M          , KC_COMMA , TD(TD_MODS_DOT) , RSFT_T(KC_SLSH),
+  KC_Q         , KC_W          , KC_F , KC_P         , KC_G           ,     KC_J          , KC_L          , KC_U     , KC_Y           , KC_BSPC        ,
+  KC_A         , KC_R          , KC_S , KC_T         , KC_D           ,     KC_H          , KC_N          , KC_E     , KC_I           , KC_O           ,
+  LSFT_T(KC_Z) , TD(TD_MODS_X) , KC_C , KC_V         , KC_B           ,     KC_K          , KC_M          , KC_COMMA , RGUI_T(KC_DOT) , RSFT_T(KC_SLSH),
                                         TD(TD_MULTI) , LGUI_T(KC_SPC) ,     LT(1, KC_TAB) , LT(2, KC_ENT)
 ),
 
-//    ┌───────────┬──────────────────┬───┬─────┬─────┐   ┌─────┬──────┬──────┬──────────────────┬───────────┐
-//    │     _     │        -         │ + │  =  │  :  │   │  `  │ mrwd │ mply │       mffd       │    del    │
-//    ├───────────┼──────────────────┼───┼─────┼─────┤   ├─────┼──────┼──────┼──────────────────┼───────────┤
-//    │     {     │        (         │ ) │  }  │  |  │   │ esc │ left │  up  │       down       │   rght    │
-//    ├───────────┼──────────────────┼───┼─────┼─────┤   ├─────┼──────┼──────┼──────────────────┼───────────┤
-//    │ LSFT_T([) │ TD(TD_MODS_QUOT) │ " │  ]  │  ;  │   │  ~  │ vold │ mute │ TD(TD_MODS_VOLU) │ RSFT_T(\) │
-//    └───────────┴──────────────────┴───┼─────┼─────┤   ├─────┼──────┼──────┴──────────────────┴───────────┘
+//    ┌───────────┬──────────────────┬───┬─────┬─────┐   ┌─────┬──────┬──────┬──────────────┬───────────┐
+//    │     _     │        -         │ + │  =  │  :  │   │  `  │ mrwd │ mply │     mffd     │    del    │
+//    ├───────────┼──────────────────┼───┼─────┼─────┤   ├─────┼──────┼──────┼──────────────┼───────────┤
+//    │     {     │        (         │ ) │  }  │  |  │   │ esc │ left │  up  │     down     │   rght    │
+//    ├───────────┼──────────────────┼───┼─────┼─────┤   ├─────┼──────┼──────┼──────────────┼───────────┤
+//    │ LSFT_T([) │ TD(TD_MODS_QUOT) │ " │  ]  │  ;  │   │  ~  │ vold │ mute │ RGUI_T(volu) │ RSFT_T(\) │
+//    └───────────┴──────────────────┴───┼─────┼─────┤   ├─────┼──────┼──────┴──────────────┴───────────┘
 //                                       │     │     │   │     │      │
 //                                       └─────┴─────┘   └─────┴──────┘
 [1] = LAYOUT_split_3x5_2(
-  KC_UNDS         , KC_MINS          , KC_PLUS , KC_EQL  , KC_COLN ,     KC_GRV   , KC_MRWD , KC_MPLY , KC_MFFD          , KC_DEL         ,
-  KC_LCBR         , KC_LPRN          , KC_RPRN , KC_RCBR , KC_PIPE ,     KC_ESC   , KC_LEFT , KC_UP   , KC_DOWN          , KC_RGHT        ,
-  LSFT_T(KC_LBRC) , TD(TD_MODS_QUOT) , KC_DQUO , KC_RBRC , KC_SCLN ,     KC_TILDE , KC_VOLD , KC_MUTE , TD(TD_MODS_VOLU) , RSFT_T(KC_BSLS),
+  KC_UNDS         , KC_MINS          , KC_PLUS , KC_EQL  , KC_COLN ,     KC_GRV   , KC_MRWD , KC_MPLY , KC_MFFD         , KC_DEL         ,
+  KC_LCBR         , KC_LPRN          , KC_RPRN , KC_RCBR , KC_PIPE ,     KC_ESC   , KC_LEFT , KC_UP   , KC_DOWN         , KC_RGHT        ,
+  LSFT_T(KC_LBRC) , TD(TD_MODS_QUOT) , KC_DQUO , KC_RBRC , KC_SCLN ,     KC_TILDE , KC_VOLD , KC_MUTE , RGUI_T(KC_VOLU) , RSFT_T(KC_BSLS),
                                                  KC_TRNS , KC_TRNS ,     KC_TRNS  , KC_TRNS
 ),
 

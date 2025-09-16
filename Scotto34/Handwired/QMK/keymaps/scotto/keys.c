@@ -88,7 +88,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       case TD(TD_MODS_X):
         remapped_keycode = KC_X;
         break;
-      case TD(TD_MODS_DOT):
+      case RGUI_T(KC_DOT):
         remapped_keycode = KC_DOT;
         break;
       case TD(TD_MULTI):

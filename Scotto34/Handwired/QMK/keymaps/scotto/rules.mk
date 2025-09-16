@@ -1,3 +1,5 @@
 TAP_DANCE_ENABLE = yes
 COMBO_ENABLE = yes
 HAPTIC_DRIVER = solenoid
+NO_DEBUG = yes
+NO_PRINT = yes

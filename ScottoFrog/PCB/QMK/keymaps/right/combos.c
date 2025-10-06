@@ -1,6 +1,8 @@
+#include "custom_keys.c"
 #include "keycodes.h"
-#include QMK_KEYBOARD_H
+#include "keymap_us.h"
 #include "mod_lock.c"
+#include QMK_KEYBOARD_H
 
 enum combos {
   GREEN_TAB,
@@ -64,6 +66,20 @@ enum combos {
   ORANGE_NUMBER_RIGHT,
   ORANGE_BASE_CAPS,
   ORANGE_NUMBER_CAPS,
+  SYMBOL_PLUS,
+  SYMBOL_EQUAL,
+  SYMBOL_DOLLAR,
+  SYMBOL_HASH,
+  SYMBOL_SLASH,
+  SYMBOL_PERCENT,
+  SYMBOL_PIPE,
+  SYMBOL_TILDE,
+  SYMBOL_CARET,
+  SYMBOL_GRAVE,
+  SYMBOL_RIGHT_ANGLE_BRACKET,
+  SYMBOl_RIGHT_PAREN,
+  SYMBOL_RIGHT_BRACKET,
+  SYMBOL_RIGHT_CURLY_BRACE,
   SYMBOL_COMMA,
 };
 
@@ -135,6 +151,22 @@ const uint16_t PROGMEM orange_base_caps[] = {TO(1), TD(SFT_LOCK), COMBO_END};
 const uint16_t PROGMEM orange_number_caps[] = {TO(0), TD(SFT_LOCK), COMBO_END};
 
 // Symbol
+const uint16_t PROGMEM symbol_plus[] = {KC_SPC, KC_AMPERSAND, COMBO_END};
+const uint16_t PROGMEM symbol_equal[] = {KC_SPC, KC_ASTERISK, COMBO_END};
+const uint16_t PROGMEM symbol_dollar[] = {KC_SPC, KC_COLON, COMBO_END};
+const uint16_t PROGMEM symbol_hash[] = {KC_SPC, KC_SEMICOLON, COMBO_END};
+const uint16_t PROGMEM symbol_slash[] = {KC_SPC, KC_SLASH, COMBO_END};
+const uint16_t PROGMEM symbol_percent[] = {KC_SPC, KC_EXCLAIM, COMBO_END};
+const uint16_t PROGMEM symbol_pipe[] = {KC_SPC, KC_MINUS, COMBO_END};
+const uint16_t PROGMEM symbol_tilde[] = {KC_SPC, KC_AT, COMBO_END};
+const uint16_t PROGMEM symbol_caret[] = {KC_SPC, KC_UNDERSCORE, COMBO_END};
+
+const uint16_t PROGMEM symbol_grave[] = {KC_SPC, KC_DOUBLE_QUOTE, COMBO_END};
+const uint16_t PROGMEM symbol_right_angle_bracket[] = {KC_SPC, KC_LEFT_ANGLE_BRACKET, COMBO_END};
+const uint16_t PROGMEM symbol_right_paren[] = {KC_SPC, KC_LEFT_PAREN, COMBO_END};
+const uint16_t PROGMEM symbol_right_bracket[] = {KC_SPC, KC_LEFT_BRACKET, COMBO_END};
+const uint16_t PROGMEM symbol_right_curly_brace[] = {KC_SPC, KC_LEFT_CURLY_BRACE, COMBO_END};
+
 const uint16_t PROGMEM symbol_comma[] = {KC_SPC, TO(0), COMBO_END};
 
 combo_t key_combos[] = {
@@ -199,5 +231,19 @@ combo_t key_combos[] = {
     [ORANGE_NUMBER_RIGHT] = COMBO(orange_number_right, KC_RIGHT),
     [ORANGE_BASE_CAPS] = COMBO(orange_base_caps, KC_CAPS),
     [ORANGE_NUMBER_CAPS] = COMBO(orange_number_caps, KC_CAPS),
+    [SYMBOL_PLUS] = COMBO(symbol_plus, KC_PLUS),
+    [SYMBOL_EQUAL] = COMBO(symbol_equal, KC_EQUAL),
+    [SYMBOL_DOLLAR] = COMBO(symbol_dollar, KC_DOLLAR),
+    [SYMBOL_HASH] = COMBO(symbol_hash, KC_HASH),
+    [SYMBOL_SLASH] = COMBO(symbol_slash, KC_BACKSLASH),
+    [SYMBOL_PERCENT] = COMBO(symbol_percent, KC_PERCENT),
+    [SYMBOL_PIPE] = COMBO(symbol_pipe, KC_PIPE),
+    [SYMBOL_TILDE] = COMBO(symbol_tilde, KC_TILDE),
+    [SYMBOL_CARET] = COMBO(symbol_caret, KC_CARET),
+    [SYMBOL_GRAVE] = COMBO(symbol_grave, KC_GRAVE),
+    [SYMBOL_RIGHT_ANGLE_BRACKET] = COMBO(symbol_right_angle_bracket, KC_RIGHT_ANGLE_BRACKET),
+    [SYMBOl_RIGHT_PAREN] = COMBO(symbol_right_paren, KC_RIGHT_PAREN),
+    [SYMBOL_RIGHT_BRACKET] = COMBO(symbol_right_bracket, KC_RIGHT_BRACKET),
+    [SYMBOL_RIGHT_CURLY_BRACE] = COMBO(symbol_right_curly_brace, KC_RIGHT_CURLY_BRACE),
     [SYMBOL_COMMA] = COMBO(symbol_comma, KC_COMMA),
 };

@@ -28,6 +28,7 @@ enum combos {
   NUMBER_F5,
   NUMBER_F6,
   NUMBER_F12,
+  NUMBER_F10,
   NUMBER_F1,
   NUMBER_F2,
   NUMBER_F3,
@@ -109,6 +110,7 @@ const uint16_t PROGMEM number_f4[] = {KC_SPC, KC_4, COMBO_END};
 const uint16_t PROGMEM number_f5[] = {KC_SPC, KC_5, COMBO_END};
 const uint16_t PROGMEM number_f6[] = {KC_SPC, KC_6, COMBO_END};
 const uint16_t PROGMEM number_f12[] = {KC_SPC, KC_PLUS, COMBO_END};
+const uint16_t PROGMEM number_f10[] = {KC_SPC, KC_0, COMBO_END};
 const uint16_t PROGMEM number_f1[] = {KC_SPC, KC_1, COMBO_END};
 const uint16_t PROGMEM number_f2[] = {KC_SPC, KC_2, COMBO_END};
 const uint16_t PROGMEM number_f3[] = {KC_SPC, KC_3, COMBO_END};
@@ -193,6 +195,7 @@ combo_t key_combos[] = {
     [NUMBER_F5] = COMBO(number_f5, KC_F5),
     [NUMBER_F6] = COMBO(number_f6, KC_F5),
     [NUMBER_F12] = COMBO(number_f12, KC_F12),
+    [NUMBER_F10] = COMBO(number_f10, KC_F10),
     [NUMBER_F1] = COMBO(number_f1, KC_F1),
     [NUMBER_F2] = COMBO(number_f2, KC_F2),
     [NUMBER_F3] = COMBO(number_f3, KC_F3),

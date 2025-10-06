@@ -1,9 +1,8 @@
-#include "keycodes.h"
-#include "process_tap_dance.h"
-#include QMK_KEYBOARD_H // include your keyboard’s QMK header if needed
+#include QMK_KEYBOARD_H
 
 enum tap_dance {
   SFT_LOCK,
+  CMD_LOCK,
   CTRL_LOCK,
   ALT_LOCK
 };
@@ -22,6 +21,7 @@ typedef struct {
 
 static td_tap_t xtap_state = {.is_press_action = true, .state = TD_NONE};
 static bool shift_locked = false;
+static bool cmd_locked = false;
 static bool ctrl_locked = false;
 static bool alt_locked = false;
 
@@ -52,6 +52,24 @@ void sft_lock_finished(tap_dance_state_t *state, void *user_data) {
       break;
     case TD_SINGLE_HOLD:
       register_code(KC_LSFT);
+      break;
+    default:
+      break;
+  }
+}
+
+// CMD lock
+void cmd_lock_finished(tap_dance_state_t *state, void *user_data) {
+  xtap_state.state = cur_dance(state);
+  switch (xtap_state.state) {
+    case TD_SINGLE_TAP:
+      if (cmd_locked) {
+        unregister_code(KC_LGUI);
+        cmd_locked = false;
+      } else {
+        register_code(KC_LGUI);
+        cmd_locked = true;
+      }
       break;
     default:
       break;
@@ -111,6 +129,7 @@ void generic_reset(tap_dance_state_t *state, void *user_data) { xtap_state.state
 // Define tap dance actions
 tap_dance_action_t tap_dance_actions[] = {
     [SFT_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, sft_lock_finished, sft_lock_reset),
+    [CMD_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, cmd_lock_finished, generic_reset),
     [CTRL_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, ctrl_lock_finished, generic_reset),
     [ALT_LOCK] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, alt_lock_finished, generic_reset),
 };

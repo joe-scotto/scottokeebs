@@ -1,7 +1,7 @@
 # ScottoFrog (SK37)
 
-A 20-key single handed keyboard based on the [FrogPad](http://frogpad.com).
+A 20-key single handed keyboard based on the [Frogpad](http://frogpad.com).
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/macropads/scottofrog-PCB-macropad).
 
-<!-- ![ScottoFrog](https://user-images.githubusercontent.com/8194147/234653783-0a6da547-c2e7-4fd2-b023-967790f80c23.JPG) -->
+![ScottoFrog (PCB Edition](https://github.com/user-attachments/assets/82875913-507a-4a7b-860a-1611f7b2cf39)

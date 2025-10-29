@@ -32,7 +32,6 @@ enum combos {
   NUMBER_F1,
   NUMBER_F2,
   NUMBER_F3,
-  NUMBER_EQUAL,
   ORANGE_BASE_ESC,
   ORANGE_NUMBER_ESC,
   ORANGE_BASE_HOME,
@@ -115,7 +114,6 @@ const uint16_t PROGMEM number_f10[] = {KC_SPC, KC_0, COMBO_END};
 const uint16_t PROGMEM number_f1[] = {KC_SPC, KC_1, COMBO_END};
 const uint16_t PROGMEM number_f2[] = {KC_SPC, KC_2, COMBO_END};
 const uint16_t PROGMEM number_f3[] = {KC_SPC, KC_3, COMBO_END};
-const uint16_t PROGMEM number_equal[] = {KC_SPC, KC_EQUAL, COMBO_END};
 
 // Orange
 const uint16_t PROGMEM orange_base_esc[] = {TO(1), KC_F, COMBO_END};
@@ -201,7 +199,6 @@ combo_t key_combos[] = {
     [NUMBER_F1] = COMBO(number_f1, KC_F1),
     [NUMBER_F2] = COMBO(number_f2, KC_F2),
     [NUMBER_F3] = COMBO(number_f3, KC_F3),
-    [NUMBER_EQUAL] = COMBO(number_equal, KC_EQUAL),
     [ORANGE_BASE_ESC] = COMBO(orange_base_esc, KC_ESC),
     [ORANGE_NUMBER_ESC] = COMBO(orange_number_esc, KC_ESC),
     [ORANGE_BASE_HOME] = COMBO(orange_base_home, KC_HOME),

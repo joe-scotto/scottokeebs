@@ -1,4 +1,6 @@
 #include "custom_keys.c"
+#include "keycodes.h"
+#include "keymap_us.h"
 #include "mod_lock.c"
 #include QMK_KEYBOARD_H
 
@@ -65,6 +67,7 @@ enum combos {
   ORANGE_NUMBER_RIGHT,
   ORANGE_BASE_CAPS,
   ORANGE_NUMBER_CAPS,
+  SYMBOL_TAB,
   SYMBOL_PLUS,
   SYMBOL_EQUAL,
   SYMBOL_DOLLAR,
@@ -151,6 +154,7 @@ const uint16_t PROGMEM orange_base_caps[] = {TO(1), TD(SFT_LOCK), COMBO_END};
 const uint16_t PROGMEM orange_number_caps[] = {TO(0), TD(SFT_LOCK), COMBO_END};
 
 // Symbol
+const uint16_t PROGMEM symbol_tab[] = {KC_SPC, KC_QUESTION, COMBO_END};
 const uint16_t PROGMEM symbol_plus[] = {KC_SPC, KC_AMPERSAND, COMBO_END};
 const uint16_t PROGMEM symbol_equal[] = {KC_SPC, KC_ASTERISK, COMBO_END};
 const uint16_t PROGMEM symbol_dollar[] = {KC_SPC, KC_COLON, COMBO_END};
@@ -232,6 +236,7 @@ combo_t key_combos[] = {
     [ORANGE_NUMBER_RIGHT] = COMBO(orange_number_right, KC_RIGHT),
     [ORANGE_BASE_CAPS] = COMBO(orange_base_caps, KC_CAPS),
     [ORANGE_NUMBER_CAPS] = COMBO(orange_number_caps, KC_CAPS),
+    [SYMBOL_TAB] = COMBO(symbol_tab, KC_TAB),
     [SYMBOL_PLUS] = COMBO(symbol_plus, KC_PLUS),
     [SYMBOL_EQUAL] = COMBO(symbol_equal, KC_EQUAL),
     [SYMBOL_DOLLAR] = COMBO(symbol_dollar, KC_DOLLAR),

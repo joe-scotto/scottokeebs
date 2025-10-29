@@ -1,6 +1,4 @@
 #include "custom_keys.c"
-#include "keycodes.h"
-#include "keymap_us.h"
 #include "mod_lock.c"
 #include QMK_KEYBOARD_H
 
@@ -108,11 +106,11 @@ const uint16_t PROGMEM green_period[] = {KC_SPC, KC_ENTER, COMBO_END};
 const uint16_t PROGMEM number_f7[] = {KC_SPC, KC_7, COMBO_END};
 const uint16_t PROGMEM number_f8[] = {KC_SPC, KC_8, COMBO_END};
 const uint16_t PROGMEM number_f9[] = {KC_SPC, KC_9, COMBO_END};
-const uint16_t PROGMEM number_f11[] = {KC_SPC, KC_SLASH, COMBO_END};
+const uint16_t PROGMEM number_f11[] = {KC_SPC, KC_KP_SLASH, COMBO_END};
 const uint16_t PROGMEM number_f4[] = {KC_SPC, KC_4, COMBO_END};
 const uint16_t PROGMEM number_f5[] = {KC_SPC, KC_5, COMBO_END};
 const uint16_t PROGMEM number_f6[] = {KC_SPC, KC_6, COMBO_END};
-const uint16_t PROGMEM number_f12[] = {KC_SPC, KC_PLUS, COMBO_END};
+const uint16_t PROGMEM number_f12[] = {KC_SPC, KC_KP_PLUS, COMBO_END};
 const uint16_t PROGMEM number_f10[] = {KC_SPC, KC_0, COMBO_END};
 const uint16_t PROGMEM number_f1[] = {KC_SPC, KC_1, COMBO_END};
 const uint16_t PROGMEM number_f2[] = {KC_SPC, KC_2, COMBO_END};
@@ -121,7 +119,7 @@ const uint16_t PROGMEM number_equal[] = {KC_SPC, KC_EQUAL, COMBO_END};
 
 // Orange
 const uint16_t PROGMEM orange_base_esc[] = {TO(1), KC_F, COMBO_END};
-const uint16_t PROGMEM orange_number_esc[] = {TO(0), KC_MINUS, COMBO_END};
+const uint16_t PROGMEM orange_number_esc[] = {TO(0), KC_KP_ASTERISK, COMBO_END};
 const uint16_t PROGMEM orange_base_home[] = {TO(1), KC_A, COMBO_END};
 const uint16_t PROGMEM orange_number_home[] = {TO(0), KC_7, COMBO_END};
 const uint16_t PROGMEM orange_base_end[] = {TO(1), KC_R, COMBO_END};
@@ -131,7 +129,7 @@ const uint16_t PROGMEM orange_number_pause[] = {TO(0), KC_9, COMBO_END};
 const uint16_t PROGMEM orange_base_page_up[] = {TO(1), KC_P, COMBO_END};
 const uint16_t PROGMEM orange_number_page_up[] = {TO(0), KC_KP_MINUS, COMBO_END};
 const uint16_t PROGMEM orange_base_insert[] = {TO(1), KC_O, COMBO_END};
-const uint16_t PROGMEM orange_number_insert[] = {TO(0), KC_SLASH, COMBO_END};
+const uint16_t PROGMEM orange_number_insert[] = {TO(0), KC_KP_SLASH, COMBO_END};
 const uint16_t PROGMEM orange_base_ctrl[] = {TO(1), KC_E, COMBO_END};
 const uint16_t PROGMEM orange_number_ctrl[] = {TO(0), KC_4, COMBO_END};
 const uint16_t PROGMEM orange_base_alt[] = {TO(1), KC_H, COMBO_END};
@@ -139,7 +137,7 @@ const uint16_t PROGMEM orange_number_alt[] = {TO(0), KC_5, COMBO_END};
 const uint16_t PROGMEM orange_base_up[] = {TO(1), KC_T, COMBO_END};
 const uint16_t PROGMEM orange_number_up[] = {TO(0), KC_6, COMBO_END};
 const uint16_t PROGMEM orange_base_page_down[] = {TO(1), KC_D, COMBO_END};
-const uint16_t PROGMEM orange_number_page_down[] = {TO(0), KC_PLUS, COMBO_END};
+const uint16_t PROGMEM orange_number_page_down[] = {TO(0), KC_KP_PLUS, COMBO_END};
 const uint16_t PROGMEM orange_base_delete[] = {TO(1), KC_U, COMBO_END};
 const uint16_t PROGMEM orange_number_delete[] = {TO(0), KC_0, COMBO_END};
 const uint16_t PROGMEM orange_base_backspace[] = {TO(1), KC_I, COMBO_END};

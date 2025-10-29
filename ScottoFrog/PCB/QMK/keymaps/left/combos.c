@@ -1,5 +1,4 @@
 #include "custom_keys.c"
-#include "keymap_us.h"
 #include "mod_lock.c"
 #include QMK_KEYBOARD_H
 

@@ -1,11 +1,11 @@
 #include QMK_KEYBOARD_H
 
 // Force num lock always on
-void keyboard_post_init_user(void) {
-  if (!host_keyboard_led_state().num_lock) {
-    register_code(KC_NUM_LOCK);
-    unregister_code(KC_NUM_LOCK);
+bool led_update_user(led_t state) {
+  if (!state.num_lock) {
+    tap_code(KC_NUM_LOCK);
   }
+  return true;
 }
 
 enum custom_keycodes {

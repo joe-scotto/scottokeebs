@@ -20,6 +20,7 @@ enum combos {
   GREEN_X,
   GREEN_COMMA,
   GREEN_PERIOD,
+  NUMBER_TAB,
   NUMBER_F7,
   NUMBER_F8,
   NUMBER_F9,
@@ -102,6 +103,7 @@ const uint16_t PROGMEM green_comma[] = {KC_SPC, TO(2), COMBO_END};
 const uint16_t PROGMEM green_period[] = {KC_SPC, KC_ENTER, COMBO_END};
 
 // Number
+const uint16_t PROGMEM number_tab[] = {KC_SPC, KC_KP_ASTERISK, COMBO_END};
 const uint16_t PROGMEM number_f7[] = {KC_SPC, KC_7, COMBO_END};
 const uint16_t PROGMEM number_f8[] = {KC_SPC, KC_8, COMBO_END};
 const uint16_t PROGMEM number_f9[] = {KC_SPC, KC_9, COMBO_END};
@@ -187,6 +189,7 @@ combo_t key_combos[] = {
     [GREEN_X] = COMBO(green_x, KC_X),
     [GREEN_COMMA] = COMBO(green_comma, KC_COMMA),
     [GREEN_PERIOD] = COMBO(green_period, KC_DOT),
+    [NUMBER_TAB] = COMBO(number_tab, KC_TAB),
     [NUMBER_F7] = COMBO(number_f7, KC_F7),
     [NUMBER_F8] = COMBO(number_f8, KC_F8),
     [NUMBER_F9] = COMBO(number_f9, KC_F9),

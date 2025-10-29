@@ -81,6 +81,9 @@ enum combos {
   SYMBOL_RIGHT_BRACKET,
   SYMBOL_RIGHT_CURLY_BRACE,
   SYMBOL_COMMA,
+  BASE_RESET,
+  NUMBER_RESET,
+  SYMBOL_RESET
 };
 
 // Green
@@ -162,14 +165,17 @@ const uint16_t PROGMEM symbol_percent[] = {KC_SPC, KC_EXCLAIM, COMBO_END};
 const uint16_t PROGMEM symbol_pipe[] = {KC_SPC, KC_MINUS, COMBO_END};
 const uint16_t PROGMEM symbol_tilde[] = {KC_SPC, KC_AT, COMBO_END};
 const uint16_t PROGMEM symbol_caret[] = {KC_SPC, KC_UNDERSCORE, COMBO_END};
-
 const uint16_t PROGMEM symbol_grave[] = {KC_SPC, KC_DOUBLE_QUOTE, COMBO_END};
 const uint16_t PROGMEM symbol_right_angle_bracket[] = {KC_SPC, KC_LEFT_ANGLE_BRACKET, COMBO_END};
 const uint16_t PROGMEM symbol_right_paren[] = {KC_SPC, KC_LEFT_PAREN, COMBO_END};
 const uint16_t PROGMEM symbol_right_bracket[] = {KC_SPC, KC_LEFT_BRACKET, COMBO_END};
 const uint16_t PROGMEM symbol_right_curly_brace[] = {KC_SPC, KC_LEFT_CURLY_BRACE, COMBO_END};
-
 const uint16_t PROGMEM symbol_comma[] = {KC_SPC, TO(0), COMBO_END};
+
+// Reset
+const uint16_t PROGMEM base_reset[] = {KC_ENTER, TO(2), TO(1), COMBO_END};
+const uint16_t PROGMEM number_reset[] = {KC_ENTER, TO(2), TO(0), COMBO_END};
+const uint16_t PROGMEM symbol_reset[] = {KC_ENTER, TO(0), TO(1), COMBO_END};
 
 combo_t key_combos[] = {
     [GREEN_TAB] = COMBO(green_tab, KC_TAB),
@@ -250,4 +256,7 @@ combo_t key_combos[] = {
     [SYMBOL_RIGHT_BRACKET] = COMBO(symbol_right_bracket, KC_RIGHT_BRACKET),
     [SYMBOL_RIGHT_CURLY_BRACE] = COMBO(symbol_right_curly_brace, KC_RIGHT_CURLY_BRACE),
     [SYMBOL_COMMA] = COMBO(symbol_comma, KC_COMMA),
+    [BASE_RESET] = COMBO(base_reset, QK_REBOOT),
+    [NUMBER_RESET] = COMBO(number_reset, QK_REBOOT),
+    [SYMBOL_RESET] = COMBO(symbol_reset, QK_REBOOT),
 };

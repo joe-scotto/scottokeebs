@@ -1,4 +1,5 @@
 #include "custom_keys.c"
+#include "keycodes.h"
 #include "mod_lock.c"
 #include QMK_KEYBOARD_H
 
@@ -78,6 +79,12 @@ enum combos {
   SPECIAL_BASE_LEFT,
   SPECIAL_NUMBER_LEFT,
   SPECIAL_SYMBOL_LEFT,
+  SPECIAL_BASE_RESET,
+  SPECIAL_NUMBER_RESET,
+  SPECIAL_SYMBOL_RESET,
+  SPECIAL_BASE_OS_TOGGLE,
+  SPECIAL_NUMBER_OS_TOGGLE,
+  SPECIAL_SYMBOL_OS_TOGGLE,
   SPECIAL_BASE_CAPS,
   SPECIAL_NUMBER_CAPS,
   SPECIAL_SYMBOL_CAPS,
@@ -97,12 +104,9 @@ enum combos {
   SYMBOL_RIGHT_BRACKET,
   SYMBOL_RIGHT_CURLY_BRACE,
   SYMBOL_COMMA,
-  BASE_RESET,
-  NUMBER_RESET,
-  SYMBOL_RESET,
-  BASE_BOOT,
-  NUMBER_BOOT,
-  SYMBOL_BOOT
+  BASE_BOOTLOADER,
+  NUMBER_BOOTLOADER,
+  SYMBOL_BOOTLOADER,
 };
 
 // Green
@@ -185,6 +189,12 @@ const uint16_t PROGMEM special_symbol_down[] = {TO(1), KC_LEFT_BRACKET, COMBO_EN
 const uint16_t PROGMEM special_base_left[] = {TO(1), KC_Y, COMBO_END};
 const uint16_t PROGMEM special_number_left[] = {TO(0), KC_0, COMBO_END};
 const uint16_t PROGMEM special_symbol_left[] = {TO(1), KC_LEFT_CURLY_BRACE, COMBO_END};
+const uint16_t PROGMEM special_base_reset[] = {TO(1), TO(2), COMBO_END};
+const uint16_t PROGMEM special_number_reset[] = {TO(0), TO(2), COMBO_END};
+const uint16_t PROGMEM special_symbol_reset[] = {TO(1), TO(0), COMBO_END};
+const uint16_t PROGMEM special_base_os_toggle[] = {KC_ENTER, TO(1), COMBO_END};
+const uint16_t PROGMEM special_number_os_toggle[] = {KC_ENTER, TO(0), COMBO_END};
+const uint16_t PROGMEM special_symbol_os_toggle[] = {KC_ENTER, TO(1), COMBO_END};
 const uint16_t PROGMEM special_base_caps[] = {TO(1), TD(SFT_LOCK), COMBO_END};
 const uint16_t PROGMEM special_number_caps[] = {TO(0), TD(SFT_LOCK), COMBO_END};
 const uint16_t PROGMEM special_symbol_caps[] = {TO(1), TD(SFT_LOCK), COMBO_END};
@@ -207,13 +217,10 @@ const uint16_t PROGMEM symbol_right_bracket[] = {KC_SPC, KC_LEFT_BRACKET, COMBO_
 const uint16_t PROGMEM symbol_right_curly_brace[] = {KC_SPC, KC_LEFT_CURLY_BRACE, COMBO_END};
 const uint16_t PROGMEM symbol_comma[] = {KC_SPC, TO(0), COMBO_END};
 
-// Reset and Bootloader
-const uint16_t PROGMEM base_reset[] = {KC_ENTER, TO(2), TO(1), COMBO_END};
-const uint16_t PROGMEM number_reset[] = {KC_ENTER, TO(2), TO(0), COMBO_END};
-const uint16_t PROGMEM symbol_reset[] = {KC_ENTER, TO(0), TO(1), COMBO_END};
-const uint16_t PROGMEM base_boot[] = {TD(SFT_LOCK), TO(2), KC_SPC, COMBO_END};
-const uint16_t PROGMEM number_boot[] = {TD(SFT_LOCK), TO(2), KC_SPC, COMBO_END};
-const uint16_t PROGMEM symbol_boot[] = {TD(SFT_LOCK), TO(0), KC_SPC, COMBO_END};
+// Bootloader
+const uint16_t PROGMEM base_bootloader[] = {TD(SFT_LOCK), TO(2), KC_SPC, COMBO_END};
+const uint16_t PROGMEM number_bootloader[] = {TD(SFT_LOCK), TO(2), KC_SPC, COMBO_END};
+const uint16_t PROGMEM symbol_bootloader[] = {TD(SFT_LOCK), TO(0), KC_SPC, COMBO_END};
 
 combo_t key_combos[] = {
     [GREEN_TAB] = COMBO(green_tab, KC_TAB),
@@ -291,6 +298,12 @@ combo_t key_combos[] = {
     [SPECIAL_BASE_LEFT] = COMBO(special_base_left, KC_LEFT),
     [SPECIAL_NUMBER_LEFT] = COMBO(special_number_left, KC_LEFT),
     [SPECIAL_SYMBOL_LEFT] = COMBO(special_symbol_left, KC_LEFT),
+    [SPECIAL_BASE_RESET] = COMBO(special_base_reset, QK_REBOOT),
+    [SPECIAL_NUMBER_RESET] = COMBO(special_number_reset, QK_REBOOT),
+    [SPECIAL_SYMBOL_RESET] = COMBO(special_symbol_reset, QK_REBOOT),
+    [SPECIAL_BASE_OS_TOGGLE] = COMBO(special_base_os_toggle, QK_MAGIC_TOGGLE_CTL_GUI),
+    [SPECIAL_NUMBER_OS_TOGGLE] = COMBO(special_number_os_toggle, QK_MAGIC_TOGGLE_CTL_GUI),
+    [SPECIAL_SYMBOL_OS_TOGGLE] = COMBO(special_symbol_os_toggle, QK_MAGIC_TOGGLE_CTL_GUI),
     [SPECIAL_BASE_CAPS] = COMBO(special_base_caps, KC_CAPS),
     [SPECIAL_NUMBER_CAPS] = COMBO(special_number_caps, KC_CAPS),
     [SPECIAL_SYMBOL_CAPS] = COMBO(special_symbol_caps, KC_CAPS),
@@ -310,10 +323,7 @@ combo_t key_combos[] = {
     [SYMBOL_RIGHT_BRACKET] = COMBO(symbol_right_bracket, KC_RIGHT_BRACKET),
     [SYMBOL_RIGHT_CURLY_BRACE] = COMBO(symbol_right_curly_brace, KC_RIGHT_CURLY_BRACE),
     [SYMBOL_COMMA] = COMBO(symbol_comma, KC_COMMA),
-    [BASE_RESET] = COMBO(base_reset, QK_REBOOT),
-    [NUMBER_RESET] = COMBO(number_reset, QK_REBOOT),
-    [SYMBOL_RESET] = COMBO(symbol_reset, QK_REBOOT),
-    [BASE_BOOT] = COMBO(base_boot, QK_BOOTLOADER),
-    [NUMBER_BOOT] = COMBO(number_boot, QK_BOOTLOADER),
-    [SYMBOL_BOOT] = COMBO(symbol_boot, QK_BOOTLOADER),
+    [BASE_BOOTLOADER] = COMBO(base_bootloader, QK_BOOTLOADER),
+    [NUMBER_BOOTLOADER] = COMBO(number_bootloader, QK_BOOTLOADER),
+    [SYMBOL_BOOTLOADER] = COMBO(symbol_bootloader, QK_BOOTLOADER),
 };

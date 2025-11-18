@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 //    ┌──────┬─────────┬──────┐
-//    │ esc  │   up    │ ent  │
+//    │ tab  │   up    │ ent  │
 //    ├──────┼─────────┼──────┤
 //    │ left │  down   │ rght │
 //    ├──────┼─────────┼──────┤
@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    │      │         │      │
 //    └──────┴─────────┴──────┘
 [1] = LAYOUT_ortho_4x3(
-  KC_ESC  , KC_UP   , KC_ENTER ,
+  KC_TAB  , KC_UP   , KC_ENTER ,
   KC_LEFT , KC_DOWN , KC_RIGHT ,
   KC_CAPS , QK_BOOT , KC_DELETE,
   KC_TRNS , KC_TRNS , KC_TRNS

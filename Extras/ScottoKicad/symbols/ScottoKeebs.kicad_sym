@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7330,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7339,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at -0.254 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,19 +7368,7 @@
 		(symbol "Placeholder_Diode_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy -0.762 0) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -7390,23 +7378,35 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Placeholder_Diode_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -0.762 -1.016) (xy -0.762 1.016)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "Placeholder_Diode_1_1"
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.778)
 				(name "K"
 					(effects
 						(font
@@ -7423,8 +7423,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.778)
 				(name "A"
 					(effects
 						(font

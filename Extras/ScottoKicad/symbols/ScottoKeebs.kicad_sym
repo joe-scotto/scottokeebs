@@ -7287,15 +7287,19 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at -0.15 1.066 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "Diode"
-			(at 0 -2.54 0)
+		(property "Value" ""
+			(at 2.54 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,26 +7324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at -0.254 -4.064 0)
+		(property "Description" ""
+			(at 3.81 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7354,7 @@
 		(symbol "Placeholder_Diode_0_1"
 			(polyline
 				(pts
-					(xy -0.762 0) (xy 0.762 0)
+					(xy 0 -0.762) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -7382,7 +7368,7 @@
 		(symbol "Placeholder_Diode_1_1"
 			(polyline
 				(pts
-					(xy -0.762 -1.016) (xy -0.762 1.016)
+					(xy 1.016 -0.762) (xy -1.016 -0.762)
 				)
 				(stroke
 					(width 0.1524)
@@ -7394,7 +7380,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					(xy 1.016 0.762) (xy 0 -0.762) (xy -1.016 0.762) (xy 1.016 0.762)
 				)
 				(stroke
 					(width 0.1524)
@@ -7405,7 +7391,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
+				(at 0 -2.54 90)
 				(length 1.778)
 				(name "K"
 					(effects
@@ -7423,7 +7409,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
+				(at 0 2.54 270)
 				(length 1.778)
 				(name "A"
 					(effects
@@ -7583,15 +7569,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 3.048 1.016 0)
+			(at 0 0 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Keyswitch"
+		(property "Value" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -7608,8 +7596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at -2.54 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font

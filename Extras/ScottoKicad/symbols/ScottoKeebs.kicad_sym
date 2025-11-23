@@ -7909,14 +7909,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
-			(at 0 5.08 0)
+			(at 0 0 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
-		(property "Value" "Mounting_Hole"
+		(property "Value" ""
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -7933,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -7942,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font

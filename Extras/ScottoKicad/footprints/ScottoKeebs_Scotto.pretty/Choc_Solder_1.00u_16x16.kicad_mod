@@ -1,0 +1,263 @@
+(footprint "Choc_Solder_1.00u_16x16"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u")
+	(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u")
+	(property "Reference" "REF**"
+		(at -2.5 4.15 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "d0433e7e-0378-46ed-84c9-094372a3c7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Choc_V1_Plated_1.00u"
+		(at -2.5 -13.85 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "17ddb9a8-2c16-4755-86d4-73b4df20a856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b3c0d111-2738-45e8-93b9-51a6cb59c67b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "619ee035-beef-431e-ba9e-e45b0c09ca3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 -4.85 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "82d54971-bc49-4e25-918f-fe463f49feb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC" "C84256"
+		(at -0.4625 -5.9 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "d1733fcb-a642-415d-b74d-5bc6cbaf6928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(fp_line
+		(start -5.8875 -5.6)
+		(end -5.3875 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "27e4dcbd-17ce-4477-b3fb-81274c158067")
+	)
+	(fp_line
+		(start -5.3875 -5.6)
+		(end -5.8875 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "03927ae2-c29d-4030-a4b4-830e21171c64")
+	)
+	(fp_line
+		(start -2.75 -9.8)
+		(end -2.25 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "20044ff3-d7a2-469e-a506-5af55569b6d6")
+	)
+	(fp_line
+		(start -2.25 -9.8)
+		(end -2.75 -9.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "89f690fa-265a-4ef8-a8a3-3db86565d2e9")
+	)
+	(fp_line
+		(start 0.3625 -5.6)
+		(end 0.8625 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5482e26e-e212-4099-90d7-4a8b1c796074")
+	)
+	(fp_line
+		(start 0.8625 -5.6)
+		(end 0.3625 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ac48bb3c-9b6d-4bbb-aa1a-0a91bf6fe73d")
+	)
+	(fp_rect
+		(start -10.5 -12.85)
+		(end 5.5 3.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8c5adb73-6d7f-4bd4-b2a3-8a4d7c6a9efc")
+	)
+	(fp_line
+		(start -10.1 -12.45)
+		(end -10.1 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "de938a53-e4bd-4134-a231-d9566fe6601a")
+	)
+	(fp_line
+		(start -10.1 2.75)
+		(end 5.1 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "3ebdd554-27dc-4a5a-a2a8-2cce81a71e76")
+	)
+	(fp_line
+		(start 5.1 -12.45)
+		(end -10.1 -12.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a722be68-d2a9-4857-86a2-fb408e5b8f73")
+	)
+	(fp_line
+		(start 5.1 2.75)
+		(end 5.1 -12.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "235f7ef2-cb20-4229-a950-9b47468b2a20")
+	)
+	(pad "" np_thru_hole circle
+		(at -8 -4.85 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "b18b0a2f-a2c4-4246-99b2-04a48c8bcae6")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.5 -4.85 180)
+		(size 3.45 3.45)
+		(drill 3.45)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "867db7b0-075a-40f8-8cbc-565893947914")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 -4.85 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "7d29feb2-319e-4797-b3b5-e596e92f65e3")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 1.05 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "9dd93a05-2343-46e6-86da-c05c062387bb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -1.05 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "19de764e-8674-4be3-bc45-e6144e3508aa")
+	)
+)

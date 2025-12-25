@@ -92,13 +92,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ├─────┼──────┼──────┼───────────┼──────┼─────┼─────┼─────┼─────┼─────┤
 //    │ no  │  no  │  no  │ LSFT(tab) │ tab  │ no  │ no  │ no  │ no  │ no  │
 //    ├─────┼──────┼──────┼───────────┼──────┼─────┼─────┼─────┼─────┼─────┤
-//    │     │ lalt │ lgui │   vold    │ volu │     │     │     │     │     │
+//    │     │ lalt │ rgui │   vold    │ volu │     │     │     │     │     │
 //    └─────┴──────┴──────┴───────────┴──────┴─────┴─────┴─────┴─────┴─────┘
 [4] = LAYOUT_ortho_4x10(
   KC_NO   , KC_NO   , KC_NO   , KC_NO        , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO  ,
   KC_NO   , KC_NO   , KC_NO   , KC_NO        , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO  ,
   KC_NO   , KC_NO   , KC_NO   , LSFT(KC_TAB) , KC_TAB  , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO  ,
-  KC_TRNS , KC_LALT , KC_LGUI , KC_VOLD      , KC_VOLU , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS
+  KC_TRNS , KC_LALT , KC_RGUI , KC_VOLD      , KC_VOLU , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS
 )
 };
 // clang-format on

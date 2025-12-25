@@ -128,6 +128,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       case TO_CODE:
         layer_move(1);
         return false;
+      case TO_NUMBER:
+        layer_move(2);
+        return false;
       case OS_TOGGLE:
         user_config.is_windows = !user_config.is_windows;
         keymap_config.swap_lctl_lgui = user_config.is_windows ? true : false;

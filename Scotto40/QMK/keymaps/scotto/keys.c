@@ -78,26 +78,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
   if (user_config.is_game_mode) {
-    switch (keycode) {
-      case LSFT_T(KC_Z):
-        remapped_keycode = KC_Z;
-        break;
-      case RSFT_T(KC_SLSH):
-        remapped_keycode = KC_SLSH;
-        break;
-      case TD(TD_MODS_X):
-        remapped_keycode = KC_X;
-        break;
-      case RGUI_T(KC_DOT):
-        remapped_keycode = KC_DOT;
-        break;
-      case TD(TD_MULTI):
-        remapped_keycode = KC_LCTL;
-        break;
-      case LGUI_T(KC_SPC):
-        remapped_keycode = KC_SPC;
-        break;
-    }
+    layer_on(1);
   }
 
   if (remapped_keycode != KC_NO) {
@@ -126,10 +107,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         layer_move(0);
         return false;
       case TO_CODE:
-        layer_move(1);
+        layer_move(2);
         return false;
       case TO_NUMBER:
-        layer_move(2);
+        layer_move(3);
         return false;
       case OS_TOGGLE:
         user_config.is_windows = !user_config.is_windows;
@@ -138,6 +119,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
       case GAME_TOGGLE:
         user_config.is_game_mode = !user_config.is_game_mode;
+        user_config.is_game_mode ? layer_on(1) : layer_off(1);
         eeconfig_update_user(user_config.raw);
         return false;
       case LAYOUT_SWAP:

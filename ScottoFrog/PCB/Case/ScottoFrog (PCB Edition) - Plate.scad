@@ -47,44 +47,6 @@ module plate() {
     }
 }
 
-module vertical_scale() {
-    line_thickness = 0.4;
-    label_size = 5;
-    label_x = -95;
-    tick_start_x = -85;
-    tick_length = 10;
-    
-    for (i = [-7:7]) {
-        y = i * 20;
-        translate([tick_start_x, y - line_thickness/2]) square([tick_length, line_thickness]);
-        translate([label_x, y]) text(str(y), size = label_size, halign = "right", valign = "center");
-    }
-}
-
-module horizontal_scale() {
-    line_thickness = 0.4;
-    label_size = 5;
-    label_y = -95;
-    tick_start_y = -85;
-    tick_length = 10;
-    
-    for (i = [-7:7]) {
-        x = i * 20;
-        translate([x - line_thickness/2, tick_start_y]) square([line_thickness, tick_length]);
-        translate([x, label_y]) text(str(x), size = label_size, halign = "center", valign = "top");
-    }
-}
-
-module title_text() {
-    translate([-140, 150]) text("/home/rholbert/repos/3d_hotswap_socket_pad/frog_plate.scad", size = 5, halign = "left");
-}
-
-module calibration_text() {
-    translate([-140, -130]) 
-        text("Scale is to calibrate actual printed dimension. Check both X and Y. Measure between tick 0 and last tick", 
-             size = 5, halign = "left");
-}
-
 // Final technical drawing
 union() {
     difference() {
@@ -94,9 +56,9 @@ union() {
         circle(r = 1.05);
         
         // Mounting holes
-        translate([ 28.55,  19.1]) circle(r = 1.05);
+        translate([ 28.55,  19.05]) circle(r = 1.05);
         translate([ 45.35, -19.05]) circle(r = 1.05);
-        translate([-28.55,  19.1]) circle(r = 1.05);
+        translate([-28.55,  19.05]) circle(r = 1.05);
         translate([-45.35, -19.05]) circle(r = 1.05);
         
         // Switch cutouts
@@ -117,9 +79,4 @@ union() {
         translate([-55.65, -31.0]) rotate(90) stabilizer();
         translate([ 55.65, -31.0]) rotate(90) stabilizer();
     }
-    
-    vertical_scale();
-    horizontal_scale();
-    title_text();
-    calibration_text();
 }

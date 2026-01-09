@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -55.68 -16 180)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "5ff37ce8-276c-4993-97e4-be33a994a638")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "OLED_128x64"
-		(at 0.635 13.97 0)
+		(at 0 -12.27 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "7cc0d550-bbdf-4872-b1b2-695a75b70fc0")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at -31.55 -2.03 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "8d93f615-c7d9-464e-b18e-d11a6fba7d74")
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -31.55 -2.03 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "a652f577-dca6-4ca6-8de9-c3832c464d72")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -31.55 -2.03 180)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "9d7d7d80-3e8a-4350-9f60-49e9baf27eb3")
@@ -65,135 +65,113 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -13.25 -13.25)
-		(end 13.25 -13.25)
+		(start -12.5 -13.5)
+		(end -12.5 13.5)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "8749c689-ee81-402d-a052-3a502b020d49")
+		(layer "Dwgs.User")
+		(uuid "df38eccc-3ae3-4305-9f7e-8801245a75ff")
 	)
 	(fp_line
-		(start -13.25 13.25)
-		(end -13.25 -13.25)
+		(start -12.5 13.5)
+		(end 12.5 13.5)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "b748f30a-b6da-43f6-8d88-797525c8e3d4")
+		(layer "Dwgs.User")
+		(uuid "52c0c467-0720-4587-888c-1ee06123411f")
 	)
 	(fp_line
-		(start 13.25 -13.25)
-		(end 13.25 13.25)
+		(start -7 -13.5)
+		(end -12.5 -13.5)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "e3879dd2-26ea-42d5-8699-f56a5dc7af6a")
+		(layer "Dwgs.User")
+		(uuid "d010ae91-288e-452f-8c1b-da5d407fb2d9")
 	)
 	(fp_line
-		(start 13.25 13.25)
-		(end -13.25 13.25)
+		(start -7 -13.5)
+		(end -7 -11)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "762f0a30-20cc-4576-b87c-30459c30068c")
+		(layer "Dwgs.User")
+		(uuid "902c113b-94ae-4d38-95b2-b392b5899c36")
 	)
 	(fp_line
-		(start -13 -13)
-		(end 13 -13)
+		(start -7 -11)
+		(end 7 -11)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.Fab")
-		(uuid "81a46b5f-c245-4cd3-b74a-92d6cbc611e2")
+		(layer "Dwgs.User")
+		(uuid "b37008d6-9b20-4cb2-b54e-ab872625f120")
 	)
 	(fp_line
-		(start -13 13)
-		(end -13 -13)
+		(start 7 -11)
+		(end 7 -13.5)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.Fab")
-		(uuid "af3fa795-0354-4a1c-bd53-e6eea1e2c8d5")
+		(layer "Dwgs.User")
+		(uuid "b0b80db6-66a4-4c01-b455-550e1c21471d")
 	)
 	(fp_line
-		(start -7 11)
-		(end 7 11)
+		(start 12.5 -13.5)
+		(end 7 -13.5)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.Fab")
-		(uuid "a091b9b0-0f32-4383-b248-2dd31a020dcf")
+		(layer "Dwgs.User")
+		(uuid "6f09ed0e-c386-4da6-a48a-ca6db4aae82e")
 	)
 	(fp_line
-		(start -7 13)
-		(end -13 13)
+		(start 12.5 13.5)
+		(end 12.5 -13.5)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.Fab")
-		(uuid "1dfddb10-52b3-4115-8902-fb79c49119a3")
-	)
-	(fp_line
-		(start -7 13)
-		(end -7 11)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2c3e7e06-6bd9-4cec-8fa8-262fa0174861")
-	)
-	(fp_line
-		(start 7 11)
-		(end 7 13)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "15fe5073-7c4b-4ea4-b751-898a08725bfe")
-	)
-	(fp_line
-		(start 13 -13)
-		(end 13 13)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7deec446-b508-4607-897c-9d95a7c943a8")
-	)
-	(fp_line
-		(start 13 13)
-		(end 7 13)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "608f2441-e322-418a-830c-6f90ca768942")
+		(layer "Dwgs.User")
+		(uuid "92f2b265-2d4e-4135-92f8-06ed259e827e")
 	)
 	(pad "" np_thru_hole circle
-		(at -11 -11)
+		(at -10.50445 -11.5 180)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(solder_mask_margin 0.102)
-		(uuid "5495c242-2b87-41a7-8337-4d929c9e87cc")
+		(uuid "50122c34-288c-43de-bf98-81d14553848c")
 	)
 	(pad "" np_thru_hole circle
-		(at -11 11)
+		(at -10.50445 11.5 180)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(solder_mask_margin 0.102)
+		(uuid "6031f901-3d49-4027-b94f-bb1fd96943b3")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.5 -11.5 180)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
@@ -201,53 +179,65 @@
 		(uuid "efac8b54-4dea-442c-bacc-a92edf301c0c")
 	)
 	(pad "" np_thru_hole circle
-		(at 11 -11)
+		(at 10.5 11.5 180)
 		(size 2.2 2.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.102)
-		(uuid "6031f901-3d49-4027-b94f-bb1fd96943b3")
-	)
-	(pad "" np_thru_hole circle
-		(at 11 11)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "50122c34-288c-43de-bf98-81d14553848c")
+		(uuid "5495c242-2b87-41a7-8337-4d929c9e87cc")
 	)
 	(pad "1" thru_hole rect
-		(at -3.81 -11.5)
+		(at 3.81 12 180)
 		(size 1.508 1.508)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "2f44ad73-beae-4d1e-8fcb-300de26e8d4f")
 	)
 	(pad "2" thru_hole circle
-		(at -1.27 -11.5)
+		(at 1.27 12 180)
 		(size 1.508 1.508)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "fcc5838d-bd6b-4a63-971c-5d0461fdf783")
 	)
 	(pad "3" thru_hole circle
-		(at 1.27 -11.5)
+		(at -1.27 12 180)
 		(size 1.508 1.508)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "2ef9b020-a5e8-4815-bc10-4788696fedcc")
 	)
 	(pad "4" thru_hole circle
-		(at 3.81 -11.5)
+		(at -3.81 12 180)
 		(size 1.508 1.508)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "df0ff729-1609-4806-ad1f-be30069ce0eb")
@@ -260,7 +250,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

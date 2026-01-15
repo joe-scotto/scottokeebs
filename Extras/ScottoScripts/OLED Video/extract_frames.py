@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import os
+import shutil
 import subprocess
 
 # Arguments
@@ -37,11 +38,14 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-# Create output directory
-os.makedirs("frames", exist_ok=True)
+# Clear and recreate output directory
+output_dir = "frames"
+if os.path.exists(output_dir):
+    shutil.rmtree(output_dir)
+os.makedirs(output_dir)
 
 # Create ffmpeg command
-output_pattern = os.path.join("frames", "out_%03d.png")
+output_pattern = os.path.join(output_dir, "out_%03d.png")
 
 # setpts expression: PTS = 1/speed * PTS
 setpts_expr = f"setpts={1/args.speed}*PTS"
@@ -63,4 +67,4 @@ print("Running command:\n", " ".join(ffmpeg_cmd))
 # Run command
 subprocess.run(ffmpeg_cmd, check=True)
 
-print(f"Frames exported to ./frames")
+print(f"Frames exported to ./{output_dir}")

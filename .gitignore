@@ -3,6 +3,6 @@ Extras/ScottoModules/STM32F072CBT6/ScottoModules-backups/
 Extras/ScottoModules/STM32F072CBT6/fp-info-cache
 .DS_Store
 compile_commands.json
-Extras/ScottoScripts/Oled Video/frames
-Extras/ScottoScripts/Oled Video/frames.c
-Extras/ScottoScripts/Oled Video/frames.txt
+Extras/ScottoScripts/OLED Video/frames
+Extras/ScottoScripts/OLED Video/frames.c
+Extras/ScottoScripts/OLED Video/frames.txt

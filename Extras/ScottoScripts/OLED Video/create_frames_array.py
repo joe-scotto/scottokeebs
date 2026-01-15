@@ -60,8 +60,8 @@ print(f"Export complete: frames.c with {num_frames} frames.")
 # ----------------------------
 # Write oled.c with idle timer and keypress detection
 # ----------------------------
+# include "quantum.h"
 oled_c_content = f"""#include "frames.c"
-#include "quantum.h"
 
 #ifdef OLED_ENABLE
 

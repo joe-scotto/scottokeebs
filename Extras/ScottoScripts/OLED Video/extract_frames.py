@@ -44,8 +44,8 @@ if os.path.exists(output_dir):
     shutil.rmtree(output_dir)
 os.makedirs(output_dir)
 
-# Create ffmpeg command
-output_pattern = os.path.join(output_dir, "out_%03d.png")
+# Create ffmpeg command with FPS in filename
+output_pattern = os.path.join(output_dir, f"{int(args.fps)}fps_%03d.png")
 
 # setpts expression: PTS = 1/speed * PTS
 setpts_expr = f"setpts={1/args.speed}*PTS"

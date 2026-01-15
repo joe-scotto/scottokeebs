@@ -41,7 +41,7 @@ args = parser.parse_args()
 os.makedirs("frames", exist_ok=True)
 
 # Create ffmpeg command
-output_pattern = os.path.join(args.output, "out_%03d.png")
+output_pattern = os.path.join("frames", "out_%03d.png")
 
 # setpts expression: PTS = 1/speed * PTS
 setpts_expr = f"setpts={1/args.speed}*PTS"
@@ -63,4 +63,4 @@ print("Running command:\n", " ".join(ffmpeg_cmd))
 # Run command
 subprocess.run(ffmpeg_cmd, check=True)
 
-print(f"Frames exported to {args.output}")
+print(f"Frames exported to ./frames")

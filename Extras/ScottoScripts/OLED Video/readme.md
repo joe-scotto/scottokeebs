@@ -10,8 +10,9 @@ This should work on pretty much any QMK keyboard but I highly recommend using a 
    - They will output to the `frames` directory.
 2. Upload those to [Image2CPP](https://javl.github.io/image2cpp/)
    1. Choose your dithering mode if you want to play with the look.
-   2. Output should be set to `Draw mode: Vertical - 1 bit per pixel`
-   3. Click `Generate code` and copy the output to `frames.txt`.
+   2. Code output format should be set to `Plain bytes`.
+   3. Output should be set to `Draw mode: Vertical - 1 bit per pixel`
+   4. Click `Generate code` and copy the output to `frames.txt`.
 3. Generate your `frames.c` using [create_frames_array.py](create_frames_array.py).
    1. Copy `frames.c` and `oled.c` to your QMK keymap.
    2. Import `oled.c` into your `keymap.c`.

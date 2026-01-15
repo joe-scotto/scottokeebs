@@ -1,10 +1,10 @@
 #include "quantum.h"
+#include "frames.c"
 
 #ifdef OLED_ENABLE
 
-oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-  return OLED_ROTATION_180; // flips the display 180 degrees if offhand
-}
+oled_rotation_t oled_init_user(oled_rotation_t rotation) { return OLED_ROTATION_180; }
+
 static const char layers[][1024] PROGMEM = {
     // ScottoRang
     {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -286,10 +286,59 @@ static const char layers[][1024] PROGMEM = {
      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
      0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};
 
-bool oled_task_kb(void) {
+#define NUM_FRAMES 434
+#define FRAME_WIDTH 128
+#define FRAME_HEIGHT 64
+#define FRAME_SIZE (FRAME_WIDTH * FRAME_HEIGHT / 8)
+#define FRAME_DELAY 33 // ms per frame, ~30 fps
+
+static uint16_t frame_index = 0;
+static uint32_t last_update = 0;
+static uint32_t last_activity = 0;
+static bool oled_is_off = false;
+
+// Copy of last matrix state for detecting keypress
+static matrix_row_t last_matrix[MATRIX_ROWS];
+
+bool oled_task_user(void) {
+  uint32_t now = timer_read32();
+
+  // Detect keypress by comparing current vs last matrix
+  bool key_pressed = false;
+  for (uint8_t row = 0; row < MATRIX_ROWS; row++) {
+    matrix_row_t current = matrix_get_row(row);
+    if ((current & ~last_matrix[row]) != 0) {
+      key_pressed = true;
+    }
+    last_matrix[row] = current;
+  }
+
+  if (key_pressed) {
+    last_activity = now; // reset idle timer
+    if (oled_is_off) {
+      oled_on();
+      oled_is_off = false;
+    }
+  }
+
+  // Turn off OLED if idle
+  if (timer_elapsed32(last_activity) > OLED_TIMEOUT) {
+    oled_off();
+    oled_is_off = true;
+    return false; // skip drawing frames
+  }
+
   switch (get_highest_layer(layer_state)) {
     case 0:
-      oled_write_raw_P(layers[0], sizeof(layers[0]));
+      // Animate frames
+      if (timer_elapsed32(last_update) >= FRAME_DELAY) {
+        last_update = now;
+        oled_write_raw_P((const char *)frames[frame_index], FRAME_SIZE);
+
+        frame_index++;
+        if (frame_index >= NUM_FRAMES)
+          frame_index = 0;
+      }
       break;
     case 1:
       oled_write_raw_P(layers[1], sizeof(layers[1]));

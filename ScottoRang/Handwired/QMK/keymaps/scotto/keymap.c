@@ -2,6 +2,7 @@
 #include "keys.c"
 #include "keys.h"
 #include "tapdance.c"
+#include "oled.c"
 #include QMK_KEYBOARD_H
 
 // Custom tapping term for multi function keys

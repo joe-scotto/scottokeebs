@@ -44,7 +44,7 @@ if fps:
 else:
     frame_delay = 67  # default to ~15 fps if no fps found
 
-# ----------------------------
+# -
 # Write frames.c
 # ----------------------------
 with open("frames.c", "w") as f:
@@ -58,7 +58,7 @@ with open("frames.c", "w") as f:
 print(f"Export complete: frames.c with {num_frames} frames.")
 
 # ----------------------------
-# Write oled.c
+# Write oled.c with idle timer and keypress detection
 # ----------------------------
 oled_c_content = f"""#include "frames.c"
 #include "quantum.h"
@@ -66,31 +66,62 @@ oled_c_content = f"""#include "frames.c"
 #ifdef OLED_ENABLE
 
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {{
-  return OLED_ROTATION_180; // flips the display 180 degrees if offhand
+    return OLED_ROTATION_180;
 }}
 
 #define NUM_FRAMES {num_frames}
-#define FRAME_WIDTH {frame_size * 8 // 64}  // Approximation; adjust as needed
-#define FRAME_HEIGHT {64}                   // Adjust if necessary
-#define FRAME_SIZE (FRAME_WIDTH * FRAME_HEIGHT / 8) // bytes per frame
-#define FRAME_DELAY {frame_delay}  // ms per frame, ~{fps} fps
+#define FRAME_WIDTH 128
+#define FRAME_HEIGHT 64
+#define FRAME_SIZE (FRAME_WIDTH * FRAME_HEIGHT / 8)
+#define FRAME_DELAY {frame_delay} // ms per frame, ~{fps} fps
+
+static uint16_t frame_index = 0;
+static uint32_t last_update = 0;
+static uint32_t last_activity = 0;
+static bool oled_is_off = false;
+
+// Copy of last matrix state for detecting keypress
+static matrix_row_t last_matrix[MATRIX_ROWS];
 
 bool oled_task_user(void) {{
-  static uint16_t frame_index = 0;
-  static uint32_t last_update = 0;
+    uint32_t now = timer_read32();
 
-  if (timer_elapsed32(last_update) > FRAME_DELAY) {{
-    last_update = timer_read32();
+    // Detect keypress by comparing current vs last matrix 
+    bool key_pressed = false;
+    for (uint8_t row = 0; row < MATRIX_ROWS; row++) {{
+        matrix_row_t current = matrix_get_row(row);
+        if ((current & ~last_matrix[row]) != 0) {{
+            key_pressed = true;
+        }}
+        last_matrix[row] = current;
+    }}
 
-    // Write current frame to OLED (cast to const char* to fix signedness)
-    oled_write_raw_P((const char *)frames[frame_index], FRAME_SIZE);
+    if (key_pressed) {{
+        last_activity = now; // reset idle timer
+        if (oled_is_off) {{
+            oled_on();
+            oled_is_off = false;
+        }}
+    }}
 
-    frame_index++;
-    if (frame_index >= NUM_FRAMES)
-      frame_index = 0;
-  }}
+    // Turn off OLED if idle 
+    if (timer_elapsed32(last_activity) > OLED_TIMEOUT) {{
+        oled_off();
+        oled_is_off = true;
+        return false;  // skip drawing frames
+    }}
 
-  return false; // keep other OLED content disabled
+    // Animate frames 
+    if (timer_elapsed32(last_update) >= FRAME_DELAY) {{
+        last_update = now;
+        oled_write_raw_P((const char *)frames[frame_index], FRAME_SIZE);
+
+        frame_index++;
+        if (frame_index >= NUM_FRAMES)
+            frame_index = 0;
+    }}
+
+    return false;
 }}
 
 #endif

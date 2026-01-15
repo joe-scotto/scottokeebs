@@ -21,12 +21,15 @@ This should work on pretty much any QMK keyboard but I highly recommend using a 
 # extract_frames.py
 
 This is the script used to generate the video frames you will use to convert.
-| Argument | Type | Default | Description |
+
+> python extract_frames.py "video.mp4"
+
+| Argument   | Type    | Default    | Description                                       |
 | ---------- | ------- | ---------- | ------------------------------------------------- |
-| `input` | `str` | _required_ | Path to the input video file. |
-| `--fps` | `float` | `15` | Playback frames per second. |
-| `--width` | `int` | `128` | Width of the output frames in pixels. |
-| `--height` | `int` | `64` | Height of the output frames in pixels. |
-| `--frames` | `int` | `120` | Number of frames to extract from the video. |
-| `--format` | `str` | `gray` | Output pixel format: `gray`, `rgb24`, or `monow`. |
-| `--speed` | `float` | `1.0` | Playback speed of the video. |
+| `input`    | `str`   | _required_ | Path to the input video file.                     |
+| `--fps`    | `float` | `15`       | Playback frames per second.                       |
+| `--width`  | `int`   | `128`      | Width of the output frames in pixels.             |
+| `--height` | `int`   | `64`       | Height of the output frames in pixels.            |
+| `--frames` | `int`   | `120`      | Number of frames to extract from the video.       |
+| `--format` | `str`   | `gray`     | Output pixel format: `gray`, `rgb24`, or `monow`. |
+| `--speed`  | `float` | `1.0`      | Playback speed of the video.                      |

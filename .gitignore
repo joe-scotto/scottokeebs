@@ -5,3 +5,4 @@ Extras/ScottoModules/STM32F072CBT6/fp-info-cache
 compile_commands.json
 Extras/ScottoScripts/Oled Video/frames
 Extras/ScottoScripts/Oled Video/frames.c
+Extras/ScottoScripts/Oled Video/frames.txt

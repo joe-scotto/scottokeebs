@@ -6,7 +6,7 @@ This should work on pretty much any QMK keyboard but I highly recommend using a 
 
 # Instructions
 
-1. Generate your frames using [`extract_frames.py`](#extract_frames.py)
+1. Generate your frames using [extract_frames.py](extract_frames.py)
    - They will output to the `frames` directory.
 2. Upload those to [Image2CPP](https://javl.github.io/image2cpp/)
    1. Choose your dithering mode if you want to play with the look.

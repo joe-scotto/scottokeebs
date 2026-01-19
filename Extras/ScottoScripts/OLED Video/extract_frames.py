@@ -25,9 +25,9 @@ parser.add_argument(
 )
 parser.add_argument(
     "--format",
-    default="gray",
-    choices=["gray", "rgb24", "monow"],
-    help="Output pixel format (default: gray)",
+    default="monow",
+    choices=["monow", "gray", "rgb24"],
+    help="Output pixel format (default: monow)",
 )
 parser.add_argument(
     "--speed",

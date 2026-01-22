@@ -1,4 +1,4 @@
-(footprint "OLED_128x64"
+(footprint "OLED_128x64_No_Mounting_Holes"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "OLED_128x64"
+	(property "Value" "OLED_128x64_No_Mounting_Holes"
 		(at 0 -12.27 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -122,7 +122,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "ae94765d-505e-4b8f-8122-16ee8a20d127")
+		(uuid "509816f9-fd66-42b1-9a0e-f31e4bbc6c69")
 	)
 	(fp_line
 		(start -0.5 0.5)
@@ -132,7 +132,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "9390dd89-39ea-4436-875b-9542173031f1")
+		(uuid "9ba4e735-3ceb-48e9-8cba-f481294e26bf")
 	)
 	(fp_line
 		(start 7 -11)
@@ -168,7 +168,7 @@
 		(at 0 13.254 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "90d0079a-1ba1-4be3-a664-441041665a35")
+		(uuid "3db0682b-b503-4933-949c-058e0d55fc5e")
 		(effects
 			(font
 				(size 1 1)
@@ -182,7 +182,7 @@
 		(at 0 13.254 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "94263f9c-5f45-4ad4-b8d8-f945b8b83832")
+		(uuid "2ac0b98b-abad-49ab-b28f-da2a2866899e")
 		(effects
 			(font
 				(size 1 1)
@@ -191,58 +191,6 @@
 			)
 			(justify top)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -10.50445 -11.5 180)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(solder_mask_margin 0.102)
-		(uuid "50122c34-288c-43de-bf98-81d14553848c")
-	)
-	(pad "" np_thru_hole circle
-		(at -10.50445 11.5 180)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(solder_mask_margin 0.102)
-		(uuid "6031f901-3d49-4027-b94f-bb1fd96943b3")
-	)
-	(pad "" np_thru_hole circle
-		(at 10.5 -11.5 180)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(solder_mask_margin 0.102)
-		(uuid "efac8b54-4dea-442c-bacc-a92edf301c0c")
-	)
-	(pad "" np_thru_hole circle
-		(at 10.5 11.5 180)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(solder_mask_margin 0.102)
-		(uuid "5495c242-2b87-41a7-8337-4d929c9e87cc")
 	)
 	(pad "1" thru_hole rect
 		(at 3.81 12 180)

@@ -1,0 +1,82 @@
+$fn = 80;
+
+// Stabilizer cutout (Costar/Cherry style)
+module stabilizer(width = 6, height = 14) {
+    hull() {
+        translate([-width/2,  height/2]) circle(r = 1.0);
+        translate([ width/2,  height/2]) circle(r = 1.0);
+        translate([-width/2, -height/2]) circle(r = 1.0);
+        translate([ width/2, -height/2]) circle(r = 1.0);
+    }
+}
+
+module key_cutout() {
+    square(14.0, center = true);
+}
+
+module key_row(y_offset, x_positions) {
+    for (x = x_positions)
+        translate([x, y_offset]) key_cutout();
+}
+
+// Outer plate shape – your approach, now fixed and perfected
+module plate() {
+    difference() {
+        hull() {
+            translate([ 46,  37]) circle(r = 2);
+            translate([-46,  37]) circle(r = 2);
+            translate([ 65, -37]) circle(r = 2);
+            translate([ 65,   0]) circle(r = 2);
+            translate([-65, -37]) circle(r = 2);
+            translate([-65,   0]) circle(r = 2);
+        }
+
+        // Left cut
+        hull() {
+            translate([-50, 4]) circle(r = 2);
+            translate([-50, 37]) square(4, center = true);
+            translate([-65, 4]) square(4, center = true);
+        }
+        // Right cut
+        hull() {
+            translate([50, 4]) circle(r = 2);
+            translate([50, 37]) square(4, center = true);
+            translate([65, 4]) square(4, center = true);
+        }
+        
+    }
+}
+
+// Final technical drawing
+union() {
+    difference() {
+        plate();
+        
+        // Central screw hole
+        circle(r = 1.05);
+        
+        // Mounting holes
+        translate([ 28.55,  19.05]) circle(r = 1.05);
+        translate([ 45.35, -19.05]) circle(r = 1.05);
+        translate([-28.55,  19.05]) circle(r = 1.05);
+        translate([-45.35, -19.05]) circle(r = 1.05);
+        
+        // Switch cutouts
+        key_row(28.575, [-38.1, -19.05, 0, 19.05, 38.1]);
+        key_row(9.525,  [-38.1, -19.05, 0, 19.05, 38.1]);
+        key_row(-9.525, [-38.1, -19.05, 0, 19.05, 38.1]);
+        key_row(-28.575, [-33.3375, 0, 33.3375]);
+        
+        // Outer thumb keys
+        translate([-57.15, -19.05]) key_cutout();
+        translate([ 57.15, -19.05]) key_cutout();
+        
+        // Stabilizers
+        translate([ 11.925, -27.075]) stabilizer();
+        translate([-11.925, -27.075]) stabilizer();
+        translate([-55.65,  -7.1]) rotate(90) stabilizer();
+        translate([ 55.65,  -7.1]) rotate(90) stabilizer();
+        translate([-55.65, -31.0]) rotate(90) stabilizer();
+        translate([ 55.65, -31.0]) rotate(90) stabilizer();
+    }
+}

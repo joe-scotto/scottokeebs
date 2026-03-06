@@ -1,0 +1,5 @@
+#pragma once
+
+// Define options
+#define TAPPING_TERM 135
+#define PERMISSIVE_HOLD

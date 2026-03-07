@@ -10,7 +10,8 @@ typedef union {
   };
 } user_config_t;
 
-user_config_t user_config;
+extern user_config_t user_config;
+
 enum custom_keycodes {
   OS_TOGGLE = SAFE_RANGE,
   GAME_TOGGLE,

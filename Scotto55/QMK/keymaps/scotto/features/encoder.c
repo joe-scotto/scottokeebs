@@ -1,4 +1,4 @@
-#include "headers/keys.h"
+#include "headers/user.h"
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {

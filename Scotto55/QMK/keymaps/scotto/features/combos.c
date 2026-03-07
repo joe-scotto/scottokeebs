@@ -1,4 +1,4 @@
-#include "../headers/keys.h"
+#include "../headers/user.h"
 
 // Define combos
 const uint16_t PROGMEM tab_combo[] = {KC_Q, KC_W, COMBO_END};

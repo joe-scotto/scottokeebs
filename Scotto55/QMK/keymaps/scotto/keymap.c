@@ -11,13 +11,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //    ├───┼───┼───┤   ├───────────┼───────────────┼───┼──────────────┼─────────────┼──────┼────────────┼────────────┼───┼───────────┼───────────┤   ┌──────┬──────┬──────┐
 //    │ 7 │ 8 │ 9 │   │ LSFT_T(z) │ TD(TD_MODS_X) │ c │      v       │      b      │ mute │     k      │     m      │ , │ RGUI_T(.) │ RSFT_T(/) │   │ left │  up  │ rght │
 //    ├───┼───┼───┤   └───────────┴───────────────┴───┼──────────────┼─────────────┼──────┼────────────┼────────────┼───┴───────────┴───────────┘   ├──────┼──────┼──────┤
-//    │ . │ 0 │ * │                                   │ TD(TD_MULTI) │ LGUI_T(spc) │      │ LT(2, tab) │ LT(3, ent) │                               │ left │ down │ rght │
+//    │ * │ 0 │ . │                                   │ TD(TD_MULTI) │ LGUI_T(spc) │      │ LT(2, tab) │ LT(3, ent) │                               │ left │ down │ rght │
 //    └───┴───┴───┘                                   └──────────────┴─────────────┘      └────────────┴────────────┘                               └──────┴──────┴──────┘
 [0] = LAYOUT(
-  KC_1   , KC_2 , KC_3        ,     KC_Q         , KC_W          , KC_F , KC_P         , KC_G           ,           KC_J          , KC_L          , KC_U     , KC_Y           , KC_BSPC         ,     KC_MPRV , KC_MPLY , KC_MNXT ,
-  KC_4   , KC_5 , KC_6        ,     KC_A         , KC_R          , KC_S , KC_T         , KC_D           ,           KC_H          , KC_N          , KC_E     , KC_I           , KC_O                                              ,
-  KC_7   , KC_8 , KC_9        ,     LSFT_T(KC_Z) , TD(TD_MODS_X) , KC_C , KC_V         , KC_B           , KC_MUTE , KC_K          , KC_M          , KC_COMMA , RGUI_T(KC_DOT) , RSFT_T(KC_SLSH) ,     KC_LEFT , KC_UP   , KC_RIGHT,
-  KC_DOT , KC_0 , KC_ASTERISK ,                                           TD(TD_MULTI) , LGUI_T(KC_SPC) ,           LT(2, KC_TAB) , LT(3, KC_ENT) ,                                                   KC_LEFT , KC_DOWN , KC_RIGHT
+  KC_1        , KC_2 , KC_3   ,     KC_Q         , KC_W          , KC_F , KC_P         , KC_G           ,           KC_J          , KC_L          , KC_U     , KC_Y           , KC_BSPC         ,     KC_MPRV , KC_MPLY , KC_MNXT ,
+  KC_4        , KC_5 , KC_6   ,     KC_A         , KC_R          , KC_S , KC_T         , KC_D           ,           KC_H          , KC_N          , KC_E     , KC_I           , KC_O                                              ,
+  KC_7        , KC_8 , KC_9   ,     LSFT_T(KC_Z) , TD(TD_MODS_X) , KC_C , KC_V         , KC_B           , KC_MUTE , KC_K          , KC_M          , KC_COMMA , RGUI_T(KC_DOT) , RSFT_T(KC_SLSH) ,     KC_LEFT , KC_UP   , KC_RIGHT,
+  KC_ASTERISK , KC_0 , KC_DOT ,                                           TD(TD_MULTI) , LGUI_T(KC_SPC) ,           LT(2, KC_TAB) , LT(3, KC_ENT) ,                                                   KC_LEFT , KC_DOWN , KC_RIGHT
 ),
 
 //    ┌─────┬─────┬─────┐   ┌───┬───┬───┬──────┬─────┐     ┌─────┬─────┬───┬───┬──────┐   ┌─────┬─────┬─────┐

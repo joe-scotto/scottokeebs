@@ -1,5 +1,4 @@
-#include "keys.h"
-#include QMK_KEYBOARD_H
+#include "../headers/keys.h"
 
 typedef enum {
   TD_NONE,

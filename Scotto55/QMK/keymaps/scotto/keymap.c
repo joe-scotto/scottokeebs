@@ -1,23 +1,6 @@
-#include "combos.c"
-#include "keys.c"
-#include "keys.h"
-#include "tapdance.c"
-#include QMK_KEYBOARD_H
-
-// Custom tapping term for multi function keys
-uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
-  switch (keycode) {
-    case TD(TD_MULTI):
-    case TD(TD_MODS_X):
-    case TD(TD_MODS_QUOT):
-    case LGUI_T(KC_SPC):
-    case LT(1, KC_TAB):
-    case LT(2, KC_ENT):
-      return 200;
-    default:
-      return TAPPING_TERM;
-  }
-};
+#include "features/combos.c"
+#include "features/tapdance.c"
+#include "features/encoder.c"
 
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {

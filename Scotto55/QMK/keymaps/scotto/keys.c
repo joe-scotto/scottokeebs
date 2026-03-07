@@ -1,5 +1,7 @@
-#include "keys.h"
-#include QMK_KEYBOARD_H
+#include "headers/keys.h"
+
+// Define user config
+user_config_t user_config;
 
 // Mode check
 char mode_string[32];
@@ -135,3 +137,18 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
   return true;
 }
+
+// Custom tapping term for multi function keys
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case TD(TD_MULTI):
+    case TD(TD_MODS_X):
+    case TD(TD_MODS_QUOT):
+    case LGUI_T(KC_SPC):
+    case LT(1, KC_TAB):
+    case LT(2, KC_ENT):
+      return 200;
+    default:
+      return TAPPING_TERM;
+  }
+};

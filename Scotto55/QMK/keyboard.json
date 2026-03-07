@@ -14,10 +14,11 @@
     "nkro": true
   },
   "encoder": {
-    "rotary": [{ "pin_a": "GP21", "pin_b": "GP22" }]
+    "rotary": [{ "pin_a": "GP8", "pin_b": "GP9" }]
   },
   "matrix_pins": {
     "cols": [
+      "GP10",
       "GP0",
       "GP1",
       "GP2",
@@ -26,17 +27,16 @@
       "GP5",
       "GP6",
       "GP7",
-      "GP8",
-      "GP9",
-      "GP10",
       "GP11",
-      "GP12",
+      "GP29",
+      "GP28",
+      "GP27",
+      "GP26",
       "GP13",
       "GP14",
-      "GP15",
-      "GP16"
+      "GP15"
     ],
-    "rows": ["GP17", "GP18", "GP19", "GP20"]
+    "rows": ["GP22", "GP20", "GP23", "GP21"]
   },
   "url": "https://scottokeebs.com",
   "usb": {

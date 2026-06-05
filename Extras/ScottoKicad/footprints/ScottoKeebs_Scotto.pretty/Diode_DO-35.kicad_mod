@@ -1,0 +1,226 @@
+(footprint "Diode_DO-35"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
+	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
+	(property "Reference" "REF**"
+		(at 3.81 -2.12 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71880ad3-b1df-459d-b386-ec57729c13c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 3.81 2.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1061e3c-2a6d-439b-af6e-73d48e13d291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de399000-cc4f-4285-a4b0-ec23bcf5c849")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e330a9ff-57ff-4140-9491-98d797240467")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3.06 0)
+		(end 3.46 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4049a7f-5fde-41cc-929c-b5ca965cc85b")
+	)
+	(fp_line
+		(start 3.46 -0.55)
+		(end 3.46 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f095b707-d2ae-4c00-9f73-8c92965ed16c")
+	)
+	(fp_line
+		(start 3.46 0)
+		(end 4.06 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c106d444-be6b-44dc-8b6e-24b3f31eb086")
+	)
+	(fp_line
+		(start 4.06 -0.4)
+		(end 4.06 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b83d9f0b-2896-4187-8008-6250799da25a")
+	)
+	(fp_line
+		(start 4.06 0)
+		(end 4.56 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dfb824d-0fa1-4c1c-b98c-ad57d81688dc")
+	)
+	(fp_line
+		(start 4.06 0.4)
+		(end 3.46 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc1e5328-8819-4f06-ae64-7e0fb3f003fc")
+	)
+	(fp_line
+		(start -0.25 -0.25)
+		(end 0.25 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "320ec7b5-0b87-45f2-bc85-40296627b792")
+	)
+	(fp_line
+		(start 0.25 -0.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6f10c21f-c96c-4212-94f1-54327ce1377e")
+	)
+	(fp_line
+		(start 7.37 -0.25)
+		(end 7.87 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "175959b9-fcbb-45b5-82a6-ce4e14916263")
+	)
+	(fp_line
+		(start 7.87 -0.25)
+		(end 7.37 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "93601aae-7cd3-4218-986e-16ac44335b05")
+	)
+	(fp_line
+		(start -1.05 -1.25)
+		(end -1.05 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "509fe1f1-bfa0-4daf-8af7-5d6962b9bf46")
+	)
+	(fp_line
+		(start -1.05 1.25)
+		(end 8.67 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21b25bed-5495-4681-a752-0adf2032b8fa")
+	)
+	(fp_line
+		(start 8.67 -1.25)
+		(end -1.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abff609b-f735-435a-90a2-1dd14bdc941b")
+	)
+	(fp_line
+		(start 8.67 1.25)
+		(end 8.67 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4be8d721-3213-4d98-aae5-551e4a5b0cce")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cde05ee4-590e-48ac-8559-3dd89fa0e1d2")
+	)
+	(pad "2" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "194a746f-3d53-49d0-92bf-2dd7210f41d3")
+	)
+	(embedded_fonts no)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

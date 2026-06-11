@@ -1,4 +1,4 @@
-# Scotto55 (SK55)
+# Scotto55 (SK42)
 
 The Scotto55 is a 55-key split monoblock ergonomic keyboard with a large center rotary encoder.
 

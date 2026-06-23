@@ -4,4 +4,5 @@ The Scotto48 (PCB Edition) is a super low-profile 34-key split monoblock ortholi
 
 You can read more about the components and how to build it [here](https://scottokeebs.com/blogs/keyboards/scotto48-pcb-keyboard).
 
-<!-- ![Scotto48 (PCB Edition)](https://github.com/joe-scotto/scottokeebs/assets/8194147/50dba991-3084-44c9-9ea5-16cca23c79b1) -->
+<img width="3840" height="2880" alt="IMG_7804" src="https://github.com/user-attachments/assets/773d66f0-348a-44f9-829a-950c3952c143" />
+

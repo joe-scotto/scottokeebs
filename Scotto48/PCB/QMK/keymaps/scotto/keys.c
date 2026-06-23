@@ -79,7 +79,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
   if (user_config.is_game_mode) {
     switch (keycode) {
-      case LSFT_T(KC_Z):
+      case RSFT_T(KC_Z):
         remapped_keycode = KC_Z;
         break;
       case RSFT_T(KC_SLSH):
@@ -126,7 +126,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         layer_move(0);
         return false;
       case TO_CODE:
-        layer_move(1);
+        layer_move(get_highest_layer(layer_state) == 1 ? 0 : 1);
+        return false;
+      case TO_NUMBER:
+        layer_move(get_highest_layer(layer_state) == 2 ? 0 : 2);
+        return false;
+      case TO_FUNCTION:
+        layer_move(get_highest_layer(layer_state) == 3 ? 0 : 3);
+        return false;
+      case TO_MOUSE:
+        layer_move(get_highest_layer(layer_state) == 4 ? 0 : 4);
         return false;
       case OS_TOGGLE:
         user_config.is_windows = !user_config.is_windows;
@@ -144,6 +153,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       case HARD_BOOT:
         eeconfig_init_user();
         reset_keyboard();
+        return false;
+      case KC_BACK:
+        tap_code(KC_BSPC);
         return false;
     }
   }

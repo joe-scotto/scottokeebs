@@ -2,31 +2,34 @@
 #include QMK_KEYBOARD_H
 
 // Define combos
-const uint16_t PROGMEM tab_combo[] = {KC_Y, KC_BSPC, COMBO_END};
-const uint16_t PROGMEM tab_number_combo[] = {KC_CAPS, KC_BSPC, COMBO_END};
-const uint16_t PROGMEM tab_code_combo[] = {KC_MFFD, KC_DEL, COMBO_END};
-const uint16_t PROGMEM enter_combo[] = {KC_Q, KC_W, COMBO_END};
-const uint16_t PROGMEM enter_number_combo[] = {KC_EXLM, KC_AT, COMBO_END};
-const uint16_t PROGMEM enter_code_combo[] = {KC_UNDS, KC_MINS, COMBO_END};
-const uint16_t PROGMEM number_combo[] = {KC_W, KC_Y, COMBO_END};
-const uint16_t PROGMEM number_code_combo[] = {KC_EXLM, KC_BSPC, COMBO_END};
-const uint16_t PROGMEM number_default_combo[] = {KC_AT, KC_CAPS, COMBO_END};
+const uint16_t PROGMEM tab_combo[] = {KC_Q, KC_W, COMBO_END};
+const uint16_t PROGMEM enter_combo[] = {KC_Y, KC_BSPC, COMBO_END};
+const uint16_t PROGMEM space_combo[] = {KC_V, KC_B, COMBO_END};
+const uint16_t PROGMEM middle_click_combo[] = {LT(1, KC_TAB), LT(2, KC_ENT), COMBO_END};
+const uint16_t PROGMEM default_combo[] = {KC_G, KC_J, COMBO_END};
 const uint16_t PROGMEM code_combo[] = {KC_Q, KC_BSPC, COMBO_END};
-const uint16_t PROGMEM code_number_combo[] = {KC_MINS, KC_MFFD, COMBO_END};
-const uint16_t PROGMEM code_default_combo[] = {KC_UNDS, KC_DEL, COMBO_END};
+const uint16_t PROGMEM number_combo[] = {KC_W, KC_Y, COMBO_END};
+const uint16_t PROGMEM function_combo[] = {KC_F, KC_U, COMBO_END};
+const uint16_t PROGMEM mouse_combo[] = {KC_P, KC_L, COMBO_END};
 
 // Create combos
 combo_t key_combos[] = {
-    COMBO(tab_combo, KC_TAB),
-    COMBO(tab_number_combo, KC_TAB),
-    COMBO(tab_code_combo, KC_TAB),
-    COMBO(enter_combo, KC_ENT),
-    COMBO(enter_number_combo, KC_ENT),
-    COMBO(enter_code_combo, KC_ENT),
-    COMBO(number_combo, TO_NUMBER),
-    COMBO(number_code_combo, TO_CODE),
-    COMBO(number_default_combo, TO_DEFAULT),
-    COMBO(code_combo, TO_CODE),
-    COMBO(code_number_combo, TO_NUMBER),
-    COMBO(code_default_combo, TO_DEFAULT),
+    [TAB_COMBO] = COMBO(tab_combo, KC_TAB),
+    [ENTER_COMBO] = COMBO(enter_combo, KC_ENT),
+    [SPACE_COMBO] = COMBO(space_combo, KC_SPC),
+    [MIDDLE_CLICK_COMBO] = COMBO(middle_click_combo, MS_BTN3),
+    [DEFAULT_COMBO] = COMBO(default_combo, TO_DEFAULT),
+    [CODE_COMBO] = COMBO(code_combo, TO_CODE),
+    [NUMBER_COMBO] = COMBO(number_combo, TO_NUMBER),
+    [FUNCTION_COMBO] = COMBO(function_combo, TO_FUNCTION),
+    [MOUSE_COMBO] = COMBO(mouse_combo, TO_MOUSE),
 };
+
+// Lock combos to layers
+bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
+  if (combo_index == MIDDLE_CLICK_COMBO) {
+    return layer_state_is(4);
+  }
+
+  return true;
+}

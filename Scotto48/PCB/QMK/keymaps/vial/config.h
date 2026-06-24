@@ -21,9 +21,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 135
 #define PERMISSIVE_HOLD
 #define RGB_BRIGHTNESS 8
-#define COMBO_TERM 20
-#define COMBO_ONLY_FROM_LAYER 0
-#define COMBO_SHOULD_TRIGGER
 
 // Vial
 #define VIAL_KEYBOARD_UID {0x62, 0x11, 0x1A, 0xB9, 0x84, 0x37, 0x7A, 0xF4}

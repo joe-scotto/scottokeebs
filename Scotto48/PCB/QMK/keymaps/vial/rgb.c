@@ -1,5 +1,4 @@
 #include QMK_KEYBOARD_H
-#include "keys.h"
 
 #define SCALE(x) ((x * RGB_BRIGHTNESS) / 255)
 
@@ -18,6 +17,9 @@ void housekeeping_task_user(void) {
 
   // Layer colors
   switch (layer) {
+    case 0:
+      rgblight_setrgb(SCALE(255), SCALE(255), SCALE(255)); // White
+      return;
     case 1:
       rgblight_setrgb(SCALE(255), SCALE(255), 0); // Yellow
       return;
@@ -33,13 +35,5 @@ void housekeeping_task_user(void) {
     case 4:
       rgblight_setrgb(SCALE(128), 0, SCALE(255)); // Purple
       return;
-  }
-
-  if (user_config.is_game_mode) {
-    rgblight_setrgb(SCALE(255), 0, 0); // Red
-  } else if (user_config.is_windows) {
-    rgblight_setrgb(0, SCALE(255), 0); // Green
-  } else {
-    rgblight_setrgb(SCALE(255), SCALE(255), SCALE(255)); // White
   }
 }

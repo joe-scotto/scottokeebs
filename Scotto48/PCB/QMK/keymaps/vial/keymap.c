@@ -67,20 +67,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TRNS , KC_TRNS        , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,         KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS        , KC_TRNS
 ),
 
-//    ┌─────┬──────┬─────┬─────┬─────┬─────┐       ┌─────────┬────────────┬─────────┬─────────┬────────────┬─────┐
-//    │     │  no  │ no  │ no  │ no  │ no  │       │   no    │ RGUI(left) │   no    │   no    │ RGUI(rght) │     │
-//    ├─────┼──────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
-//    │     │  no  │ no  │ no  │ no  │ no  │       │   no    │  MS_LEFT   │  MS_UP  │ MS_DOWN │  MS_RGHT   │     │
-//    ├─────┼──────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
-//    │     │ rsft │ no  │ no  │ no  │ no  │       │   no    │  MS_WHLL   │ MS_WHLU │ MS_WHLD │  MS_WHLR   │     │
-//    ├─────┼──────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
-//    │     │      │     │     │     │     │       │ MS_BTN1 │  MS_BTN2   │         │         │            │     │
-//    └─────┴──────┴─────┴─────┴─────┴─────┘       └─────────┴────────────┴─────────┴─────────┴────────────┴─────┘
+//    ┌─────┬───────────┬─────┬─────┬─────┬─────┐       ┌─────────┬────────────┬─────────┬─────────┬────────────┬─────┐
+//    │     │    no     │ no  │ no  │ no  │ no  │       │   no    │ RGUI(left) │   no    │   no    │ RGUI(rght) │     │
+//    ├─────┼───────────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
+//    │     │     a     │ no  │ no  │ no  │ no  │       │   no    │  MS_LEFT   │  MS_UP  │ MS_DOWN │  MS_RGHT   │     │
+//    ├─────┼───────────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
+//    │     │ RSFT_T(z) │  x  │  c  │  v  │  b  │       │   no    │  MS_WHLL   │ MS_WHLU │ MS_WHLD │  MS_WHLR   │     │
+//    ├─────┼───────────┼─────┼─────┼─────┼─────┤       ├─────────┼────────────┼─────────┼─────────┼────────────┼─────┤
+//    │     │           │     │     │     │     │       │ MS_BTN1 │  MS_BTN2   │         │         │            │     │
+//    └─────┴───────────┴─────┴─────┴─────┴─────┘       └─────────┴────────────┴─────────┴─────────┴────────────┴─────┘
 [4] = LAYOUT_ortho_4x12(
-  KC_TRNS , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,         KC_NO   , RGUI(KC_LEFT) , KC_NO   , KC_NO   , RGUI(KC_RIGHT) , KC_TRNS,
-  KC_TRNS , KC_NO   , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,         KC_NO   , MS_LEFT       , MS_UP   , MS_DOWN , MS_RGHT        , KC_TRNS,
-  KC_TRNS , KC_RSFT , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,         KC_NO   , MS_WHLL       , MS_WHLU , MS_WHLD , MS_WHLR        , KC_TRNS,
-  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,         MS_BTN1 , MS_BTN2       , KC_TRNS , KC_TRNS , KC_TRNS        , KC_TRNS
+  KC_TRNS , KC_NO        , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,         KC_NO   , RGUI(KC_LEFT) , KC_NO   , KC_NO   , RGUI(KC_RIGHT) , KC_TRNS,
+  KC_TRNS , KC_A         , KC_NO   , KC_NO   , KC_NO   , KC_NO   ,         KC_NO   , MS_LEFT       , MS_UP   , MS_DOWN , MS_RGHT        , KC_TRNS,
+  KC_TRNS , RSFT_T(KC_Z) , KC_X    , KC_C    , KC_V    , KC_B    ,         KC_NO   , MS_WHLL       , MS_WHLU , MS_WHLD , MS_WHLR        , KC_TRNS,
+  KC_TRNS , KC_TRNS      , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,         MS_BTN1 , MS_BTN2       , KC_TRNS , KC_TRNS , KC_TRNS        , KC_TRNS
 )
 };
 // clang-format on

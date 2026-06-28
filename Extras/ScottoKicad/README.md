@@ -3,7 +3,7 @@
 A collection of footprints, symbols, and 3D models for building mechanical keyboards with Kicad.
 
 ```diff
-- I highly recommend using Kicad 8 as Kicad 9 breaks many things shown in my tutorial!
+- I used to recommend only using Kicad 8 but Kicad 10 is fine and fixed many issues that came up in 9.
 - Please read all installation instructions carefully!
 ```
 # Installation

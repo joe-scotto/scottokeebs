@@ -1,6 +1,8 @@
 #include "keys.h"
 #include QMK_KEYBOARD_H
 
+#define SCALE(x) ((x * RGB_BRIGHTNESS) / 255)
+
 // Mode check
 char mode_string[32];
 char *os;
@@ -15,6 +17,13 @@ void eeconfig_init_user(void) {
 void keyboard_post_init_user(void) {
   user_config.raw = eeconfig_read_user();
   keymap_config.swap_lctl_lgui = user_config.is_windows;
+}
+
+void flash_led(uint8_t r, uint8_t g, uint8_t b) {
+  rgblight_enable_noeeprom();
+  rgblight_setrgb(SCALE(r), SCALE(g), SCALE(b));
+  wait_ms(333);
+  rgblight_reload_from_eeprom();
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -126,28 +135,51 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         layer_move(0);
         return false;
       case TO_CODE:
+        flash_led(255, 255, 0); // Yellow
         layer_move(get_highest_layer(layer_state) == 1 ? 0 : 1);
         return false;
+
       case TO_NUMBER:
+        flash_led(0, 0, 255); // Blue
         layer_move(get_highest_layer(layer_state) == 2 ? 0 : 2);
         return false;
+
       case TO_FUNCTION:
+        flash_led(255, 64, 0); // Orange
         layer_move(get_highest_layer(layer_state) == 3 ? 0 : 3);
         return false;
+
       case TO_MOUSE:
+        flash_led(128, 0, 255); // Purple
         layer_move(get_highest_layer(layer_state) == 4 ? 0 : 4);
         return false;
+
       case OS_TOGGLE:
+        flash_led(user_config.is_windows ? 255 : 0,
+                  user_config.is_windows ? 255 : 255,
+                  user_config.is_windows ? 255 : 0); // White -> Green or Green -> White
+
         user_config.is_windows = !user_config.is_windows;
-        keymap_config.swap_lctl_lgui = user_config.is_windows ? true : false;
+        keymap_config.swap_lctl_lgui = user_config.is_windows;
         eeconfig_update_user(user_config.raw);
         return false;
+
       case GAME_TOGGLE:
         user_config.is_game_mode = !user_config.is_game_mode;
         eeconfig_update_user(user_config.raw);
+
+        if (user_config.is_game_mode) {
+          flash_led(255, 0, 0); // Entering game mode -> Red
+        } else if (user_config.is_windows) {
+          flash_led(0, 255, 0); // Back to Windows -> Green
+        } else {
+          flash_led(255, 255, 255); // Back to Mac -> White
+        }
+
         return false;
       case LAYOUT_SWAP:
         user_config.is_qwerty = !user_config.is_qwerty;
+        flash_led(255, 105, 180); // Pink
         eeconfig_update_user(user_config.raw);
         return false;
       case HARD_BOOT:
@@ -158,6 +190,51 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         tap_code(KC_BSPC);
         return false;
     }
+  }
+
+  return true;
+}
+
+// Custom tapping term for multi function keys
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case TD(TD_MULTI):
+    case TD(TD_MODS_X):
+    case TD(TD_MODS_QUOT):
+    case LGUI_T(KC_SPC):
+    case LT(1, KC_TAB):
+    case LT(2, KC_ENT):
+      return 200;
+    default:
+      return TAPPING_TERM;
+  }
+};
+
+// OS Detection
+bool process_detected_host_os_kb(os_variant_t detected_os) {
+  if (!process_detected_host_os_user(detected_os)) {
+    return false;
+  }
+  switch (detected_os) {
+    case OS_MACOS:
+    case OS_IOS:
+      user_config.is_windows = false;
+      keymap_config.swap_lctl_lgui = false;
+      eeconfig_update_user(user_config.raw);
+      break;
+    case OS_WINDOWS:
+      user_config.is_windows = true;
+      keymap_config.swap_lctl_lgui = true;
+      break;
+    case OS_LINUX:
+      user_config.is_windows = true;
+      keymap_config.swap_lctl_lgui = true;
+      break;
+    case OS_UNSURE:
+      user_config.is_windows = false;
+      keymap_config.swap_lctl_lgui = false;
+      eeconfig_update_user(user_config.raw);
+      break;
   }
 
   return true;

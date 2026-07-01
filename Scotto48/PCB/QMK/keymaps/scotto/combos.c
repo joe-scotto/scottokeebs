@@ -10,6 +10,7 @@ const uint16_t PROGMEM default_combo[] = {KC_G, KC_J, COMBO_END};
 const uint16_t PROGMEM code_combo[] = {KC_Q, KC_BSPC, COMBO_END};
 const uint16_t PROGMEM number_combo[] = {KC_W, KC_Y, COMBO_END};
 const uint16_t PROGMEM function_combo[] = {KC_F, KC_U, COMBO_END};
+const uint16_t PROGMEM function_combo_2[] = {LT(1, KC_TAB), LT(2, KC_ENT), COMBO_END};
 const uint16_t PROGMEM mouse_combo[] = {KC_P, KC_L, COMBO_END};
 
 // Create combos
@@ -22,13 +23,20 @@ combo_t key_combos[] = {
     [CODE_COMBO] = COMBO(code_combo, TO_CODE),
     [NUMBER_COMBO] = COMBO(number_combo, TO_NUMBER),
     [FUNCTION_COMBO] = COMBO(function_combo, TO_FUNCTION),
+    [FUNCTION_COMBO_2] = COMBO(function_combo_2, MO(3)),
     [MOUSE_COMBO] = COMBO(mouse_combo, TO_MOUSE),
 };
 
 // Lock combos to layers
 bool combo_should_trigger(uint16_t combo_index, combo_t *combo, uint16_t keycode, keyrecord_t *record) {
+  // Only allow middle click on mouse layer
   if (combo_index == MIDDLE_CLICK_COMBO) {
     return layer_state_is(4);
+  }
+
+  // Disable layer toggle on mouse layer
+  if (combo_index == FUNCTION_COMBO_2) {
+    return !layer_state_is(4);
   }
 
   return true;

@@ -3,6 +3,18 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {  
+
+    combos {
+        compatible = "zmk,combos";
+
+        // Meta combos
+        meta_settings_combo {
+            timeout-ms = <50>;
+            key-positions = <8 9 10>;
+            bindings = <&tog 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -25,6 +37,17 @@
                 &none        &none        &none
                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
                 &none        &none
+            >;
+        };
+
+        lock_layer {
+            label = "Lock";
+            bindings = <
+                &none &none &none &none
+                &none &none &none &none
+                &none &none &none
+                &none &none &none &none
+                &none       &none
             >;
         };
     };

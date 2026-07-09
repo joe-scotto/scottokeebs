@@ -1,0 +1,6 @@
+if SHIELD_SCOTTOBIGUM
+
+config ZMK_KEYBOARD_NAME
+    default "ScottoBigum"
+
+endif

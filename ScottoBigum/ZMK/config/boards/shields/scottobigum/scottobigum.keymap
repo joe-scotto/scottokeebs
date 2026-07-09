@@ -1,0 +1,54 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {  
+
+    combos {
+        compatible = "zmk,combos";
+
+        // Meta combos
+        meta_settings_combo {
+            timeout-ms = <50>;
+            key-positions = <8 9 10>;
+            bindings = <&tog 2>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            label = "Base";
+            bindings = <
+                &mo 1         &kp KP_SLASH     &kp KP_ASTERISK     &kp KP_MINUS
+                &kp KP_N7     &kp KP_N8        &kp KP_N9           &kp KP_PLUS
+                &kp KP_N4     &kp KP_N5        &kp KP_N6
+                &kp KP_N1     &kp KP_N2        &kp KP_N3           &kp KP_ENTER
+                &kp KP_N0                      &kp KP_DOT
+            >;
+        }; 
+        
+        bt_layer {
+            label = "Bluetooth";
+            bindings = <
+                &trans       &none        &none        &bootloader
+                &none        &none        &none        &studio_unlock
+                &none        &none        &none
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
+                &none        &none
+            >;
+        };
+
+        lock_layer {
+            label = "Lock";
+            bindings = <
+                &none &none &none &none
+                &none &none &none &none
+                &none &none &none
+                &none &none &none &none
+                &none       &none
+            >;
+        };
+    };
+};

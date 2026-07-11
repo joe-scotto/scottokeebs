@@ -47,3 +47,12 @@ enum combos {
   FUNCTION_COMBO_2,
   MOUSE_COMBO,
 };
+
+enum layers {
+  BASE,
+  GAME,
+  CODE,
+  NUMBER,
+  FUNCTION,
+  MOUSE
+};

@@ -87,7 +87,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
   if (user_config.is_game_mode) {
-    layer_on(1);
+    layer_on(GAME);
   }
 
   if (remapped_keycode != KC_NO) {
@@ -126,22 +126,22 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
       case TO_CODE:
         flash_led(255, 255, 0); // Yellow
-        layer_move(get_highest_layer(layer_state) == 2 ? 0 : 2);
+        layer_move(get_highest_layer(layer_state) == CODE ? 0 : CODE);
         return false;
 
       case TO_NUMBER:
         flash_led(0, 0, 255); // Blue
-        layer_move(get_highest_layer(layer_state) == 3 ? 0 : 3);
+        layer_move(get_highest_layer(layer_state) == NUMBER ? 0 : NUMBER);
         return false;
 
       case TO_FUNCTION:
         flash_led(255, 64, 0); // Orange
-        layer_move(get_highest_layer(layer_state) == 4 ? 0 : 4);
+        layer_move(get_highest_layer(layer_state) == FUNCTION ? 0 : FUNCTION);
         return false;
 
       case TO_MOUSE:
         flash_led(128, 0, 255); // Purple
-        layer_move(get_highest_layer(layer_state) == 5 ? 0 : 5);
+        layer_move(get_highest_layer(layer_state) == MOUSE ? 0 : MOUSE);
         return false;
 
       case OS_TOGGLE:
@@ -156,7 +156,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case GAME_TOGGLE:
         user_config.is_game_mode = !user_config.is_game_mode;
-        user_config.is_game_mode ? layer_on(1) : layer_off(1);
+        user_config.is_game_mode ? layer_on(GAME) : layer_off(GAME);
         eeconfig_update_user(user_config.raw);
 
         if (user_config.is_game_mode) {

@@ -18,19 +18,19 @@ void housekeeping_task_user(void) {
 
   // Layer colors
   switch (layer) {
-    case 2:
+    case CODE:
       rgblight_setrgb(SCALE(255), SCALE(255), 0); // Yellow
       return;
 
-    case 3:
+    case NUMBER:
       rgblight_setrgb(0, 0, SCALE(255)); // Blue
       return;
 
-    case 4:
+    case FUNCTION:
       rgblight_setrgb(SCALE(255), SCALE(64), 0); // Orange
       return;
 
-    case 5:
+    case MOUSE:
       rgblight_setrgb(SCALE(128), 0, SCALE(255)); // Purple
       return;
   }

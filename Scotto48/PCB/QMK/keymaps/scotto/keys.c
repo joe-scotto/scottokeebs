@@ -87,26 +87,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 
   if (user_config.is_game_mode) {
-    switch (keycode) {
-      case RSFT_T(KC_Z):
-        remapped_keycode = KC_Z;
-        break;
-      case RSFT_T(KC_SLSH):
-        remapped_keycode = KC_SLSH;
-        break;
-      case TD(TD_MODS_X):
-        remapped_keycode = KC_X;
-        break;
-      case RGUI_T(KC_DOT):
-        remapped_keycode = KC_DOT;
-        break;
-      case TD(TD_MULTI):
-        remapped_keycode = KC_LCTL;
-        break;
-      case LGUI_T(KC_SPC):
-        remapped_keycode = KC_SPC;
-        break;
-    }
+    layer_on(1);
   }
 
   if (remapped_keycode != KC_NO) {
@@ -129,6 +110,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return false;
   }
 
+  if (keycode == KC_BACK) {
+    if (record->event.pressed) {
+      register_code(KC_BSPC);
+    } else {
+      unregister_code(KC_BSPC);
+    }
+    return false;
+  }
+
   if (!record->event.pressed) {
     switch (keycode) {
       case TO_DEFAULT:
@@ -136,22 +126,22 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false;
       case TO_CODE:
         flash_led(255, 255, 0); // Yellow
-        layer_move(get_highest_layer(layer_state) == 1 ? 0 : 1);
+        layer_move(get_highest_layer(layer_state) == 2 ? 0 : 2);
         return false;
 
       case TO_NUMBER:
         flash_led(0, 0, 255); // Blue
-        layer_move(get_highest_layer(layer_state) == 2 ? 0 : 2);
+        layer_move(get_highest_layer(layer_state) == 3 ? 0 : 3);
         return false;
 
       case TO_FUNCTION:
         flash_led(255, 64, 0); // Orange
-        layer_move(get_highest_layer(layer_state) == 3 ? 0 : 3);
+        layer_move(get_highest_layer(layer_state) == 4 ? 0 : 4);
         return false;
 
       case TO_MOUSE:
         flash_led(128, 0, 255); // Purple
-        layer_move(get_highest_layer(layer_state) == 4 ? 0 : 4);
+        layer_move(get_highest_layer(layer_state) == 5 ? 0 : 5);
         return false;
 
       case OS_TOGGLE:
@@ -166,6 +156,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
       case GAME_TOGGLE:
         user_config.is_game_mode = !user_config.is_game_mode;
+        user_config.is_game_mode ? layer_on(1) : layer_off(1);
         eeconfig_update_user(user_config.raw);
 
         if (user_config.is_game_mode) {
@@ -185,9 +176,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       case HARD_BOOT:
         eeconfig_init_user();
         reset_keyboard();
-        return false;
-      case KC_BACK:
-        tap_code(KC_BSPC);
         return false;
     }
   }

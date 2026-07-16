@@ -1,4 +1,4 @@
-![ScottoKeebs logo](https://github.com/joe-scotto/scottokeebs/assets/8194147/d13ea430-0d15-4b06-acb6-fe8aa295f84d)
+<img width="5128" height="512" alt="png" src="https://github.com/user-attachments/assets/8360aa7d-e589-4acd-9b0c-c7e4ba87f628" />
 
 ![Joe Scotto with his keyboards](https://github.com/joe-scotto/scottokeebs/assets/8194147/b430ac63-c363-41df-85e6-292d84d034fc)
 

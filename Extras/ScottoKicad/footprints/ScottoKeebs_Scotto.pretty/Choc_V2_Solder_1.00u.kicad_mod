@@ -1,0 +1,264 @@
+(footprint "Choc_V2_Solder_1.00u"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Keycap 1.00u")
+	(tags "Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Cutout Keycap 1.00u")
+	(property "Reference" "REF**"
+		(at 0 9 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38af58a8-d9c6-4ddb-87f5-d7220169caba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Choc_V2_Solder_1.00u"
+		(at 0 -9 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882667cc-9ae4-4157-812d-097513b68916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a800ae3-5e50-45a3-8c40-71bedb8bfd1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a56ebf4-1b84-49db-8859-ee1e6aa2f0d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9 -8.5)
+		(end -9 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "934a456a-b827-4ee8-a6ab-e511dba5a1c1")
+	)
+	(fp_line
+		(start -9 8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "70a0cfcf-5971-4b51-928e-d46d4e4cc309")
+	)
+	(fp_line
+		(start -3.8 -0.25)
+		(end -3.3 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "91c06e9f-33c1-41dd-81c6-cf856898d27a")
+	)
+	(fp_line
+		(start -3.3 -0.25)
+		(end -3.8 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7bfa8948-07da-4c8e-9711-990ea00ab356")
+	)
+	(fp_line
+		(start -0.25 -4.95)
+		(end 0.25 -4.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b3a24b61-32ce-4dc0-b4ec-e3e31fa14321")
+	)
+	(fp_line
+		(start 0.25 -4.95)
+		(end -0.25 -4.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a9f34730-0c6e-4671-a1a0-9b7a8181dbb8")
+	)
+	(fp_line
+		(start 3.3 -0.25)
+		(end 3.8 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "08146a6f-f984-4698-acbe-4c71e7cee3d4")
+	)
+	(fp_line
+		(start 3.8 -0.25)
+		(end 3.3 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbd0560d-96e1-4c65-b11b-0d3983049393")
+	)
+	(fp_line
+		(start 9 -8.5)
+		(end -9 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "610a8b99-23ab-49f5-98f4-c6832e5e1da5")
+	)
+	(fp_line
+		(start 9 8.5)
+		(end 9 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "848eda12-bf37-459a-b3ce-17f7b8133dc1")
+	)
+	(fp_line
+		(start -7.6 -7.6)
+		(end 7.6 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d286abb-5ef5-423b-b931-82a6ce2309bd")
+	)
+	(fp_line
+		(start -7.6 7.6)
+		(end -7.6 -7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f35ab554-652f-4e56-85f6-2ad9dedfdfa2")
+	)
+	(fp_line
+		(start 7.6 -7.6)
+		(end 7.6 7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f8ec630-b5af-404e-998f-e5a075c9cda8")
+	)
+	(fp_line
+		(start 7.6 7.6)
+		(end -7.6 7.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cc56710-7e1c-411b-afd4-59f08f701ee8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9875bbd0-1be8-4a7f-b0e2-dd4f89bce50d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 0 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2b156daa-61f5-4d72-9aef-b40b1564410c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 5.05 5.05)
+		(drill 5.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6b4e82b9-860c-44d8-9320-5fd6c005f2ca")
+	)
+	(pad "" thru_hole circle
+		(at 5 -5.15 180)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6ff4863-1437-4c5a-ae3e-12daa8a489eb")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 0 180)
+		(size 1.9 1.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e3855189-52fa-4fdd-a46d-cb5089031e73")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.9 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75dbbc65-5919-4344-b57f-ea8868e6e137")
+	)
+	(pad "2" thru_hole circle
+		(at -5 3.8 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "327c6d5c-0124-415f-b484-b2bbdff70687")
+	)
+	(embedded_fonts no)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Choc.3dshapes/Choc_V1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

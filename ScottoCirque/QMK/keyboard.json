@@ -1,0 +1,31 @@
+{
+  "manufacturer": "ScottoKeebs",
+  "keyboard_name": "ScottoCirque",
+  "maintainer": "joe-scotto",
+  "diode_direction": "COL2ROW",
+  "bootloader": "rp2040",
+  "processor": "RP2040",
+  "features": {
+    "bootmagic": true,
+    "command": false,
+    "console": false,
+    "extrakey": true,
+    "mousekey": true,
+    "nkro": true
+  },
+  "matrix_pins": {
+    "cols": ["GP28"],
+    "rows": ["GP12"]
+  },
+  "url": "https://scottokeebs.com",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0045",
+    "vid": "0x534B"
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [{ "matrix": [0, 0], "x": 0, "y": 0 }]
+    }
+  }
+}

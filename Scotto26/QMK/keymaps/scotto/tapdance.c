@@ -131,23 +131,7 @@ void td_layer_finished(tap_dance_state_t *state, void *user_data) {
 }
 
 void td_layer_reset(tap_dance_state_t *state, void *user_data) {
-  switch (td_state) {
-    case TD_SINGLE_HOLD:
-      layer_off(CODE);
-      break;
-
-    case TD_DOUBLE_HOLD:
-      layer_off(NUMBER);
-      break;
-
-    case TD_TRIPLE_HOLD:
-      layer_off(FUNCTION);
-      break;
-
-    default:
-      break;
-  }
-
+  layer_clear();
   td_state = TD_NONE;
 }
 

@@ -166,6 +166,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     case TD(TD_MULTI):
     case TD(TD_MODS_X):
     case TD(TD_MODS_QUOT):
+    case TD(TD_LAYERS):
     case LGUI_T(KC_SPC):
     case LT(1, KC_TAB):
     case LT(2, KC_ENT):

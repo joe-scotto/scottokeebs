@@ -55,20 +55,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TRNS , KC_TRNS         , KC_TRNS          , KC_TRNS , KC_TRNS , KC_TRNS ,         KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS         , KC_TRNS         , KC_TRNS
 ),
 
-//    ┌─────┬──────┬─────┬─────┬─────┬──────────────┐       ┌─────┬─────┬─────┬──────┬───────────┬─────┐
-//    │     │  !   │  @  │  #  │  $  │      %       │       │  ^  │  &  │  *  │ caps │   bACK    │     │
-//    ├─────┼──────┼─────┼─────┼─────┼──────────────┤       ├─────┼─────┼─────┼──────┼───────────┼─────┤
-//    │     │  1   │  2  │  3  │  4  │      5       │       │  6  │  7  │  8  │  9   │     0     │     │
-//    ├─────┼──────┼─────┼─────┼─────┼──────────────┤       ├─────┼─────┼─────┼──────┼───────────┼─────┤
-//    │     │ rsft │ no  │ no  │ no  │ MO(FUNCTION) │       │ no  │ no  │  ,  │  .   │ RSFT_T(/) │     │
-//    ├─────┼──────┼─────┼─────┼─────┼──────────────┤       ├─────┼─────┼─────┼──────┼───────────┼─────┤
-//    │     │      │     │     │     │              │       │     │     │     │      │           │     │
-//    └─────┴──────┴─────┴─────┴─────┴──────────────┘       └─────┴─────┴─────┴──────┴───────────┴─────┘
+//    ┌─────┬──────┬─────────────┬─────────────┬─────────────┬──────────────┐       ┌─────┬───────────┬─────┬──────┬───────────┬─────┐
+//    │     │  !   │      @      │      #      │      $      │      %       │       │  ^  │     &     │  *  │ caps │   bACK    │     │
+//    ├─────┼──────┼─────────────┼─────────────┼─────────────┼──────────────┤       ├─────┼───────────┼─────┼──────┼───────────┼─────┤
+//    │     │  1   │      2      │      3      │      4      │      5       │       │  6  │     7     │  8  │  9   │     0     │     │
+//    ├─────┼──────┼─────────────┼─────────────┼─────────────┼──────────────┤       ├─────┼───────────┼─────┼──────┼───────────┼─────┤
+//    │     │ rsft │ RHYPR(left) │ RHYPR(rght) │ RHYPR(down) │ MO(FUNCTION) │       │ no  │ RHYPR(up) │  ,  │  .   │ RSFT_T(/) │     │
+//    ├─────┼──────┼─────────────┼─────────────┼─────────────┼──────────────┤       ├─────┼───────────┼─────┼──────┼───────────┼─────┤
+//    │     │      │             │             │             │              │       │     │           │     │      │           │     │
+//    └─────┴──────┴─────────────┴─────────────┴─────────────┴──────────────┘       └─────┴───────────┴─────┴──────┴───────────┴─────┘
 [NUMBER] = LAYOUT_ortho_4x12(
-  KC_TRNS , KC_EXLM , KC_AT   , KC_HASH , KC_DLR  , KC_PERC      ,         KC_CIRC , KC_AMPR , KC_ASTR  , KC_CAPS , KC_BACK         , KC_TRNS,
-  KC_TRNS , KC_1    , KC_2    , KC_3    , KC_4    , KC_5         ,         KC_6    , KC_7    , KC_8     , KC_9    , KC_0            , KC_TRNS,
-  KC_TRNS , KC_RSFT , KC_NO   , KC_NO   , KC_NO   , MO(FUNCTION) ,         KC_NO   , KC_NO   , KC_COMMA , KC_DOT  , RSFT_T(KC_SLSH) , KC_TRNS,
-  KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS      ,         KC_TRNS , KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS         , KC_TRNS
+  KC_TRNS , KC_EXLM , KC_AT          , KC_HASH         , KC_DLR         , KC_PERC      ,         KC_CIRC , KC_AMPR      , KC_ASTR  , KC_CAPS , KC_BACK         , KC_TRNS,
+  KC_TRNS , KC_1    , KC_2           , KC_3            , KC_4           , KC_5         ,         KC_6    , KC_7         , KC_8     , KC_9    , KC_0            , KC_TRNS,
+  KC_TRNS , KC_RSFT , RHYPR(KC_LEFT) , RHYPR(KC_RIGHT) , RHYPR(KC_DOWN) , MO(FUNCTION) ,         KC_NO   , RHYPR(KC_UP) , KC_COMMA , KC_DOT  , RSFT_T(KC_SLSH) , KC_TRNS,
+  KC_TRNS , KC_TRNS , KC_TRNS        , KC_TRNS         , KC_TRNS        , KC_TRNS      ,         KC_TRNS , KC_TRNS      , KC_TRNS  , KC_TRNS , KC_TRNS         , KC_TRNS
 ),
 
 //    ┌─────┬─────────────┬────────────┬─────┬───────────┬─────┐       ┌─────┬─────┬─────┬─────────────┬─────────────┬─────┐

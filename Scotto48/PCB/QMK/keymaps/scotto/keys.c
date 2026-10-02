@@ -1,6 +1,7 @@
 #include "keys.h"
 #include QMK_KEYBOARD_H
 
+#define RHYPR(kc) RCTL(RSFT(RALT(RGUI(kc))))
 #define SCALE(x) ((x * RGB_BRIGHTNESS) / 255)
 
 // Mode check
